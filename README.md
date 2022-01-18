@@ -1,1 +1,1 @@
-# Connected-Interaction-Kit
+# Connected Interaction Kit
