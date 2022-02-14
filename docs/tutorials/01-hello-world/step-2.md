@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Step 2: Connecting the ItsyBitsy to your computer
-parent: "01 Pomodoro"
+parent: "01 Hello World"
 ---
 
-# Step2: Connecting the ItsyBitsy to your computer
+# Step 2: Connecting the ItsyBitsy to your computer
 1. Take the USB cable from the Connected Interaction Kit and connect the ItsyBitsy with your computer. The ItsyBitsy will be recognized by your computer as a device called `CIRCUITPY`.
 2. Open the MU editor, click on `Load` in the menu bar at the top and  select the file `code.py` from the device `CIRCUITPY`. Usually this file would be empty, but you will notice that we already uploaded some default code on your board that makes the internal LED blink:
 

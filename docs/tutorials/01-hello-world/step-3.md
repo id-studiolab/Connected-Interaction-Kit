@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Step 3: Editing code
-parent: "01 Pomodoro"
+parent: "01 Hello World"
 ---
 
 # Step 3: Editing code
