@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 1: Installing the MU editor"
-parent: "01 Hello World"
+parent: 01 Hello World
 ---
 
 # Step 1: Installing the MU editor
