@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 3: Editing code
+title: "Step 3: Editing code"
 parent: "01 Hello World"
 ---
 
