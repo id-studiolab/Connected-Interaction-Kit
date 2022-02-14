@@ -2,6 +2,7 @@
 layout: default
 title: "Step 2: Connecting the ItsyBitsy to your computer"
 parent: "01 Hello World"
+grand_parent: "Tutorials"
 ---
 
 # Step 2: Connecting the ItsyBitsy to your computer

@@ -2,6 +2,7 @@
 layout: default
 title: "Step 3: Editing code"
 parent: "01 Hello World"
+grand_parent: "Tutorials"
 ---
 
 # Step 3: Editing code
