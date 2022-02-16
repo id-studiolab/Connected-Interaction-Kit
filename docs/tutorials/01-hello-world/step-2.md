@@ -59,4 +59,4 @@ while True:
 
 ```
 
-You can download the full code file [here](/docs/tutorials/01-hello-world/assets/code.py).
+You can download the full code file <a href="https://raw.githubusercontent.com/id-studiolab/Connected-Interaction-Kit/main/docs/tutorials/01-hello-world/assets/code.py" target="_blank" download>here</a>.

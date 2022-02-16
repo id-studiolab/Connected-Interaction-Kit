@@ -1,7 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 
 title: Connected Interaction Kit
-color_scheme: dark
+#color_scheme: dark
 aux_links_new_tab: true
 
 
