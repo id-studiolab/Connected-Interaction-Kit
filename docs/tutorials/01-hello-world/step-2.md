@@ -19,8 +19,8 @@ import time
 LED = digitalio.DigitalInOut(board.D13)
 LED.direction = digitalio.Direction.OUTPUT
 
-# Usually code runs only once, until it is complete
-# This function of "while True:" allows the code to run in a continous loop
+# Usually code runs only once top to bottom until it is complete
+# The function of "while True:" allows the code to run in a continous loop
 # Everything indented with a tab is part of the function loop
 while True:
 	time.sleep(1.0) # Wait 1 second
@@ -58,3 +58,5 @@ while True:
     print("LED is off")
 
 ```
+
+You can download the full code file [here](/docs/tutorials/01-hello-world/assets/code.py).
