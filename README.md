@@ -28,3 +28,12 @@ This is divided into the sub-categories of:
    2. Figma illustrations
    3. InDesign working files
 
+
+
+**To Do**
+- [ ] Finish writing **Kit assembly**
+- [ ] Add tidied Figma working file for the box branding and inlay section
+- [ ] Documement workflow for electronic components (testing, flashing)
+- [ ] Refine sticker generator
+- [ ] Document starter-booklet section
+
