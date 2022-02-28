@@ -36,4 +36,5 @@ This is divided into the sub-categories of:
 - [ ] Documement workflow for electronic components (testing, flashing)
 - [ ] Refine sticker generator
 - [ ] Document starter-booklet section
+- [ ] Add links and table of content to readme.md files
 
