@@ -2,14 +2,15 @@
 
 Documentation and tutorials surrounding the Connected Interaction Kit
 
+![Outside of the phsyical Connected Interaction Kit](assets/connected-interaction-kit-box.jpg)
+
 # Public Tutorials & Component Section
 The folder [/docs](/docs/) contains the digital counterpart to the physical box and booklet.
 The folder gets compiled into a GitHub Page and is accessible via https://id-studiolab.github.io/Connected-Interaction-Kit/.
 
 1. [/components](/docs/components/) contains a detailed documentation of all components and parts found in the Connected Interaction Kit.
-2. [/tutorials](/docs/tutorials/) contains a series of tutorials to help students get started with the kit. [Tutorial 01: Hello World](https://id-studiolab.github.io/Connected-Interaction-Kit/tutorials/01-hello-world/) & [Tutorial 2 Connecting Components](https://id-studiolab.github.io/Connected-Interaction-Kit/tutorials/02-connecting-components/) are a digital version of the tutorials found in the starter booklet of the Connectdd Interaction Kit, while [Tutorial 3: Connect to the Internet](https://id-studiolab.github.io/Connected-Interaction-Kit/tutorials/03-connect-to-the-internet/) is only linked to from the booklet.
+2. [/tutorials](/docs/tutorials/) contains a series of tutorials to help students get started with the kit. [Tutorial 01: Hello World](https://id-studiolab.github.io/Connected-Interaction-Kit/tutorials/01-hello-world/) & [Tutorial 2 Connecting Components](https://id-studiolab.github.io/Connected-Interaction-Kit/tutorials/02-connecting-components/) are a digital version of the tutorials found in the starter booklet of the Connected Interaction Kit, while [Tutorial 3: Connect to the Internet](https://id-studiolab.github.io/Connected-Interaction-Kit/tutorials/03-connect-to-the-internet/) is only linked to from the booklet.
 
----
 
 # Documentation of the kit production
 Everything related to the creation and manufacturing of the kit is documentated in [kit-production](/kit-production/).

@@ -1,4 +1,9 @@
-# Physical Box
+# Physical Box Production
+- [Overview of ordered material](#overview-of-ordered-material)
+- [Box branding](#box-branding)
+- [Inlay](#inlay)
+- [QStickers](#stickers)
+- [Kit assembly](#kit-assembly)
 
 ## Overview of ordered material
 | Name | Ordered amount | Explanatory note | Learning |
@@ -14,9 +19,129 @@
 
 
 ## Box branding
+The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a place for the student to put name and student number. Described below is the process of branding for the kit version 2022:
 
-## Inlay
+### Needed tools and material
+- [Laser rubber](https://www.kopierladen-berlin.de/lasergummi-fuer-lasergravurmaschinen.html)
+- [Stamp Pillow](https://www.bol.com/nl/account/bestellingen/details.html?placedOrderId=1317253311#1763440826)
+- Figma / Illustrator or the like for creating the design
+- Lasercutter for engraving
+- Soft brush for cleaning the rubber
+- Piece of MDF or acrylic to mount the rubber to
+- Cardboard boxes to print on
+
+### Making the stamp
+1. Design the label as a vector (FIGMA FILE TO BE ADDED) and export as SVG or PDF.
+2. Import the file into Adobe Illustrator of the PMB and engrave it onto a sheet of laser rubber. Trotec offers a special laser cut setting for stamps that automatically flips the design, etc.
+3. Wash the engraved stamp rubber thoroughly (e.g. with a fine brush, and / or an ultrasonic bath).
+4. Mount the rubber to a piece of straight MDF or acyllic and add a handle for easy of use.
+   
+### Using the stamp to add a box branding   
+1. Take a flat, unassembled cardboard box and put it on a flat surface.
+2. Use the stamp pillow to add an equal amount of ink all over the elevated parts of the stamp by gently tapping the pillow on the stamp.
+3. Align the stamp with the desired position on the cardboard box and press down with firm, but not overly strong pressure. Some training rounds might be a good idea before moving to the final boxes.
+4. Put the cardboard to the side and let it dry for 10-20 seconds before proceeding.
+
+### Learnings
+Using the stamp as a method of branding did not lead to overly consistent results, and the method of applying a branding should be rethought for next years edition.
+
+**The positive:**
+- The stamping process went relatively fast, and especially the quick drying times were nice and fast
+- Adding ink instead of a sticker leads to a rustic and cool aesthetic (of course personal opinion)
+
+**The negative:**
+- Results were unfortunately quite inconsitent and far from perfect, for instance:
+  - not all letters printing 100%
+  - cardboard structure being visible in the print (striped aesthetic)
+  - print being applied lopsided
+  - stamp-base staining the cardboard
+- The stamp could only be relatively small, as bigger stamps of A5 size were impossible to apply evenly
+
+
+## Cardboard inlay
+The inlay is used to present the main components of the kit in a neat, labeled and tidy fashion. It consists of cardboard dividers for the lower layer of the box, and a glued cardboard assembly to stack components.
+
+### Needed tools and material
+- [Cardboard Sheets (1170x770)](https://www.pressel.com/p/pressel-karton-zwischenlagen-2-wellig-1170x770mm/830801?SearchTerm=830801)
+- [Kraftpapier A4 120g](https://discountoffice.nl/p/kraftpapier-folia-din-a4-120gr/)
+- Figma / Illustrator or the like for creating the design
+- Lasercutter
+- Color printer
+- Paper cutting machine to rough-cut the Kraftpaper to size 
+- Sprayglue for the assembly
+
+
+### Step 1: Print labels on Kraftpapier
+First we will need to create our label paper.
+
+![Print paper mockup](/kit-production/physical-box/assets/print-on.png)
+
+1. Download the file [label-print-on](inlay/label-print-on.pdf)
+2. Open it in Acrobat and open the print dialog
+3. Make sure the following settings are as follows for the printers found at IO:
+   1. *Copies: 50 (for easier batching)*
+   2. *Page Sizing & Handling > Size > **Actual size** (ensures proper positioning and sizing of elements)* 
+   3. *Printer > Paper Feed > **Tray 5 (Bypass)** (to use the brown paper)*
+   4. *Printer > Xerox Features > 2-Sided Print > **1-Sided-Print***
+4. Click on print
+5. Add the brown Kraftpapier in the bypass of the printer and start the job. The bypass can handle ~50 pages a time, so it is smart to add the job as a favorite in the menu to easily restart it however often needed.
+6. Take the printed paper and cut them to rough size using a paper cutting machine (down in the IO basement), with 5-10mm of margin top to bottom
+
+### Step 2: Lasercut cardboard blanks
+The cardboard cutouts consist of three separate parts:
+1. The top inlay blank
+2. The bottom inlay
+3. Cardboard dividers
+
+![Cardboard cutout illustration](/kit-production/physical-box/assets/cardboard-cutouts.png)
+
+1. Download the file [Cardboard-blanks.ai](/kit-production/physical-box/inlay/Cardboard-blanks.ai)
+2. Take a Cardboard Sheets (1170x770) and laser the file at the PMB (First the color blue, then the color red). Make sure that the nice and smooth side of the cardboard lays face up.
+3. Each sheet will result in 8 inlays. Sort the lasercut parts into different containers to keep them organized for the next steps.
+
+### Step 3: Glueing together labels and top inlay blanks
+![Cardboard label glue-on](/kit-production/physical-box/assets/label-glue-on.png)
+
+1. Take the printed Kraftpapier sheets and top inlay blanks
+2. Apply an even layer of glue spray on the smooth side of the cardboard blank
+3. Align the top and left edge of inlay blank and Kraftpapier sheet, and glue them together. **Be precise when aligning the edges**
+
+### Step 4: Lasercut the top inlay
+The next step is to cut the top inlay to final shape by cutting holes for the component, rounding over the corner, and trimming off excess paper.
+
+![Lasercut top inlay](/kit-production/physical-box/assets/lasercut-top-inlay.png)
+
+1. Download the file [Cardboard-top-inlay.ai](/kit-production/physical-box/inlay/Cardboard-top-inlay.ai)
+2. Insert a cardboard inlay and cut out the holes for components and round over corners.
+
+**Tip:**
+It pays off to invest some time and create a plywood mold that allows you to slot in and take out multiple inlays at the same time. For 2022, the PMB prepared such a mold.
+
+### Step 5: Glue together top and bottom part of the inlay
+Finally, it is time to glue together the inlay halfs.
+![Glueing together the inlay halfs](assets/merge-inlay-halfs.png)
+
+1. Take a bottom and a top part of the inlay
+2. Apply an even layer of spray glue **to the back side of the top inlay**. If the glue is applied to the bottom inlay, it leaves visible glue residue in the component cutouts.
+3. Align the two inlay parts carefully and press together firmly.
 
 ## Stickers
+Each box also gets a sticker with a QR code that allows students to add their devices to the TU Delft WiFi.
+The individual QR codes can be accessed by Lab owners in batches of 20 from [this ITC website](https://infra-ict.tudelft.nl/portal/labs/). These QR codes need to be printed together with a little explanation on sticker paper.
+
+To ease the process, @ueberf wrote a little (admittedly quite crude) P5 sketch that takes in a folder of 400 QR codes and generates a PDF fitting for the [Bruna label paper](https://www.bruna.nl/kantoor/etiket-bruna-105x37mm-240stuks-796398).
+
+1. Generate and download the individual QR code PNG from ITC
+2. Download the [P5 sticker generator](stickers/P5-Sticker-Generator/) folder
+3. Add the individual QR code PNG in the folder `assets/QR` and rename them in the format of `Certificate-00001.png`. This can be done for instance by the MacOS *Finder > File > Rename...*
+4. Open the folder in a local server and open the page in Google Chrome
+5. Download the resulting PDF and print it on the Bruna Sticker paper
 
 ## Kit assembly
+- Unpack and sort components
+- Add cardboard dividers
+- Add supporting bottom components
+- Stack inlay with main components
+- Add booklet
+- Add sticker
+- Close box
