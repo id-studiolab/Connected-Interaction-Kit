@@ -53,7 +53,7 @@ The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a plac
 - Cardboard boxes to print on
 
 ### Making the stamp
-1. Design the label as a vector (FIGMA FILE TO BE ADDED) and export as SVG or PDF.
+1. Design the label as a vector (the Figma working file can be found [here](/kit-production/physical-box/Figma-working-file/Connected-Interaction-Kit.fig) and export as SVG or PDF.
 2. Import the file into Adobe Illustrator of the PMB and engrave it onto a sheet of laser rubber. Trotec offers a special laser cut setting for stamps that automatically flips the design, etc.
 3. Wash the engraved stamp rubber thoroughly (e.g. with a fine brush, and / or an ultrasonic bath).
 4. Mount the rubber to a piece of straight MDF or acyllic and add a handle for easy of use.
@@ -67,11 +67,11 @@ The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a plac
 ### Learnings
 Using the stamp as a method of branding did not lead to overly consistent results, and the method of applying a branding should be rethought for next years edition.
 
-**The positive:**
+**The positive 👍:**
 - The stamping process went relatively fast, and especially the quick drying times were nice and fast
 - Adding ink instead of a sticker leads to a rustic and cool aesthetic (of course personal opinion)
 
-**The negative:**
+**The negative 👎:**
 - Results were unfortunately quite inconsitent and far from perfect, for instance:
   - not all letters printing 100%
   - cardboard structure being visible in the print (striped aesthetic)
@@ -98,7 +98,7 @@ The inlay is used to present the main components of the kit in a neat, labeled a
 
 
 ### Step 1: Print labels on Kraftpapier
-First we will need to create our label paper.
+First we will need to create our label paper. The Figma source file for the inlay of year 2022 can be found [here](Figma-working-file/Connected-Interaction-Kit.fig).
 
 ![Print paper mockup](/kit-production/physical-box/assets/print-on.png)
 
@@ -157,7 +157,10 @@ Finally, it is time to glue together the inlay halfs.
 
 ## Generating QR code stickers
 
+![Sticker](assets/Sticker.png)
+
 Each box also gets a sticker with a QR code that allows students to add their devices to the TU Delft WiFi.
+
 The individual QR codes can be accessed by Lab owners in batches of 20 from [this ITC website](https://infra-ict.tudelft.nl/portal/labs/). These QR codes need to be printed together with a little explanation on sticker paper.
 
 To ease the process, @ueberf wrote a little (admittedly quite crude) P5 sketch that takes in a folder of 400 QR codes and generates a PDF fitting for the [Bruna label paper](https://www.bruna.nl/kantoor/etiket-bruna-105x37mm-240stuks-796398).
