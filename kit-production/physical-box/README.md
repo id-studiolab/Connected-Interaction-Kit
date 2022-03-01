@@ -1,9 +1,27 @@
 # Physical Box Production
-- [Overview of ordered material](#overview-of-ordered-material)
-- [Box branding](#box-branding)
-- [Inlay](#inlay)
-- [QStickers](#stickers)
-- [Kit assembly](#kit-assembly)
+- [Physical Box Production](#physical-box-production)
+  - [Overview of ordered material](#overview-of-ordered-material)
+  - [Add a box branding](#add-a-box-branding)
+    - [Needed tools and material](#needed-tools-and-material)
+    - [Making the stamp](#making-the-stamp)
+    - [Using the stamp to add a box branding](#using-the-stamp-to-add-a-box-branding)
+    - [Learnings](#learnings)
+  - [The cardboard inlay](#the-cardboard-inlay)
+    - [Needed tools and material](#needed-tools-and-material-1)
+    - [Step 1: Print labels on Kraftpapier](#step-1-print-labels-on-kraftpapier)
+    - [Step 2: Lasercut cardboard blanks](#step-2-lasercut-cardboard-blanks)
+    - [Step 3: Glueing together labels and top inlay blanks](#step-3-glueing-together-labels-and-top-inlay-blanks)
+    - [Step 4: Lasercut the top inlay](#step-4-lasercut-the-top-inlay)
+    - [Step 5: Glue together top and bottom part of the inlay](#step-5-glue-together-top-and-bottom-part-of-the-inlay)
+  - [Generating QR code stickers](#generating-qr-code-stickers)
+  - [Assembling the final kit](#assembling-the-final-kit)
+    - [Step 1: Preparing the box](#step-1-preparing-the-box)
+    - [Step 2: Add underside of components](#step-2-add-underside-of-components)
+    - [Step 3: Stack and add inlay](#step-3-stack-and-add-inlay)
+    - [Step 4: Add the introduction booklet](#step-4-add-the-introduction-booklet)
+    - [Step 4: Close the box](#step-4-close-the-box)
+
+
 
 ## Overview of ordered material
 | Name | Ordered amount | Explanatory note | Learning |
@@ -18,7 +36,11 @@
 | [A5 Booklets](https://www.pixartprinting.nl/printen-tijdschriften-boeken-catalogi/met-nietjes-gebonden/) | 400 normal + 400 recycled paper | Introduction booklet in the box | *to be added* |
 
 
-## Box branding
+
+
+
+
+## Add a box branding
 The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a place for the student to put name and student number. Described below is the process of branding for the kit version 2022:
 
 ### Needed tools and material
@@ -58,7 +80,11 @@ Using the stamp as a method of branding did not lead to overly consistent result
 - The stamp could only be relatively small, as bigger stamps of A5 size were impossible to apply evenly
 
 
-## Cardboard inlay
+
+
+
+
+## The cardboard inlay
 The inlay is used to present the main components of the kit in a neat, labeled and tidy fashion. It consists of cardboard dividers for the lower layer of the box, and a glued cardboard assembly to stack components.
 
 ### Needed tools and material
@@ -125,23 +151,60 @@ Finally, it is time to glue together the inlay halfs.
 2. Apply an even layer of spray glue **to the back side of the top inlay**. If the glue is applied to the bottom inlay, it leaves visible glue residue in the component cutouts.
 3. Align the two inlay parts carefully and press together firmly.
 
-## Stickers
+
+
+
+
+## Generating QR code stickers
+
 Each box also gets a sticker with a QR code that allows students to add their devices to the TU Delft WiFi.
 The individual QR codes can be accessed by Lab owners in batches of 20 from [this ITC website](https://infra-ict.tudelft.nl/portal/labs/). These QR codes need to be printed together with a little explanation on sticker paper.
 
 To ease the process, @ueberf wrote a little (admittedly quite crude) P5 sketch that takes in a folder of 400 QR codes and generates a PDF fitting for the [Bruna label paper](https://www.bruna.nl/kantoor/etiket-bruna-105x37mm-240stuks-796398).
 
-1. Generate and download the individual QR code PNG from ITC
+1. Generate and download the individual QR code PNGs from ITC
 2. Download the [P5 sticker generator](stickers/P5-Sticker-Generator/) folder
 3. Add the individual QR code PNG in the folder `assets/QR` and rename them in the format of `Certificate-00001.png`. This can be done for instance by the MacOS *Finder > File > Rename...*
 4. Open the folder in a local server and open the page in Google Chrome
 5. Download the resulting PDF and print it on the Bruna Sticker paper
 
-## Kit assembly
-- Unpack and sort components
-- Add cardboard dividers
-- Add supporting bottom components
-- Stack inlay with main components
-- Add booklet
-- Add sticker
-- Close box
+
+
+
+
+## Assembling the final kit
+For the final kit assembly, you will need the following things:
+**Packaging material:**
+- Assembled cardboard boxes with applied branding
+- Cardboard dividers
+- Cardboard Inlays
+- Printed Stickers
+
+**Kit components:**
+- ItsyBitsy + Expander board (flashed with software and tested)
+- Introduction Booklet
+- All unpacked electronic components of the kit
+
+
+### Step 1: Preparing the box
+Take a cardboard box and add the cardboard dividers in the bottom and stick the QR code on the inside of the lid.
+![Dividers](/kit-production/physical-box/assets/prepare-box.png)
+
+### Step 2: Add underside of components
+Stack the bottom compartment with loose components that do not find a place in the inlay.
+![Bottom components](/kit-production/physical-box/assets/stack-bottom.png)
+
+### Step 3: Stack and add inlay
+Stack the cardboard inlay with Grove components, custom component boards and the Itsy Bitsy + Expander. Add the inlay on top of the bottom compartment.
+
+![Add inlay](/kit-production/physical-box/assets/stack-inlay.png)
+
+### Step 4: Add the introduction booklet
+Add the printed introduction booklet on top of the inlay
+
+![Add booklet](/kit-production/physical-box/assets/add-booklet.png)
+
+### Step 4: Close the box
+Finally, close the finished box and put it to the side.
+
+![Closed bix](/kit-production/physical-box/assets/close-box.png)
