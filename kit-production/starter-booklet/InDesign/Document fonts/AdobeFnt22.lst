@@ -1,0 +1,137 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/frederik/My Drive/Work/TU Delft/2021-2022 Junior Researcher/StudioLab/01 Connected Interaction Kit Booklet/2022-Connected-Interaction-Kit-Booklet/Document fonts/AdobeFnt22.lst
+FileLength:3686
+FileModTime:667825670
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/frederik/My Drive/Work/TU Delft/2021-2022 Junior Researcher/StudioLab/01 Connected Interaction Kit Booklet/2022-Connected-Interaction-Kit-Booklet/Document fonts/Icon
+FileModTime:667825610
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Black
+FamilyName:Roboto
+StyleName:Black
+MenuName:Roboto
+StyleBits:2
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto Black
+WritingScript:Roman
+OutlineFileName:/Users/frederik/My Drive/Work/TU Delft/2021-2022 Junior Researcher/StudioLab/01 Connected Interaction Kit Booklet/2022-Connected-Interaction-Kit-Booklet/Document fonts/Roboto-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127948
+FileModTime:424399610
+NameArray:0,Mac,18,Roboto Black
+NameArray:0,Mac,4,Roboto Black
+NameArray:0,Win,1,Roboto
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Bold
+FamilyName:Ubuntu
+StyleName:Bold
+MenuName:Ubuntu
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu Bold
+WritingScript:Roman
+OutlineFileName:/Users/frederik/My Drive/Work/TU Delft/2021-2022 Junior Researcher/StudioLab/01 Connected Interaction Kit Booklet/2022-Connected-Interaction-Kit-Booklet/Document fonts/Ubuntu-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:333616
+FileModTime:426397670
+NameArray:0,Mac,4,Ubuntu Bold
+NameArray:0,Win,1,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Italic
+FamilyName:Ubuntu
+StyleName:Italic
+MenuName:Ubuntu
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Ubuntu Italic
+WritingScript:Roman
+OutlineFileName:/Users/frederik/My Drive/Work/TU Delft/2021-2022 Junior Researcher/StudioLab/01 Connected Interaction Kit Booklet/2022-Connected-Interaction-Kit-Booklet/Document fonts/Ubuntu-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:386440
+FileModTime:426397670
+NameArray:0,Mac,4,Ubuntu Italic
+NameArray:0,Win,1,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Light
+FamilyName:Ubuntu
+StyleName:Light
+MenuName:Ubuntu Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu Light
+WritingScript:Roman
+OutlineFileName:/Users/frederik/My Drive/Work/TU Delft/2021-2022 Junior Researcher/StudioLab/01 Connected Interaction Kit Booklet/2022-Connected-Interaction-Kit-Booklet/Document fonts/Ubuntu-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:415552
+FileModTime:426397670
+NameArray:0,Mac,18,Ubuntu Light
+NameArray:0,Mac,4,Ubuntu Light
+NameArray:0,Win,1,Ubuntu Light
+NameArray:0,Win,16,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu
+FamilyName:Ubuntu
+StyleName:Regular
+MenuName:Ubuntu
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu
+WritingScript:Roman
+OutlineFileName:/Users/frederik/My Drive/Work/TU Delft/2021-2022 Junior Researcher/StudioLab/01 Connected Interaction Kit Booklet/2022-Connected-Interaction-Kit-Booklet/Document fonts/Ubuntu-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:353824
+FileModTime:426397670
+NameArray:0,Mac,4,Ubuntu
+NameArray:0,Win,1,Ubuntu
+%EndFont
+

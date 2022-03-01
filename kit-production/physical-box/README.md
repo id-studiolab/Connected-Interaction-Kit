@@ -97,6 +97,8 @@ The inlay is used to present the main components of the kit in a neat, labeled a
 - Sprayglue for the assembly
 
 
+
+
 ### Step 1: Print labels on Kraftpapier
 First we will need to create our label paper. The Figma source file for the inlay of year 2022 can be found [here](Figma-working-file/Connected-Interaction-Kit.fig).
 
@@ -113,6 +115,9 @@ First we will need to create our label paper. The Figma source file for the inla
 5. Add the brown Kraftpapier in the bypass of the printer and start the job. The bypass can handle ~50 pages a time, so it is smart to add the job as a favorite in the menu to easily restart it however often needed.
 6. Take the printed paper and cut them to rough size using a paper cutting machine (down in the IO basement), with 5-10mm of margin top to bottom
 
+
+
+
 ### Step 2: Lasercut cardboard blanks
 The cardboard cutouts consist of three separate parts:
 1. The top inlay blank
@@ -125,12 +130,18 @@ The cardboard cutouts consist of three separate parts:
 2. Take a Cardboard Sheets (1170x770) and laser the file at the PMB (First the color blue, then the color red). Make sure that the nice and smooth side of the cardboard lays face up.
 3. Each sheet will result in 8 inlays. Sort the lasercut parts into different containers to keep them organized for the next steps.
 
+
+
+
 ### Step 3: Glueing together labels and top inlay blanks
 ![Cardboard label glue-on](/kit-production/physical-box/assets/label-glue-on.png)
 
 1. Take the printed Kraftpapier sheets and top inlay blanks
 2. Apply an even layer of glue spray on the smooth side of the cardboard blank
 3. Align the top and left edge of inlay blank and Kraftpapier sheet, and glue them together. **Be precise when aligning the edges**
+
+
+
 
 ### Step 4: Lasercut the top inlay
 The next step is to cut the top inlay to final shape by cutting holes for the component, rounding over the corner, and trimming off excess paper.
@@ -142,6 +153,9 @@ The next step is to cut the top inlay to final shape by cutting holes for the co
 
 **Tip:**
 It pays off to invest some time and create a plywood mold that allows you to slot in and take out multiple inlays at the same time. For 2022, the PMB prepared such a mold.
+
+
+
 
 ### Step 5: Glue together top and bottom part of the inlay
 Finally, it is time to glue together the inlay halfs.
