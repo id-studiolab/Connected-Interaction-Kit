@@ -41,7 +41,9 @@
 
 
 ## Add a box branding
-The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a place for the student to put name and student number. Described below is the process of branding for the kit version 2022:
+The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a place for the student to put name and student number. Described below is the process of branding for the kit version 2022.
+
+![Closed box](/kit-production/physical-box/assets/close-box.png)
 
 ### Needed tools and material
 - [Laser rubber](https://www.kopierladen-berlin.de/lasergummi-fuer-lasergravurmaschinen.html)
@@ -52,7 +54,12 @@ The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a plac
 - Piece of MDF or acrylic to mount the rubber to
 - Cardboard boxes to print on
 
+
+
 ### Making the stamp
+
+![Stamp](/kit-production/physical-box/assets/stamp.jpeg)
+
 1. Design the label as a vector (the Figma working file can be found [here](/kit-production/physical-box/Figma-working-file/Connected-Interaction-Kit.fig) and export as SVG or PDF.
 2. Import the file into Adobe Illustrator of the PMB and engrave it onto a sheet of laser rubber. Trotec offers a special laser cut setting for stamps that automatically flips the design, etc.
 3. Wash the engraved stamp rubber thoroughly (e.g. with a fine brush, and / or an ultrasonic bath).
@@ -224,4 +231,4 @@ Add the printed introduction booklet on top of the inlay
 ### Step 4: Close the box
 Finally, close the finished box and put it to the side.
 
-![Closed bix](/kit-production/physical-box/assets/close-box.png)
+![Closed box](/kit-production/physical-box/assets/close-box.png)
