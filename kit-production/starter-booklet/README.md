@@ -12,7 +12,7 @@ The booklet was designed in InDesign, and a package with all links, fonts and a 
 ---
 
 ## Illustrations
-![Image of booklet](../../assets/illustrations.jpg)
+![Image of booklet](/kit-production/physical-box/assets/illustrations.jpg)
 All visuals for the booklet were designed in Figma, and you can find the source file [here](../physical-box/Figma-working-file/Connected-Interaction-Kit.fig).
 
 ---
