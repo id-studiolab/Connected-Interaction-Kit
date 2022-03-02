@@ -35,8 +35,8 @@ This is divided into the sub-categories of:
 **To Do**
 - [x] Finish writing **Kit assembly**
 - [x] Add tidied Figma working file for the box branding and inlay section
+- [x] Document starter-booklet section
+- [x] Add links and table of content to readme.md files
 - [ ] Documement workflow for electronic components (testing, flashing)
 - [ ] Refine sticker generator
-- [x] Document starter-booklet section
-- [ ] Add links and table of content to readme.md files
 
