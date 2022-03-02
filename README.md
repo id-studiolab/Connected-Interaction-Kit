@@ -27,7 +27,7 @@ This is divided into the sub-categories of:
 3. [Starter Booklet](/kit-production/starter-booklet/README.md)
    1. [Final print and digital PDF](/kit-production/starter-booklet/final-export/)
    2. [Figma illustrations](/kit-production/starter-booklet/README.md#illustrations)
-   3. [InDesign working files](/kit-production/starter-booklet/indesign)
+   3. [InDesign working files](/kit-production/starter-booklet/InDesign)
    4. [Ordering booklets](/kit-production/starter-booklet/README.md#ordering-booklets)
 
 
