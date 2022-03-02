@@ -7,9 +7,9 @@ has_children: true
 
 # 01 Hello world – Set up and let there be light
 
-When working with electronics and building interactive prototypes there are some reoccurring, essential elements, and some optional components that can change each time.
-Two essential elements for building prototypes with this kit are:
-1. **ItsyBitsy + Expander board:** This will be the heart of all your prototypes. Once code is uploaded from your computer to the board, it will run and follow the given instructions even when disconnected from your computer.
-2. **Your computer + code editor:** The ItsyBitsy micro controller itself will initially do nothing. In order to give our prototypes a logic and behaviour, we need to upload instructions via USB from our computer to the board and tell it what to do. This we can achieve a code editor. Our code editor of choice is called **MU,** and it packs in some nifty features that we will make use of later on.
+In order to make your prototypes behave, you need to create a program and store that on the ItsyBitsy. You need the following equipment to support this:
+1. **ItsyBitsy + Expander:** You connect the ItsyBitsy and Expander to your computer with the USB cable in the box. Once a new program is saved to the ItsyBitsy that program will run. The ItsyBitsy will remember the last saved program even if you disconnect it from your computer.
+2. **Your computer + program editor:** You create the program by writing instructions in a program editor.
+Any text editor software on your computer will do but in this booklet we choose the `Mu Editor`. It originated in education and is open source software available as a free download. The `Mu Editor` also has some nifty features to support you in the process. It helps you to write the instructions correctly and helps you figure out what goes wrong. For sure it will go wrong and that is when you learn 😉
 
 ![Overview of our essencial elements](assets/01-Hello-World-Component-Overview.png)

@@ -13,7 +13,7 @@ LED.direction = digitalio.Direction.OUTPUT
 while True:
 	time.sleep(1.0) # Wait 1 second
 	LED.value = True # Turn the LED on
-	print("LED is: " + LED.value) # Add a status comment in the serial monitor
+	print("LED is: on") # Add a status comment in the serial monitor
 	
 	time.sleep(1.0) # Wait 1 second
 	LED.value = False # Turn the LED off
