@@ -15,7 +15,7 @@ grand_parent: "Tutorials"
         "password": "replace-with-your-iPSK-String",
     }
     ```
-    3. Open the file `code.py` and replace the content with code below.
+ 3. Open the file `code.py` and replace the content with code below.
     ```python
     # SPDX-FileCopyrightText: 2019 ladyada for Adafruit Industries
     # SPDX-License-Identifier: MIT
