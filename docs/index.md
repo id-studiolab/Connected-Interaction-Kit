@@ -6,9 +6,22 @@ nav_order: 0
 
 # Connected Interaction Kit 
 
-Vestibulum tempus ac velit vel finibus. Nulla eros urna, gravida at mi a, fringilla egestas massa. Duis sed tempus lorem. Nam suscipit dui sit amet velit efficitur, eu feugiat enim dapibus. Fusce feugiat arcu augue, commodo rutrum lacus gravida in. In varius semper pharetra. Donec scelerisque orci ut fermentum posuere. Aliquam vehicula massa in sodales rutrum. Nunc risus purus, ullamcorper nec gravida eu, condimentum vitae erat. Maecenas et iaculis nunc. Nullam dictum lectus libero, ac consectetur tortor iaculis id. Sed at turpis sed neque facilisis tincidunt elementum quis est. Mauris id odio nec libero cursus consectetur eu ut nulla. Sed elementum nec elit nec lobortis.
+This online repository is part of the Connected Interaction Kit designed by students and teachers at the Faculty of Industrial Design Engineering of the TU Delft.
+
+As a design student you have to learn many skills but you have limited time, you cannot be an expert in all. At the same time you want to feel confident when talking to peers and engineers about realising your vision of how technology should influence the daily life of people. With this kit you simply start to build this confidence.
+
+The composition of this kit, the tools and the procedure you use to create technology experiences are carefully selected and tuned to your needs. It is easy to get started, some barriers existing in similar kits on the market are removed. At the same time, the kit is also versatile and extendable, it can grow with you as you build your skills and confidence.
+With this kit you can create a great range of technology mediated experiences. You can create anything from a small wearable device to interactive architecture, from a simple interactive lamp on your desk to a connected system of lamps illuminating your friends all over the world.
+
+Have fun and be curious while exploring.
 
 ## Tutorials
-1. Hello World
-2. Connecting Components
-3. Connect to the internet
+1. [Hello World](tutorials/01-hello-world/index.md)
+2. [Adding Input and Output](tutorials/02-adding-input-and-output/index.md)
+3. [Connecting your ItsyBitsy to the internet](tutorials/03-connect-to-the-internet/index.md)
+
+
+## Components
+### Grove Components
+### Custom Components
+### Other
