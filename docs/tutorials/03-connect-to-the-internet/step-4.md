@@ -108,6 +108,5 @@ while esp.is_connected:
     r.close()
     time.sleep(5)
     print("Done!")
-
 ```
 4. Click `Save` and open MU's `Serial Monitor`. If you followed the steps correctly, you will see the ItsyBitsy connect to the TUD-facility network, do a test ping to Google.com, and then deliver a new random joke every 5 seconds.
