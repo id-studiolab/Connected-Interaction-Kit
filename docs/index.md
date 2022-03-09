@@ -23,5 +23,22 @@ Have fun and be curious while exploring.
 
 ## Components
 ### Grove Components
+1. [Chainable RGB LED](components/chainable-rgb-led/chainable-rgb-led.md)
+2. [LED Pack](components/led-pack/led-pack.md)
+3. [Piezo Buzzer](components/piezo-buzzer/piezo-buzzer.md)
+4. [Touch Sensor](components/touch-sensor/touch-sensor.md)
+5. [Vibration Motor](components/vibration-motor/vibration-motor.md)
+   
+
 ### Custom Components
+1. [Photo resistor](components/photo-resistor/photo-resistor.md)
+2. [Rotation potentiometer](components/rotation-potentiometer/rotation-potentiometer.md)
+3. [Tactile switch](components/tactile-switch/tactile-switch.md)
+4. [Temperature sensor](components/temperature-sensor/temperature-sensor.md)
+5. [Tilt switch](components/tilt-switch/tilt-switch.md)
+
 ### Other
+1. [Bitsy Expander](components/bitsy-expander/bitsy-expander.md)
+2. [Breadboard](components/breadboard/breadboard.md)
+3. [ItsyBitsy M4 Express](components/itsybitsy-m4-express/itsybitsy-m4-express.md)
+4. [Servo](components/servo/servo.md)
