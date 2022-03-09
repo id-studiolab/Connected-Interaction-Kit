@@ -10,9 +10,9 @@ has_children: false
 # Touch Sensor
 `Input` - detects if touched or not, can detect touch through thin material.
 
----
-
 More detailed component information can be found [here](https://www.seeedstudio.com/Grove-Touch-Sensor.html).
+
+---
 
 ## Example code
 If the touch sensor is touched, turn the internal LED on. Otherwise turn the LED off.

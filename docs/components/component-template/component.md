@@ -10,8 +10,10 @@ nav_exclude: true
 
 # Component name
 Description
+
+More detailed component information can be found [here](Link).
+
 ---
-More information at [link]().
 
 ## Tutorial
 ```python

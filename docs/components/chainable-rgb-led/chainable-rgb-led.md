@@ -10,8 +10,6 @@ has_children: false
 # Chainable RGB LED
 `Output` - typical RGB light can vary colour as well as brightness, can be chained into a LED strip with additional Chainable RGB LEDs
 
----
-
 More detailed component information can be found [here](https://www.seeedstudio.com/Grove-Chainable-RGB-Led-V2-0.html).
 
 ---
