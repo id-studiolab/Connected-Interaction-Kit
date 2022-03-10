@@ -14,7 +14,7 @@ More detailed component information can be found [here](https://www.seeedstudio.
 
 ---
 
-## Basic analog output
+## Basic servo example
 Drive a servo motor with a windshield wiping motion. Control the frequency by changing the value in `sleep.time`.
 ```python
 # SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
