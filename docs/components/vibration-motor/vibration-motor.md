@@ -27,23 +27,13 @@ analog_out = AnalogOut(board.A0)
 
 # --- Functions
 
-# --- setup: code to run only once at the start
-def setup():
-	print("setup")
-
-# --- loop: code to run every time in the main loop
-def loop():
-	print("loop")
-	# Count up from 0 to 65535, with 64 increment
-	# which ends up corresponding to the DAC's 10-bit range
-	for i in range(0, 65535, 64):
-		analog_out.value = i
-		time.sleep(0.002)
-
 # --- Main program
-setup()
 while True:
-	loop()
+    # Count up from 0 to 65535, with 64 increment
+    # which ends up corresponding to the DAC's 10-bit range
+    for i in range(0, 65535, 64):
+        analog_out.value = i
+        time.sleep(0.002)
 
 ```
 
