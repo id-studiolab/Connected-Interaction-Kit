@@ -16,3 +16,5 @@ First prepare your computer and set everything up so you can write your first pr
 When finishing the installation, start the MU editor. You should be presented with an interface that looks like this:
 
 ![This will be our development environment for any coding](assets/02-Mu-Editor.png)
+
+[Next Step](step-2.md){: .btn .btn-blue }

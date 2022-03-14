@@ -118,3 +118,5 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
     ```
 5. Click `Save` and choose the `CIRCUITPY` as a destination for the file. Name the file `secrets.py`.
 6. Open MU's `Serial Monitor`. If you followed the steps correctly, you will see the ItsyBitsy connect to the network, do a test ping to Google.com, and then deliver a new random joke every 5 seconds.
+
+[Next Step](step-2.md){: .btn .btn-blue }

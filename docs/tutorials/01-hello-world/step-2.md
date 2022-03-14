@@ -60,3 +60,5 @@ while True:
 ```
 
 You can download the full code file [here](assets/code.py).
+
+[Next Step](step-3.md){: .btn .btn-blue }

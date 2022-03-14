@@ -16,3 +16,5 @@ The design of the interaction in this case is simple: when a user reaches for th
 stops vibrating.
 
 ![Illustration of the proper setup of touch sensor and ItsyBitsy](/docs/tutorials/02-adding-input-and-output/assets/Tutorial2-Illustration-1.png)
+
+[Get started](step-1.md){: .btn .btn-blue }

@@ -30,3 +30,5 @@ while True:
     print(sensor.value)
     time.sleep(0.1)
 ```
+
+[Next Step](step-2.md){: .btn .btn-blue }

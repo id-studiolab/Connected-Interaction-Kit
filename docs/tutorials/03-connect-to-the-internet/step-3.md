@@ -14,3 +14,5 @@ grand_parent: "Tutorials"
 4. Click `Submit Change`.
 ![Screenshot of the submitted form with iPSK string](assets/tutorial3-ipsk-string.jpg)  
 5. Copy and save the `iPSK String`. This will be your password for the following step.
+
+[Next Step](step-4.md){: .btn .btn-blue }
