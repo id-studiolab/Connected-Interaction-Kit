@@ -15,6 +15,6 @@ a process that unfolds over time in a choreography between user and prototype.
 The design of the interaction in this case is simple: when a user reaches for the Touch Sensor, the Vibration Motor starts vibrating. When the Touch Sensor is released, the Vibration Motor
 stops vibrating.
 
-![Illustration of the proper setup of touch sensor and ItsyBitsy](/docs/tutorials/02-adding-input-and-output/assets/Tutorial2-Illustration-1.png)
+![Illustration of the proper setup of touch sensor and ItsyBitsy](assets/Tutorial2-Illustration-1.png)
 
 [Get started](step-1.md){: .btn .btn-blue }
