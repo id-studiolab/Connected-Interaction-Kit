@@ -7,11 +7,11 @@ grand_parent: "Tutorials"
 
 # Step 1: Installing the MU editor
 
-First we will prepare our computer and set everything up for to allow us to write code for our ItsyBitsy.
+First prepare your computer and set everything up so you can write your first program.
 
-1. Go to [codewith.mu](https://codewith.mu)
+1. Go to the website [codewith.mu](https://codewith.mu)
 2. Click on [download](https://codewith.mu/en/download) and select your operating system (Mac OSX or Windows)
-3. Install the editor by opening the downloaded file and follow the instructions on the screen. If you need help, there are extra instructions with pictures next to the download button for each operating system.
+3. Install Mu by opening the downloaded file and follow the instructions that appear on your computer screen. If you need help, there is a step-by-step explanation of the installation process on the Mu editor website (click “Instructions” next to the download button for each operating system).
 
 When finishing the installation, start the MU editor. You should be presented with an interface that looks like this:
 

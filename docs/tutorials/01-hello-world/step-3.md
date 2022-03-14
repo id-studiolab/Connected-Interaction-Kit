@@ -1,20 +1,19 @@
 ---
 layout: default
-title: "Step 3: Editing code"
+title: "Step 3: Changing the way your ItsyBitsy behaves"
 parent: "01 Hello World"
 grand_parent: "Tutorials"
 ---
 
-# Step 3: Editing code
+# Step 3: Changing the way your ItsyBitsy behaves
 
-Now that we have our two essential components (our computer + code editor, and ItsyBitsy + Expander board) set up we can start playing with the code.
-
-1. Take a look at the `code.py` file. Can you understand what it is doing when reading the `# explaining comments`?
-2. Let us change the blinking frequency of our LED. To do so, play around with the values inside the apprentices of `time.sleep(1.0)`. Try making it blink slower, or faster. 
-3. Open the `Serial monitor` of your MU editor by clicking the button next to the `Save icon` in the menu bar. The serial monitor is an important tool for us, as we can use it to print out messages when code is executed, or see error messages that help us figure out what is going wrong.
-4. Let us change the message that gets printed every time we turn our LED on and off. Change the two messages of the `print()` function to something else, and see how it changes in the Serial monitor after you save the file.
+1. Take a look at the `code.py` program in Mu’s window. Can you understand how the blink behaviour is created by reading the instructions in the program?
+2. Can you change the blinking frequency of the internal LED? To do so, play around with the values specified in the parentheses of `time.sleep(1.0)`. Try to make it blink slower or faster. Press the `Save` button in the toolbar of Mu’s window to store and run your new program on the ItsyBitsy.
+3. Show the `Serial Monitor` panel in the Mu window (click the toolbar button with the label `Serial`). The `Serial Monitor` is an important tool as it can show messages from your program and the `Python Interpreter`.
+4. Can you change the message that is now printed every time the LED turns on and off? To do so change the two `strings` in the parentheses of the `print` instructions. Don’t forget to press the `Save` button in the toolbar of Mu’s window to store and run your new program on the ItsyBitsy.
 
 After tinkering around, your code might now look like this:
+
 ```python
 # Change the blinking speed to twice a second and edit the printing outputs
 import board
