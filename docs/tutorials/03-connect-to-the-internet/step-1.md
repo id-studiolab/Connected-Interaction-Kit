@@ -16,7 +16,7 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
     ```python
     # SPDX-FileCopyrightText: 2019 ladyada for Adafruit Industries
     # SPDX-License-Identifier: MIT
-
+    
     import board
     import busio
     import time
@@ -24,16 +24,16 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
     import adafruit_requests as requests
     import adafruit_esp32spi.adafruit_esp32spi_socket as socket
     from adafruit_esp32spi import adafruit_esp32spi
-
+    
     # Get wifi details and more from a secrets.py file
     try:
         from secrets import secrets
     except ImportError:
         print("WiFi secrets are kept in secrets.py, please add them there!")
         raise
-
+    
     print("ESP32 SPI webclient test")
-
+    
     TEXT_URL = "http://wifitest.adafruit.com/testwifi/index.html"
     JOKE_URL = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
 
@@ -42,26 +42,26 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
     esp32_cs = DigitalInOut(board.D9)
     esp32_ready = DigitalInOut(board.D11)
     esp32_reset = DigitalInOut(board.D12)
-
+    
     spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
     esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset)
-
+    
     requests.set_socket(socket, esp)
-
+    
     if esp.status == adafruit_esp32spi.WL_IDLE_STATUS:
         print("ESP32 found and in idle mode")
     print("Firmware vers.", esp.firmware_version)
-
+    
     addr =""
     for i in range(len(esp.MAC_address)-1, -1, -1):
         addr += (hex(esp.MAC_address[i]))[2:4].upper()
         addr += ":"
-
+    
     print("MAC addr:" + addr[0:17] )
-
+    
     for ap in esp.scan_networks():
         print("\t%s\t\tRSSI: %d" % (str(ap["ssid"], "utf-8"), ap["rssi"]))
-
+    
     print("Connecting to AP...")
     while not esp.is_connected:
         try:
@@ -75,7 +75,7 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
         "IP lookup adafruit.com: %s" % esp.pretty_ip(esp.get_host_by_name("adafruit.com"))
     )
     print("\nPing google.com: %d ms" % esp.ping("google.com"))
-
+    
     # esp._debug = True
     print("\nFetching text from", TEXT_URL)
     r = requests.get(TEXT_URL)
@@ -105,7 +105,7 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
         r.close()
         time.sleep(5)
         print("Done!")
-
+    
     ```
 
 

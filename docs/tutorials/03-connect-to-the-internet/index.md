@@ -4,6 +4,10 @@ title: "03 Connecting your ItsyBitsy to the internet"
 parent: "Tutorials"
 has_children: true
 ---
+
+
+# 03 Connecting to the Internet
+
 ![Cover image showing an ItsyBitsy Expander and online services](assets/tutorial3-cover.jpg)
 
 You can connect your ItsyBitsy to most Wifis, like your home network or even the internet hotspot of your smartphone.

@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Tilt-switch.png)
+![Image](assets/custom-tilt-switch.png)
 
 # Tilt switch
 `Input` - motion detection, detects between vertical vs. horizontal orientation depending on the placement of the sensor.
