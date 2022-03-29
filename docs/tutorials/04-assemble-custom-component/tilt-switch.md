@@ -10,5 +10,5 @@ grand_parent: "Tutorials"
 
 # Tilt Switch
 
-![Custom Tilt Switch](assets/tutorial4-component-tilt.png)
+![Custom Tilt Switch](assets/tutorial4-explode-tilt.png)
 

@@ -10,5 +10,5 @@ grand_parent: "Tutorials"
 
 # Photoresistor (Light Sensor)
 
-![Custom Photoresistor](assets/tutorial4-component-photores.png)
+![Custom Photoresistor](assets/tutorial4-explode-photores.png)
 

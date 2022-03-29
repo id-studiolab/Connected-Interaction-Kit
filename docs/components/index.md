@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Components
-nav_order: 1
+nav_order: 2
 has_children: true
 has_toc: false
 ---
@@ -17,7 +17,7 @@ In addition, the kit contains the BitsyExpander, a board that allows you to easi
 |                       Microcontroller                        |                        BitsyExpander                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                     ItsyBitsy M4 Express                     |                Allows solderless connections                 |
-| <img src="itsybitsy-m4-express/assets/ItsyBitsy-M4-Express.png" alt="ItsyBitsy M4 Express" width="300" style="transform: rotate(180deg)"/> | <img src="bitsy-expander/assets/Bitsy-Expander.png" alt="BitsyExpander" width="300"/> |
+| <img src="itsybitsy-m4-express/assets/ItsyBitsy-M4-Express-Real.png" alt="ItsyBitsy M4 Express" width="400"/> | <img src="bitsy-expander/assets/Bitsy-Expander-Real.png" alt="BitsyExpander" width="400"/> |
 
 
 
@@ -27,7 +27,7 @@ Beyond that, the kit offers a selecton of sensors and actuators. There are seven
 
 
 
-### Solderless Components (Output)
+### Solderless Grove Components (Output)
 
 |                      LED Pack                      |                        Chainable LED                         |                       Vibration Motor                        |                        Piezo Buzzer                         |                 Servo Motor                  |
 | :------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------------------------: | :------------------------------------------: |
@@ -37,17 +37,17 @@ Beyond that, the kit offers a selecton of sensors and actuators. There are seven
 
 
 
-### Solderless Components (Input)
+### Solderless Grove Components (Input)
 
 |                         Touch Sensor                         |                    Time-of-Flight Sensor                     |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                       Capacitive Touch                       |                           Distance                           |
 | <img src="touch-sensor/assets/Grove-Touch-Sensor.png" alt="Touch Sensor" width="140"/> | <img src="time-of-flight-distance-sensor/assets/Time-of-Flight-Distance-Sensor(VL53L0X).png" alt="ToF Sensor" width="140"/> |
-|  [Learn More](touch-sensor/touch-sensor){: .btn .btn-blue }  |  [Learn More](touch-sensor/touch-sensor){: .btn .btn-blue }  |
+|  [Learn More](touch-sensor/touch-sensor){: .btn .btn-blue }  | [Learn More](time-of-flight-distance-sensor/time-of-flight-distance-sensor){: .btn .btn-blue } |
 
 
 
-### Components Requiring Assembly (Input)
+### Custom Components Requiring Assembly (Input)
 
 |                        Potentiometer                         |                        Tactile Switch                        |                        Tilt Switch                        |                          Thermistor                          |                        Photoresistor                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
