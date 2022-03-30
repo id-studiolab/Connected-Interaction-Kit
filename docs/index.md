@@ -19,6 +19,7 @@ Have fun and be curious while exploring.
 1. [Hello World](tutorials/01-hello-world/index.md)
 2. [Adding Input and Output](tutorials/02-adding-input-and-output/index.md)
 3. [Connecting your ItsyBitsy to the internet](tutorials/03-connect-to-the-internet/index.md)
+4. [Assembling a Custom Component](tutorials/04-assemble-custom-component/index.md)
 
 
 ## Components

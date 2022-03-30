@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "Time of Flight Distance Sensor"
+title: "Time of Flight Sensor"
 parent: "Components"
 has_children: false
-nav_exclude: true
+nav_exclude: false
 ---
 
 ![Image](assets/Time-of-Flight-Distance-Sensor(VL53L0X).png)
 
 # Time of Flight Distance Sensor
-`Input` - detects objects in front of the sensor by a distance value between 0.3m and 2.0m
+`Input` - detects objects in front of the sensor by a distance value between 0.3m and 1.2m
 
 More detailed information about a similar component can be found [here](https://www.adafruit.com/product/3317).
 More code examples can be found [here](https://github.com/adafruit/Adafruit_CircuitPython_VL53L0X/tree/main/examples)

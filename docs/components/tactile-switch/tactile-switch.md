@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Tactile-switch.png)
+![Image](assets/custom-tactile-switch.png)
 
 # Tactile switch
 `Input` - detect if button is pressed down or released
