@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Grove-Servo.png)
+<img src="assets/Grove-Servo.png" alt="Servo" width="250"/>
 
 # Servo
 `Output` - movement, can rotate its arm like the windshield wiper of a car

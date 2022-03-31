@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Grove-Piezo-Buzzer.png)
+<img src="assets/Grove-Piezo-Buzzer.png" alt="Piezo Buzzer" width="250"/>
 
 # Piezo Buzzer
 `Output` - produces an alarming beep, can also be used to play simple melodies
