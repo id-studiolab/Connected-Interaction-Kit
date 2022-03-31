@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/ItsyBitsy-M4-Express.png)
+<img src="assets/ItsyBitsy-M4-Express-Real.png" alt="ItsyBitsy M4 Express" width="400"/>
 
 # ItsyBitsy M4 Express
 The micro controller at the heart of you projects, it reads inputs, processes data and controls the outputs.

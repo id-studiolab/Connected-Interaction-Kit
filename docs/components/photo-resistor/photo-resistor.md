@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/custom-photo-resistor.png)
+<img src="assets/custom-photo-resistor-centered.png" alt="Custom Photo Resistor" width="250"/>
 
 # Photo resistor
 `Input` - can detect light intensity on a scale from low light to bright light

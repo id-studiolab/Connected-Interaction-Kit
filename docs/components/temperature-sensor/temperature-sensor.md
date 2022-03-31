@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/custom-temperature-sensor.png)
+<img src="assets/custom-temperature-sensor-centered.png" alt="Custom Temperature Sensor" width="250"/>
 
 # Temperature Sensor
 `Input` - detects temperature variations on a scale from cold to hot.

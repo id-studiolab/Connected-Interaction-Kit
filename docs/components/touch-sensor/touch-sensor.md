@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Grove-Touch-Sensor.png)
+<img src="assets/Grove-Touch-Sensor.png" alt="Touch Sensor" width="250"/>
 
 # Touch Sensor
 `Input` - detects if touched or not, can detect touch through thin material.

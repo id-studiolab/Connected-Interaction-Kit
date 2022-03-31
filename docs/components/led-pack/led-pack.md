@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Grove-LED-pack.png)
+<img src="assets/Grove-LED-pack.png" alt="LED Pack" width="250"/>
 
 # LED Pack
 `Output` - monochrome light on or off, color depending on the LED in the socket. The spin button next to the LED can control its luminance.

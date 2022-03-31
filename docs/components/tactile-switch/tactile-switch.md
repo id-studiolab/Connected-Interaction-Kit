@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/custom-tactile-switch.png)
+<img src="assets/custom-tactile-switch-centered.png" alt="Custom Tactile Switch" width="250"/>
 
 # Tactile switch
 `Input` - detect if button is pressed down or released

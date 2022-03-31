@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Grove-Vibration-Motor.png)
+<img src="assets/Grove-Vibration-Motor.png" alt="Vibration Motor" width="250"/>
 
 # Vibration Motor
 `Output` - vibrates on a scale from soft to harsh, comparable to the one in your phone.

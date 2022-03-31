@@ -5,7 +5,7 @@ parent: "Components"
 has_children: false
 ---
 
-![Image](assets/Grove-Chainable-LED-2.0.png)
+<img src="assets/Grove-Chainable-LED-2.0.png" alt="Chainable RGB LED" width="250"/>
 
 # Chainable RGB LED
 `Output` - typical RGB light can vary colour as well as brightness, can be chained into a LED strip with additional Chainable RGB LEDs
