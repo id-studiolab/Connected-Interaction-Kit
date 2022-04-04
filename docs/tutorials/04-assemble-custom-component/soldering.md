@@ -16,8 +16,8 @@ This guide intends to be a short read covering the basics of soldering using the
 
 If you are already familiar with the tools we will work with, you may skip ahead to the following sections:
 
-* [How to solder trhough-hole components](#how-to-solder-through-hole-components)
-* [How to find and fix bad solder joints](#how-to-find-and-fix-bad-solder-joints)
+* [How to Solder Trhough-Hole Components](#how-to-solder-through-hole-components)
+* [How to Find and Fix Bad Connections](#how-to-find-and-fix-bad-solder-joints)
 
 First, let us take a look at the tools we will need:
 
@@ -58,7 +58,9 @@ First, let us take a look at the tools we will need:
 
 | Step 3: Seat a component                                     |                                                              |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
-| Insert one or more components and fix them. Components with flexible leads (e.g. resistors) can be easily fixed by bending the legs on the back of the PCB. Other components are easier to fix with a vise or some sticky putty. **Avoid short-circuits** by checking that components are not touching any other conductive parts of the board. <br /><br />***Secure the hot soldering iron in the stand while you do this.*** | <img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/populating.jpg" alt="Populating" style="min-width: 240px; max-width: 240px"/><img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/fixing.jpg" alt="Fixing" style="min-width: 240px; max-width: 240px"/> |
+| Insert one or more components and fix them. Components with flexible leads (e.g. resistors) can be easily fixed by bending the legs on the back of the PCB. Other components are easier to fix with a vise or some sticky putty. **Avoid short-circuits** by checking that components are not touching any other conductive parts of the board ([as shown here](#inspect-your-component-leads)). <br /><br />***Secure the hot soldering iron in the stand while you do this.*** | <img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/populating.jpg" alt="Populating" style="min-width: 240px; max-width: 240px"/><img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/fixing.jpg" alt="Fixing" style="min-width: 240px; max-width: 240px"/> |
+
+
 
 | Step 4: Make a joint                                         |                                                              |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
@@ -68,21 +70,25 @@ First, let us take a look at the tools we will need:
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | Use the flush cuttes to cut excess leads as close as possible to the board. | <img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/trimming.jpg" alt="Trimming" style="min-width: 240px; max-width: 240px"/><img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/trim-illustration.png" alt="Trimming Illustration" style="min-width: 240px; max-width: 240px"/> |
 
-
-
 | Step 6: Inspect                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Check that all the joints look good and no solder bridges/short circuits exist. Check the following paragraph for guidance on finding and resolving issues. | <img src="assets/tutorial4/pth-instructions/inspecting.jpg" alt="Inspecting" style="min-width: 240px; max-width: 240px"/> |
+| Check that all the joints look good and no solder bridges/short circuits exist. Check the [following paragraph](#how-to-find-and-fix-bad-connections) for guidance on finding and resolving issues. | <img src="assets/tutorial4/pth-instructions/inspecting.jpg" alt="Inspecting" style="min-width: 240px; max-width: 240px"/> |
 
 | Step 7: Wrap-up                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Tin the tip of the iron (see step 2) so the next person finds it in working order. <br /><br />***Don't forget to turn off your iron. If no one else is working at the station when you leave, turn off the main power.*** | <img src="assets/tutorial4/pth-instructions/poweroff.jpg" alt="Power Off" style="min-width: 240px; max-width: 240px"/> |
 
-## How to Find and Fix Bad Solder Joints
+## How to Find and Fix Bad Connections
 
-### Inspect your Joints
+### Inspect your Component Leads
 
-### Good Joints
+| Avoid Shorts                                                 |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Make sure the leads of your mounted components don't kink or touch pads on the circuit board they are not supposed to. This can otherwise lead to unexpected behavior or render the component completely non-functional. | <img class="multi-graphic-justify" src="assets/tutorial4/inspect/component-ok.png" alt="Component No Short" style="min-width: 240px; max-width: 240px"/><img class="multi-graphic-justify" src="assets/tutorial4/inspect/component-short.png" alt="Component Short" style="min-width: 240px; max-width: 240px"/> |
+
+### Inspect your Solder Joints
+
+### *Good Joints*
 
 | Concave Tent Shape                                           | Convex Tent Shape                                            | Separation between Joints                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -91,7 +97,7 @@ First, let us take a look at the tools we will need:
 
 ***Note:** If the mounting hole is much bigger than the component lead, there will not be a distinct tent shape. In that case, it is fine if the joint is flush or lentil-shaped as long as it evenly covers the entire pad.*
 
-### Bad Joints
+### *Bad Joints*
 
 | Cold Joint (Pad)                                             | Cold Joint (Pin)                                             | Insufficient Wetting                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
