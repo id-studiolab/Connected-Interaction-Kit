@@ -9,4 +9,4 @@ grand_parent: "Tutorials"
 
 # Rotation Potentiometer
 
-![Custom Potentiometer](assets/tutorial4-explode-pot.png)
+![Custom Potentiometer](assets/tutorial4/exploded/pot.png)
