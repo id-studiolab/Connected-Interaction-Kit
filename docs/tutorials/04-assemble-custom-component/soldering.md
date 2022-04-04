@@ -16,8 +16,8 @@ This guide intends to be a short read covering the basics of soldering using the
 
 If you are already familiar with the tools we will work with, you may skip ahead to the following sections:
 
-* [How to Solder Trhough-Hole Components](#how-to-solder-through-hole-components)
-* [How to Find and Fix Bad Connections](#how-to-find-and-fix-bad-solder-joints)
+* [How to Solder Through-Hole Components](#how-to-solder-through-hole-components)
+* [How to Find and Fix Bad Connections](#how-to-find-and-fix-bad-connections)
 
 First, let us take a look at the tools we will need:
 
@@ -59,8 +59,6 @@ First, let us take a look at the tools we will need:
 | Step 3: Seat a component                                     |                                                              |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | Insert one or more components and fix them. Components with flexible leads (e.g. resistors) can be easily fixed by bending the legs on the back of the PCB. Other components are easier to fix with a vise or some sticky putty. **Avoid short-circuits** by checking that components are not touching any other conductive parts of the board ([as shown here](#inspect-your-component-leads)). <br /><br />***Secure the hot soldering iron in the stand while you do this.*** | <img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/populating.jpg" alt="Populating" style="min-width: 240px; max-width: 240px"/><img class="multi-graphic-justify" src="assets/tutorial4/pth-instructions/fixing.jpg" alt="Fixing" style="min-width: 240px; max-width: 240px"/> |
-
-
 
 | Step 4: Make a joint                                         |                                                              |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
