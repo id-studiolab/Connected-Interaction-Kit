@@ -1,0 +1,13 @@
+// Remove alignment issues for multi-row illustrations in tables
+.multi-graphic-justify {
+  display: flex;
+  flex-direction: column;
+//  gap: 12px;
+//  align-items: center;
+}
+
+.multi-graphic-justify:last-child {
+  margin-top: 12px;
+//  gap: 12px;
+//  align-items: center;
+}

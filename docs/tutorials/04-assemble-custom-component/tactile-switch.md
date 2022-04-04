@@ -10,4 +10,4 @@ grand_parent: "Tutorials"
 
 # Tactile Switch (Button)
 
-![Custom Switch](assets/tutorial4-explode-sw.png)
+![Custom Switch](assets/tutorial4/exploded/sw.png)
