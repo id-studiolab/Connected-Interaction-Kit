@@ -14,6 +14,8 @@ grand_parent: "Tutorials"
 
 This guide intends to be a short read covering the basics of soldering using the tools available in the PMB. 
 
+It is advisable to use PPE while working with hot solder. We strongly recommend using protective goggles and a fume exhaust.
+
 If you are already familiar with the tools we will work with, you may skip ahead to the following sections:
 
 * [How to Solder Through-Hole Components](#how-to-solder-through-hole-components)
@@ -101,7 +103,7 @@ First, let us take a look at the tools we will need:
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | <img src="assets/tutorial4/inspect/blob.png" alt="Blob">     | <img src="assets/tutorial4/inspect/cold-joint.png" alt="Not Fully Molten"> | <img src="assets/tutorial4/inspect/semimolten.png" alt="Not Fully Molten"> |
 | **Problem:** Joint is unevenly heated, so the solder only flows onto the hot parts (In this case, the pad was too cold). Can also be caused by insufficient flux. | **Problem:** Components moved while solder was solidifying. Can introduce cracks between component and pad. Can also happen to good joints over time (if they are under repeated mechanical stress). | **Problem:** Not enough heat, so the solder does not fully liquefy. It does not flow nicely and refuses to "cling" to the components (it does not want to wet the components). |
-| **Solution:** Add flux, retouch joint with hot iron (apply heat for at least it for 2-3 seconds). | **Solution:** Add flux, retouch joint with hot iron (apply heat for at least it for 2-3 seconds). | **Solution:** Add flux, reheat the joint, add solder.        |
+| **Solution:** Add flux, retouch joint with hot iron (apply heat for at least for 2-3 seconds). | **Solution:** Add flux, retouch joint with hot iron (apply heat for at least for 2-3 seconds). | **Solution:** Add flux, reheat the joint, add solder.        |
 
 | Too Much Solder                                              | Too Little Solder                                            | Solder Jumper (Short-Circuit)                                |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -123,3 +125,4 @@ First, let us take a look at the tools we will need:
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | Keep applying heat while the wick soaks up the melting solder. Remove the wick while still hot. **Don't rip it off with force!** If it sticks, re-apply some heat for the solder to melt. Removing the wick should not require applying force.<br /><br />Add solder back into the joint if needed. | <img src="assets/tutorial4/pth-instructions/wick-soak.jpg" style="min-width: 240px; max-width: 240px"/> |
 
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/699454884?h=5ed2a5682e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="How to Repair a Solder Joint"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
