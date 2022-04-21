@@ -15,4 +15,4 @@ In this tutorial, we will enable our ItsyBitsy to connect to an open `Applicatio
 
 Because of tight security regulations of the university, it is not possible to connect your ItsyBitsy Expander to the **eduroam** network directly. However, you can make use of the **TUD-facility** network to bring your device online, following the later steps of this tutorial!
 
-[Get started](step-1.md){: .btn .btn-blue }
+[Get started](step-1){: .btn .btn-blue }

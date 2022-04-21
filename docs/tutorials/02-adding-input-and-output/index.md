@@ -17,4 +17,4 @@ stops vibrating.
 
 ![Illustration of the proper setup of touch sensor and ItsyBitsy](assets/Tutorial2-Illustration-1.png)
 
-[Get started](step-1.md){: .btn .btn-blue }
+[Get started](step-1){: .btn .btn-blue }

@@ -18,4 +18,4 @@ When finishing the installation, start the MU editor. You should be presented wi
 
 ![This will be our development environment for any coding](assets/02-Mu-Editor.png)
 
-[Next Step](step-2.md){: .btn .btn-blue }
+[Next Step](step-2){: .btn .btn-blue }

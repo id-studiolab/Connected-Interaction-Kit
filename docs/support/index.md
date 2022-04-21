@@ -7,7 +7,7 @@ nav_order: 4
 # Getting help
 
 ## What do I do when hardware components are not working?
-In case any of your components not working as expected, please check the [documentation page](../components/index.md) of the component first and try getting it running with the example code first.
+In case any of your components not working as expected, please check the [documentation page](../components/index) of the component first and try getting it running with the example code first.
 
 Most issues can be fixed by double-checking the following:
 1. Is your component connected to the right port of the Expander board?
@@ -28,5 +28,3 @@ You can get additional components at following places:
 
 ## Where can I get support for prototyping for courses?
 Each course using the Connected Interaction Kit will have their own tech support that can guide and support you in learning prototyping.
-
-## Where else can I get help?

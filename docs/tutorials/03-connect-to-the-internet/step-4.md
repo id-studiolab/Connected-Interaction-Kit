@@ -7,8 +7,8 @@ grand_parent: "Tutorials"
 
 # Step 4: Connecting to TUD-facility
 
-1.  With your ItsyBitsy connected to your computer, open the file `secrets.py` that we created in [Step 1: Connect to your home Wifi or phone hotspot](/docs/tutorials/03-connect-to-the-internet/step-1.md).
-2.  Change the `ssid` to `TUD-facility` and fill in the iPSK from [Step 3: Registering your device with TUD-facility](/docs/tutorials/03-connect-to-the-internet/step-3.md) as a `password`.
+1.  With your ItsyBitsy connected to your computer, open the file `secrets.py` that we created in [Step 1: Connect to your home Wifi or phone hotspot](/docs/tutorials/03-connect-to-the-internet/step-1).
+2.  Change the `ssid` to `TUD-facility` and fill in the iPSK from [Step 3: Registering your device with TUD-facility](/docs/tutorials/03-connect-to-the-internet/step-3) as a `password`.
     ```python
     secrets = {
         "ssid": "TUD-facility",

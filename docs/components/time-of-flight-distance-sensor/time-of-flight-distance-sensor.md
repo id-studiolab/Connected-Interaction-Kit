@@ -21,6 +21,7 @@ The ItsyBitsy doesn't have a built-in library to work with the ToF distance sens
 1. Download the [VL53L0X library](assets/adafruit_vl53l0x.py)
 2. On your ItsyBitsy, add the file `adafruit_vl53l0x.py` to the `lib` folder. CircuitPython now knows where to find our newly downloaded library, and we can `import` it in our code.
 3. Run the code and see the measured distances appear in your `Serial Monitor`
+   
 ```python
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
