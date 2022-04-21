@@ -31,4 +31,4 @@ while True:
     time.sleep(0.1)
 ```
 
-[Next Step](step-2.md){: .btn .btn-blue }
+[Next Step](step-2){: .btn .btn-blue }

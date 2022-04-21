@@ -12,7 +12,7 @@ In order to make your prototypes behave, you need to create a program and store 
 2. **Your computer + program editor:** You create the program by writing instructions in a program editor.
 Any text editor software on your computer will do but in this booklet we choose the `Mu Editor`. It originated in education and is open source software available as a free download. The `Mu Editor` also has some nifty features to support you in the process. It helps you to write the instructions correctly and helps you figure out what goes wrong. For sure it will go wrong and that is when you learn 😉
 
-[Get started](step-1.md){: .btn .btn-blue }
+[Get started](step-1){: .btn .btn-blue }
 
 
 ![Overview of our essencial elements](assets/01-Hello-World-Component-Overview.png)
