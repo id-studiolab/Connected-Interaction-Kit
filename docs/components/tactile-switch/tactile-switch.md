@@ -15,7 +15,7 @@ Learn how to make your own tactile switch [here](/tutorials/04-assemble-custom-c
 
 ---
 
-# Basic tactile switch example
+## Basic tactile switch example
 ```python
 # --- Imports
 import digitalio
