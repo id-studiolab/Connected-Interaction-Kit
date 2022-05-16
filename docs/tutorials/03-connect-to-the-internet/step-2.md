@@ -13,7 +13,9 @@ To give our ItsyBitsy Expander internet access on campus, it must be registered 
 2. Open `Mu Editor` and open the file `code.py` on your `CIRCUITPY` memory volume.
 3. Open the MU's `Serial Monitor`.
 4. Copy and paste the code below into your `code.py`, replacing the content that was there before and click `Save`.
-5. Write down the printed `MAC address`. I looks something like `A1:B2:C3:D4:E5:F6`
+5. Write down the printed `MAC address`. It looks something like `A1:B2:C3:D4:E5:F6`.
+
+
 ```python
 import board
 import busio
