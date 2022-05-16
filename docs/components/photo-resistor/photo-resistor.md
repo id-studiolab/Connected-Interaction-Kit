@@ -10,7 +10,7 @@ has_children: false
 # Photo resistor
 `Input` - can detect light intensity on a scale from low light to bright light
 
-Learn how to make your own photo resistor [here](/tutorials/04-assemble-custom-component/)
+Learn how to make your own photo resistor [here](../../tutorials/04-assemble-custom-component/)
 
 ---
 

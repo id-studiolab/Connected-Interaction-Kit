@@ -10,7 +10,7 @@ has_children: false
 # Temperature Sensor
 `Input` - detects temperature variations on a scale from cold to hot.
 
-Learn how to make your own temperature sensor [here](/tutorials/04-assemble-custom-component/)
+Learn how to make your own temperature sensor [here](../../tutorials/04-assemble-custom-component/)
 
 ---
 

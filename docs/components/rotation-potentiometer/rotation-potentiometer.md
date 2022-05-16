@@ -10,7 +10,7 @@ has_children: false
 # Rotation potentiometer
 `Input` - detect rotation changes between 0 and 270 of the central axis
 
-Learn how to make your own rotation potentiometer [here](/tutorials/04-assemble-custom-component/)
+Learn how to make your own rotation potentiometer [here](../../tutorials/04-assemble-custom-component/)
 
 ---
 

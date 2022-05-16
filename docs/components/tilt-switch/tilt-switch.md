@@ -10,7 +10,7 @@ has_children: false
 # Tilt switch
 `Input` - motion detection, detects between vertical vs. horizontal orientation depending on the placement of the sensor.
 
-Learn how to make your own tilt switch [here](/tutorials/04-assemble-custom-component/)
+Learn how to make your own tilt switch [here](../../tutorials/04-assemble-custom-component/)
 
 ---
 
