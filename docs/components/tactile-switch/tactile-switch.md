@@ -10,7 +10,7 @@ has_children: false
 # Tactile switch
 `Input` - detect if button is pressed down or released
 
-Learn how to make your own tactile switch [here](/tutorials/04-assemble-custom-component/index)
+Learn how to make your own tactile switch [here](../tutorials/04-assemble-custom-component/)
 
 
 ---
