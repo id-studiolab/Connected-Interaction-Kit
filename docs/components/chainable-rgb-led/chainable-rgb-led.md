@@ -14,32 +14,6 @@ More detailed component information can be found [here](https://www.seeedstudio.
 
 ---
 
-## Blinking the internal LED (D13)
-```python
-# --- Imports
-import digitalio
-import time
-import board
-
-# --- Variables
-led = digitalio.DigitalInOut(board.D13)
-led.direction = digitalio.Direction.OUTPUT
-
-# --- Functions
-
-# --- Setup
-led.value = False
-
-# --- Main loop
-while True:
-    print("hello world")
-    led.value = True
-    time.sleep(0.5)
-    led.value = False
-    time.sleep(0.1)
-
-```
-
 ## Blinking a Chainable LED connected to D13 (and D10)
 The ItsyBitsy doesn't have a built-in library to control the chainable LEDs. We will need to download one! Grove Chainable LEDs are controlled by `P9813` LED drivers, hence the need for a library that knows how to interact with these drivers. 
 1. Download the [`P9813` library](assets/p9813.py). 
