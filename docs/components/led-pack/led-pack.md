@@ -15,7 +15,8 @@ More detailed component information can be found [here](https://www.seeedstudio.
 ---
 
 ## Blinking the internal LED (D13)
-**This is for the interal LED, however a led-pack does work in port D13. a chainable LED does NOT work with this code.
+This is for the interal LED, however a LED Pack does work in port D13. A [Chainable RGB LED](../chainable-rgb-led/chainable-rgb-led) does *NOT* work with this code.
+
 ```python
 # --- Imports
 import digitalio
