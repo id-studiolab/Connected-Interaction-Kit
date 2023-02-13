@@ -14,6 +14,34 @@ More detailed component information can be found [here](https://www.seeedstudio.
 
 ---
 
+## Blinking the internal LED (D13)
+This is for the interal LED, however a LED Pack does work in port D13. A [Chainable RGB LED](../chainable-rgb-led/chainable-rgb-led) does *NOT* work with this code.
+
+```python
+# --- Imports
+import digitalio
+import time
+import board
+
+# --- Variables
+led = digitalio.DigitalInOut(board.D13)
+led.direction = digitalio.Direction.OUTPUT
+
+# --- Functions
+
+# --- Setup
+led.value = False
+
+# --- Main loop
+while True:
+    print("hello world")
+    led.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.1)
+
+```
+
 ## Blinking the LED Pack (connected to D2)
 If the touch sensor is touched, turn the internal LED on. Otherwise turn the LED off.
 ```python
