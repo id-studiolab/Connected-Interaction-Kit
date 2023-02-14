@@ -1,13 +1,14 @@
 ---
 layout: default
 title: "Tilt switch"
-parent: "Components"
-has_children: false
+grand_parent: "Components"
+parent: "Custom Components"
+nav_order: 3
 ---
 
 <img src="assets/custom-tilt-switch-centered.png" alt="Custom Tilt Switch" width="250"/>
 
-# Tilt switch
+# Tilt Switch
 `Input` - motion detection, detects between vertical vs. horizontal orientation depending on the placement of the sensor.
 
 Learn how to make your own tilt switch [here](../../tutorials/04-assemble-custom-component/)

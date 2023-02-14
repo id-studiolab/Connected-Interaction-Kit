@@ -1,9 +1,10 @@
 ---
 layout: default
 title: "Time of Flight Sensor"
-parent: "Components"
+grand_parent: "Components"
+parent: "Solderless Components"
+nav_order: 6
 has_children: false
-nav_exclude: false
 ---
 
 <img src="assets/Time-of-Flight-Distance-Sensor(VL53L0X).png" alt="T-o-F Sensor" width="250"/>

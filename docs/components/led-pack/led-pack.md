@@ -1,7 +1,9 @@
 ---
 layout: default
 title: "LED Pack"
-parent: "Components"
+grand_parent: "Components"
+parent: "Solderless Components"
+nav_order: 7
 has_children: false
 ---
 

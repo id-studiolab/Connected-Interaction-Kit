@@ -1,7 +1,9 @@
 ---
 layout: default
 title: "Piezo Buzzer"
-parent: "Components"
+grand_parent: "Components"
+parent: "Solderless Components"
+nav_order: 2
 has_children: false
 ---
 

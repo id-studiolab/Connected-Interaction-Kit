@@ -17,8 +17,8 @@ In addition, the kit contains the BitsyExpander, a board that allows you to easi
 |                       Microcontroller                        |                        BitsyExpander                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                     ItsyBitsy M4 Express                     |                Allows solderless connections                 |
-| <img src="itsybitsy-m4-express/assets/ItsyBitsy-M4-Express-Real.png" alt="ItsyBitsy M4 Express" width="400"/> | <img src="bitsy-expander/assets/Bitsy-Expander-Real.png" alt="BitsyExpander" width="400"/> |
-| [Learn More](itsybitsy-m4-express/itsybitsy-m4-express){: .btn .btn-blue } | [Learn More](bitsy-expander/bitsy-expander){: .btn .btn-blue } |
+| <img src="itsybitsy-microcontroller/assets/ItsyBitsy-M4-Express-Real.png" alt="ItsyBitsy M4 Express" width="400"/> | <img src="bitsy-expander/assets/Bitsy-Expander-Real.png" alt="BitsyExpander" width="400"/> |
+| [Learn More](itsybitsy-microcontroller/itsybitsy-microcontroller){: .btn .btn-blue } | [Learn More](bitsy-expander/bitsy-expander){: .btn .btn-blue } |
 
 
 
@@ -30,11 +30,11 @@ Beyond that, the kit offers a selecton of sensors and actuators. There are seven
 
 ### Solderless Grove Components (Output)
 
-|                      LED Pack                      |                        Chainable LED                         |                       Vibration Motor                        |                        Piezo Buzzer                         |                 Servo Motor                  |
-| :------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------------------------: | :------------------------------------------: |
-|                   Monochrome LED                   |                           RGB LED                            |                       Haptics & Touch                        |                            Sound                            |                    Motion                    |
-|  ![LED Pack](led-pack/assets/Grove-LED-pack.png)   | ![Chainable LED](chainable-rgb-led/assets/Grove-Chainable-LED-2.0.png) | ![Vibration Motor](vibration-motor/assets/Grove-Vibration-Motor.png) | ![Piezo Buzzer](piezo-buzzer/assets/Grove-Piezo-Buzzer.png) | ![Servo Motor](servo/assets/Grove-Servo.png) |
-| [Learn More](led-pack/led-pack){: .btn .btn-blue } | [Learn More](chainable-rgb-led/chainable-rgb-led){: .btn .btn-blue } | [Learn More](vibration-motor/vibration-motor){: .btn .btn-blue } | [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  | [Learn More](servo/servo){: .btn .btn-blue } |
+|                      LED Pack                      |                        Chainable LED                         |                       Vibration Motor                        |                        Piezo Buzzer                         |                       Servo Motor                        |
+| :------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------------------------: | :------------------------------------------------------: |
+|                   Monochrome LED                   |                           RGB LED                            |                       Haptics & Touch                        |                            Sound                            |                          Motion                          |
+|  ![LED Pack](led-pack/assets/Grove-LED-pack.png)   | ![Chainable LED](chainable-led/assets/Grove-Chainable-LED-2.0.png) | ![Vibration Motor](vibration-motor/assets/Grove-Vibration-Motor.png) | ![Piezo Buzzer](piezo-buzzer/assets/Grove-Piezo-Buzzer.png) |    ![Servo Motor](servo-motor/assets/Grove-Servo.png)    |
+| [Learn More](led-pack/led-pack){: .btn .btn-blue } | [Learn More](chainable-led/chainable-led){: .btn .btn-blue } | [Learn More](vibration-motor/vibration-motor){: .btn .btn-blue } | [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  | [Learn More](servo-motor/servo-motor){: .btn .btn-blue } |
 
 
 
@@ -53,6 +53,6 @@ Beyond that, the kit offers a selecton of sensors and actuators. There are seven
 |                        Potentiometer                         |                        Tactile Switch                        |                         Tilt Switch                          |                          Thermistor                          |                        Photoresistor                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                        Position/Angle                        |                             Push                             |                             Tilt                             |                         Temperature                          |                          Brightness                          |
-| ![Custom Potentiometer](rotation-potentiometer/assets/custom-rotation-pot-centered.png) | ![Tactile Switch](tactile-switch/assets/custom-tactile-switch-centered.png) | ![Tilt Switch](tilt-switch/assets/custom-tilt-switch-centered.png) | ![Temperature Sensor](temperature-sensor/assets/custom-temperature-sensor-centered.png) | ![Photoresistor](photo-resistor/assets/custom-photo-resistor-centered.png) |
-| [Learn More](rotation-potentiometer/rotation-potentiometer){: .btn .btn-blue } | [Learn More](tactile-switch/tactile-switch){: .btn .btn-blue } |   [Learn More](tilt-switch/tilt-switch){: .btn .btn-blue }   | [Learn More](temperature-sensor/temperature-sensor){: .btn .btn-blue } | [Learn More](photo-resistor/photo-resistor){: .btn .btn-blue } |
+| ![Custom Potentiometer](rotary-potentiometer/assets/custom-rotation-pot-centered.png) | ![Tactile Switch](tactile-switch/assets/custom-tactile-switch-centered.png) | ![Tilt Switch](tilt-switch/assets/custom-tilt-switch-centered.png) | ![Temperature Sensor](thermistor/assets/custom-temperature-sensor-centered.png) | ![Photoresistor](photoresistor/assets/custom-photo-resistor-centered.png) |
+| [Learn More](rotary-potentiometer/rotary-potentiometer){: .btn .btn-blue } | [Learn More](tactile-switch/tactile-switch){: .btn .btn-blue } |   [Learn More](tilt-switch/tilt-switch){: .btn .btn-blue }   |    [Learn More](thermistor/thermistor){: .btn .btn-blue }    | [Learn More](photoresistor/photoresistor){: .btn .btn-blue } |
 
