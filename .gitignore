@@ -2,4 +2,4 @@
 .vscode
 .jekyll-cache
 _site
-_config.yml
+docs/_config.yml
