@@ -7,7 +7,7 @@ nav_order: 6
 has_children: false
 ---
 
-<img src="assets/Time-of-Flight-Distance-Sensor(VL53L0X).png" alt="T-o-F Sensor" width="250"/>
+<img src="assets/ToF_v2_VL53L0X.png" alt="Time of Flight Sensor Version 2"  width="250"/>
 
 # Time of Flight Distance Sensor
 `Input` - detects objects in front of the sensor by a distance value between 0.3m and 1.2m
