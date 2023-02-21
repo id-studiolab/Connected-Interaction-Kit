@@ -15,7 +15,7 @@ A light source that can produce RGB colored light. Can be daisy chained.
 More detailed information is available on the [Seeed Studio Wiki](https://wiki.seeedstudio.com/Grove-Chainable_RGB_LED/).
 
 {: .important}
-Before proceeding, make sure your Chainable LED looks like the illustration above. If you are not sure if this is the correct version, refer to this [overview](chainable-led).
+Before proceeding, make sure your LED module looks like the illustration above. If you are not sure if this is the correct version, refer to this [overview](chainable-led).
 
 ---
 
@@ -122,7 +122,7 @@ while True:
 {: .note }
 Using the `sleep()` function to set the fading speed will prevent other code from executing while sleeping. This is called a blocking delay and does not work well when multitasking. You can read Adafruit's tutorial on [Multitasking with CircuitPython](https://learn.adafruit.com/multi-tasking-with-circuitpython/no-sleeping) to learn about a non-blocking alternative.
 
-## Using multiple LED's
+## Using a chain with multiple LEDs
 
 This example demonstrates how to address individual LEDs in a chain. As before, the `reset()` function turns all LEDs off, while `fill()` can set the entire chain to the same color. To set individual LEDs to  their own color, refer to the code below. Note that LEDs are indexed starting from 0, which refers to the first LED in the chain.
 
