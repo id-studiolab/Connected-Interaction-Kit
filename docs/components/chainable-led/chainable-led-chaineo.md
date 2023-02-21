@@ -12,11 +12,21 @@ has_children: false
 
 A light source that can produce RGB colored and white light. Can be daisy chained. 
 
-More detailed component information can be found [here](https://www.seeedstudio.com/Grove-Chainable-RGB-Led-V2-0.html).
+This component is based on an [RGB/W LED](https://www.adafruit.com/product/2758) sold by Adafruit and is compatible with their NeoPixel library. Extensive information on NeoPixel components and their use is available [here](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels).
+
+
+{: .important}
+Before proceeding, make sure your Chainable LED looks like the illustration above. If you are not sure if this is the correct version, refer to this [overview](chainable-led).
 
 ---
 
-## Blinking a Chainable LED connected to D13 (and D10)
+## Wiring
+
+{: .highlight }
+Confirm that the ChaiNEO module is oriented correctly, with the input port (marked "**IN**", at the base of the arrow) connected to the Grove connector on your BitsyExpander Board or the previous LED in your chain.
+
+## Blinking a Chainable LED connected to D13
+
 The ItsyBitsy doesn't have a built-in library to control the chainable LEDs. We will need to download one! Grove Chainable LEDs are controlled by `P9813` LED drivers, hence the need for a library that knows how to interact with these drivers. 
 1. Download the [`P9813` library](assets/p9813.py). 
 2. On your ItsyBitsy, add the file `p9813.py` to the `lib` folder. CircuitPython now knows where to find our newly downloaded library, and we can `import` it in our code.
@@ -50,7 +60,7 @@ while True:
     time.sleep(0.1)
 ```
 
-## Fading a Chainable LED connected to D13 (and D10)
+## Fading a Chainable LED connected to D13
 This example is using the blocking `time.sleep` functionality and will not mix well with other tasks in the interaction loop.
 
 ```python
