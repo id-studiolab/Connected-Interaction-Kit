@@ -1,16 +1,20 @@
 ---
 layout: default
-title: "Rotation potentiometer"
-parent: "Components"
+title: "Rotary potentiometer"
+grand_parent: "Components"
+parent: "Custom Components"
+nav_order: 1
 has_children: false
 ---
 
 <img src="assets/custom-rotation-pot-centered.png" alt="Custom Rotation Potentiometer" width="250"/>
 
-# Rotation potentiometer
-`Input` - detect rotation changes between 0 and 270 of the central axis
+# Rotary Potentiometer
+<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/analog.png" alt="Analog" width="72"/></a>
 
-Learn how to make your own rotation potentiometer [here](../../tutorials/04-assemble-custom-component/)
+Changes its electrical resistance based on its rotation angle. Can detect rotation angles between 0° and 270°.
+
+Learn how to make your own rotation potentiometer [here](../../tutorials/04-assemble-custom-component/).
 
 ---
 

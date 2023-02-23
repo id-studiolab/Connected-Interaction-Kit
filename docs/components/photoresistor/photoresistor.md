@@ -1,13 +1,15 @@
 ---
 layout: default
-title: "Photo resistor"
-parent: "Components"
+title: "Photoresistor"
+grand_parent: "Components"
+parent: "Custom Components"
+nav_order: 2
 has_children: false
 ---
 
 <img src="assets/custom-photo-resistor-centered.png" alt="Custom Photo Resistor" width="250"/>
 
-# Photo resistor
+# Photoresistor
 `Input` - can detect light intensity on a scale from low light to bright light
 
 Learn how to make your own photo resistor [here](../../tutorials/04-assemble-custom-component/)

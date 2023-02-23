@@ -1,13 +1,15 @@
 ---
 layout: default
 title: "Tactile switch"
-parent: "Components"
+grand_parent: "Components"
+parent: "Custom Components"
+nav_order: 0
 has_children: false
 ---
 
 <img src="assets/custom-tactile-switch-centered.png" alt="Custom Tactile Switch" width="250"/>
 
-# Tactile switch
+# Tactile Switch
 `Input` - detect if button is pressed down or released
 
 Learn how to make your own tactile switch [here](../../tutorials/04-assemble-custom-component/)

@@ -1,7 +1,9 @@
 ---
 layout: default
 title: "Vibration Motor"
-parent: "Components"
+grand_parent: "Components"
+parent: "Solderless Components"
+nav_order: 3
 has_children: false
 ---
 

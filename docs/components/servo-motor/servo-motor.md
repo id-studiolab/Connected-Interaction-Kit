@@ -1,13 +1,15 @@
 ---
 layout: default
-title: "Servo"
-parent: "Components"
+title: "Servo Motor"
+grand_parent: "Components"
+parent: "Solderless Components"
+nav_order: 0
 has_children: false
 ---
 
 <img src="assets/Grove-Servo.png" alt="Servo" width="250"/>
 
-# Servo
+# Servo Motor
 `Output` - movement, can rotate its arm like the windshield wiper of a car
 
 More detailed component information can be found [here](https://www.seeedstudio.com/Grove-Servo.html).

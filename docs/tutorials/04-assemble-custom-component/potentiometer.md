@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "i Rotation Potentiometer"
+title: "i Rotary Potentiometer"
 parent: "04 Assemble a Custom Component"
 grand_parent: "Tutorials"
 
 
 ---
 
-# Rotation Potentiometer
+# Rotary Potentiometer
 
 ![Custom Potentiometer](assets/tutorial4/exploded/pot.png)
 

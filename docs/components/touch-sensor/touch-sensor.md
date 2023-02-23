@@ -1,7 +1,9 @@
 ---
 layout: default
 title: "Touch Sensor"
-parent: "Components"
+grand_parent: "Components"
+parent: "Solderless Components"
+nav_order: 1
 has_children: false
 ---
 

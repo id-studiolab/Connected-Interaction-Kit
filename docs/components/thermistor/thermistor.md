@@ -1,13 +1,14 @@
 ---
 layout: default
-title: "Temperature Sensor"
-parent: "Components"
-has_children: false
+title: "Thermistor"
+grand_parent: "Components"
+parent: "Custom Components"
+nav_order: 4
 ---
 
 <img src="assets/custom-temperature-sensor-centered.png" alt="Custom Temperature Sensor" width="250"/>
 
-# Temperature Sensor
+# Thermistor
 `Input` - detects temperature variations on a scale from cold to hot.
 
 Learn how to make your own temperature sensor [here](../../tutorials/04-assemble-custom-component/)
@@ -51,3 +52,4 @@ while True:
     print("== Temperature ==\n{} *C\n{} *F\n".format(celsius, fahrenheit))
     time.sleep(0.5)
 ```
+
