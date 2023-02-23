@@ -14,9 +14,7 @@ has_toc: false
 |                       Capacitive Touch                       |                       Haptics & Touch                        |                            Sound                             |                            Sound                             |                            Motion                            |
 | ![Touch Sensor](touch-sensor/assets/Grove-Touch-Sensor.png)  | ![Vibration Motor](vibration-motor/assets/Grove-Vibration-Motor.png) | ![Piezo Buzzer](piezo-buzzer/assets/Grove-Piezo-Buzzer.png)  | ![Sound Sensor](sound-sensor/assets/Grove-Sound-Sensor.png)  |      ![Servo Motor](servo-motor/assets/Grove-Servo.png)      |
 | <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/analog.png" alt="Analog" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> |
-|      [Learn More](led-pack/led-pack){: .btn .btn-blue }      | [Learn More](vibration-motor/vibration-motor){: .btn .btn-blue } |  [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  |  [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  |   [Learn More](servo-motor/servo-motor){: .btn .btn-blue }   |
-
-
+|  [Learn More](touch-sensor/touch-sensor){: .btn .btn-blue }  | [Learn More](vibration-motor/vibration-motor){: .btn .btn-blue } |  [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  |  [Learn More](sound-sensor/sound-sensor){: .btn .btn-blue }  |   [Learn More](servo-motor/servo-motor){: .btn .btn-blue }   |
 
 <table>
 <thead>
@@ -53,5 +51,8 @@ has_toc: false
   </tr>
 </tbody>
 </table>
+
+
+
 
 

@@ -29,7 +29,7 @@ Confirm that the Chainable LED module is oriented correctly, with the input port
 
 ## Preparation
 
-Grove Chainable RGB LEDs are based on the `P9813` LED driver chip. To easily control them in code, the `P9813 library` is needed. If this LED type came bundled with your kit, the library should be pre-loaded on your ItsyBitsy Microcontroller. 
+Grove Chainable RGB LEDs are based on the `P9813` LED driver chip. To easily control them in code, the `P9813` [library](/glossary/glossary) is needed. If this LED type came bundled with your kit, the library should be pre-loaded on your ItsyBitsy Microcontroller. 
 
 Otherwise, follow the following steps:
 
@@ -124,7 +124,7 @@ Using the `sleep()` function to set the fading speed will prevent other code fro
 
 ## Using a chain with multiple LEDs
 
-This example demonstrates how to address individual LEDs in a chain. As before, the `reset()` function turns all LEDs off, while `fill()` can set the entire chain to the same color. To set individual LEDs to  their own color, refer to the code below. Note that LEDs are indexed starting from 0, which refers to the first LED in the chain.
+This example demonstrates how to address individual LEDs in a chain. As before, the `reset()` function turns all LEDs off, while `fill()` can set the entire chain to the same color. To specify a color for each LED individually, refer to the code below. Note that LEDs are indexed starting from 0, which refers to the first LED in the chain.
 
 Remember to use the `write()` function to write the newly defined color values to the LED chain.
 
@@ -142,7 +142,7 @@ num_leds = 3
 leds = p9813.P9813(pin_clk, pin_data, num_leds)
 
 # --- Setup
-leds.reset()
+leds.reset() # turn off all LEDs
 
 # --- Main loop
 while True:
