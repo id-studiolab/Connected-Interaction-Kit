@@ -10,10 +10,15 @@ has_children: false
 <img src="assets/ToF_v2_VL53L0X.png" alt="Time of Flight Sensor Version 2"  width="250"/>
 
 # Time of Flight Distance Sensor
-`Input` - detects objects in front of the sensor by a distance value between 0.3m and 1.2m
+<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/digital.png" alt="Digital" width="72"/></a>
 
-More detailed information about a similar component can be found [here](https://www.adafruit.com/product/3317).
-More code examples can be found [here](https://github.com/adafruit/Adafruit_CircuitPython_VL53L0X/tree/main/examples)
+Detects the distance of objects directly in front of the sensor. Works best with white surfaces, for a range from 30 to 1200 mm.
+
+{:.note}
+<img src="assets/ToF_v1_VL53L0X_nomargins.png" alt="Time of Flight Sensor Version 1"  style="float: right; margin: 10px 0px 10px 15px;" width="90"/>The sensor included in your kit may look like the one pictured above or like the one pictured here. Both versions are functionally identical. The information in this article is valid no matter which version you own.
+
+More detailed information about a similar component can be found [here](https://www.adafruit.com/product/3317).</br>
+More code examples can be found [here](https://github.com/adafruit/Adafruit_CircuitPython_VL53L0X/tree/main/examples).
 
 ---
 
@@ -24,16 +29,9 @@ The ItsyBitsy doesn't have a built-in library to work with the ToF distance sens
 3. Run the code and see the measured distances appear in your `Serial Monitor`
    
 ```python
-# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
-# SPDX-License-Identifier: MIT
-
-# Simple demo of the VL53L0X distance sensor.
-# Will print the sensed range/distance every second.
 import time
-
 import board
 import busio
-
 import adafruit_vl53l0x
 
 # Initialize I2C bus and sensor.
