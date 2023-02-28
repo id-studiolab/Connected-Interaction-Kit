@@ -2,7 +2,7 @@
 
 Documentation and tutorials surrounding the Connected Interaction Kit
 
-![Outside of the phsyical Connected Interaction Kit](assets/connected-interaction-kit-box.jpg)
+![Outside of the phsyical Connected Interaction Kit](assets/connected-interaction-kit-2023-expose.jpg)
 
 # Public Tutorials & Component Section
 The folder [/docs](/docs/) contains the digital counterpart to the physical box and booklet.

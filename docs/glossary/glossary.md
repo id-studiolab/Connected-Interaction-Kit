@@ -60,6 +60,7 @@ SECTIONS BELOW ARE UNDER CONSTRUCTION
 |       `Class`       |                                                              |
 |    `Declaration`    |                                                              |
 |      `Method`       |                                                              |
+|     `Instance`      |                                                              |
 
 | Term | Description |
 | :--------: | :----------------------------------------------------------- |
