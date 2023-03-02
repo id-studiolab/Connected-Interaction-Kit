@@ -31,7 +31,7 @@ has_toc: false
             <td style="text-align: left;">An <strong>analog</strong> signal is created by anything that can assume any state on a continuous spectrum, such as temperature or pressure.</td>
         </tr>
         <tr>
-            <td style="text-align: center;"><img src="assets/PWM.png" alt="PWM" width="72" /></td>
+            <td style="text-align: center;"><img src="assets/pwm.png" alt="PWM" width="72" /></td>
             <td style="text-align: left;">A <strong>pulse-width modulated</strong> signal is an analog-like signal created by switching a digital signal on and off very fast.</td>
         </tr>
         <tr>
@@ -44,6 +44,7 @@ has_toc: false
         </tr>
     </tbody>
 </table>
+
 SECTIONS BELOW ARE UNDER CONSTRUCTION
 {: .label .label-yellow }
 

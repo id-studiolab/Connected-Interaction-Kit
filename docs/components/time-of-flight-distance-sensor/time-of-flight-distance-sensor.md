@@ -47,16 +47,81 @@ import board
 import busio
 import adafruit_vl53l0x
 
-# --- Variables
+# --- Declarations
 i2c_port = busio.I2C(board.SCL, board.SDA)
-dist_sensor = adafruit_vl53l0x.VL53L0X(i2c_port)
 
 # --- Functions
 
 # --- Setup
+dist_sensor = adafruit_vl53l0x.VL53L0X(i2c_port)
 
 # --- Main loop
 while True:
     print("Range:", dist_sensor.range, "mm")
     time.sleep(0.1)
 ```
+
+## Using Multiple Sensors
+
+{: .note }
+Some soldering is required to follow these instructions. If this is your first time soldering, begin by reading the [Soldering Tutorial](/tutorials/04-assemble-custom-component/soldering).
+
+The **I²C** connectors on the BitsyExpander board all share the same two digital pins (**SCL** and **SDA**), as [I²C](/glossary/glossary) is a communication protocol that enables multiple components to share the same so-called I²C bus. To organize communication, each device on the bus must have a unique address. Typically, unique addresses are assigned by default to different components. However, if you need to use multiple identical parts, they will all have the same default address, causing a conflict. 
+
+<img src="assets/Dual_VL53L0X_ToF_nocable.png" alt="Time of Flight Sensor Version 2"/>
+
+For example, the VL530X Distance Sensor's default address is **0x29**. To use more than one of them, their addresses must first be reassigned. This can be done in code by following these steps:
+
+- At the start of the program, all connected sensors must be turned off by driving their shutdown pins low (labeled **XSHT** or **XSHUT**). Before that can be done, a new cable must be soldered to connect the sensor's shutdown pin to a digital pin on the microcontroller. Follow the wiring diagram above to connect two sensors.
+- In the code's setup section, `switch_to_output(value=False)` configures the pins connected to XSHUT as outputs with a default value of False to turn off the sensors.
+- Next, the first sensor is turned on by driving its XSHUT pin high with `xshut_sensor1.value = True`, and initialized in the same manner as in the first example.
+- Finally, the `set_address()` function is used to change the sensor's address.
+- These steps are then repeated for the remaining sensors. In this example, the addresses of both connected sensors are changed. In principle, the last sensor could retain its default address.
+
+Note that these steps only need to be performed once, which is why they are performed in the code's setup section. Once configured, the sensors can be used normally.
+
+```python
+# --- Imports
+import time
+import board
+import busio
+import digitalio
+import adafruit_vl53l0x
+
+# --- Declarations
+i2c_port = busio.I2C(board.SCL, board.SDA)
+xshut_sensor1 = digitalio.DigitalInOut(board.D2)
+xshut_sensor2 = digitalio.DigitalInOut(board.D3)
+
+# --- Functions
+
+# --- Setup
+xshut_sensor1.switch_to_output(value=False)
+xshut_sensor2.switch_to_output(value=False)
+
+xshut_sensor1.value = True
+dist_sensor1 = adafruit_vl53l0x.VL53L0X(i2c_port)
+dist_sensor1.set_address(0x30)
+
+xshut_sensor2.value = True
+dist_sensor2 = adafruit_vl53l0x.VL53L0X(i2c_port)
+dist_sensor2.set_address(0x31)
+
+# --- Main loop
+while True:
+    print((dist_sensor1.range, dist_sensor2.range))
+    time.sleep(0.1)
+```
+
+{: .note }
+If you need more than three sensors or want to avoid soldering, consider using an [I²C Multiplexer](https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout/) or [configuring a second I²C bus](https://learn.adafruit.com/circuitpython-essentials/circuitpython-i2c#wheres-my-i2c-2985160) instead.
+
+## Additional Resources
+
+### [Working with I²C Devices](https://learn.adafruit.com/working-with-i2c-devices)
+
+Adafruit's extensive learning resource on the I²C standard
+
+### [Resolving I²C Address Conflicts](https://learn.adafruit.com/working-with-multiple-i2c-devices)
+
+Adafruit's guide exploring methods to resolve I²C address conflicts
