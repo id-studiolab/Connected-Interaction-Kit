@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "04 Assemble a Custom Component"
+title: "Assembling Custom Components"
 parent: "Tutorials"
 has_children: true
+nav_order: 5
 has_toc: false
-
 ---
 
 
 
-# 04 Custom Components
+# Tutorial 5: Assembling Custom Components
 
 ![Cover image showing an ItsyBitsy Expander alongside five assembled custom components](assets/tutorial4-cover.jpg)
 

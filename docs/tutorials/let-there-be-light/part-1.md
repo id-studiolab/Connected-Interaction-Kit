@@ -1,13 +1,15 @@
 ---
 layout: default
-title: "Step 2: Connecting the ItsyBitsy to your computer"
-parent: "01 Hello World"
+title: "Part 1: Load the program code using Mu Editor"
+parent: "Let There Be Light!"
 grand_parent: "Tutorials"
 ---
 
-# Step 2: Connecting the ItsyBitsy to your computer
-1. Take the USB cable from the Connected Interaction Kit and connect the ItsyBitsy to your computer. The ItsyBitsy will show up on your computer as a disk volume called `CIRCUITPY`. You should be able to see it in your Finder window (MacOS) or Explorer window (Windows).
-2. Open Mu, click on `Load` in the toolbar at the top of Mu’s window, select the file `code.py` in the memory volume `CIRCUITPY`. We have already stored this program on the ItsyBitsy when we prepared your kit. This program makes your ItsyBitsy blink its internal LED.
+# Part 1 - Load the program code using Mu Editor
+
+1. Using the USB cable included in the kit, connect the ItsyBitsy to your computer. It will appear in your computer's file manager as a storage device called `CIRCUITPY`. 
+1. Open Mu Editor. Click the Load button in the toolbar at the top of the program window and navigate to the `CIRCUITPY` drive. Find the file named `code.py` and open it. 
+1. Your microcontroller will execute any code stored in that file. Briefly examine the example code and see if you understand some parts. In the next step, we will take a closer look at how it works and how to tweak it.
 
 ```python
 # Importing some libraries for time, controlling the board and digital input/outputs
@@ -34,7 +36,7 @@ while True:
 
 ```
 
-![The small internal LED will blink with our provided code](assets/03-Blinking.png)
+![The small internal LED will blink with our provided code](assets/blink.png)
 
 You notice that some of the code (starting with a `#`) is greyed out. These commented sections are used for explanation, but will be skipped by the code and not influence our logic. 
 
@@ -61,4 +63,4 @@ while True:
 
 You can download the full code file [here](assets/code.py).
 
-[Next Step](step-3){: .btn .btn-blue }
+[Next Step](part-2){: .btn .btn-blue }

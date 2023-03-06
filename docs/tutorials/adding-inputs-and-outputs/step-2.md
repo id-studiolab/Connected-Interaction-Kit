@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 2: Connecting an output component"
-parent: "02 Adding Input and Output"
+parent: "Adding Inputs and Outputs"
 grand_parent: "Tutorials"
 ---
 

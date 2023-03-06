@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 3: Changing the way your ItsyBitsy behaves"
-parent: "01 Hello World"
+parent: "Let There Be Light!"
 grand_parent: "Tutorials"
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 1: Connect to your home Wifi or phone hotspot"
-parent: "03 Connecting your ItsyBitsy to the internet"
+parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
 ---
 
@@ -16,7 +16,7 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
    ```python
    # SPDX-FileCopyrightText: 2019 ladyada for Adafruit Industries
    # SPDX-License-Identifier: MIT
-
+   
    import board
    import busio
    import time
@@ -24,16 +24,16 @@ The easiest way to get your ItsyBitsy Expander connected to the internet is by u
    import adafruit_requests as requests
    import adafruit_esp32spi.adafruit_esp32spi_socket as socket
    from adafruit_esp32spi import adafruit_esp32spi
-
+   
    # Get wifi details and more from a secrets.py file
    try:
       from secrets import secrets
    except ImportError:
       print("WiFi secrets are kept in secrets.py, please add them there!")
       raise
-
+   
    print("ESP32 SPI webclient test")
-
+   
    TEXT_URL = "http://wifitest.adafruit.com/testwifi/index.html"
    JOKE_URL = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
 

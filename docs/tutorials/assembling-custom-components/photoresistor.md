@@ -1,7 +1,8 @@
 ---
 layout: default
-title: "v  Photoresistor"
-parent: "04 Assemble a Custom Component"
+title: "Photoresistor"
+parent: "Assembling Custom Components"
+nav_order: 5
 grand_parent: "Tutorials"
 ---
 

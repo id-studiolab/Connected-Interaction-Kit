@@ -1,11 +1,12 @@
 ---
 layout: default
-title: "02 Adding Input and Output"
+title: "Adding Inputs and Outputs"
 parent: "Tutorials"
+nav_order: 3
 has_children: true
 ---
 
-# 02 Adding Input and Output
+# Tutorial 3: Adding Input and Output
 
 In Tutorial 1 you changed the blink behaviour of your ItsyBitsy by changing the program. In this tutorial you will create a program with a complete interaction cycle, from “looking at” user actions to effecting changes in the behaviour - your first complete interactive prototype!
 

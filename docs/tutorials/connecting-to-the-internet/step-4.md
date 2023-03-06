@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 4: Connecting to TUD-facility"
-parent: "03 Connecting your ItsyBitsy to the internet"
+parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
 ---
 

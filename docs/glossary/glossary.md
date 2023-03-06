@@ -44,7 +44,6 @@ has_toc: false
         </tr>
     </tbody>
 </table>
-
 SECTIONS BELOW ARE UNDER CONSTRUCTION
 {: .label .label-yellow }
 
@@ -70,4 +69,3 @@ SECTIONS BELOW ARE UNDER CONSTRUCTION
 | `Voltage`  |                                                              |
 | `Current`  |                                                              |
 | `Resistance` |                                                              |
-

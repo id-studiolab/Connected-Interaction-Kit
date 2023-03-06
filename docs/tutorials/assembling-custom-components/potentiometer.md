@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "i Rotary Potentiometer"
-parent: "04 Assemble a Custom Component"
+title: "Rotary Potentiometer"
+parent: "Assembling Custom Components"
+nav_order: 1
 grand_parent: "Tutorials"
-
-
 ---
 
 # Rotary Potentiometer

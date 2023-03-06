@@ -1,11 +1,9 @@
 ---
 layout: default
-title: "ii Tactile Switch"
-parent: "04 Assemble a Custom Component"
+title: "Tactile Switch"
+parent: "Assembling Custom Components"
+nav_order: 2
 grand_parent: "Tutorials"
-
-
-
 ---
 
 # Tactile Switch (Button)
