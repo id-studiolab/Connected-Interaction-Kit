@@ -21,4 +21,4 @@ Have fun and be curious!
 
 ---
 
-**Get started by exploring [Tutorials](/tutorials/) or discovering the   [Components](/components/) in your kit!**
+**Get started by exploring [Tutorials](tutorials/) or discovering the   [Components](components/) in your kit!**

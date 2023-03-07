@@ -24,4 +24,4 @@ Should you run into issues during the installation process, you can find more de
 
 After completing these steps successfully, you should see a program window like the one above. You are ready to proceed to the following tutorial and program your first behavior!
 
-[Next Tutorial](/tutorials/let-there-be-light/){: .btn .btn-blue }
+[Next Tutorial](../let-there-be-light/){: .btn .btn-blue }
