@@ -37,4 +37,4 @@ Try altering the code's behavior by exploring the following changes:
 2. Experiment with the blinking frequency of the LED. Change the values defined in `time.sleep(1.0)`, then press the `Save` button in Mu Editor's toolbar to store the changes to your code and see their effect.
 3. Click the `Serial` button in Mu's toolbar to open the `Serial Monitor`. This vital tool lets you see messages printed by your program. Can you figure out how to change the content of the messages appearing in the serial monitor? Remember to save your changes to see their effect.
 
-[Next Tutorial](/tutorials/adding-inputs-and-outputs/){: .btn .btn-blue }
+[Next Tutorial](../adding-inputs-and-outputs/){: .btn .btn-blue }

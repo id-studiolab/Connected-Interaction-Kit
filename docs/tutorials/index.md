@@ -34,5 +34,5 @@ If you are looking for quick references, you can jump directly to these tutorial
 
 For references on using specific components, jump to the Components section:
 
-[Component Overview](/components/){: .btn}
+[Component Overview](../components/){: .btn}
 
