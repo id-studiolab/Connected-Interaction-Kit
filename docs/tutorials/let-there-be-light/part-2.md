@@ -1,34 +1,40 @@
 ---
 layout: default
-title: "Step 3: Changing the way your ItsyBitsy behaves"
+title: "Part 2 - Change the way your ItsyBitsy behaves"
 parent: "Let There Be Light!"
 grand_parent: "Tutorials"
 ---
 
-# Step 3: Changing the way your ItsyBitsy behaves
+# Part 2 - Change the way your ItsyBitsy behaves
 
-1. Take a look at the `code.py` program in Mu’s window. Can you understand how the blink behaviour is created by reading the instructions in the program?
-2. Can you change the blinking frequency of the internal LED? To do so, play around with the values specified in the parentheses of `time.sleep(1.0)`. Try to make it blink slower or faster. Press the `Save` button in the toolbar of Mu’s window to store and run your new program on the ItsyBitsy.
-3. Show the `Serial Monitor` panel in the Mu window (click the toolbar button with the label `Serial`). The `Serial Monitor` is an important tool as it can show messages from your program and the `Python Interpreter`.
-4. Can you change the message that is now printed every time the LED turns on and off? To do so change the two `strings` in the parentheses of the `print` instructions. Don’t forget to press the `Save` button in the toolbar of Mu’s window to store and run your new program on the ItsyBitsy.
-
-After tinkering around, your code might now look like this:
+The pre-loaded code should look something like this:
 
 ```python
-# Change the blinking speed to twice a second and edit the printing outputs
 import board
 import digitalio
 import time 
 
-LED = digitalio.DigitalInOut(board.D13)
-LED.direction = digitalio.Direction.OUTPUT
+led = digitalio.DigitalInOut(board.D13)
+led.direction = digitalio.Direction.OUTPUT
 
 while True:
-    time.sleep(0.5)
-    LED.value = True
-    print("Yay, there is light! :)")
+    time.sleep(1.0)
+    led.value = True
+    print("LED is on")
     
-    time.sleep(0.5)
-    LED.value = False
-    print("No light anymore :(")
+    time.sleep(1.0)
+    led.value = False
+    print("LED is off")
 ```
+
+For now, let's ignore the first half of the code and go directly to the passage that begins with `while True`:
+
+The `while` statement creates a `loop`. While its condition is met, the code contained within it will keep looping. The lines of code that follow are indented, indicating that they are inside the loop. Given that the condition to meet is set to `True` (which will never be False), the code will loop forever.
+
+Try altering the code's behavior by exploring the following changes:
+
+1. The code in the loop makes an LED built into your ItsyBitsy blink. Can you make out how the blinking behavior is created?
+2. Experiment with the blinking frequency of the LED. Change the values defined in `time.sleep(1.0)`, then press the `Save` button in Mu Editor's toolbar to store the changes to your code and see their effect.
+3. Click the `Serial` button in Mu's toolbar to open the `Serial Monitor`. This vital tool lets you see messages printed by your program. Can you figure out how to change the content of the messages appearing in the serial monitor? Remember to save your changes to see their effect.
+
+[Next Tutorial](/tutorials/adding-inputs-and-outputs/){: .btn .btn-blue }
