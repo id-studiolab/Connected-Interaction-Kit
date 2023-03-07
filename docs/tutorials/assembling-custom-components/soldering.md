@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Before you Begin..."
-parent: "04 Assemble a Custom Component"
+parent: "Assembling Custom Components"
+nav_order: 0
 grand_parent: "Tutorials"
-
 ---
 
 # Soldering: Tools and Technique

@@ -1,11 +1,9 @@
 ---
 layout: default
-title: "iv  Thermistor"
-parent: "04 Assemble a Custom Component"
+title: "Thermistor"
+parent: "Assembling Custom Components"
+nav_order: 4
 grand_parent: "Tutorials"
-
-
-
 ---
 
 # Thermistor (Temperature Sensor)

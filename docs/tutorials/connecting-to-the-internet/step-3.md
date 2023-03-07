@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 3: Registering your device with TUD-facility"
-parent: "03 Connecting your ItsyBitsy to the internet"
+parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
 ---
 

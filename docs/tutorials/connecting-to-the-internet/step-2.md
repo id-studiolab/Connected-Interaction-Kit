@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 2: Find out your ItsyBitsy's MAC address"
-parent: "03 Connecting your ItsyBitsy to the internet"
+parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
 ---
 
@@ -54,9 +54,9 @@ To give our ItsyBitsy Expander internet access on campus, it must be registered 
          addr += "0" 
       addr += (hex(esp.MAC_address[i]))[2:4].upper()
       addr += ":"
-
+   
    print("##  " + addr[0:17] + "   ##")
-
+   
    print("##                      ##")
    print("##########################")
    print("##########################")

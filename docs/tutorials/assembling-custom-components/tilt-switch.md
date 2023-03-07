@@ -1,11 +1,9 @@
 ---
 layout: default
-title: "iii Tilt Switch"
-parent: "04 Assemble a Custom Component"
+title: "Tilt Switch"
+parent: "Assembling Custom Components"
+nav_order: 3
 grand_parent: "Tutorials"
-
-
-
 ---
 
 # Tilt Switch

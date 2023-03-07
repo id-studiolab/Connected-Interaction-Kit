@@ -44,7 +44,6 @@ has_toc: false
         </tr>
     </tbody>
 </table>
-
 SECTIONS BELOW ARE UNDER CONSTRUCTION
 {: .label .label-yellow }
 
@@ -62,6 +61,7 @@ SECTIONS BELOW ARE UNDER CONSTRUCTION
 |    `Declaration`    |                                                              |
 |      `Method`       |                                                              |
 |     `Instance`      |                                                              |
+|      `Comment`      | In CircuitPython, comments start with a `#` character. Everything following `#` the character until the end of the line is considered part of the comment. Comments don't affect the program's execution and exist to help you and others understand the code better. |
 
 | Term | Description |
 | :--------: | :----------------------------------------------------------- |
@@ -70,4 +70,3 @@ SECTIONS BELOW ARE UNDER CONSTRUCTION
 | `Voltage`  |                                                              |
 | `Current`  |                                                              |
 | `Resistance` |                                                              |
-
