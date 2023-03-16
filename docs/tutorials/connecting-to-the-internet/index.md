@@ -7,7 +7,7 @@ has_children: true
 ---
 
 
-# Tutorial 4: Connecting To The Internet
+# Tutorial 4 - Connecting To The Internet
 
 ![Cover image showing an ItsyBitsy Expander and online services](assets/microcontroller_and_services.png)
 

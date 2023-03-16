@@ -27,16 +27,16 @@ Confirm that the ChaiNEO module is oriented correctly, with the input port (mark
 
 ## Preparation
 
-The ChaiNEO modules use a [Neopixel-compatible RGB/W LED](https://www.adafruit.com/product/2758). To easily control them in code, the `neopixel` [library](/glossary/glossary) is needed. The library should be pre-loaded on the ItsyBitsy Microcontroller included in your kit. 
+The ChaiNEO modules use a [Neopixel-compatible RGB/W LED](https://www.adafruit.com/product/2758). To easily control them in code, the `neopixel` [library](../../glossary/glossary) is needed. The library should be pre-loaded on the ItsyBitsy Microcontroller included in your kit. 
 
 {: .highlight }
-You can verify that the library is installed by ensuring a file called `neopixel.mpy` is present in the `lib` folder of your `CIRCUITPY` drive. If not, download Adafruit's Library Bundle for Version 7.x [here](https://circuitpython.org/libraries). Extract the needed file from the bundle and place it in the `lib` folder on your microcontroller. You can learn more about libraries and their use in the [Glossary](/glossary/glossary) or the [Tutorials](/Tutorials).
+You can verify that the library is installed by ensuring a file called `neopixel.mpy` is present in the `lib` folder of your `CIRCUITPY` drive. If not, download Adafruit's Library Bundle for Version 7.x [here](https://circuitpython.org/libraries). Extract the needed file from the bundle and place it in the `lib` folder on your microcontroller. You can learn more about libraries and their use in the [Glossary](../../glossary/glossary) or the [../../Tutorials](/Tutorials).
 
 The examples below assume your component is connected to the connector labeled  **D13** on the BitsyExpander Board.
 
 ## Making a Chainable RGB/W LED blink
 
-This example uses the `fill()` [function](/glossary/glossary) to set the brightness of each color channel `(RED, GREEN, BLUE, WHITE)` to a value between 0 to 255. The value 0 corresponds to off, while 255 means fully on. A bright white LED, for example, is defined by `(0, 0, 0, 255)` and a bright red one is `(255, 0, 0, 0)`. `(255, 0, 255, 0)` mixes red and blue to make the LED appear purple, while `(0, 0, 0, 0)` will turn it off. Use values between 0 and 255 to vary the brightness level and mix different colors.
+This example uses the `fill()` [function](../../glossary/glossary) to set the brightness of each color channel `(RED, GREEN, BLUE, WHITE)` to a value between 0 to 255. The value 0 corresponds to off, while 255 means fully on. A bright white LED, for example, is defined by `(0, 0, 0, 255)` and a bright red one is `(255, 0, 0, 0)`. `(255, 0, 255, 0)` mixes red and blue to make the LED appear purple, while `(0, 0, 0, 0)` will turn it off. Use values between 0 and 255 to vary the brightness level and mix different colors.
 
 During the setup phase, we use the `fill()` function and pass it the value `0` to ensure all LEDs are off on startup, as in this context, `0` is identical to `(0, 0, 0, 0)`. The `show()` function is called to display the new values defined using `fill()`.
 
@@ -70,11 +70,11 @@ while True:
 ```
 
 {: .note }
-At the end of our neopixel [object](/glossary/glossary)  [declaration](/glossary/glossary) , we define `pixel_order=neopixel.GRBW`. This does *not* mean that our code expects us to provide color information in that order; it describes the configuration of the LED itself. The code still expects color information to be arranged in the order `(RED, GREEN, BLUE, WHITE)`. If you buy other NeoPixel-compatible components online, the `pixel_order` value may need to be configured differently. A comprehensive guide on how to use different kinds of NeoPixels is available [here](https://learn.adafruit.com/circuitpython-essentials/circuitpython-neopixel).
+At the end of our neopixel [object](../../glossary/glossary)  [declaration](../../glossary/glossary) , we define `pixel_order=neopixel.GRBW`. This does *not* mean that our code expects us to provide color information in that order; it describes the configuration of the LED itself. The code still expects color information to be arranged in the order `(RED, GREEN, BLUE, WHITE)`. If you buy other NeoPixel-compatible components online, the `pixel_order` value may need to be configured differently. A comprehensive guide on how to use different kinds of NeoPixels is available [here](https://learn.adafruit.com/circuitpython-essentials/circuitpython-neopixel).
 
 ## Fading a Chainable RGB/W LED in and out
 
-This example uses a `for` [loop](/glossary/glossary) to increase and decrease the brightness of an LED on each run through the loop. The `sleep()` function is used to slow down the speed at which the loop iterates. 
+This example uses a `for` [loop](../../glossary/glossary) to increase and decrease the brightness of an LED on each run through the loop. The `sleep()` function is used to slow down the speed at which the loop iterates. 
 
 ```python
 # --- Imports

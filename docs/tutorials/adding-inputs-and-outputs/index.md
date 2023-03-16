@@ -6,7 +6,7 @@ nav_order: 3
 has_children: true
 ---
 
-# Tutorial 3: Adding Inputs and Outputs
+# Tutorial 3 - Adding Inputs and Outputs
 
 In the previous tutorial, you changed the behavior of a blinking LED. Here, you will learn how to build and program your first complete interactive prototype.
 

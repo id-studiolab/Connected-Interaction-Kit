@@ -29,7 +29,7 @@ Confirm that the Chainable LED module is oriented correctly, with the input port
 
 ## Preparation
 
-Grove Chainable RGB LEDs are based on the `P9813` LED driver chip. To easily control them in code, the `P9813` [library](/glossary/glossary) is needed. If this LED type came bundled with your kit, the library should be pre-loaded on your ItsyBitsy Microcontroller. 
+Grove Chainable RGB LEDs are based on the `P9813` LED driver chip. To easily control them in code, the `P9813` [library](../../glossary/glossary) is needed. If this LED type came bundled with your kit, the library should be pre-loaded on your ItsyBitsy Microcontroller. 
 
 Otherwise, follow the following steps:
 
@@ -37,13 +37,13 @@ Otherwise, follow the following steps:
 2. Place the `p9813.py` file in the `lib` folder on the `CIRCUITPY` drive of your ItsyBitsy Microcontroller.
 
 {: .highlight }
-You can verify that the library is installed by ensuring a file called `p9813.py` is present in the `lib` folder of your `CIRCUITPY` drive. You can learn more about libraries and their use in the [Glossary](/glossary/glossary) or the [Tutorials](/Tutorials).
+You can verify that the library is installed by ensuring a file called `p9813.py` is present in the `lib` folder of your `CIRCUITPY` drive. You can learn more about libraries and their use in the [Glossary](../../glossary/glossary) or the [Tutorials](../../Tutorials).
 
 The examples below assume your component is connected to pins **D13** and **D10**, contained in the connector labeled  **D13** on the BitsyExpander Board.
 
 ## Making a Chainable RGB LED blink
 
-This example uses the `fill()` [function](/glossary/glossary) to set the brightness of each color channel `(RED, GREEN, BLUE)` to a value between 0 to 255. The value 0 corresponds to off, while 255 means fully on. A bright red LED, for example, is defined by `(255, 0, 0)`. `(255, 255, 255)` will make the LED appear white, while `(0, 0, 0)` will turn it off. Use values between 0 and 255 to vary the brightness level and mix different colors.
+This example uses the `fill()` [function](../../glossary/glossary) to set the brightness of each color channel `(RED, GREEN, BLUE)` to a value between 0 to 255. The value 0 corresponds to off, while 255 means fully on. A bright red LED, for example, is defined by `(255, 0, 0)`. `(255, 255, 255)` will make the LED appear white, while `(0, 0, 0)` will turn it off. Use values between 0 and 255 to vary the brightness level and mix different colors.
 
 During the setup phase, the `reset()` function is called to ensure all LEDs are off on startup. The `write()` function is called to display the new colors previously defined using `fill()`.
 
@@ -82,7 +82,7 @@ while True:
 
 ## Fading a Chainable RGB LED in and out
 
-This example uses a `for` [loop](/glossary/glossary) to increase and decrease the brightness of an LED on each run through the loop. The `sleep()` function is used to slow down the speed at which the loop iterates. 
+This example uses a `for` [loop](../../glossary/glossary) to increase and decrease the brightness of an LED on each run through the loop. The `sleep()` function is used to slow down the speed at which the loop iterates. 
 
 ```python
 # --- Imports
