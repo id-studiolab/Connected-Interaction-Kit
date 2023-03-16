@@ -6,16 +6,14 @@ nav_order: 3
 has_children: true
 ---
 
-# Tutorial 3: Adding Input and Output
+# Tutorial 3: Adding Inputs and Outputs
 
-In Tutorial 2 you changed the blink behaviour of your ItsyBitsy by changing the program. In this tutorial you will create a program with a complete interaction cycle, from “looking at” user actions to effecting changes in the behaviour - your first complete interactive prototype!
+In the previous tutorial, you changed the behavior of a blinking LED. Here, you will learn how to build and program your first complete interactive prototype.
 
-Your Connected Interaction Kit comes with a variety of components. Some can read the actions of a user (`inputs` or sensors) others can give feedback (`outputs` or actuators) to effect a change in behaviour of the prototype. Perhaps prompting the user to another action, causing different feedback, etc. Interaction is
-a process that unfolds over time in a choreography between user and prototype.
+You will use a sensor from your kit (an `INPUT` component) to detect an action performed by a user. Once detected, this will trigger a change in your prototype’s behavior. You will use an actuator (an `OUTPUT` component) to create this behavior. 
 
-The design of the interaction in this case is simple: when a user reaches for the Touch Sensor, the Vibration Motor starts vibrating. When the Touch Sensor is released, the Vibration Motor
-stops vibrating.
+Designing this interaction provides a simple template for using the different component types in your kit. You will later be able to use this template to devise more intricate interaction choreographies.
 
-![Illustration of the proper setup of touch sensor and ItsyBitsy](assets/Tutorial2-Illustration-1.png)
+This tutorial begins by walking you through using a [Touch Sensor](../../components/touch-sensor/touch-sensor) to register a user’s touch. Later, you will learn how to add a [Vibration Motor](../../components/vibration-motor/vibration-motor) to create vibrations for as long as the sensor is triggered.
 
-[Get started](step-1){: .btn .btn-blue }
+[Get started](part-1){: .btn .btn-blue }

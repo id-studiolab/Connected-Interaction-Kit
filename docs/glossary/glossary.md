@@ -50,18 +50,20 @@ SECTIONS BELOW ARE UNDER CONSTRUCTION
 
 
 
-|        Term         | Description                                                  |
-| :-----------------: | :----------------------------------------------------------- |
-|     `Variable`      | A **variable** is a named container used to store data values, such as a number, a string of text, or a more complex data structure. Variables can be overwritten, manipulated, and changed during the execution of a program, making them an essential part of any computer program. |
-|     `Function`      | A **function** is a block of code that performs a specific task and can be called by other parts of the program. It typically takes input  parameters, processes them, and then returns an output value. Functions  are designed to be reusable, modular components that can simplify the  code, improve readability, and reduce errors. They allow programmers to  break down complex tasks into smaller, more manageable pieces, making  them an essential part of any computer program. |
-|       `Loop`        | A **loop** is a structure that allows a set of instructions to be  repeatedly executed. Depending on the type of loop used, this can either happen for a specified number of times or until a particular condition is met. |
-| `Library`, `Module` | **Libraries** and **modules** contain code written by other people to fulfill specific tasks. Core modules, such as `board`, `digitalio`, and `time` provide functionality essential to working with your board. Therefore, they are already included in CircuitPython. In some cases, you may need to download additional libraries to add functionality, such as drivers for specific sensors, to your code. You can learn more about that subject by reading the chapter on CircuitPython Libraries in [Adafruit's guide](learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries). |
-|      `Object`       |                                                              |
-|       `Class`       |                                                              |
-|    `Declaration`    |                                                              |
-|      `Method`       |                                                              |
-|     `Instance`      |                                                              |
-|      `Comment`      | In CircuitPython, comments start with a `#` character. Everything following `#` the character until the end of the line is considered part of the comment. Comments don't affect the program's execution and exist to help you and others understand the code better. |
+|          Term           | Description                                                  |
+| :---------------------: | :----------------------------------------------------------- |
+|       `Variable`        | A **variable** is a named container used to store data values, such as a number, a string of text, or a more complex data structure. Variables can be overwritten, manipulated, and changed during the execution of a program, making them an essential part of any computer program. |
+|       `Function`        | A **function** is a block of code that performs a specific task and can be called by other parts of the program. It typically takes input  parameters, processes them, and then returns an output value. Functions  are designed to be reusable, modular components that can simplify the  code, improve readability, and reduce errors. They allow programmers to  break down complex tasks into smaller, more manageable pieces, making  them an essential part of any computer program. |
+|         `Loop`          | A **loop** is a structure that allows a set of instructions to be  repeatedly executed. Depending on the type of loop used, this can either happen for a specified number of times or until a particular condition is met. |
+|   `Library`, `Module`   | **Libraries** and **modules** contain code written by other people to fulfill specific tasks. Core modules, such as `board`, `digitalio`, and `time` provide functionality essential to working with your board. Therefore, they are already included in CircuitPython. In some cases, you may need to download additional libraries to add functionality, such as drivers for specific sensors, to your code. You can learn more about that subject by reading the chapter on CircuitPython Libraries in [Adafruit's guide](learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries). |
+|        `Object`         |                                                              |
+|         `Class`         |                                                              |
+|      `Declaration`      |                                                              |
+|        `Method`         |                                                              |
+|       `Instance`        |                                                              |
+|        `Comment`        | In CircuitPython, comments start with a `#` character. Everything following `#` the character until the end of the line is considered part of the comment. Comments don't affect the program's execution and exist to help you and others understand the code better. |
+| `Conditional Statement` |                                                              |
+|          `API`          |                                                              |
 
 | Term | Description |
 | :--------: | :----------------------------------------------------------- |
