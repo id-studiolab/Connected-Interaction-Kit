@@ -25,18 +25,18 @@ Additional code examples are available [here](https://github.com/adafruit/Adafru
 
 ## Preparation
 
-This Distance Sensor communicates with your microcontroller using a protocol called [I²C](/glossary/glossary). To work, it must be connected to a port labeled **I²C** on the BitsyExpander Board. You will need to include the `adafruit_bus_device` [library](/glossary/glossary) in your code to read data via I²C and the `adafruit_vl53l0x` library to control the [VL53L0X](https://www.adafruit.com/product/3317) sensor itself.
+This Distance Sensor communicates with your microcontroller using a protocol called [I²C](../../glossary/glossary). To work, it must be connected to a port labeled **I²C** on the BitsyExpander Board. You will need to include the `adafruit_bus_device` [library](../../glossary/glossary) in your code to read data via I²C and the `adafruit_vl53l0x` library to control the [VL53L0X](https://www.adafruit.com/product/3317) sensor itself.
 
 These libraries should already be installed on the ItsyBitsy Microcontroller included in your kit, so you don't need to worry about installing them yourself.
 
 {: .highlight }
-You can verify that these libraries are installed by ensuring a folder named `adafruit_bus_device` and a file called `adafruit_vl53l0x.mpy` are present in the `lib` folder of your `CIRCUITPY` drive. If not, download Adafruit's Library Bundle for Version 7.x [here](https://circuitpython.org/libraries). Extract the needed file and folder from the bundle and place them in the `lib` folder on your microcontroller. You can learn more about libraries and their use in the [Glossary](/glossary/glossary) or the [Tutorials](/Tutorials).
+You can verify that these libraries are installed by ensuring a folder named `adafruit_bus_device` and a file called `adafruit_vl53l0x.mpy` are present in the `lib` folder of your `CIRCUITPY` drive. If not, download Adafruit's Library Bundle for Version 7.x [here](https://circuitpython.org/libraries). Extract the needed file and folder from the bundle and place them in the `lib` folder on your microcontroller. You can learn more about libraries and their use in the [Glossary](../../glossary/glossary) or the [Tutorials](../../Tutorials).
 
 ## Basic Usage
 
 Make sure to include `busio` and `adafruit_vl53l0x` in the imports section of your code to use the required libraries.  
 
-The first step to using the sensor is setting up the connection by creating an `I2C` [object](/glossary/glossary) named `i2c_port`. Then, `dist_sensor = adafruit_vl53l0x.VL53L0X(i2c_port)` is used to create an [instance](/glossary/glossary) of the sensor named `dist_sensor` and connected to `i2c_port`. In the example code below, this is done in the _Variables_ section.
+The first step to using the sensor is setting up the connection by creating an `I2C` [object](../../glossary/glossary) named `i2c_port`. Then, `dist_sensor = adafruit_vl53l0x.VL53L0X(i2c_port)` is used to create an [instance](../../glossary/glossary) of the sensor named `dist_sensor` and connected to `i2c_port`. In the example code below, this is done in the _Variables_ section.
 
 In the main loop, the `print()` function outputs distance readings retrieved from the sensor using `dist_sensor.range`, along with explanatory labels.
 
@@ -64,12 +64,12 @@ while True:
 ## Using Multiple Sensors
 
 {: .note }
-Some soldering is required to follow these instructions. If this is your first time soldering, begin by reading the [Soldering Tutorial](/tutorials/04-assemble-custom-component/soldering).
+Some soldering is required to follow these instructions. If this is your first time soldering, begin by reading the [Soldering Tutorial](../../tutorials/assembling-custom-components/soldering).
 
 {: .warning }
 If following this tutorial with a microcontroller other than the one included in the Connected Interaction Kit, make sure it uses 3.3V logic. The XSHUT pin of the sensor cannot handle 5V logic and would need [level shifting](https://www.kiwi-electronics.com/en/4-channel-i2c-safe-bi-directional-logic-level-converter-bss138-837) to work with 5V microcontrollers.
 
-The **I²C** connectors on the BitsyExpander board all share the same two digital pins (**SCL** and **SDA**), as [I²C](/glossary/glossary) is a communication protocol that enables multiple components to share the same so-called I²C bus. To organize communication, each device on the bus must have a unique address. Typically, unique addresses are assigned by default to different components. However, if you need to use multiple identical parts, they will all have the same default address, causing a conflict. 
+The **I²C** connectors on the BitsyExpander board all share the same two digital pins (**SCL** and **SDA**), as [I²C](../../glossary/glossary) is a communication protocol that enables multiple components to share the same so-called I²C bus. To organize communication, each device on the bus must have a unique address. Typically, unique addresses are assigned by default to different components. However, if you need to use multiple identical parts, they will all have the same default address, causing a conflict. 
 
 <img src="assets/Dual_VL53L0X_ToF_nocable.png" alt="Time of Flight Sensor Version 2"/>
 

@@ -42,7 +42,7 @@ while True:
     time.sleep(0.05)
 ```
 
-The line `sound_sensor = analogio.AnalogIn(board.A2)` creates a new `AnalogIn` [object](/glossary/glossary) named `sound_sensor`. `AnalogIn` provides a [method](/glossary/glossary) called `value`, which retrieves the current sensor value. At the beginning of the main loop, `val = sound_sensor.value` is used to retrieve and store the value in a [variable](/glossary/glossary) called `val`. Finally, we print the value to the Serial Monitor using `print()`.
+The line `sound_sensor = analogio.AnalogIn(board.A2)` creates a new `AnalogIn` [object](../../glossary/glossary) named `sound_sensor`. `AnalogIn` provides a [method](../../glossary/glossary) called `value`, which retrieves the current sensor value. At the beginning of the main loop, `val = sound_sensor.value` is used to retrieve and store the value in a [variable](../../glossary/glossary) called `val`. Finally, we print the value to the Serial Monitor using `print()`.
 
 {: .note }
 The code examples on this page make use Mu Editor's Serial Plotter to visually display the sensor readings over time. The plotter can be enabled from the menu bar at the top of Mu Editor. It expects data to be printed as a tuple, so the value is formatted as `(val,)` instead of `val`.
@@ -77,7 +77,7 @@ while True:
     time.sleep(0.01)  					
 ```
 
-A better way to write this code encapsulates the smoothing code in a [function](/glossary/glossary). Doing so improves the readability of the main loop and allows the code in the function to be reused elsewhere in the program:
+A better way to write this code encapsulates the smoothing code in a [function](../../glossary/glossary). Doing so improves the readability of the main loop and allows the code in the function to be reused elsewhere in the program:
 
 ```python
 # --- Imports
