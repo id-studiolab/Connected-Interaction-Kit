@@ -72,3 +72,4 @@ SECTIONS BELOW ARE UNDER CONSTRUCTION
 | `Voltage`  |                                                              |
 | `Current`  |                                                              |
 | `Resistance` |                                                              |
+| `MAC Address` | A MAC address (Media Access Control address) is a unique hardware address used to identify devices on a network. |
