@@ -18,4 +18,4 @@ This tutorial will guide you through connecting your ItsyBitsy microcontroller t
 {:.note}
 Connecting your microcontroller to **eduroam** is impossible due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the **TUD-facility** network instead.
 
-[Get started](step-1){: .btn .btn-blue }
+[Get started](part-1){: .btn .btn-blue }
