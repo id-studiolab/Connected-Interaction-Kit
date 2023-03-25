@@ -26,12 +26,13 @@ The code below shows you how to configure the WiFi module. It scans for availabl
    import digitalio
    from adafruit_esp32spi import adafruit_esp32spi
    
-   # Define the pins used by the BitsyExpander's ESP32 WiFi module:
+   # Define the pins used by the BitsyExpander's ESP32 WiFi module
    esp32_cs = digitalio.DigitalInOut(board.D9)
    esp32_ready = digitalio.DigitalInOut(board.D11)
    esp32_reset = digitalio.DigitalInOut(board.D12)
    spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
    
+   # Initialize the ESP32 WiFi module
    esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset)
          
    if esp.status == adafruit_esp32spi.WL_IDLE_STATUS:
@@ -53,6 +54,9 @@ The code below shows you how to configure the WiFi module. It scans for availabl
        print("\n" + "*" * 40)
        time.sleep(8)
    ```
+
+{:.note}
+Starting with this tutorial, code examples will include so-called [comments](../../glossary/glossary). Comments exist to document the code and are ignored by the program. They are meant to help you and others understand the code better. In CircuitPython, comments begin with the **`#`** character.
 
 [Next Step](part-2){: .btn .btn-blue }
 
