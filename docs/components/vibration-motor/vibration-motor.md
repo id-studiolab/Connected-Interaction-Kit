@@ -68,8 +68,8 @@ while True:
         time.sleep(0.002)
 ```
 
-{:.highlight}
-If you want to better understand what PWM is and how it works, refer to the [Piezo Buzzer](../piezo-buzzer/piezo-buzzer#define-a-tone-using-pulse-width-modulation-pwm) example. Unlike the Piezo Buzzer example, a variable frequency is unnecessary for using the Vibration Motor.
+{:.highlight-yellow}
+To learn more about PWM signals, refer to the [Piezo Buzzer](../piezo-buzzer/piezo-buzzer#define-a-tone-using-pulse-width-modulation-pwm) example. Unlike the Piezo Buzzer example, a variable frequency is unnecessary for using the Vibration Motor.
 
 ## Creating Vibration Alarm Patterns
 
