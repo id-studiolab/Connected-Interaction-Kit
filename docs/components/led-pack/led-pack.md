@@ -10,14 +10,22 @@ has_children: false
 <img src="assets/Grove-LED-pack.png" alt="LED Pack" width="250"/>
 
 # LED Pack
-`Output` - monochrome light on or off, color depending on the LED in the socket. The spin button next to the LED can control its luminance.
+<a href="../../glossary/glossary"><img src="../../glossary/assets/output.png" alt="Output" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/pwm.png" alt="PWM" width="72"/></a>
 
-More detailed component information can be found [here](https://www.seeedstudio.com/Grove-LED-Pack-p-4364.html).
+A monochrome light source that is simple to use.
+
+{:.highlight-yellow}
+Should your Connected Interaction Kit not include this component, you can use these examples with the LED built into your microcontroller, connected internally to pin **`D13`**.
+
+More information on this component is available [here](https://www.seeedstudio.com/Grove-LED-Pack-p-4364.html).
 
 ---
 
+
+
 ## Blinking the internal LED (D13)
-This is for the interal LED, however a LED Pack does work in port D13. A [Chainable RGB LED](../chainable-rgb-led/chainable-rgb-led) does *NOT* work with this code.
+
+This is for the interal LED, however a LED Pack does work in port D13. A [Chainable LED](../chainable-led/chainable-led) does *NOT* work with this code.
 
 ```python
 # --- Imports

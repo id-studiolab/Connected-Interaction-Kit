@@ -14,7 +14,7 @@ has_children: false
 
 Changes its electrical resistance based on its rotation angle. Can detect rotation angles between 0° and 270°.
 
-Learn how to make your own rotation potentiometer [here](../../tutorials/04-assemble-custom-component/).
+Learn how to make your own rotary potentiometer [here](../../tutorials/assembling-custom-components/potentiometer).
 
 ---
 

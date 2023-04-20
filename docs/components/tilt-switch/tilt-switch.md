@@ -9,9 +9,11 @@ nav_order: 3
 <img src="assets/custom-tilt-switch-centered.png" alt="Custom Tilt Switch" width="250"/>
 
 # Tilt Switch
-`Input` - motion detection, detects between vertical vs. horizontal orientation depending on the placement of the sensor.
+<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/digital.png" alt="Digital" width="72"/></a>
 
-Learn how to make your own tilt switch [here](../../tutorials/04-assemble-custom-component/)
+Detects if it has been tilted beyond a certain point.
+
+Learn how to make your own tilt switch [here](../../tutorials/assembling-custom-components/tilt-switch).
 
 ---
 

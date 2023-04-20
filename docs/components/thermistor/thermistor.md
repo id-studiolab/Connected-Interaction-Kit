@@ -9,9 +9,11 @@ nav_order: 4
 <img src="assets/custom-temperature-sensor-centered.png" alt="Custom Temperature Sensor" width="250"/>
 
 # Thermistor
-`Input` - detects temperature variations on a scale from cold to hot.
+<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/analog.png" alt="Analog" width="72"/></a>
 
-Learn how to make your own temperature sensor [here](../../tutorials/04-assemble-custom-component/)
+Changes its electrical resistance with temperature. Can be used to estimate the current temperature and detect changes.
+
+Learn how to make your own thermistor [here](../../tutorials/assembling-custom-components/thermistor).
 
 ---
 
