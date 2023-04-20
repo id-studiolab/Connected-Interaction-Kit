@@ -10,9 +10,11 @@ has_children: false
 <img src="assets/custom-photo-resistor-centered.png" alt="Custom Photo Resistor" width="250"/>
 
 # Photoresistor
-`Input` - can detect light intensity on a scale from low light to bright light
+<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/analog.png" alt="Analog" width="72"/></a>
 
-Learn how to make your own photo resistor [here](../../tutorials/04-assemble-custom-component/)
+Changes its electrical resistance in response to light intensity. Can be used to detect changes in light intensity. 
+
+Learn how to make your own photoresistor [here](../../tutorials/assembling-custom-components/photoresistor).
 
 ---
 
