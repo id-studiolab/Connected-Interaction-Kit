@@ -9,11 +9,11 @@ has_toc: false
 
 
 
-# Tutorial 5: Assembling Custom Components
+# Tutorial 5 - Assembling Custom Components
 
 ![Cover image showing an ItsyBitsy Expander alongside five assembled custom components](assets/tutorial4-cover.jpg)
 
-In addition to the ready-made Grove components, the Connected Interaction Kit provides a number of custom components for you to assemble yourself. Here you can find resources on how to solder, as well as detailed assembly instructions for each component.
+In addition to ready-made Grove components, the Connected Interaction Kit provides several custom components for you to assemble yourself. Here you can find resources on how to solder and detailed assembly instructions for each component.
 
 ## Prepare
 
