@@ -8,13 +8,13 @@ grand_parent: "Tutorials"
 
 # Soldering: Tools and Technique
 
-*Fore a more complete introduction into soldering, we recommend reading Sparkfun's excellent guide [HERE](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/).*
+*For a more complete introduction into soldering, we recommend reading Sparkfun's excellent guide [HERE](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/).*
 
 ## Introduction
 
 This guide intends to be a short read covering the basics of soldering using the tools available in the PMB. 
 
-It is advisable to use PPE while working with hot solder. We strongly recommend using protective goggles and a fume exhaust.
+Using personal protective equipment (PPE) while working with hot solder is advisable. We strongly recommend using protective goggles and a fume exhaust.
 
 If you are already familiar with the tools we will work with, you may skip ahead to the following sections:
 
