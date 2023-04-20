@@ -10,7 +10,7 @@ has_children: false
 <img src="assets/Grove-Touch-Sensor.png" alt="Touch Sensor" width="250"/>
 
 # Touch Sensor
-<a href="../../glossary/glossary"><img src="/Users/adriaan/Documents/git/Connected-Interaction-Kit/docs/glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="/Users/adriaan/Documents/git/Connected-Interaction-Kit/docs/glossary/assets/digital.png" alt="Digital" width="72"/></a>
+<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/digital.png" alt="Digital" width="72"/></a>
 
 A capacitive switch that remains active while touched. 
 
