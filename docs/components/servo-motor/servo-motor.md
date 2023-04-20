@@ -61,12 +61,12 @@ while True:
 {:.note}
 If you define a new position before reaching the previous one, the motor will abort its current operation and directly move to the new position.
 
-## Smooth Servo Motion with Speed Control
+## Servo Sweep with Speed Control
 
 This tutorial will look at how to control the motion speed and move between two positions more smoothly. To that end, we write a function called `sweep_servo` that takes four parameters:
 
-- The starting position of our sweep (`start_pos`).
-- The target position of our sweep (`end_pos`).
+- The starting position of the sweep (`start_pos`).
+- The target position of the sweep (`end_pos`).
 - The `duration` of the sweep.
 - The `step_size` that divides the range of motion into smaller steps.
 
