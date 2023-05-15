@@ -24,7 +24,7 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
 2. Below the import statements, provide the address for the API you want request data from:
    ```python
    # URL for the API that will return a random joke
-   joke_url = "http://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
+   joke_url = "https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
    ```
 
 3. Configure the `requests` module to use your WiFi module's sockets by adding `requests.set_socket(socket, esp)` below the WiFi module initialization:
@@ -38,7 +38,7 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
 
    ```python
    while esp.is_connected:
-       print("\nFetching random joke from http://sv443.net/jokeapi/v2/")
+       print("\nFetching random joke from https://sv443.net/jokeapi/v2/")
        r = requests.get(joke_url)
        joke = r.json()
        print("-" * 40)
@@ -73,7 +73,7 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
    from secrets import secrets
    
    # URL for the API that will return a random joke
-   joke_url = "http://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
+   joke_url = "https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
    
    # Define the pins used by the BitsyExpander's ESP32 WiFi module:
    esp32_cs = digitalio.DigitalInOut(board.D9)
@@ -108,7 +108,7 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
    print("Connected! IP address:", esp.pretty_ip(esp.ip_address))
    
    while esp.is_connected:
-       print("\nFetching random joke from http://sv443.net/jokeapi/v2/")
+       print("\nFetching random joke from https://sv443.net/jokeapi/v2/")
        r = requests.get(joke_url)
        joke = r.json()
        print("-" * 40)
