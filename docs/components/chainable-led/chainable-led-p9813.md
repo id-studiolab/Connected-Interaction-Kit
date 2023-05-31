@@ -141,6 +141,8 @@ pin_data = board.D10
 num_leds = 3
 leds = p9813.P9813(pin_clk, pin_data, num_leds)
 
+# --- Functions
+
 # --- Setup
 leds.reset() # turn off all LEDs
 
