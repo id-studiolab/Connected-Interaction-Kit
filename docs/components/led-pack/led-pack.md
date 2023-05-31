@@ -23,9 +23,9 @@ More information on this component is available [here](https://www.seeedstudio.c
 
 
 
-## Blinking the internal LED (D13)
+## Blink!
 
-This is for the interal LED, however a LED Pack does work in port D13. A [Chainable LED](../chainable-led/chainable-led) does *NOT* work with this code.
+Blinking an LED is often the first programming exercise learners encounter when working with microcontrollers. The example code below performs all steps necessary to configure and then keep cycling an LED on and off once per second. The code works with the inbuilt LED on Pin **`D13`**, but you can also specify any other Digital pin in the code to use with your own LED connected to it.
 
 ```python
 # --- Imports
@@ -40,42 +40,15 @@ led.direction = digitalio.Direction.OUTPUT
 # --- Functions
 
 # --- Setup
-led.value = False
 
 # --- Main loop
 while True:
-    print("hello world")
     led.value = True
     time.sleep(0.5)
     led.value = False
-    time.sleep(0.1)
-
-```
-
-## Blinking the LED Pack (connected to D2)
-If the touch sensor is touched, turn the internal LED on. Otherwise turn the LED off.
-```python
-# --- Imports
-import digitalio
-import time
-import board
-
-# --- Variables
-led = digitalio.DigitalInOut(board.D2)
-led.direction = digitalio.Direction.OUTPUT
-
-# --- Functions
-
-# --- Setup
-led.value = False
-
-# --- Main loop
-while True:
-    print("hello world")
-    led.value = True
     time.sleep(0.5)
-    led.value = False
-    time.sleep(0.1)
 
 ```
 
+{:.important}
+This tutorial only works for simple, single-color LEDs like the LED Pack or your microcontroller's internal LED. If you want to use a [Chainable LED](../chainable-led/chainable-led), follow the tutorial on the linked page instead.

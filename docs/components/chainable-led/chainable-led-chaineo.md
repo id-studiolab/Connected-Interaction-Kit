@@ -52,6 +52,8 @@ pin_leds = board.D13
 num_leds = 1 
 leds = neopixel.NeoPixel(pin_leds, num_leds, auto_write=False, pixel_order=neopixel.GRBW)
 
+# --- Functions
+
 # --- Setup
 leds.fill(0)
 leds.show()
@@ -89,6 +91,8 @@ num_leds = 1
 leds = neopixel.NeoPixel(pin_leds, num_leds, auto_write=False, pixel_order=neopixel.GRBW)
 
 delta = 5
+
+# --- Functions
 
 # --- Setup
 leds.fill(0)
@@ -129,6 +133,8 @@ pin_leds = board.D13
 
 num_leds = 3
 leds = neopixel.NeoPixel(pin_leds, num_leds, auto_write=False, pixel_order=neopixel.GRBW)
+
+# --- Functions
 
 # --- Setup
 leds.fill(0) # turn off all LEDs

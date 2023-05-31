@@ -18,7 +18,14 @@ Learn how to make your own rotary potentiometer [here](../../tutorials/assemblin
 
 ---
 
-## Basic rotation potentiometer example
+## Background
+
+### What is a Potentiometer?
+
+Potentiometers are a type of variable resistor consisting of a resistive track with electrical contacts at both ends. Like a fixed-value resistor, potentiometers have a fixed resistance value between both ends (for example, 10 kΩ.) A third, movable contact is located between both ends. This contact (called wiper) allows us to achieve a variable resistance by flowing electricity through a shorter portion of the resistive track.
+
+## Basic Usage
+
 ```python
 # --- Imports
 import time
