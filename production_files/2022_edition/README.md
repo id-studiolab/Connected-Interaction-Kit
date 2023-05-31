@@ -2,7 +2,7 @@
 
 Documentation and tutorials surrounding the Connected Interaction Kit
 
-![Outside of the phsyical Connected Interaction Kit](../../assets/connected-interaction-kit-box.jpg)
+![Outside of the phsyical Connected Interaction Kit](/assets/connected-interaction-kit-box.jpg)
 
 # Public Tutorials & Component Section
 The folder [/docs](/docs/) contains the digital counterpart to the physical box and booklet.
@@ -14,11 +14,12 @@ The folder gets compiled into a GitHub Page and is accessible via https://id-stu
 ---
 
 # Documentation of the kit production
-Everything related to the creation and manufacturing of the kit is documentated in [kit-production](/kit-production/).
+Everything related to the creation and manufacturing of the kit is documentated in [production_files](/production_files/2022_edition/).
 This is divided into the sub-categories of:
+
 1. **Electronic components**
    1. tbd
-2. [Physical box](/physical-box/README.md)
+2. [Physical box](/production_files/2022_edition/physical-box/README.md)
    1. [Overview of ordered material](/physical-box/README.md#overview-of-ordered-material)
    2. [Box branding (working files, step-by-step, learnings)](/physical-box/README.md#add-a-box-branding)
    3. [Inlay (working files, step-by-step, learnings)](/physical-box/README.md#the-cardboard-inlay)
