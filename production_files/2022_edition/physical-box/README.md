@@ -43,7 +43,7 @@
 ## Add a box branding
 The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a place for the student to put name and student number. Described below is the process of branding for the kit version 2022.
 
-![Closed box](/kit-production/physical-box/assets/close-box.png)
+![Closed box](/production_files/2022_edition/physical-box/assets/close-box.png)
 
 ### Needed tools and material
 - [Laser rubber](https://www.kopierladen-berlin.de/lasergummi-fuer-lasergravurmaschinen.html)
@@ -58,7 +58,7 @@ The branding concists of a simple box lable (Font: Ubuntu Mono Bold) with a plac
 
 ### Making the stamp
 
-![Stamp](/kit-production/physical-box/assets/stamp.jpeg)
+![Stamp](/production_files/2022_edition/physical-box/assets/stamp.jpeg)
 
 1. Design the label as a vector (the Figma working file can be found [here](/kit-production/physical-box/Figma-working-file/Connected-Interaction-Kit.fig) and export as SVG or PDF.
 2. Import the file into Adobe Illustrator of the PMB and engrave it onto a sheet of laser rubber. Trotec offers a special laser cut setting for stamps that automatically flips the design, etc.
@@ -109,7 +109,7 @@ The inlay is used to present the main components of the kit in a neat, labeled a
 ### Step 1: Print labels on Kraftpapier
 First we will need to create our label paper. The Figma source file for the inlay of year 2022 can be found [here](Figma-working-file/Connected-Interaction-Kit.fig).
 
-![Print paper mockup](/kit-production/physical-box/assets/print-on.png)
+![Print paper mockup](/production_files/2022_edition/physical-box/assets/print-on.png)
 
 1. Download the file [label-print-on](inlay/label-print-on.pdf)
 2. Open it in Acrobat and open the print dialog
@@ -131,7 +131,7 @@ The cardboard cutouts consist of three separate parts:
 2. The bottom inlay
 3. Cardboard dividers
 
-![Cardboard cutout illustration](/kit-production/physical-box/assets/cardboard-cutouts.png)
+![Cardboard cutout illustration](/production_files/2022_edition/physical-box/assets/cardboard-cutouts.png)
 
 1. Download the file [Cardboard-blanks.ai](/kit-production/physical-box/inlay/Cardboard-blanks.ai)
 2. Take a Cardboard Sheets (1170x770) and laser the file at the PMB (First the color blue, then the color red). Make sure that the nice and smooth side of the cardboard lays face up.
@@ -141,7 +141,7 @@ The cardboard cutouts consist of three separate parts:
 
 
 ### Step 3: Glueing together labels and top inlay blanks
-![Cardboard label glue-on](/kit-production/physical-box/assets/label-glue-on.png)
+![Cardboard label glue-on](/production_files/2022_edition/physical-box/assets/label-glue-on.png)
 
 1. Take the printed Kraftpapier sheets and top inlay blanks
 2. Apply an even layer of glue spray on the smooth side of the cardboard blank
@@ -153,7 +153,7 @@ The cardboard cutouts consist of three separate parts:
 ### Step 4: Lasercut the top inlay
 The next step is to cut the top inlay to final shape by cutting holes for the component, rounding over the corner, and trimming off excess paper.
 
-![Lasercut top inlay](/kit-production/physical-box/assets/lasercut-top-inlay.png)
+![Lasercut top inlay](/production_files/2022_edition/physical-box/assets/lasercut-top-inlay.png)
 
 1. Download the file [Cardboard-top-inlay.ai](/kit-production/physical-box/inlay/Cardboard-top-inlay.ai)
 2. Insert a cardboard inlay and cut out the holes for components and round over corners.
@@ -212,23 +212,23 @@ For the final kit assembly, you will need the following things:
 
 ### Step 1: Preparing the box
 Take a cardboard box and add the cardboard dividers in the bottom and stick the QR code on the inside of the lid.
-![Dividers](/kit-production/physical-box/assets/prepare-box.png)
+![Dividers](/production_files/2022_edition/physical-box/assets/prepare-box.png)
 
 ### Step 2: Add underside of components
 Stack the bottom compartment with loose components that do not find a place in the inlay.
-![Bottom components](/kit-production/physical-box/assets/stack-bottom.png)
+![Bottom components](/production_files/2022_edition/physical-box/assets/stack-bottom.png)
 
 ### Step 3: Stack and add inlay
 Stack the cardboard inlay with Grove components, custom component boards and the Itsy Bitsy + Expander. Add the inlay on top of the bottom compartment.
 
-![Add inlay](/kit-production/physical-box/assets/stack-inlay.png)
+![Add inlay](/production_files/2022_edition/physical-box/assets/stack-inlay.png)
 
 ### Step 4: Add the introduction booklet
 Add the printed introduction booklet on top of the inlay
 
-![Add booklet](/kit-production/physical-box/assets/add-booklet.png)
+![Add booklet](/production_files/2022_edition/physical-box/assets/add-booklet.png)
 
 ### Step 4: Close the box
 Finally, close the finished box and put it to the side.
 
-![Closed box](/kit-production/physical-box/assets/close-box.png)
+![Closed box](/production_files/2022_edition/physical-box/assets/close-box.png)

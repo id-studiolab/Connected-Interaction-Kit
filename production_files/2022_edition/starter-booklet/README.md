@@ -5,14 +5,14 @@
   - [Cover page](#cover-page)
   - [Ordering booklets](#ordering-booklets)
 
-![Image of booklet](../../assets/Booklet-front-and-back.jpg)
+![Image of booklet](/assets/Booklet-front-and-back.jpg)
 
 The booklet was designed in InDesign, and a package with all links, fonts and a print export can be found at [/starter-booklet/InDesign](./InDesign/).
 
 ---
 
 ## Illustrations
-![Image of booklet](/kit-production/physical-box/assets/illustrations.jpg)
+![Image of booklet](/production_files/2022_edition/physical-box/assets/illustrations.jpg)
 All visuals for the booklet were designed in Figma, and you can find the source file [here](../physical-box/Figma-working-file/Connected-Interaction-Kit.fig).
 
 ---
