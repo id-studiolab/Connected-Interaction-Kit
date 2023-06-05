@@ -1,6 +1,6 @@
 # Starter Booklet
 
-![Image of booklet](/assets/Booklet-2023.jpg)
+![Image of booklet](/assets/Booklet_2023.jpg)
 
 The booklet was designed in InDesign. All linked assets, fonts, and print files are contained within this directory.
 
