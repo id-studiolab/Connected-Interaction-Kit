@@ -16,12 +16,12 @@ All visuals for the booklet were designed in either Figma or Illustrator. The so
 
 A [p5.js](https://p5js.org/) sketch to generate cover art for the booklet can be found in the [/cover_pattern_generator](cover_pattern_generator/) directory.
 
-At the top of [sketch.js](sketch.js), user-definable parameters, and constraints are defined. The sketch will keep generating patterns until one fits the required conditions. By pressing the return key, the currently displayed design is saved. Pressing any other key will dismiss the current pattern and resume generating others.
+At the top of [sketch.js](cover_pattern_generator/sketch.js), user-definable parameters, and constraints are defined. The sketch will keep generating patterns until one fits the required conditions. By pressing the return key, the currently displayed design is saved. Pressing any other key will dismiss the current pattern and resume generating others.
 
 ---
 
 ## Ordering booklets
-For the 2023 production run, 360 booklets were ordered at [PrinterPro.nl](https://www.printerpro.nl/producten/brochures-magazines-geniet/). The 
+For the 2023 production run, 360 booklets were ordered at [PrinterPro.nl](https://www.printerpro.nl/producten/brochures-magazines-geniet/). A ready-to-use [print file](2023_Kit_Booklet_Printfile(CMYK_Coated_FOGRA39).pdf) with cutting marks and bleed is contained within this directory. 
 
 | Attribute | Specification |
 | :--- | :--- |
