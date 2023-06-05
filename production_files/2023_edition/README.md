@@ -16,12 +16,11 @@ The [/docs](/docs/) folder in this repository contains the kit's online document
 # Kit Production
 Everything concerning the production of the kit is documented in the [/production_files](/production_files/) directory. It is further subdivided into the following categories:
 
-1. [Box Assembly](/production_files/2022_edition/box_assembly/README.md)
-2. [Booklet](/production_files/2022_edition/booklet/README.md)
-   1. [Final print and digital PDF](/production_files/2022_edition/starter-booklet/final-export/)
-   2. [Figma illustrations](/production_files/2022_edition/starter-booklet/README.md#illustrations)
-   3. [InDesign working files](/production_files/2022_edition/starter-booklet/InDesign)
-   4. [Ordering booklets](/production_files/2022_edition/starter-booklet/README.md#ordering-booklets)
+1. [Booklet](/production_files/2023_edition/booklet/README.md)
+   1. [Asset Source Files](/production_files/2023_edition/booklet/README.md#asset-source-files)
+   2. [Ordering Booklets](/production_files/2023_edition/booklet/README.md#ordering-booklets)
+   3. [Digital Publishing](/production_files/2023_edition/booklet/README.md#digital-publishing)
+2. [Box Assembly](/production_files/2023_edition/box_assembly/README.md)
 
 
 
