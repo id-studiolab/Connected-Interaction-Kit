@@ -10,10 +10,10 @@ This repository contains design files and resources required for the production 
 
 A GitHub Page containing tutorials and documentation of the kit's content is available at https://id-studiolab.github.io/Connected-Interaction-Kit/. 
 
-The [/docs]() folder in this repository contains the kit's online documentation resources. The folder's contents are automatically compiled and deployed to the URL mentioned above whenever a change occurs.
+The [/docs](/docs/) folder in this repository contains the kit's online documentation resources. The folder's contents are automatically compiled and deployed to the URL mentioned above whenever a change occurs.
 
 ---
 
 # Kit Production
 
-Everything concerning the production of the kit is documented in the [/production_files]() directory.
+Everything concerning the production of the kit is documented in the [/production_files](/production_files/) directory.
