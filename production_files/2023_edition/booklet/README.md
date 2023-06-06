@@ -12,7 +12,7 @@ All visuals for the booklet were designed in either Figma or Illustrator. The so
 ---
 
 ## Cover page
-![Generative pattern](Links/pattern_bleed_front.png)
+![Generative pattern](/production_files/2023_edition/box_assembly/stickers/lid_stickers/Links/Pattern.png)
 
 A [p5.js](https://p5js.org/) sketch to generate cover art for the booklet can be found in the [/cover_pattern_generator](cover_pattern_generator/) directory.
 
