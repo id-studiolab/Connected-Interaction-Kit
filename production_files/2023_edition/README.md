@@ -21,12 +21,22 @@ Everything concerning the production of the kit is documented in the [/productio
    2. [Ordering Booklets](/production_files/2023_edition/booklet/README.md#ordering-booklets)
    3. [Digital Publishing](/production_files/2023_edition/booklet/README.md#digital-publishing)
 2. [Box Assembly](/production_files/2023_edition/box_assembly/README.md)
+   1. [Material Overview](/production_files/2023_edition/box_assembly/README.md#material-overview)
+   2. [Box Branding](/production_files/2023_edition/box_assembly/README.md#box-branding)
+   3. [Box Inlays](/production_files/2023_edition/box_assembly/README.md#box-inlays)
+      - [Materials and Tools](/production_files/2023_edition/box_assembly/README.md#materials-and-tools)
+      - [Component Label Inlay](/production_files/2023_edition/box_assembly/README.md#component-label-inlay)
+      - [Cardboard Inlays](/production_files/2023_edition/box_assembly/README.md#cardboard-inlays)
+
+   4. [WiFi Token QR Code Stickers](/production_files/2023_edition/box_assembly/README.md#wifi-token-qr-code-stickers)
+   5. [Final Assembly](/production_files/2023_edition/box_assembly/README.md#final-assembly)
+
 
 
 
 **To Do**
-- [ ] Finish writing **Kit assembly**
-- [ ] Add tidied Figma and Illustrator files
+- [x] Finish writing **Kit assembly**
+- [x] Add tidied Figma and Illustrator files
 - [ ] Documement workflow for electronic components (testing, flashing)
-- [ ] Document sticker generator
+- [x] Document sticker generator
 
