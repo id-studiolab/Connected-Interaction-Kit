@@ -27,7 +27,6 @@ Everything concerning the production of the kit is documented in the [/productio
       - [Materials and Tools](/production_files/2023_edition/box_assembly/README.md#materials-and-tools)
       - [Component Label Inlay](/production_files/2023_edition/box_assembly/README.md#component-label-inlay)
       - [Cardboard Inlays](/production_files/2023_edition/box_assembly/README.md#cardboard-inlays)
-
    4. [WiFi Token QR Code Stickers](/production_files/2023_edition/box_assembly/README.md#wifi-token-qr-code-stickers)
    5. [Final Assembly](/production_files/2023_edition/box_assembly/README.md#final-assembly)
 

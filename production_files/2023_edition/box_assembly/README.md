@@ -5,8 +5,7 @@
 - [Box Inlays](#box-inlays)
   - [Materials and Tools](#materials-and-tools)
   - [Component Label Inlay](#component-label-inlay)
-  - [Cardboard Inlays](#cardboard-inlays)
-  
+  - [Cardboard Inlays](#cardboard-inlays)  
 - [WiFi Token QR Code Stickers](#wifi-token-qr-code-stickers)
 - [Final Assembly](#final-assembly)
 
@@ -14,7 +13,7 @@
 
 ## Material Overview
 
-| Name                                                         | Ordered amount                                | Explanatory note                                             | Price    |
+| Name                                                         | Amount                                        | Explanatory note                                             | Price    |
 | :----------------------------------------------------------- | :-------------------------------------------- | :----------------------------------------------------------- | -------- |
 | [Cardboard Box (A4, 25mm)](https://www.ratioform.de/p/stuelpdeckelkarton-braun-1201040105/188-10/) | 350                                           | Boxes for the kit, ordered at [ratioform.de](https://www.ratioform.de/p/stuelpdeckelkarton-braun-1201040105/188-10/) | 217 €    |
 | [Cardboard Sheets (1170x770)](https://www.pressel.com/p/pressel-karton-zwischenlagen-2-wellig-1170x770x7mm-braun-20-stuck/830801) | 110                                           | For laser cutting box inlays. These cardboard sheets nicely fit the volume of common laser cutters. **The sheets have a natural curvature; make sure to laser cut them so the three inlay layers curve the same way!** There is [another version](https://www.pressel.com/p/pressel-karton-zwischenlagen-1-wellig-1170x770mm/830800?tracking=searchterm:1170x770mm) with only one layer of corrugated cardboard which might be less prone to warping. | 210 €    |
