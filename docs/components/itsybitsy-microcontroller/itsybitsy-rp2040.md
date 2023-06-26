@@ -1,9 +1,7 @@
 ---
 layout: default
-title: "ItsyBitsy Microcontroller"
-grand_parent: "Components"
-parent: "Core Components"
-nav_order: 1
+title: "ItsyBitsy RP2040"
+nav_exclude: true
 has_children: false
 ---
 
