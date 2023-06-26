@@ -3,7 +3,7 @@ layout: default
 title: "ItsyBitsy"
 grand_parent: "Components"
 parent: "Core Components"
-nav_order: 1
+nav_order: 0
 has_children: false
 ---
 
@@ -26,5 +26,5 @@ Your kit includes one of **two functionally equivalent ItsyBitsy Development Boa
 
 
 
-The **ItsyBitsy M4 Express** features **one (RESET) button**. (So do most other ItsyBitsy Development boards, so always verify with the silkscreen.)
+The **ItsyBitsy M4 Express** features **one (RESET) button**.
 The **ItsyBitsy RP2040** features **two (BOOT, RESET) buttons**.
