@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "ItsyBitsy Development Board"
+title: "ItsyBitsy"
 grand_parent: "Components"
 parent: "Core Components"
 nav_order: 1
 has_children: false
 ---
 
-# ItsyBitsy
+# ItsyBitsy Development Board
 
 Your kit includes one of **two functionally equivalent ItsyBitsy Development Boards**, depending on the edition of your Connected Interaction Kit. This page is designed to help you identify which version you own.
 

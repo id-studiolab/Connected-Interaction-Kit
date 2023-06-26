@@ -10,44 +10,22 @@ has_toc: false
 
 # Glossary
 
- 
+ ## Signal Terms
 
-<table>
-    <tbody>
-        <tr>
-            <td style="text-align: center;"><img src="assets/input.png" alt="Input" width="72" /></td>
-            <td style="text-align: left;">An <strong>input</strong> is something a micro-controller can detect, such as the state of a switch, the rotation of a dial, or a microphone’s signal.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;"><img src="assets/output.png" alt="Output" width="72" /></td>
-            <td style="text-align: left;">An <strong>output</strong> is something that can be controlled by a microcontroller, such as a light, speaker, or motor.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;"><img src="assets/digital.png" alt="Digital" width="72" /></td>
-            <td style="text-align: left;">A <strong>digital</strong> signal is created by anything that assumes discrete states, such as on/off, true/false, or 1/0.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;"><img src="assets/analog.png" alt="Analog" width="72" /></td>
-            <td style="text-align: left;">An <strong>analog</strong> signal is created by anything that can assume any state on a continuous spectrum, such as temperature or pressure.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;"><img src="assets/pwm.png" alt="PWM" width="72" /></td>
-            <td style="text-align: left;">A <strong>pulse-width modulated</strong> signal is an analog-like signal created by switching a digital signal on and off very fast.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;"><img src="assets/iic.png" alt="I²C" width="72" /></td>
-            <td style="text-align: left;">The <strong>I²C</strong> protocol is used to interface advanced components using two digital signals.</td>
-        </tr>
-              <tr>
-            <td style="text-align: center;"><img src="assets/2wire.png" alt="Two Wire" width="72"/></td>
-            <td style="text-align: left;">Components labeled with the <strong>2-Wire</strong> tag need two pins to function. Typically, that includes one pin used for transmitting data, while the other pin carries a clock signal that acts as a metronome to synchronize with the data stream's speed. The <strong>I²C</strong> protocol is a widely used standard that follows this principle.</td>
-        </tr>
-    </tbody>
-</table>
+|              Term              | Description                                                  |
+| :----------------------------: | :----------------------------------------------------------- |
+|   ![Input](assets/input.png)   | An **input** is something a micro-controller can detect, such as the state of a switch, the rotation of a dial, or a microphone’s signal. |
+|  ![Output](assets/output.png)  | An **output** is something that can be controlled by a microcontroller, such as a light, speaker, or motor. |
+| ![Digital](assets/digital.png) | A **digital** signal is created by anything that assumes discrete states, such as on/off, true/false, or 1/0. |
+|  ![Analog](assets/analog.png)  | An **analog** signal is created by anything that can assume any state on a continuous spectrum, such as temperature or pressure. |
+|     ![PWM](assets/pwm.png)     | A **pulse-width modulated** signal is an analog-like signal created by switching a digital signal on and off very fast. |
+|     ![I²C](assets/iic.png)     | The **I²C** protocol is used to interface advanced components using two digital signals. |
+| ![Two Wire](assets/2wire.png)  | Components labeled with the **2-Wire** tag need two pins to function. Typically, that includes one pin used for transmitting data, while the other pin carries a clock signal that acts as a metronome to synchronize with the data stream's speed. The **I²C** protocol is a widely used standard that follows this principle. |
+
 SECTIONS BELOW ARE UNDER CONSTRUCTION
 {: .label .label-yellow }
 
-
+## Programming Terms
 
 
 |          Term           | Description                                                  |
@@ -64,6 +42,8 @@ SECTIONS BELOW ARE UNDER CONSTRUCTION
 |        `Comment`        | In CircuitPython, comments start with a `#` character. Everything following `#` the character until the end of the line is considered part of the comment. Comments don't affect the program's execution and exist to help you and others understand the code better. |
 | `Conditional Statement` |                                                              |
 |          `API`          |                                                              |
+
+## Electronics Terms
 
 | Term | Description |
 | :--------: | :----------------------------------------------------------- |
