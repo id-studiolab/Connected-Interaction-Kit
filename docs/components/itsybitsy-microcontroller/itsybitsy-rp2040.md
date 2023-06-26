@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "ItsyBitsy RP2040"
+grand_parent: "Components"
+parent: "Core Components"
 nav_exclude: true
 has_children: false
 ---

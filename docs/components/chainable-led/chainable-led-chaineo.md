@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Chainable RGB/W LED"
+grand_parent: "Components"
+parent: "Solderless Components"
 nav_exclude: true
 has_children: false
 ---

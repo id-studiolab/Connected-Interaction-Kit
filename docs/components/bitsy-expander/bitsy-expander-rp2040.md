@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Bitsy Expander RP2040"
+grand_parent: "Components"
+parent: "Core Components"
 nav_exclude: true
 has_children: false
 ---
@@ -31,7 +33,7 @@ Expands the capabilities of your microcontroller. Provides solderless connectors
 
 ## Usage Information
 
-You will be introduced to the usage of the Bitsy Expander in the course of the [tutorials](/tutorials/). The information below serves for reference. If you are interested in additional information on the capabilities of your expander board, visit the [documentation on its GitHub repository](https://github.com/id-studiolab/BitsyExpander/blob/main/README.md).
+You will be introduced to the usage of the Bitsy Expander in the course of the [tutorials](../../tutorials/). The information below serves for reference. If you are interested in additional information on the capabilities of your expander board, visit the [documentation on its GitHub repository](https://github.com/id-studiolab/BitsyExpander/blob/main/README.md).
 
 ### WiFi and BLE
 

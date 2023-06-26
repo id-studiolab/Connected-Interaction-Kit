@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "ItsyBitsy M4 Express"
+grand_parent: "Components"
+parent: "Core Components"
 nav_exclude: true
 has_children: false
 ---

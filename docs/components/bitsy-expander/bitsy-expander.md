@@ -3,7 +3,7 @@ layout: default
 title: "Bitsy Expander"
 grand_parent: "Components"
 parent: "Core Components"
-nav_order: 0
+nav_order: 1
 has_children: false
 ---
 
