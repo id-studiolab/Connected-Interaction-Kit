@@ -13,9 +13,8 @@ Your kit includes one of **two functionally equivalent versions of the Bitsy Exp
 
 |                         2022 Edition                         |                         2023 Edition                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|               Expander Board for ItsyBitsy M4                |             Expander Board for ItsyBitsy RP2040              |
+|                      Bitsy Expander M4                       |                    Bitsy Expander RP2040                     |
 | <img src="assets/Bitsy-Expander-Original-M4.png" alt="BitsyExpander" width="400"/> | <img src="assets/Bitsy-Expander-RP2040.png" alt="BitsyExpander" width="400"/> |
-|                                                              |                                                              |
 |      [Learn More](bitsy-expander-m4){: .btn .btn-blue }      |    [Learn More](bitsy-expander-rp2040){: .btn .btn-blue }    |
 
 ### Which Bitsy Expander do I have?
