@@ -7,7 +7,7 @@ nav_order: 1
 has_children: false
 ---
 
-<img src="assets/ItsyBitsy-M4-Express-Real.png" alt="ItsyBitsy M4 Express" width="400"/>
+<img src="assets/ItsyBitsy-RP2040.png" alt="ItsyBitsy M4 Express" width="400"/>
 
 # ItsyBitsy Microcontroller
 The micro controller at the heart of you projects, it reads inputs, processes data and controls the outputs.
