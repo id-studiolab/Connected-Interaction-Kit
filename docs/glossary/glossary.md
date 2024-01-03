@@ -3,16 +3,16 @@
 layout: default
 title: Glossary
 nav_order: 3
-has_children: true
+has_children: false
 has_toc: false
 
 ---
 
 # Glossary
 
- ## Signal Terms
+## Signal Terms
 
-|              Term              | Description                                                  |
+|              Term              | Description                          |
 | :----------------------------: | :----------------------------------------------------------- |
 |   ![Input](assets/input.png)   | An **input** is something a micro-controller can detect, such as the state of a switch, the rotation of a dial, or a microphone’s signal. |
 |  ![Output](assets/output.png)  | An **output** is something that can be controlled by a microcontroller, such as a light, speaker, or motor. |
@@ -24,8 +24,9 @@ has_toc: false
 
 
 ## Programming Terms
-|          Term           | Description                                                  |
-| :---------------------: | :----------------------------------------------------------- |
+
+|              Term              | Description                          |
+| :----------------------------: | :----------------------------------------------------------- |
 |       `Variable`        | A **variable** is like a labelled box where we store data. This could be a number, a text, or even more complex data. We can change the contents of this box anytime in our program. |
 |       `Function`        | A **function** is like a mini-program within your program, built to perform a specific task. It can take inputs, process them, and return an output. They are reusable, modular components that can simplify writing and reading code, by breaking it down into smaller, well-structured segments. |
 |         `Loop`          | A **loop** in programming is like a conveyor belt. It will keep repeating the same set of instructions over and over for a predetermined number of times or until a certain condition is met. |
@@ -42,8 +43,8 @@ has_toc: false
 
 ## Electronics Terms
 
-|     Term      | Description                                                  |
-| :-----------: | :----------------------------------------------------------- |
+|              Term              | Description                          |
+| :----------------------------: | :----------------------------------------------------------- |
 | **`Series`**  | In a **series** circuit, each component is connected end-to-end with the other components, creating a single path for current to flow. This means that the current flowing through each component in the circuit is the same, but the voltage across each component differs. |
 |  `Parallel`   | In a **parallel** circuit, components are connected side-by-side, creating multiple paths for current to flow. This means that the current flowing through each component in the circuit can differ, but the voltage across each component is the same. |
 |   `Voltage`   | **Voltage**, measured in Volts (**V**), is the electric potential difference between two points in a circuit. It can be thought of as the force that pushes electric charge through a circuit, driving the flow of current. Like water pressure in a pipe, voltage pushes the current through the circuit. |
