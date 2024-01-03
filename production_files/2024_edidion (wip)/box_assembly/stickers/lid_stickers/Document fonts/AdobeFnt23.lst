@@ -4,9 +4,9 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2023_edition/box_assembly/stickers/lid_stickers/Document fonts/AdobeFnt23.lst
-FileLength:2116
-FileModTime:707327355
+OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2024_edidion (wip)/box_assembly/stickers/lid_stickers/Document fonts/AdobeFnt23.lst
+FileLength:2093
+FileModTime:725974509
 %EndFont
 
 %BeginFont
@@ -22,7 +22,7 @@ WidthClass:5
 AngleClass:0
 FullName:Minion Pro
 WritingScript:Roman
-OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2023_edition/box_assembly/stickers/lid_stickers/Document fonts/MinionPro-Regular.otf
+OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2024_edidion (wip)/box_assembly/stickers/lid_stickers/Document fonts/MinionPro-Regular.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
@@ -49,7 +49,7 @@ WidthClass:5
 AngleClass:0
 FullName:Ubuntu Mono Bold
 WritingScript:Roman
-OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2023_edition/box_assembly/stickers/lid_stickers/Document fonts/UbuntuMono-Bold.ttf
+OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2024_edidion (wip)/box_assembly/stickers/lid_stickers/Document fonts/UbuntuMono-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 hasCOLR:no
@@ -73,7 +73,7 @@ WidthClass:5
 AngleClass:0
 FullName:Ubuntu Mono
 WritingScript:Roman
-OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2023_edition/box_assembly/stickers/lid_stickers/Document fonts/UbuntuMono-Regular.ttf
+OutlineFileName:/Users/adriaan/git/Connected-Interaction-Kit/production_files/2024_edidion (wip)/box_assembly/stickers/lid_stickers/Document fonts/UbuntuMono-Regular.ttf
 DataFormat:sfntData
 hasSVG:no
 hasCOLR:no
