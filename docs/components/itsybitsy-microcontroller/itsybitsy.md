@@ -15,7 +15,7 @@ The central component at the heart of your projects. It runs code, reads and pro
 
 Your kit includes one of **two functionally equivalent ItsyBitsy Development Boards**, depending on the edition of your Connected Interaction Kit. This page is designed to help you identify which version you own.
 
-|                         2022 & 2024 Edition                  |                         2023 Edition                         |
+|                      2022 & 2024 Edition                     |                         2023 Edition                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                     ItsyBitsy M4 Express                     |                       ItsyBitsy RP2040                       |
 | <img src="assets/ItsyBitsy-M4-Express.png" alt="BitsyExpander" width="400"/> | <img src="assets/ItsyBitsy-RP2040.png" alt="BitsyExpander" width="400"/> |

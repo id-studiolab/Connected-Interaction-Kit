@@ -15,7 +15,7 @@ Expands the capabilities of your microcontroller. Provides solderless connectors
 
 Your kit includes one of **two functionally equivalent versions of the Bitsy Expander**, depending on the edition of your Connected Interaction Kit. This page is designed to help you identify which version you own.
 
-|                         2022 Edition                         |                         2023 Edition                         |
+|                     2022 & 2024 Edition                      |                         2023 Edition                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                      Bitsy Expander M4                       |                    Bitsy Expander RP2040                     |
 | <img src="assets/Bitsy-Expander-Original-M4.png" alt="BitsyExpander" width="400"/> | <img src="assets/Bitsy-Expander-RP2040.png" alt="BitsyExpander" width="400"/> |
