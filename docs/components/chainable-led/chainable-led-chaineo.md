@@ -32,7 +32,7 @@ Confirm that the ChaiNEO module is oriented correctly, with the input port (mark
 The ChaiNEO modules use a [Neopixel-compatible RGB/W LED](https://www.adafruit.com/product/2758). To easily control them in code, the `neopixel` [library](../../glossary/glossary) is needed. The library should be pre-loaded on the ItsyBitsy Microcontroller included in your kit. 
 
 {: .highlight }
-You can verify that the library is installed by ensuring a file called `neopixel.mpy` is present in the `lib` folder of your `CIRCUITPY` drive. If not, download Adafruit's Library Bundle for Version 7.x [here](https://circuitpython.org/libraries). Extract the needed file from the bundle and place it in the `lib` folder on your microcontroller. You can learn more about libraries and their use in the [Glossary](../../glossary/glossary) or the [../../Tutorials](/Tutorials).
+You can verify that the library is installed by ensuring a file called `neopixel.mpy` is present in the `lib` folder of your `CIRCUITPY` drive. If not, download Adafruit's Library Bundle for Version 8.x [here](https://circuitpython.org/libraries). Extract the needed file from the bundle and place it in the `lib` folder on your microcontroller. You can learn more about libraries and their use in the [Glossary](../../glossary/glossary) or the [../../Tutorials](/Tutorials).
 
 The examples below assume your component is connected to the connector labeled  **D13** on the BitsyExpander Board.
 

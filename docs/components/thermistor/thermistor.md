@@ -25,7 +25,7 @@ Download the necessary `adafruit_thermistor` library with the [7.x bundle](https
 import time
 import board
 
-# Download the library with the 7.x bundle at https://circuitpython.org/libraries
+# Download the library with the 8.x bundle at https://circuitpython.org/libraries
 import adafruit_thermistor 
 
 # --- Variables

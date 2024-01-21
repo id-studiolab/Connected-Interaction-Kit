@@ -8,7 +8,7 @@ For this code to work, you need to have the following libraries present in your 
 
 * **adafruit_esp32spi**
 
-If no folder with that name is present on your microcontroller, download the [CircuitPython Library Bundle](https://circuitpython.org/libraries) for CircuitPython Version 7.x and extract the **adafruit_esp32sp** folder. 
+If no folder with that name is present on your microcontroller, download the [CircuitPython Library Bundle](https://circuitpython.org/libraries) for CircuitPython Version 8.x and extract the **adafruit_esp32sp** folder. 
 
 Copy the folder into the **lib** folder on your **CIRCUITPY** drive. The **CIRCUITPY** drive is your microcontroller's internal storage. If the **lib** folder does not yet exist, create it.
 
