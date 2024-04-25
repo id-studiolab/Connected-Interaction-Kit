@@ -8,7 +8,7 @@ nav_order: 2
 # How to upgrade to Circuit Python for M4
 *Guide based on [Adafruit update page](https://learn.adafruit.com/introducing-adafruit-itsybitsy-m4/circuitpython), check this page for more in-depth guidance*.  
 
-1. Connect ItsyBitsy to your computer, you should see a USB drive appear as: CIRCUITPY
+1. Connect ItsyBitsy to your computer, you should see a USB drive appear as: CIRCUITPY  
 <img src="assets/circuitpy.png" alt="" width="100"/>  
 2. Find out which version of CircuitPython you are running currently, you can use step a **OR** step b
    1. Open the CIRCUITPY drive and open the ```boot_out.txt``` file. you should see something like ```Adafruit CircuitPython 7.1.1``` this is the version of CircuitPython you are currently using. If this is already shows the version you want to upgrade to, you can stop this tutorial.  
