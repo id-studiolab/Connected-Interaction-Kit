@@ -61,14 +61,12 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
        time.sleep(5)
    ```
 
-5. Save your changes and open Mu Editor's Serial Monitor. If everything went well, your microcontroller will deliver a new, random joke every 5 seconds. Your finished code should look something like this:
+5. Save your changes and open Mu Editor's Serial Monitor. If everything goes well, your microcontroller will deliver a new, random joke every 5 seconds. Your finished code should look something like this:
 
 {:.note}
-   If you see the following error then you need to update your ItsyBitsy and all the libraries. To do so pleas check out [this page](../../support/index) 
-   ````python
-   File "code.txt", line 5, in <module>
-   ImportError: no module named 'adafruit_connection_manager'
-   ````
+   If you see the following error, then you need to update your ItsyBitsy and all the libraries. To do so, please check out [this page](../../support/index)  
+   `File "code.txt", line 5, in <module>`  
+   `ImportError: no module named 'adafruit_connection_manager'`  
 
 
    ```python
