@@ -68,3 +68,23 @@ Each course using the Connected Interaction Kit will have their own tech support
    2. Or this can be part of the Adafruit Community bundle: from this [page](https://github.com/adafruit/CircuitPython_Community_Bundle/releases/latest)
 <img src="assets/community_libraries.png" alt="" width="100%"/>  
 1. Unzip the file and copy the file to your lib folder on your ItsyBitsy
+
+# How to upgrade the ItsyBitsy M4 bootloader
+This is only for the Itsy Bitsy M4. *Guide based on [Adafruit update page](https://learn.adafruit.com/introducing-adafruit-itsybitsy-m4/update-the-uf2-bootloader), check this page for more in-depth guidance*
+
+{:.note}
+This is a guide to update the bootloader, not a guide to update the Circuit Python version
+
+1. Connect ItsyBitsy to your computer, you should see a USB drive appear as: CIRCUITPY
+<img src="assets/circuitpy.png" alt="" width="100"/>
+2. Double-click the RESET button, the drive disappears and reappears as: ITSYM4BOOT
+<img src="../components/itsybitsy-microcontroller/assets/recognize_IB_M4.jpg" alt="" width="200"/>
+<img src="assets/ITSYM4BOOT.png" alt="" width="100"/>  
+1. Open the ```INFO_UF2.TXT```, you should see something like ```UF2 Bootloader v2.0.0```, this shows you the current version of the bootloader you are using.  
+<img src="assets/info_uf2_before_upgrade.png" alt="" width="100%"/>  
+1. Download the latest version **AT THE END** of [this page](https://circuitpython.org/board/itsybitsy_m4_express/#:~:text=Update%20UF2%20Bootloader) under “Update UF2 Bootloader”  
+<img src="assets/M4_update_bootloader.png" alt="" width="100%"/>  
+1. Drag the .uf2 file to the ITSYM4BOOT drive.  
+<img src="assets/dragbootloader_M4.png" alt="" width="100%"/>  
+1. Open the ```INFO_UF2.TXT```, you should see something like ```UF2 Bootloader v3.15.0```, this shows you the current version of the bootloader you are upgraded to.   
+<img src="assets/info_uf2_after_upgrade.png" alt="" width="100%"/>  
