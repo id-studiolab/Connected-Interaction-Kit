@@ -17,8 +17,9 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
 1. You must import two more modules to establish socket connections and make `HTTP requests`:
    ```python
    # Import modules for establishing socket connections and making HTTP requests
+   import adafruit_connection_manager
    import adafruit_esp32spi.adafruit_esp32spi_socket as socket
-   import adafruit_requests as requests
+   import adafruit_requests
    ```
 
 2. Below the import statements, provide the address for the API you want request data from:
@@ -27,11 +28,15 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
    joke_url = "https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
    ```
 
-3. Configure the `requests` module to use your WiFi module's sockets by adding `requests.set_socket(socket, esp)` below the WiFi module initialization:
+3. Configure the `requests` module to use your WiFi pool and ssl context by adding the following lines below the WiFi module initialization:
    ```python
    # Initialize the ESP32 WiFi module and configure requests to use its sockets
    esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset)
-   requests.set_socket(socket, esp)
+   
+   # Initialize a requests session
+   pool = adafruit_connection_manager.get_radio_socketpool(esp)
+   ssl_context = adafruit_connection_manager.get_radio_ssl_context(esp)
+   requests = adafruit_requests.Session(pool, ssl_context)
    ```
 
 4. Replace the existing `while True:` loop with the following `while esp.is_connected:` loop. This loop will stop running should the WiFi connection drop. During each repetition, the code will open an HTTP connection and send a request to the URL specified in step 2. After receiving a response, the joke contained within is formatted and printed to the Serial Monitor before the HTTP connection is closed again.
@@ -58,16 +63,25 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
 
 5. Save your changes and open Mu Editor's Serial Monitor. If everything went well, your microcontroller will deliver a new, random joke every 5 seconds. Your finished code should look something like this:
 
+{:.note}
+   If you see the following error then you need to update your ItsyBitsy and all the libraries. To do so pleas check out [this page](../../support/index) 
+   ````python
+   File "code.txt", line 5, in <module>
+   ImportError: no module named 'adafruit_connection_manager'
+   ````
+
+
    ```python
    import board
    import busio
    import time
    import digitalio
+   import adafruit_connection_manager
    from adafruit_esp32spi import adafruit_esp32spi
    
    # Import modules for establishing socket connections and making HTTP requests
    import adafruit_esp32spi.adafruit_esp32spi_socket as socket
-   import adafruit_requests as requests
+   import adafruit_requests
    
    # Get WiFi details from your secrets.py file
    from secrets import secrets
@@ -83,7 +97,11 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
    
    # Initialize the ESP32 WiFi module and configure requests to use its sockets
    esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset)
-   requests.set_socket(socket, esp)
+   
+   # Initialize a requests session
+   pool = adafruit_connection_manager.get_radio_socketpool(esp)
+   ssl_context = adafruit_connection_manager.get_radio_ssl_context(esp)
+   requests = adafruit_requests.Session(pool, ssl_context)
    
    if esp.status == adafruit_esp32spi.WL_IDLE_STATUS:
        print("\nESP32 WiFi Module found.")
