@@ -47,7 +47,7 @@ Each course using the Connected Interaction Kit will have their own tech support
 ## How do I install the required Circuit Python libraries?
 1. Open the latest version of our project bundle  
 
-[Download Project Bundle](https://github.com/Jerzeek/CIK-Project-Bundle/releases/latest){: .btn .btn-blue }
+[Download Project Bundle](https://github.com/id-studiolab/CIK-Project-Bundle/releases/latest){: .btn .btn-blue }
 
 2. Download the cik-project-bundle-9.x-mpy.zip file
 3. Unzip the file on your computer
