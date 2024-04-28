@@ -12,7 +12,8 @@ Welcome to the tutorials section of the Connected Interaction Kit!
 
 Here, you will find a comprehensive set of tutorials aimed at helping you take your first steps in working with microcontrollers, sensors, and actuators. We included easy-to-follow instructions covering everything from setting up the tools needed to use your microcontroller to creating your first interaction and writing your first program. 
 
-To start your journey in the exciting world of electronics, click here:
+These tutorials are also written up in the physical booklet included in the kit. [The PDF version of that booklet is available for download (click here)](https://github.com/id-studiolab/Connected-Interaction-Kit/blob/main/production_files/2024_edidion%20%28wip%29/booklet/2024_Kit_Booklet%28RGB_Digital_Publishing%29.pdf).
+To start your journey in the exciting world of electronics, click the button below:
 
 [Get started](preparation/){: .btn .btn-blue }
 
