@@ -14,6 +14,11 @@ Should you run into issues during coding please first carefully read the trouble
 
 [Troubleshooting page](troubleshooting){: .btn .btn-blue }
 
+## What can I connect where?
+To give you a clear overview we made the following pinout page:  
+[Pinout page](troubleshooting)
+
+
 ## What do I do when hardware components are not working?
 In case any of your components not working as expected, please check the [documentation page](../components/index) of the component first and try getting it running with the example code first.
 
