@@ -62,12 +62,12 @@ Each course using the Connected Interaction Kit will have their own tech support
 
 
 
-1. Download the CircuitPython Library you want
-   1. This can be part of the complete Adafruit CircuitPython bundle: “Bundle for Version 9.x” from this [page](https://circuitpython.org/libraries).  
+1. Download the CircuitPython Library you want. You can find the complete Adafruit CircuitPython bundle or the community bundle from this [page](https://circuitpython.org/libraries).  
 <img src="assets/libraries.png" alt="" width="100%"/>  
-   2. Or this can be part of the Adafruit Community bundle: from this [page](https://github.com/adafruit/CircuitPython_Community_Bundle/releases/latest)
-<img src="assets/community_libraries.png" alt="" width="100%"/>  
-1. Unzip the file and copy the file to your lib folder on your ItsyBitsy
+ 
+1. Unzip the file and copy the desired file(s) to the ```lib``` folder on your ItsyBitsy
+
+Alternatively you can read more about libraries on the following page: [libraries](libraries)
 
 # How to upgrade the ItsyBitsy M4 bootloader
 This is only for the Itsy Bitsy M4. *Guide based on [Adafruit update page](https://learn.adafruit.com/introducing-adafruit-itsybitsy-m4/update-the-uf2-bootloader), check this page for more in-depth guidance*
