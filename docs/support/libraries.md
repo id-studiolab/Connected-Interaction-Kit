@@ -1,3 +1,10 @@
+---
+layout: default
+title: Libraries
+parent: "Getting help"
+nav_order: 3
+---
+
 # Understanding Code Libraries in CircuitPython
 Introduction to Code Libraries
 Imagine you're trying to build a complex structure, like a skyscraper. Instead of creating every single component from scratch – each bolt, each beam – you would likely use pre-manufactured parts that have been tested for strength and reliability. In programming, these pre-manufactured parts are called libraries. In CircuitPython, libraries are collections of pre-written code that provide specific functionality, which you can easily integrate into your projects. They are essential for efficient and effective programming, enabling you to leverage existing solutions to common problems.

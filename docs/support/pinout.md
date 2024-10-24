@@ -1,3 +1,10 @@
+---
+layout: default
+title: Pinouts
+parent: "Getting help"
+nav_order: 2
+---
+
 # Pinouts
 ## Pinout for the Itsy Bitsy M4
 <img src="assets/ItsyBitsyM4.png" alt="" width="100%"/>  
