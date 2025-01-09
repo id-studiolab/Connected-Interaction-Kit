@@ -1,0 +1,97 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/aadjan/src/github/Connected-Interaction-Kit/production_files/2025_edition/box_assembly/stickers/lid_stickers/Document fonts/AdobeFnt23.lst
+FileLength:2117
+FileModTime:755606998
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/aadjan/src/github/Connected-Interaction-Kit/production_files/2025_edition/box_assembly/stickers/lid_stickers/Document fonts/AdobeFnt24.lst
+FileLength:2150
+FileModTime:755609693
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/aadjan/src/github/Connected-Interaction-Kit/production_files/2025_edition/box_assembly/stickers/lid_stickers/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:755606998
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Bold
+FamilyName:Ubuntu Mono
+StyleName:Bold
+MenuName:Ubuntu Mono
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu Mono Bold
+WritingScript:Roman
+OutlineFileName:/Users/aadjan/src/github/Connected-Interaction-Kit/production_files/2025_edition/box_assembly/stickers/lid_stickers/Document fonts/UbuntuMono-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:174860
+FileModTime:755606998
+NameArray:0,Win,1,Ubuntu Mono
+NameArray:0,Win,16,Ubuntu Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Regular
+FamilyName:Ubuntu Mono
+StyleName:Regular
+MenuName:Ubuntu Mono
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Ubuntu Mono
+WritingScript:Roman
+OutlineFileName:/Users/aadjan/src/github/Connected-Interaction-Kit/production_files/2025_edition/box_assembly/stickers/lid_stickers/Document fonts/UbuntuMono-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:189892
+FileModTime:755606998
+NameArray:0,Win,1,Ubuntu Mono
+NameArray:0,Win,16,Ubuntu Mono
+%EndFont
+
