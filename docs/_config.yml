@@ -31,7 +31,7 @@ plugins:
 # External navigation links
 nav_external_links:
   - title: Digital Interfaces
-    url: https://id-studiolab.github.io/Connected-Interaction-Kit
+    url: https://id-studiolab.github.io/Digital-Interfaces/
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
   - title: CircuitPython Docs
