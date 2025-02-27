@@ -16,6 +16,6 @@ You can use your BitsyExpander to connect your ItsyBitsy microcontroller to most
 This tutorial will guide you through connecting your ItsyBitsy microcontroller to a local WiFi network, retrieving a random joke from the internet using an [API](../../glossary/glossary) (Application Programming Interface), and displaying it on the `Serial Monitor`.
 
 {:.note}
-Connecting your microcontroller to **eduroam** is impossible due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the **TUD-facility** network instead.
+Connecting your microcontroller to **eduroam** is cumbersome due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the **TUD-facility** network instead. This wifi is created for all kinds of small computers (eg. microcontrollers and raspberry pi's). Security is enforced by allowing students to connect a small computer that is linked to their netid.
 
 [Get started](part-1){: .btn .btn-blue }

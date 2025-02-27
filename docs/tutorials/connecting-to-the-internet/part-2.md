@@ -14,15 +14,17 @@ As mentioned in the introduction, security measures on campus prevent your micro
 
 1. Using your smartphone's camera app, scan your personal access token (the QR code in the lid of the box of your Connected Interaction Kit) and log in with your NetID.
 
-2. Tap the `Register devices` button at the bottom of the page.
+2. You find yourself at a screen where you should announce yourself to this system by pressing the `Claim license` button. For each device you register in the next steps. TU Delft ICT can now find the responsible person.
 
-3. Enter the MAC address you identified for your Expander Board in [part one of this tutorial](part-1), and choose a name for your device.  
+3. Tap the `Register devices` button at the bottom of the page.
+
+4. Enter the MAC address you identified for your Expander Board in [part one of this tutorial](part-1), and choose a name for your device.  
 
    ![MAC address registration](assets/register_address.jpg)
 
-4. Tap the `Register MAC Address` button and confirm. A new section for the device you registered will appear under `Registered Devices`. 
+5. Tap the `Register MAC Address` button and confirm. A new section for the device you registered will appear under `Registered Devices`. 
 
-5. Find the `iPSK` and write it down or save it. It will serve as the password to connect to the `TUD-facility` WiFi network in the following step.
+6. Find the `iPSK` and write it down or save it. It will serve as the password to connect to the `TUD-facility` WiFi network in the following step.
 
    ![Screenshot of the submitted form with iPSK string](assets/registered_devices.jpg)  
 
