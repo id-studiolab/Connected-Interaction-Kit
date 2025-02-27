@@ -27,3 +27,14 @@ callouts:
 
 plugins:
   - jekyll-redirect-from
+
+# External navigation links
+nav_external_links:
+  - title: Digital Interfaces
+    url: https://id-studiolab.github.io/Connected-Interaction-Kit
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+  - title: CircuitPython Docs
+    url: https://docs.circuitpython.org/en/latest/README.html
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
