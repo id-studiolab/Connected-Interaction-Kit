@@ -83,7 +83,5 @@ while True:
 
 ---
 
-> [!TIP]
-> Your ItsyBitsy is now ready for connecting to the internet or even other ItsyBitsy's! Goodluck with your connected projects ;-)
-
-[Next Tutorial](../assembling-custom-components/){: .btn .btn-blue }
+{: .highlight }
+> Your ItsyBitsy is now ready for connecting to the internet or even other ItsyBitsy's! Good luck with your connected projects ;-)
