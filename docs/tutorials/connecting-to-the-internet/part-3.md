@@ -81,5 +81,9 @@ while True:
       - The code verifies the network you configured is available and waits for the successful establishment of a connection.
       - The content of the `while True:` loop has been replaced: It now pings google.com and reports the response time. This confirms internet connectivity for your microcontroller.
 
+---
+
+> [!TIP]
+> Your ItsyBitsy is now ready for connecting to the internet or even other ItsyBitsy's! Goodluck with your connected projects ;-)
 
 [Next Tutorial](../assembling-custom-components/){: .btn .btn-blue }
