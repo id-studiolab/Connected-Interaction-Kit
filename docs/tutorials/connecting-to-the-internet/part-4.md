@@ -64,83 +64,84 @@ Before beginning, ensure your `code.py` file is open in **Mu Editor** and contai
 5. Save your changes and open Mu Editor's Serial Monitor. If everything goes well, your microcontroller will deliver a new, random joke every 5 seconds. Your finished code should look something like this:
 
 {:.note}
-   If you see the following error:    
-   `File "code.txt", line 5, in <module>`  
-   `ImportError: no module named 'adafruit_connection_manager'`  
-    then you need to update your ItsyBitsy and all the libraries. To do so, please check out [this page](../../support/index)  
+If you see the following error:    
+`File "code.txt", line 5, in <module>`  
+`ImportError: no module named 'adafruit_connection_manager'`  
+then you need to update your ItsyBitsy and all the libraries. To do so, please check out [this page](../../support/index)  
 
 
-   ```python
-   import board
-   import busio
-   import time
-   import digitalio
-   import adafruit_connection_manager
-   from adafruit_esp32spi import adafruit_esp32spi
-   
-   # Import modules for establishing socket connections and making HTTP requests
-   import adafruit_esp32spi.adafruit_esp32spi_socket as socket
-   import adafruit_requests
-   
-   # Get WiFi details from your secrets.py file
-   from secrets import secrets
-   
-   # URL for the API that will return a random joke
-   joke_url = "https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
-   
-   # Define the pins used by the BitsyExpander's ESP32 WiFi module:
-   esp32_cs = digitalio.DigitalInOut(board.D9)
-   esp32_ready = digitalio.DigitalInOut(board.D11)
-   esp32_reset = digitalio.DigitalInOut(board.D12)
-   spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
-   
-   # Initialize the ESP32 WiFi module and configure requests to use its sockets
-   esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset)
-   
-   # Initialize a requests session
-   pool = adafruit_connection_manager.get_radio_socketpool(esp)
-   ssl_context = adafruit_connection_manager.get_radio_ssl_context(esp)
-   requests = adafruit_requests.Session(pool, ssl_context)
-   
-   if esp.status == adafruit_esp32spi.WL_IDLE_STATUS:
-       print("\nESP32 WiFi Module found.")
-       print("Firmware version:", str(esp.firmware_version, "utf-8"))
-       print("*" * 40)
-   
-   print("\nScanning for available networks...\n")
-   network_list = [str(ap["ssid"], "utf-8") for ap in esp.scan_networks()]
-   if secrets["ssid"] not in network_list:
-       print(secrets["ssid"], "not found.\nAvailable networks:", network_list)
-       raise SystemExit(0)
-   
-   print(secrets["ssid"], "found. Connecting...")
-   while not esp.is_connected:
-       try:
-           esp.connect_AP(secrets["ssid"], secrets["password"])
-       except (RuntimeError, ConnectionError) as e:
-           print("\nUnable to establish connection. Are you using a valid password?")
-           print("Error message:", e, "\nRetrying...")
-           continue
-   
-   print("Connected! IP address:", esp.pretty_ip(esp.ip_address))
-   
-   while esp.is_connected:
-       print("\nFetching random joke from https://sv443.net/jokeapi/v2/")
-       r = requests.get(joke_url)
-       joke = r.json()
-       print("-" * 40)
-   
-       # Checking for different type of joke, either one-liner or setup and delivery joke
-       if "joke" in joke:
-           print(joke['joke'])
-       else:
-          print(joke['setup'])
-          time.sleep(3)
-          print(joke['delivery'])
-   
-       print("-" * 40)
-       r.close()
-       time.sleep(5)
-   ```
+```python
+import board
+import busio
+import time
+import digitalio
+import adafruit_connection_manager
+from adafruit_esp32spi import adafruit_esp32spi
+
+# Import modules for establishing socket connections and making HTTP requests
+import adafruit_esp32spi.adafruit_esp32spi_socket as socket
+import adafruit_requests
+
+# Get WiFi details from your secrets.py file
+from secrets import secrets
+
+# URL for the API that will return a random joke
+joke_url = "https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
+
+# Define the pins used by the BitsyExpander's ESP32 WiFi module:
+esp32_cs = digitalio.DigitalInOut(board.D9)
+esp32_ready = digitalio.DigitalInOut(board.D11)
+esp32_reset = digitalio.DigitalInOut(board.D12)
+spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
+
+# Initialize the ESP32 WiFi module and configure requests to use its sockets
+esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset)
+
+# Initialize a requests session
+pool = adafruit_connection_manager.get_radio_socketpool(esp)
+ssl_context = adafruit_connection_manager.get_radio_ssl_context(esp)
+requests = adafruit_requests.Session(pool, ssl_context)
+
+if esp.status == adafruit_esp32spi.WL_IDLE_STATUS:
+	print("\nESP32 WiFi Module found.")
+	print("Firmware version:", str(esp.firmware_version, "utf-8"))
+	print("*" * 40)
+
+print("\nScanning for available networks...\n")
+network_list = [str(ap["ssid"], "utf-8") for ap in esp.scan_networks()]
+if secrets["ssid"] not in network_list:
+	print(secrets["ssid"], "not found.\nAvailable networks:", network_list)
+	raise SystemExit(0)
+
+print(secrets["ssid"], "found. Connecting...")
+while not esp.is_connected:
+	try:
+		esp.connect_AP(secrets["ssid"], secrets["password"])
+	except (RuntimeError, ConnectionError) as e:
+		print("\nUnable to establish connection. Are you using a valid password?")
+		print("Error message:", e, "\nRetrying...")
+		continue
+
+print("Connected! IP address:", esp.pretty_ip(esp.ip_address))
+
+while esp.is_connected:
+	print("\nFetching random joke from https://sv443.net/jokeapi/v2/")
+	r = requests.get(joke_url)
+	joke = r.json()
+	print("-" * 40)
+
+	# Checking for different type of joke, either one-liner or setup and delivery joke
+	if "joke" in joke:
+		print(joke['joke'])
+	else:
+		print(joke['setup'])
+		time.sleep(3)
+		print(joke['delivery'])
+
+	print("-" * 40)
+	r.close()
+	time.sleep(5)
+	
+```
 
 [Next Tutorial](../assembling-custom-components/){: .btn .btn-blue }
