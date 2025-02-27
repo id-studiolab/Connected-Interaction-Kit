@@ -14,7 +14,7 @@ As mentioned in the introduction, security measures on campus prevent your micro
 
 1. Using your smartphone's camera app, scan your personal access token (the QR code in the lid of the box of your Connected Interaction Kit) and log in with your NetID.
 
-2. You find yourself at a screen where you should announce yourself to this system by pressing the `Claim license` button. For each device you register in the next steps. TU Delft ICT can now find the responsible person.
+2. You find yourself at a screen where you should announce yourself to this system by pressing the `Claim license` button. For each device you register in the next steps, TU Delft ICT can now find the responsible person.
 
 3. Tap the `Register devices` button at the bottom of the page.
 
