@@ -12,6 +12,8 @@ A GitHub Page containing tutorials and documentation of the kit's content is ava
 
 The [/docs](/docs/) folder in this repository contains the kit's online documentation resources. The folder's contents are automatically compiled and deployed to the URL mentioned above whenever a change occurs.
 
+to run it locally install jekyll and run the command ```jekyll serve --config _config_local.yml``` from the docs folder
+
 ---
 
 # Kit Production
@@ -31,4 +33,6 @@ Everything concerning the production of the kit is documented in the [/productio
       - [Cardboard Inlays](/production_files/2023_edition/box_assembly/README.md#cardboard-inlays)
    4. [WiFi Token QR Code Stickers](/production_files/2023_edition/box_assembly/README.md#wifi-token-qr-code-stickers)
    5. [Final Assembly](/production_files/2023_edition/box_assembly/README.md#final-assembly)
+
+# Code
 
