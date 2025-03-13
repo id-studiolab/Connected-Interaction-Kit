@@ -30,6 +30,19 @@ def copy_file_to_disk(src, dest):
     else:
         shutil.copy(src, dest)
 
+def delete_files_from_disk(path):
+    """Delete all files and directories in the given path."""
+    for item in os.listdir(path):
+        item_path = os.path.join(path, item)
+        try:
+            if os.path.isfile(item_path) or os.path.islink(item_path):
+                os.unlink(item_path)  # Remove file or symbolic link
+            elif os.path.isdir(item_path):
+                shutil.rmtree(item_path)  # Remove directory
+        except PermissionError as e:
+            print(f"Skipping {item_path}: {e}")
+
+
 def process_board():
     print("Waiting for ITSYM4BOOT...")
     itsym4boot_disk = wait_for_mount("ITSYM4BOOT")
@@ -40,8 +53,11 @@ def process_board():
 
     print("Waiting for CIRCUITPY...")
     circuitpy_disk = wait_for_mount("CIRCUITPY")
-    print(f"Detected CIRCUITPY at {circuitpy_disk}. Copying library bundle...")
+    print(f"Detected CIRCUITPY at {circuitpy_disk}. Deleting old files...")
 
+    delete_files_from_disk(f"/Volumes/CIRCUITPY/")
+    
+    print("Copying library bundle...")
     copy_file_to_disk(LIBRARY_BUNDLE, f"/Volumes/CIRCUITPY/")
     time.sleep(2)  # Ensure all data is written
 
