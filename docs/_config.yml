@@ -1,7 +1,12 @@
-remote_theme: just-the-docs/just-the-docs
+theme: "just-the-docs" 
+
+baseurl: /Connected-Interaction-Kit
 
 title: Connected Interaction Kit
 color_scheme: connected-interaction-kit
+
+plugins:
+  - jekyll-redirect-from
 
 callouts_level: quiet
 callouts:
@@ -25,11 +30,6 @@ callouts:
     title: Warning
     color: red
 
-plugins:
-  - jekyll-redirect-from
-
-#uncomment the following line if you want to run it locally
-theme: "just-the-docs" #https://stackoverflow.com/questions/56464757/trouble-implementing-specifically-just-the-docs-theme-using-jekyll
 
 # External navigation links
 nav_external_links:
