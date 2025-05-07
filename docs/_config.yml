@@ -28,6 +28,9 @@ callouts:
 plugins:
   - jekyll-redirect-from
 
+#uncomment the following line if you want to run it locally
+theme: "just-the-docs" #https://stackoverflow.com/questions/56464757/trouble-implementing-specifically-just-the-docs-theme-using-jekyll
+
 # External navigation links
 nav_external_links:
   - title: Digital Interfaces

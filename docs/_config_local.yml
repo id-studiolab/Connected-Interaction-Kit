@@ -30,3 +30,14 @@ plugins:
 
 #uncomment the following line if you want to run it locally
 theme: "just-the-docs" #https://stackoverflow.com/questions/56464757/trouble-implementing-specifically-just-the-docs-theme-using-jekyll
+
+# External navigation links
+nav_external_links:
+  - title: Digital Interfaces
+    url: https://id-studiolab.github.io/Digital-Interfaces/
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+  - title: CircuitPython Docs
+    url: https://docs.circuitpython.org/en/latest/README.html
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
