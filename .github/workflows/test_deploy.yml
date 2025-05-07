@@ -34,7 +34,7 @@ jobs:
       - name: Deploy to GitHub Pages /test subdirectory
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GH_PAGES_DEPLOYMENT}}
+          github_token: ${{ secrets.GH_PAGES_DEPLOYMENT_CIK}}
           publish_dir: ./output
           publish_branch: gh-pages
           destination_dir: test
