@@ -12,8 +12,6 @@ A GitHub Page containing tutorials and documentation of the kit's content is ava
 
 The [/docs](/docs/) folder in this repository contains the kit's online documentation resources. The folder's contents are automatically compiled and deployed to the URL mentioned above whenever a change occurs.
 
-to run it locally install jekyll and run the command ```jekyll serve --config _config_local.yml``` from the docs folder
-
 ---
 
 # Kit Production
