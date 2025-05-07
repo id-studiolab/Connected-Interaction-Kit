@@ -1,7 +1,12 @@
-remote_theme: just-the-docs/just-the-docs
+theme: "just-the-docs" 
+
+baseurl: /Connected-Interaction-Kit
 
 title: Connected Interaction Kit
 color_scheme: connected-interaction-kit
+
+plugins:
+  - jekyll-redirect-from
 
 callouts_level: quiet
 callouts:
@@ -25,8 +30,6 @@ callouts:
     title: Warning
     color: red
 
-plugins:
-  - jekyll-redirect-from
 
 # External navigation links
 nav_external_links:
