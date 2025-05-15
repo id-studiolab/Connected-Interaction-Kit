@@ -9,7 +9,7 @@ has_children: false
 
 
 
-<img src="assets/basic-radar-sensor.png" alt="Basic Radar Sensor" width="250"/>
+<img src="assets/basic-radar-sensor.jpg" alt="Basic Radar Sensor" width="250"/>
 
 # Basic Radar Sensor
 <a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/2wire.png" alt="Two Wire" width="72"/></a>

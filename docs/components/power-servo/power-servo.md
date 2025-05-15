@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Advanced Radar Sensor"
+title: "Power Servo"
 grand_parent: "Components"
 parent: "Advanced Components"
 nav_order: 1
@@ -9,9 +9,9 @@ has_children: false
 
 
 
-<img src="assets/advanced-radar-sensor.jpg" alt="Advanced Radar Sensor" width="250"/>
+<img src="assets/power-servo.jpg" alt="Power servo" width="250"/>
 
-# Advanced Radar Sensor
+# Power Servo
 <a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/2wire.png" alt="Two Wire" width="72"/></a>
 
 < one sentence explaination of item >
