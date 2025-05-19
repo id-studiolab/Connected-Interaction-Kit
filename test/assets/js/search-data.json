@@ -104,1392 +104,1420 @@
     
     "relUrl": "/components/bitsy-expander/bitsy-expander.html"
   },"15": {
+    "doc": "Bluetooth",
+    "title": "Bluetooth",
+    "content": ". &lt; one sentence explaination of item &gt; . ",
+    "url": "/Connected-Interaction-Kit/test/components/bluetooth/bluetooth.html#bluetooth",
+    
+    "relUrl": "/components/bluetooth/bluetooth.html#bluetooth"
+  },"16": {
+    "doc": "Bluetooth",
+    "title": "How to use bluetooth on your itsy bitsy expander:",
+    "content": "Solder the connections . at the bottom of the bitsy expander bridge the pins of the Rx, Tx, and GPIO0 pads. Follow the rest of the instruction on this page: https://learn.adafruit.com/adafruit-airlift-breakout/circuitpython-ble Note: edit the pin definition in line 45 to 55. ",
+    "url": "/Connected-Interaction-Kit/test/components/bluetooth/bluetooth.html#how-to-use-bluetooth-on-your-itsy-bitsy-expander",
+    
+    "relUrl": "/components/bluetooth/bluetooth.html#how-to-use-bluetooth-on-your-itsy-bitsy-expander"
+  },"17": {
+    "doc": "Bluetooth",
+    "title": "Required Libraries",
+    "content": "link to library . ",
+    "url": "/Connected-Interaction-Kit/test/components/bluetooth/bluetooth.html#required-libraries",
+    
+    "relUrl": "/components/bluetooth/bluetooth.html#required-libraries"
+  },"18": {
+    "doc": "Bluetooth",
+    "title": "Basic Usage",
+    "content": "explaination . explaination . ",
+    "url": "/Connected-Interaction-Kit/test/components/bluetooth/bluetooth.html#basic-usage",
+    
+    "relUrl": "/components/bluetooth/bluetooth.html#basic-usage"
+  },"19": {
+    "doc": "Bluetooth",
+    "title": "Bluetooth",
+    "content": ". ",
+    "url": "/Connected-Interaction-Kit/test/components/bluetooth/bluetooth.html",
+    
+    "relUrl": "/components/bluetooth/bluetooth.html"
+  },"20": {
     "doc": "Breadboard",
     "title": "Breadboard",
     "content": "Used for more basic operations (making electrical circuits) interfacing components without soldering. Documentation coming soon . ",
     "url": "/Connected-Interaction-Kit/test/components/breadboard/breadboard.html#breadboard",
     
     "relUrl": "/components/breadboard/breadboard.html#breadboard"
-  },"16": {
+  },"21": {
     "doc": "Breadboard",
     "title": "Breadboard",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/breadboard/breadboard.html",
     
     "relUrl": "/components/breadboard/breadboard.html"
-  },"17": {
+  },"22": {
     "doc": "Big chainable LED",
     "title": "Big Chainable LED",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led-big/chainable-led-big.html#big-chainable-led",
     
     "relUrl": "/components/chainable-led-big/chainable-led-big.html#big-chainable-led"
-  },"18": {
+  },"23": {
     "doc": "Big chainable LED",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led-big/chainable-led-big.html#required-libraries",
     
     "relUrl": "/components/chainable-led-big/chainable-led-big.html#required-libraries"
-  },"19": {
+  },"24": {
     "doc": "Big chainable LED",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led-big/chainable-led-big.html#basic-usage",
     
     "relUrl": "/components/chainable-led-big/chainable-led-big.html#basic-usage"
-  },"20": {
+  },"25": {
     "doc": "Big chainable LED",
     "title": "Big chainable LED",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led-big/chainable-led-big.html",
     
     "relUrl": "/components/chainable-led-big/chainable-led-big.html"
-  },"21": {
+  },"26": {
     "doc": "Chainable RGB/W LED",
     "title": "Chainable RGB/W LED (ChaiNEO)",
     "content": ". A light source that can produce RGB colored and white light. Can be daisy chained. This component is based on an RGB/W LED sold by Adafruit and is compatible with their NeoPixel library. Extensive information on NeoPixel components and their use is available here. Before proceeding, make sure your LED module looks like the illustration above. If you are not sure if this is the correct version, refer to this overview. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html#chainable-rgbw-led-chaineo",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html#chainable-rgbw-led-chaineo"
-  },"22": {
+  },"27": {
     "doc": "Chainable RGB/W LED",
     "title": "Wiring",
     "content": "Confirm that the ChaiNEO module is oriented correctly, with the input port (marked “IN”, at the base of the arrow) connected to the Grove connector on your BitsyExpander Board or the previous LED in your chain. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html#wiring",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html#wiring"
-  },"23": {
+  },"28": {
     "doc": "Chainable RGB/W LED",
     "title": "Preparation",
     "content": "The ChaiNEO modules use a Neopixel-compatible RGB/W LED. To easily control them in code, the neopixel library is needed. The library should be pre-loaded on the ItsyBitsy Microcontroller included in your kit. You can verify that the library is installed by ensuring a file called neopixel.mpy is present in the lib folder of your CIRCUITPY drive. If not, download Adafruit’s Library Bundle for Version 8.x here. Extract the needed file from the bundle and place it in the lib folder on your microcontroller. You can learn more about libraries and their use in the Glossary or the ../../Tutorials. The examples below assume your component is connected to the connector labeled D13 on the BitsyExpander Board. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html#preparation",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html#preparation"
-  },"24": {
+  },"29": {
     "doc": "Chainable RGB/W LED",
     "title": "Making a Chainable RGB/W LED blink",
     "content": "This example uses the fill() function to set the brightness of each color channel (RED, GREEN, BLUE, WHITE) to a value between 0 to 255. The value 0 corresponds to off, while 255 means fully on. A bright white LED, for example, is defined by (0, 0, 0, 255) and a bright red one is (255, 0, 0, 0). (255, 0, 255, 0) mixes red and blue to make the LED appear purple, while (0, 0, 0, 0) will turn it off. Use values between 0 and 255 to vary the brightness level and mix different colors. During the setup phase, we use the fill() function and pass it the value 0 to ensure all LEDs are off on startup, as in this context, 0 is identical to (0, 0, 0, 0). The show() function is called to display the new values defined using fill(). # --- Imports import time import board import neopixel # --- Variables pin_leds = board.D13 num_leds = 1 leds = neopixel.NeoPixel(pin_leds, num_leds, auto_write=False, pixel_order=neopixel.GRBW) # --- Functions # --- Setup leds.fill(0) leds.show() # --- Main loop while True: print(\"ON\") leds.fill((255, 0, 255, 0)) leds.show() time.sleep(1) print(\"OFF\") leds.fill((0, 0, 0, 0)) leds.show() time.sleep(1) . At the end of our neopixel object declaration , we define pixel_order=neopixel.GRBW. This does not mean that our code expects us to provide color information in that order; it describes the configuration of the LED itself. The code still expects color information to be arranged in the order (RED, GREEN, BLUE, WHITE). If you buy other NeoPixel-compatible components online, the pixel_order value may need to be configured differently. A comprehensive guide on how to use different kinds of NeoPixels is available here. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html#making-a-chainable-rgbw-led-blink",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html#making-a-chainable-rgbw-led-blink"
-  },"25": {
+  },"30": {
     "doc": "Chainable RGB/W LED",
     "title": "Fading a Chainable RGB/W LED in and out",
     "content": "This example uses a for loop to increase and decrease the brightness of an LED on each run through the loop. The sleep() function is used to slow down the speed at which the loop iterates. # --- Imports import time import board import neopixel # --- Variables pin_leds = board.D13 num_leds = 1 leds = neopixel.NeoPixel(pin_leds, num_leds, auto_write=False, pixel_order=neopixel.GRBW) delta = 5 # --- Functions # --- Setup leds.fill(0) leds.show() # --- Main loop while True: print(\"Fading in...\") for intensity in range(0, 255, delta): leds.fill((intensity, 0, intensity, 0)) leds.show() time.sleep(0.05) print(\"Fading out...\") for intensity in range(255, 0, -delta): leds.fill((intensity, 0, intensity, 0)) leds.show() time.sleep(0.04) . Using the sleep() function to set the fading speed will prevent other code from executing while sleeping. This is called a blocking delay and does not work well when multitasking. You can read Adafruit’s tutorial on Multitasking with CircuitPython to learn about a non-blocking alternative. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html#fading-a-chainable-rgbw-led-in-and-out",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html#fading-a-chainable-rgbw-led-in-and-out"
-  },"26": {
+  },"31": {
     "doc": "Chainable RGB/W LED",
     "title": "Using a chain with multiple LEDs",
     "content": "This example demonstrates how to address individual LEDs in a chain. As before, the fill() function is used, this time to define a common value for the entire chain. To specify a color for each LED individually, refer to the code below. Note that LEDs are indexed starting from 0, which refers to the first LED in the chain. Remember to use the show() function to write the newly defined color values to the LED chain. # --- Imports import time import board import neopixel # --- Variables pin_leds = board.D13 num_leds = 3 leds = neopixel.NeoPixel(pin_leds, num_leds, auto_write=False, pixel_order=neopixel.GRBW) # --- Functions # --- Setup leds.fill(0) # turn off all LEDs leds.show() # --- Main loop while True: # set color values for the LEDs individually leds[0] = (255, 0, 0, 0) # red leds[1] = (0, 255, 0, 0) # green leds[2] = (0, 0, 255, 0) # blue leds.show() time.sleep(2) # make all LEDs white leds.fill((0, 0, 0, 255)) # white leds.show() time.sleep(2) . ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html#using-a-chain-with-multiple-leds",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html#using-a-chain-with-multiple-leds"
-  },"27": {
+  },"32": {
     "doc": "Chainable RGB/W LED",
     "title": "Additional Resources",
     "content": "Adafruit’s NeoPixel Überguide . Everything there is to know about different types of NeoPixels, best practices, and how to use them. NeoPixels in Adafruit’s CircuitPython Essentials Guide . A comprehensive overview of how to configure different kinds of NeoPixels, how to use them, as well as an overview of how to go beyond the basic use of the neopixel library, such as setting up rainbow and color chase effects. NeoPixel RGBW SMD LED . The product page of the LED used on the ChaiNEO Chainable RGB/W LED module containing technical details and a basic description. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html#additional-resources",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html#additional-resources"
-  },"28": {
+  },"33": {
     "doc": "Chainable RGB/W LED",
     "title": "Chainable RGB/W LED",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-chaineo.html",
     
     "relUrl": "/components/chainable-led/chainable-led-chaineo.html"
-  },"29": {
+  },"34": {
     "doc": "Chainable RGB LED",
     "title": "Chainable RGB LED (Grove)",
     "content": ". A light source that can produce RGB colored light. Can be daisy chained. More detailed information is available on the Seeed Studio Wiki. Before proceeding, make sure your LED module looks like the illustration above. If you are not sure if this is the correct version, refer to this overview. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-p9813.html#chainable-rgb-led-grove",
     
     "relUrl": "/components/chainable-led/chainable-led-p9813.html#chainable-rgb-led-grove"
-  },"30": {
+  },"35": {
     "doc": "Chainable RGB LED",
     "title": "Wiring",
     "content": "Each connector on the BitsyExpander Board provides connections to two pins. As most components only need one pin to work, the second pin is often shared with another connector. To use this type of Chainable LED component, ensure it is attached to a connector with two available pins. Ensure you avoid using another connector that shares pins with the one you use for the Chainable LED. Confirm that the Chainable LED module is oriented correctly, with the input port (marked “IN”, at the base of the arrow) connected to the Grove connector on your BitsyExpander Board or the previous LED in your chain. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-p9813.html#wiring",
     
     "relUrl": "/components/chainable-led/chainable-led-p9813.html#wiring"
-  },"31": {
+  },"36": {
     "doc": "Chainable RGB LED",
     "title": "Preparation",
     "content": "Grove Chainable RGB LEDs are based on the P9813 LED driver chip. To easily control them in code, the P9813 library is needed. If this LED type came bundled with your kit, the library should be pre-loaded on your ItsyBitsy Microcontroller. Otherwise, follow the following steps: . | Download the P9813 library from here. | Place the p9813.py file in the lib folder on the CIRCUITPY drive of your ItsyBitsy Microcontroller. | . You can verify that the library is installed by ensuring a file called p9813.py is present in the lib folder of your CIRCUITPY drive. You can learn more about libraries and their use in the Glossary or the Tutorials. The examples below assume your component is connected to pins D13 and D10, contained in the connector labeled D13 on the BitsyExpander Board. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-p9813.html#preparation",
     
     "relUrl": "/components/chainable-led/chainable-led-p9813.html#preparation"
-  },"32": {
+  },"37": {
     "doc": "Chainable RGB LED",
     "title": "Making a Chainable RGB LED blink",
     "content": "This example uses the fill() function to set the brightness of each color channel (RED, GREEN, BLUE) to a value between 0 to 255. The value 0 corresponds to off, while 255 means fully on. A bright red LED, for example, is defined by (255, 0, 0). (255, 255, 255) will make the LED appear white, while (0, 0, 0) will turn it off. Use values between 0 and 255 to vary the brightness level and mix different colors. During the setup phase, the reset() function is called to ensure all LEDs are off on startup. The write() function is called to display the new colors previously defined using fill(). # --- Imports import time import board import p9813 # --- Variables pin_clk = board.D13 pin_data = board.D10 num_leds = 1 leds = p9813.P9813(pin_clk, pin_data, num_leds) # --- Functions # --- Setup leds.reset() # --- Main loop while True: print(\"ON\") leds.fill((0, 0, 255)) leds.write() time.sleep(1) print(\"OFF\") leds.fill((0, 0, 0)) leds.write() time.sleep(1) . ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-p9813.html#making-a-chainable-rgb-led-blink",
     
     "relUrl": "/components/chainable-led/chainable-led-p9813.html#making-a-chainable-rgb-led-blink"
-  },"33": {
+  },"38": {
     "doc": "Chainable RGB LED",
     "title": "Fading a Chainable RGB LED in and out",
     "content": "This example uses a for loop to increase and decrease the brightness of an LED on each run through the loop. The sleep() function is used to slow down the speed at which the loop iterates. # --- Imports import time import board import p9813 # --- Variables pin_clk = board.D13 pin_data = board.D10 num_leds = 1 leds = p9813.P9813(pin_clk, pin_data, num_leds) delta = 5 # --- Functions # --- Setup leds.reset() # --- Main loop while True: print(\"Fading in...\") for intensity in range(0, 255, delta): leds.fill((0, 0, intensity)) leds.write() time.sleep(0.05) print(\"Fading out...\") for intensity in range(255, 0, -delta): leds.fill((0, 0, intensity)) leds.write() time.sleep(0.04) . Using the sleep() function to set the fading speed will prevent other code from executing while sleeping. This is called a blocking delay and does not work well when multitasking. You can read Adafruit’s tutorial on Multitasking with CircuitPython to learn about a non-blocking alternative. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-p9813.html#fading-a-chainable-rgb-led-in-and-out",
     
     "relUrl": "/components/chainable-led/chainable-led-p9813.html#fading-a-chainable-rgb-led-in-and-out"
-  },"34": {
+  },"39": {
     "doc": "Chainable RGB LED",
     "title": "Using a chain with multiple LEDs",
     "content": "This example demonstrates how to address individual LEDs in a chain. As before, the reset() function turns all LEDs off, while fill() can set the entire chain to the same color. To specify a color for each LED individually, refer to the code below. Note that LEDs are indexed starting from 0, which refers to the first LED in the chain. Remember to use the write() function to write the newly defined color values to the LED chain. # --- Imports import time import board import p9813 # --- Variables pin_clk = board.D13 pin_data = board.D10 num_leds = 3 leds = p9813.P9813(pin_clk, pin_data, num_leds) # --- Functions # --- Setup leds.reset() # turn off all LEDs # --- Main loop while True: # set color values for the LEDs individually leds[0] = (255, 0, 0) # red leds[1] = (0, 255, 0) # green leds[2] = (0, 0, 255) # blue leds.write() time.sleep(2) # set a color value for all LEDs at once leds.fill((255, 0, 0)) leds.write() time.sleep(2) . ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-p9813.html#using-a-chain-with-multiple-leds",
     
     "relUrl": "/components/chainable-led/chainable-led-p9813.html#using-a-chain-with-multiple-leds"
-  },"35": {
+  },"40": {
     "doc": "Chainable RGB LED",
     "title": "Chainable RGB LED",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led-p9813.html",
     
     "relUrl": "/components/chainable-led/chainable-led-p9813.html"
-  },"36": {
+  },"41": {
     "doc": "Chainable LED",
     "title": "Chainable LED",
     "content": ". There are two different types of Chainable LED components. Which one you have depends on the edition of the Connected Interaction Kit you own. Choose the version that looks like the component found in your kit in the table below for more information. | Chainable RGB/W LED (ChaiNEO) | Chainable RGB LED (Grove) | . | | | . | | . | Learn More | Learn More | . While both components fulfill the same purpose, they rely on different communication protocols and are thus not interoperable. A chain must consist only of components of one type; they can not be mixed. However, you can use both types simultaneously as long as you set them up on different pins and follow the tutorials referenced above for each type. ",
     "url": "/Connected-Interaction-Kit/test/components/chainable-led/chainable-led.html",
     
     "relUrl": "/components/chainable-led/chainable-led.html"
-  },"37": {
+  },"42": {
     "doc": "Component",
     "title": "Component name",
     "content": "Description . More detailed component information can be found here. ",
     "url": "/Connected-Interaction-Kit/test/components/component-template/component.html#component-name",
     
     "relUrl": "/components/component-template/component.html#component-name"
-  },"38": {
+  },"43": {
     "doc": "Component",
     "title": "Tutorial",
     "content": "#Add example code here . ",
     "url": "/Connected-Interaction-Kit/test/components/component-template/component.html#tutorial",
     
     "relUrl": "/components/component-template/component.html#tutorial"
-  },"39": {
+  },"44": {
     "doc": "Component",
     "title": "Component",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/component-template/component.html",
     
     "relUrl": "/components/component-template/component.html"
-  },"40": {
+  },"45": {
     "doc": "Accessories",
     "title": "Accessories",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/components/components-accessories.html",
     
     "relUrl": "/components/components-accessories.html"
-  },"41": {
-    "doc": "Advanced Components",
-    "title": "Custom Components",
-    "content": "| Radar Sensor | Motor Driver | Big chainable LED | AC Dimmer | . | Basic Motion | Advanced Motion | Motion | RGB Light | Power | . | | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | To be developed | . | Power | MP3 player | Grove Extender | Grove Splitter | Neopixel helper | . | Servo | PWM | Audio | Other | Other | Light | . | | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | Learn More | . ",
-    "url": "/Connected-Interaction-Kit/test/components/components-advanced.html#custom-components",
-    
-    "relUrl": "/components/components-advanced.html#custom-components"
-  },"42": {
+  },"46": {
     "doc": "Advanced Components",
     "title": "Advanced Components",
-    "content": " ",
+    "content": "| Radar Sensor | Motor Driver | Big chainable LED | Bluetooth | AC Dimmer | . | Basic Motion | Advanced Motion | Motion | RGB Light | Communication | Power | . | | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | To be developed | . | Power | MP3 player | Grove Extender | Grove Splitter | Neopixel helper | . | Servo | PWM | Audio | Other | Other | Light | . | | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-advanced.html",
     
     "relUrl": "/components/components-advanced.html"
-  },"43": {
+  },"47": {
     "doc": "Core Components",
     "title": "Core Components",
     "content": "There are multiple, functionally equivalent editions of Connected Interaction Kit. The Core Components you own differ slightly between editions. Your exact components are determined by the year in which you purchased your Connected Interaction Kit. This page is designed to help you identify which version you own. If in doubt, jump to the bottom of the page for helpful pointers on how to recognize your hardware. ",
     "url": "/Connected-Interaction-Kit/test/components/components-core.html",
     
     "relUrl": "/components/components-core.html"
-  },"44": {
+  },"48": {
     "doc": "Core Components",
     "title": "2023 Edition",
     "content": "| Microcontroller | Bitsy Expander | . | ItsyBitsy RP2040 | Expander Board for ItsyBitsy RP2040 | . | | . |   |   | . | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-core.html#2023-edition",
     
     "relUrl": "/components/components-core.html#2023-edition"
-  },"45": {
+  },"49": {
     "doc": "Core Components",
     "title": "2022 Edition",
     "content": "| Microcontroller | Bitsy Expander | . | ItsyBitsy M4 Express | Expander Board for ItsyBitsy M4 Express | . | | . |   |   | . | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-core.html#2022-edition",
     
     "relUrl": "/components/components-core.html#2022-edition"
-  },"46": {
+  },"50": {
     "doc": "Core Components",
     "title": "Recognizing your components",
     "content": "Which Bitsy Expander do I have? . The easiest way to identify which Bitsy Expander flavor you own is checking the label on the back of the board. RP2040 or M4 stated on the label indicates the flavor of your Expander. Older M4 Expanders have an empty label (and are also recognizable by the lack of an I²C header at the top). Which ItsyBitsy Development Board do I have? . The ItsyBitsy M4 Express features one (RESET) button. (So do most other ItsyBitsy Development boards, so always verify with the silkscreen.) The ItsyBitsy RP2040 features two (BOOT, RESET) buttons. ",
     "url": "/Connected-Interaction-Kit/test/components/components-core.html#recognizing-your-components",
     
     "relUrl": "/components/components-core.html#recognizing-your-components"
-  },"47": {
+  },"51": {
     "doc": "Custom Components",
     "title": "Custom Components",
     "content": "| Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-custom.html",
     
     "relUrl": "/components/components-custom.html"
-  },"48": {
+  },"52": {
     "doc": "Solderless Components",
     "title": "Solderless Grove Components",
     "content": "| Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | Servo Motor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | Motion | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . | Time of Flight Sensor | Chainable LED | LED Pack | . | Distance | RGB/W Light | RGB Light | Monochrome LED | . | | | | | . | | | . | Learn More | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-solderless.html#solderless-grove-components",
     
     "relUrl": "/components/components-solderless.html#solderless-grove-components"
-  },"49": {
+  },"53": {
     "doc": "Solderless Components",
     "title": "Solderless Components",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/components/components-solderless.html",
     
     "relUrl": "/components/components-solderless.html"
-  },"50": {
+  },"54": {
     "doc": "Externder",
     "title": "Grove Externder",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/extender/extender.html#grove-externder",
     
     "relUrl": "/components/extender/extender.html#grove-externder"
-  },"51": {
+  },"55": {
     "doc": "Externder",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/extender/extender.html#required-libraries",
     
     "relUrl": "/components/extender/extender.html#required-libraries"
-  },"52": {
+  },"56": {
     "doc": "Externder",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/extender/extender.html#basic-usage",
     
     "relUrl": "/components/extender/extender.html#basic-usage"
-  },"53": {
+  },"57": {
     "doc": "Externder",
     "title": "Externder",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/extender/extender.html",
     
     "relUrl": "/components/extender/extender.html"
-  },"54": {
+  },"58": {
     "doc": "Glossary",
     "title": "Glossary",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/glossary/glossary.html",
     
     "relUrl": "/glossary/glossary.html"
-  },"55": {
+  },"59": {
     "doc": "Glossary",
     "title": "Signal Terms",
     "content": "| Term | Description | . | | An input is something a micro-controller can detect, such as the state of a switch, the rotation of a dial, or a microphone’s signal. | . | | An output is something that can be controlled by a microcontroller, such as a light, speaker, or motor. | . | | A digital signal is created by anything that assumes discrete states, such as on/off, true/false, or 1/0. | . | | An analog signal is created by anything that can assume any state on a continuous spectrum, such as temperature or pressure. | . | | A pulse-width modulated signal is an analog-like signal created by switching a digital signal on and off very fast. | . | | The I²C protocol is used to interface advanced components using two digital signals. | . | | Components labeled with the 2-Wire tag need two pins to function. Typically, that includes one pin used for transmitting data, while the other pin carries a clock signal that acts as a metronome to synchronize with the data stream’s speed. The I²C protocol is a widely used standard that follows this principle. | . ",
     "url": "/Connected-Interaction-Kit/test/glossary/glossary.html#signal-terms",
     
     "relUrl": "/glossary/glossary.html#signal-terms"
-  },"56": {
+  },"60": {
     "doc": "Glossary",
     "title": "Programming Terms",
     "content": "| Term | Description | . | Variable | A variable is like a labelled box where we store data. This could be a number, a text, or even more complex data. We can change the contents of this box anytime in our program. | . | Function | A function is like a mini-program within your program, built to perform a specific task. It can take inputs, process them, and return an output. They are reusable, modular components that can simplify writing and reading code, by breaking it down into smaller, well-structured segments. | . | Loop | A loop in programming is like a conveyor belt. It will keep repeating the same set of instructions over and over for a predetermined number of times or until a certain condition is met. | . | Conditional Statement | A Conditional Statement acts like a decision-making crossroad in a program. It checks a condition (for example, if a specific variable is set to False) and tells the program how to proceed based on that. | . | Comment | A comment is a way to add notes or explanations to the code. They are meant to be read by programmers/humans and are completely ignored by the computer. They start with a # character in CircuitPython. | . | Declaration | A declaration in programming informs the system about a variable, function, or other entity before its actual use in the code. | . | Class | A class is a blueprint from which objects are created, similar to the blueprint of a car or architectural plans for a house. A class defines specific properties objects created from it can have, such as “model” and “color”, as well as functions (methods) they can perform, like closeDoor() or openWindow(). This allows programmers to create multiple objects, like different cars, that share common behaviors but have varied properties. (For instance, Car would be the class, while “Frank’s blue Hyundai” would be an object created from that class.) | . | Object | An object is an entity created from a class, much like a car built using a specific blueprint. It holds unique attributes and performs actions, termed methods, defined by its class (see above). This allows for the creation of varied objects, each with unique data, but all adhering to behaviors and characteristics defined by their class. | . | Instance | An instance is like a single product produced from a factory assembly line. The factory is the class and the product is the object. To create an object instance, for example, “Frank’s Car”, we would use the Car class and specify both the model and color. This might look like franks_car = Car(\"Hyundai\", \"Blue\"). This statement creates a new instance of the Car class named franks_car, representing a blue Hyundai. | . | Method | A method is a function attached to an object. It defines the actions that the object can perform and can modify the object’s state, much like real-world objects can perform actions based on their design. For instance, in the context of the Car class, a method might be named openWindow(). When this method is invoked on a car object, such as with franks_car.openWindow(), it would perform the action of opening the car’s window, as defined in the class. | . | Library, Module | Libraries and modules contain code written by other people to fulfill specific tasks. Core modules, such as board, digitalio, and time provide functionality essential to working with your board. Therefore, they are already included in CircuitPython. In some cases, you may need to download additional libraries to add functionality, such as drivers for specific sensors, to your code. You can learn more about that subject by reading the chapter on CircuitPython Libraries in Adafruit’s guide. | . | API | Application Programming Interfaces (APIs) define how different programs communicate, establishing fixed rules for their interactions. Think of an API as a restaurant menu: it details how one program can request specific actions or data from another, enabling different programs to interact and share capabilities or information. | . | MAC Address | A MAC address (Media Access Control address) is a unique hardware address used to identify devices on a network. | . ",
     "url": "/Connected-Interaction-Kit/test/glossary/glossary.html#programming-terms",
     
     "relUrl": "/glossary/glossary.html#programming-terms"
-  },"57": {
+  },"61": {
     "doc": "Glossary",
     "title": "Electronics Terms",
     "content": "| Term | Description | . | Series | In a series circuit, each component is connected end-to-end with the other components, creating a single path for current to flow. This means that the current flowing through each component in the circuit is the same, but the voltage across each component differs. | . | Parallel | In a parallel circuit, components are connected side-by-side, creating multiple paths for current to flow. This means that the current flowing through each component in the circuit can differ, but the voltage across each component is the same. | . | Voltage | Voltage, measured in Volts (V), is the electric potential difference between two points in a circuit. It can be thought of as the force that pushes electric charge through a circuit, driving the flow of current. Like water pressure in a pipe, voltage pushes the current through the circuit. | . | Current | Current, measured in Amperes (A), is the flow of electric charge in a circuit. If you think of a circuit as a hose, the current would be the flow of water through the hose. It’s determined by the voltage and the resistance in the circuit according to Ohm’s Law: I = V / R, where I is current, V is voltage, and R is resistance. | . | Resistance | Resistance, measured in Ohms (Ω), is the opposition to the flow of electric current in a circuit. It’s like friction for electricity, making it harder for current to flow. Different materials and objects have different levels of resistance, which can affect the current and voltage in a circuit. Ohm’s Law also relates resistance to voltage (V) and current (I). | . ",
     "url": "/Connected-Interaction-Kit/test/glossary/glossary.html#electronics-terms",
     
     "relUrl": "/glossary/glossary.html#electronics-terms"
-  },"58": {
+  },"62": {
     "doc": "Assembling Custom Components",
     "title": "Tutorial 5 - Assembling Custom Components",
     "content": ". In addition to ready-made Grove components, the Connected Interaction Kit provides several custom components for you to assemble yourself. Here you can find resources on how to solder and detailed assembly instructions for each component. ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components",
     
     "relUrl": "/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components"
-  },"59": {
+  },"63": {
     "doc": "Assembling Custom Components",
     "title": "Prepare",
     "content": "If you have no prior soldering experience, we strongly advise you begin with the soldering tutorial. Get started . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/#prepare",
     
     "relUrl": "/tutorials/assembling-custom-components/#prepare"
-  },"60": {
+  },"64": {
     "doc": "Assembling Custom Components",
     "title": "Components",
     "content": "| Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | Make One! | Make One! | Make One! | Make One! | Make One! | . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/#components",
     
     "relUrl": "/tutorials/assembling-custom-components/#components"
-  },"61": {
+  },"65": {
     "doc": "Assembling Custom Components",
     "title": "Assembling Custom Components",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/",
     
     "relUrl": "/tutorials/assembling-custom-components/"
-  },"62": {
+  },"66": {
     "doc": "Adding Inputs and Outputs",
     "title": "Tutorial 3 - Adding Inputs and Outputs",
     "content": "In the previous tutorial, you changed the behavior of a blinking LED. Here, you will learn how to build and program your first complete interactive prototype. You will use a sensor from your kit (an INPUT component) to detect an action performed by a user. Once detected, this will trigger a change in your prototype’s behavior. You will use an actuator (an OUTPUT component) to create this behavior. Designing this interaction provides a simple template for using the different component types in your kit. You will later be able to use this template to devise more intricate interaction choreographies. This tutorial begins by walking you through using a Touch Sensor to register a user’s touch. Later, you will learn how to add a Vibration Motor to create vibrations for as long as the sensor is triggered. Get started . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs",
     
     "relUrl": "/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs"
-  },"63": {
+  },"67": {
     "doc": "Adding Inputs and Outputs",
     "title": "Adding Inputs and Outputs",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/adding-inputs-and-outputs/",
     
     "relUrl": "/tutorials/adding-inputs-and-outputs/"
-  },"64": {
+  },"68": {
     "doc": "Connecting To The Internet",
     "title": "Tutorial 4 - Connecting To The Internet",
     "content": ". You can use your BitsyExpander to connect your ItsyBitsy microcontroller to most WiFi networks, such as your home network or your smartphone’s mobile hotspot. This tutorial will guide you through connecting your ItsyBitsy microcontroller to a local WiFi network, retrieving a random joke from the internet using an API (Application Programming Interface), and displaying it on the Serial Monitor. Connecting your microcontroller to eduroam is cumbersome due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the TUD-facility network instead. This wifi is created for all kinds of small computers (eg. microcontrollers and raspberry pi’s). Security is enforced by allowing students to connect a small computer that is linked to their netid. Get started . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet",
     
     "relUrl": "/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet"
-  },"65": {
+  },"69": {
     "doc": "Connecting To The Internet",
     "title": "Connecting To The Internet",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/connecting-to-the-internet/",
     
     "relUrl": "/tutorials/connecting-to-the-internet/"
-  },"66": {
+  },"70": {
     "doc": "Let There Be Light!",
     "title": "Tutorial 2 - Let There Be Light!",
     "content": "This tutorial will teach you how to use your microcontroller to make a simple LED blink. To help you get started, we pre-loaded your ItsyBitsy with a bit of code. Get started . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/let-there-be-light/#tutorial-2---let-there-be-light",
     
     "relUrl": "/tutorials/let-there-be-light/#tutorial-2---let-there-be-light"
-  },"67": {
+  },"71": {
     "doc": "Let There Be Light!",
     "title": "Let There Be Light!",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/let-there-be-light/",
     
     "relUrl": "/tutorials/let-there-be-light/"
-  },"68": {
+  },"72": {
     "doc": "Legacy - Connecting Your ItsyBitsy To The Internet",
     "title": "Legacy - Connecting Your ItsyBitsy To The Internet",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/03-connect-to-the-internet/",
     
     "relUrl": "/tutorials/03-connect-to-the-internet/"
-  },"69": {
+  },"73": {
     "doc": "Preparation",
     "title": "Tutorial 1 - Preparation",
     "content": "To define how your prototypes should respond to a given user interaction, you start by describing the expected behaviors as a set of rules and commands. By writing these directions down using a programming language your microcontroller can understand, you instruct it to enact the desired behaviors. The ItsyBitsy microcontroller included in your kit works best with a beginner-friendly programming language called CircuitPython. Let’s begin by going over the tools and equipment you need to get started: . Tools and Equipment . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/preparation/#tutorial-1---preparation",
     
     "relUrl": "/tutorials/preparation/#tutorial-1---preparation"
-  },"70": {
+  },"74": {
     "doc": "Preparation",
     "title": "Preparation",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/preparation/",
     
     "relUrl": "/tutorials/preparation/"
-  },"71": {
+  },"75": {
     "doc": "Tutorials",
     "title": "Tutorials",
     "content": "Welcome to the tutorials section of the Connected Interaction Kit! . Here, you will find a comprehensive set of tutorials aimed at helping you take your first steps in working with microcontrollers, sensors, and actuators. We included easy-to-follow instructions covering everything from setting up the tools needed to use your microcontroller to creating your first interaction and writing your first program. The tutorials below are partly also written up in the physical booklet included in the kit. The PDF version of that booklet is available in our GitHub repository. To start your journey in the exciting world of electronics from this page in your browser, click the button below: . Get started . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/",
     
     "relUrl": "/tutorials/"
-  },"72": {
+  },"76": {
     "doc": "Tutorials",
     "title": "Overview",
     "content": "If you are looking for quick references, you can jump directly to these tutorials: . Tutorial 1 - Preparation Tutorial 2 - Let There Be Light! Tutorial 3 - Adding Inputs and Outputs Tutorial 4 - Connecting To The Internet Tutorial 5 - Assembling Custom Components . For references on using specific components, jump to the Components section: . Component Overview . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/#overview",
     
     "relUrl": "/tutorials/#overview"
-  },"73": {
+  },"77": {
     "doc": "Getting help",
     "title": "Getting help",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/support/",
     
     "relUrl": "/support/"
-  },"74": {
+  },"78": {
     "doc": "Getting help",
     "title": "Why is my code not working?",
     "content": "Should you run into issues during coding please first carefully read the troubleshooting page. Troubleshooting page . ",
     "url": "/Connected-Interaction-Kit/test/support/#why-is-my-code-not-working",
     
     "relUrl": "/support/#why-is-my-code-not-working"
-  },"75": {
+  },"79": {
     "doc": "Getting help",
     "title": "What can I connect where?",
     "content": "To give you a clear overview we made the following pinout page: Pinout page . ",
     "url": "/Connected-Interaction-Kit/test/support/#what-can-i-connect-where",
     
     "relUrl": "/support/#what-can-i-connect-where"
-  },"76": {
+  },"80": {
     "doc": "Getting help",
     "title": "What do I do when hardware components are not working?",
     "content": "In case any of your components not working as expected, please check the documentation page of the component first and try getting it running with the example code first. Most issues can be fixed by double-checking the following: . | Is your component connected to the right port of the Expander board? | Is your ItsyBitsy properly plugged into your computer? | Does an error message appear in MU’s Serial monitor, indicating a software issue (e.g. typos, coding mistake, missing library, etc.) | . If you checked the points above thoroughly and your component is still not working, you can find extra help at IO’s Model Making and Machine Lab (PMB). ",
     "url": "/Connected-Interaction-Kit/test/support/#what-do-i-do-when-hardware-components-are-not-working",
     
     "relUrl": "/support/#what-do-i-do-when-hardware-components-are-not-working"
-  },"77": {
+  },"81": {
     "doc": "Getting help",
     "title": "Where can I get more hardware components?",
     "content": "The Connected Interaction Kit can be extended with additional Grove components. Every Grove component should work. You can get additional components at following places: . | Left-over and used Grove components can be gathered from the PMB for free | New Grove components can be bought at the PMB for 1€ per piece | Depending on the course, components can be borrowed temporarily from IO’s StudioLab and Applied Lab | Bought online, for instance at Kiwi Electronics | . ",
     "url": "/Connected-Interaction-Kit/test/support/#where-can-i-get-more-hardware-components",
     
     "relUrl": "/support/#where-can-i-get-more-hardware-components"
-  },"78": {
+  },"82": {
     "doc": "Getting help",
     "title": "Where can I get support for prototyping for courses?",
     "content": "Each course using the Connected Interaction Kit will have their own tech support that can guide and support you in learning prototyping. ",
     "url": "/Connected-Interaction-Kit/test/support/#where-can-i-get-support-for-prototyping-for-courses",
     
     "relUrl": "/support/#where-can-i-get-support-for-prototyping-for-courses"
-  },"79": {
+  },"83": {
     "doc": "Getting help",
     "title": "How do I upgrade my Circuit Python version?",
     "content": "| For Itsy Bitsy M4 | For RP2040 Expander | . | | | . | Start upgrade | Start upgrade | . ",
     "url": "/Connected-Interaction-Kit/test/support/#how-do-i-upgrade-my-circuit-python-version",
     
     "relUrl": "/support/#how-do-i-upgrade-my-circuit-python-version"
-  },"80": {
+  },"84": {
     "doc": "Getting help",
     "title": "How do I install the required Circuit Python libraries?",
     "content": ". | Open the latest version of our project bundle | . Download Project Bundle . | Download the cik-project-bundle-9.x-mpy.zip file | Unzip the file on your computer | Copy the complete lib folder | Paste the complete lib folder in the CIRCUITPY drive | Press replace if prompted. | . ",
     "url": "/Connected-Interaction-Kit/test/support/#how-do-i-install-the-required-circuit-python-libraries",
     
     "relUrl": "/support/#how-do-i-install-the-required-circuit-python-libraries"
-  },"81": {
+  },"85": {
     "doc": "Getting help",
     "title": "How do I install other Circuit Python libraries?",
     "content": "Guide based on Adafruit update page, check this page for more in-depth guidance . | Download the CircuitPython Library you want. You can find the complete Adafruit CircuitPython bundle or the community bundle from this page. | Unzip the file and copy the desired file(s) to the lib folder on your ItsyBitsy . | . Alternatively you can read more about libraries on the following page: libraries . ",
     "url": "/Connected-Interaction-Kit/test/support/#how-do-i-install-other-circuit-python-libraries",
     
     "relUrl": "/support/#how-do-i-install-other-circuit-python-libraries"
-  },"82": {
+  },"86": {
     "doc": "Getting help",
     "title": "How to upgrade the ItsyBitsy M4 bootloader",
     "content": "This is only for the Itsy Bitsy M4. Guide based on Adafruit update page, check this page for more in-depth guidance . This is a guide to update the bootloader, not a guide to update the Circuit Python version . | Connect ItsyBitsy to your computer, you should see a USB drive appear as: CIRCUITPY | Double-click the RESET button, the drive disappears and reappears as: ITSYM4BOOT | Open the INFO_UF2.TXT, you should see something like UF2 Bootloader v2.0.0, this shows you the current version of the bootloader you are using. | Download the latest version AT THE END of this page under “Update UF2 Bootloader” | Drag the .uf2 file to the ITSYM4BOOT drive. | Open the INFO_UF2.TXT, you should see something like UF2 Bootloader v3.15.0, this shows you the current version of the bootloader you are upgraded to. | . ",
     "url": "/Connected-Interaction-Kit/test/support/#how-to-upgrade-the-itsybitsy-m4-bootloader",
     
     "relUrl": "/support/#how-to-upgrade-the-itsybitsy-m4-bootloader"
-  },"83": {
+  },"87": {
     "doc": "Components",
     "title": "Components",
     "content": "The core of the Connected Interaction Kit is an ItsyBitsy microcontroller board. With the help of a bit of code, this microcontroller allows you to interact with and perceive the outside world using various electronic sensors and actuators. In addition, the kit contains the BitsyExpander, a board that allows you to easily build prototypes without the need for soldering. Later on, it can also enable you to make use of Wifi or Bluetooth, as well as to power your project from a battery. ",
     "url": "/Connected-Interaction-Kit/test/components/",
     
     "relUrl": "/components/"
-  },"84": {
+  },"88": {
     "doc": "Components",
     "title": "Core Components",
     "content": "| Microcontroller | Bitsy Expander | . | ItsyBitsy RP2040 or M4 Express | Solderless Connector Board for ItsyBitsy | . | | . | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/#core-components",
     
     "relUrl": "/components/#core-components"
-  },"85": {
+  },"89": {
     "doc": "Components",
     "title": "Sensors &amp; Actuators",
     "content": "Beyond that, the kit offers a selection of sensors and actuators. There are solderless components you can use right away, as well as custom components that require you to assemble them first. Some components listed below may not be part of your kit edition but are available separately. Solderless Grove Components . | Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | Servo Motor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | Motion | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . Solderless Grove Components . | Time of Flight Sensor | Chainable LED | LED Pack | . | Distance | RGB/W Light | RGB Light | Monochrome LED | . | | | | | . | | | . | Learn More | Learn More | Learn More | Learn More | . Custom Components . | Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/#sensors--actuators",
     
     "relUrl": "/components/#sensors--actuators"
-  },"86": {
+  },"90": {
     "doc": "Home",
     "title": "Connected Interaction Kit",
     "content": "Hello, fellow prototyper! . As a design student, you are learning to navigate a diverse set of skills. While becoming an expert in every domain is nearly impossible, it is essential to understand a skill sufficiently well to talk about ideas, understand challenges and limitations, and communicate confidently with experts. With this kit, you will develop the abilities and confidence needed to realize your vision of how technology should influence people’s daily lives. The kit provides an easy and fun gateway to start creating a great range of technology-mediated experiences. It contains a versatile collection of tools and components for you to build on as you grow your skills and confidence. Use your imagination to find out what you can create! Be it a wearable companion device, an interactive desk lamp, or an entire connected ecosystem that brings you closer to your friends around the globe - the sky is the limit! . Have fun and be curious! . Get started by exploring Tutorials or discovering the Components in your kit! . ",
     "url": "/Connected-Interaction-Kit/test/#connected-interaction-kit",
     
     "relUrl": "/#connected-interaction-kit"
-  },"87": {
+  },"91": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/",
     
     "relUrl": "/"
-  },"88": {
+  },"92": {
     "doc": "Installing Mu Editor",
     "title": "Installing Mu Editor",
     "content": "Before you write your first program, you need to complete one last step: . | Visit codewith.mu and click the green Download button. | Select the correct link for your operating system (Windows or Mac OS). | Once the download is complete, launch the installer and follow the instructions on the screen. | On its first run, Mu will ask you to select a mode. Choose CircuitPython. | . Should you run into issues during the installation process, you can find more detailed instructions on the website next to the download button for your operating system. After completing these steps successfully, you should see a program window like the one above. You are ready to proceed to the following tutorial and program your first behavior! . Next Tutorial . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/preparation/installing-mu-editor.html",
     
     "relUrl": "/tutorials/preparation/installing-mu-editor.html"
-  },"89": {
+  },"93": {
     "doc": "ItsyBitsy M4 Express",
     "title": "ItsyBitsy M4 Express",
     "content": "The central component at the heart of your projects. It runs code, reads and processes sensor data, and controls outputs (lights, motors, speakers, etc.) . The ItsyBitsy M4 Express is a powerful and versatile development board powered by a 32-bit Cortex M4 microcontroller. For detailed information on the ItsyBitsy M4 Express, refer to Adafruit’s documentation: . Adafruit ItsyBitsy M4 Express . This includes information on how to re-install or update CircuitPython, as well as how to switch between Arduino and CircuitPython modes. ",
     "url": "/Connected-Interaction-Kit/test/components/itsybitsy-microcontroller/itsybitsy-m4-express.html#itsybitsy-m4-express",
     
     "relUrl": "/components/itsybitsy-microcontroller/itsybitsy-m4-express.html#itsybitsy-m4-express"
-  },"90": {
+  },"94": {
     "doc": "ItsyBitsy M4 Express",
     "title": "ItsyBitsy M4 Express",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/itsybitsy-microcontroller/itsybitsy-m4-express.html",
     
     "relUrl": "/components/itsybitsy-microcontroller/itsybitsy-m4-express.html"
-  },"91": {
+  },"95": {
     "doc": "ItsyBitsy RP2040",
     "title": "ItsyBitsy RP2040",
     "content": "The central component at the heart of your projects. It runs code, reads and processes sensor data, and controls outputs (lights, motors, speakers, etc.) . The ItsyBitsy RP2040 is a versatile development board powered by a 32-bit Cortex M0+ microcontroller. Compared to the ItsyBitsy M4, the RP2040 replaces two analog pins with two additional digital pins. The RP2040 affords greater flexibility in GPIO pin usage, but extra planning and research may be needed to fully leverage this advantage. For detailed information on the ItsyBitsy RP2040, refer to Adafruit’s documentation: . Adafruit ItsyBitsy RP2040 . This includes information on how to re-install or update CircuitPython, as well as how to switch between Arduino and CircuitPython modes. ",
     "url": "/Connected-Interaction-Kit/test/components/itsybitsy-microcontroller/itsybitsy-rp2040.html#itsybitsy-rp2040",
     
     "relUrl": "/components/itsybitsy-microcontroller/itsybitsy-rp2040.html#itsybitsy-rp2040"
-  },"92": {
+  },"96": {
     "doc": "ItsyBitsy RP2040",
     "title": "ItsyBitsy RP2040",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/itsybitsy-microcontroller/itsybitsy-rp2040.html",
     
     "relUrl": "/components/itsybitsy-microcontroller/itsybitsy-rp2040.html"
-  },"93": {
+  },"97": {
     "doc": "ItsyBitsy",
     "title": "ItsyBitsy Development Board",
     "content": "The central component at the heart of your projects. It runs code, reads and processes sensor data, and controls outputs (lights, motors, speakers, etc.) . Your kit includes one of two functionally equivalent ItsyBitsy Development Boards, depending on the edition of your Connected Interaction Kit. This page is designed to help you identify which version you own. | 2022 &amp; 2024 Edition | 2023 Edition | . | ItsyBitsy M4 Express | ItsyBitsy RP2040 | . | | . | Learn More | Learn More | . Which ItsyBitsy Development Board do I have? . The ItsyBitsy M4 Express features one (RESET) button. The ItsyBitsy RP2040 features two (BOOT, RESET) buttons. ",
     "url": "/Connected-Interaction-Kit/test/components/itsybitsy-microcontroller/itsybitsy.html#itsybitsy-development-board",
     
     "relUrl": "/components/itsybitsy-microcontroller/itsybitsy.html#itsybitsy-development-board"
-  },"94": {
+  },"98": {
     "doc": "ItsyBitsy",
     "title": "ItsyBitsy",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/components/itsybitsy-microcontroller/itsybitsy.html",
     
     "relUrl": "/components/itsybitsy-microcontroller/itsybitsy.html"
-  },"95": {
+  },"99": {
     "doc": "LED Pack",
     "title": "LED Pack",
     "content": ". A monochrome light source that is simple to use. Should your Connected Interaction Kit not include this component, you can use these examples with the LED built into your microcontroller, connected internally to pin D13. More information on this component is available here. ",
     "url": "/Connected-Interaction-Kit/test/components/led-pack/led-pack.html#led-pack",
     
     "relUrl": "/components/led-pack/led-pack.html#led-pack"
-  },"96": {
+  },"100": {
     "doc": "LED Pack",
     "title": "Blink!",
     "content": "Blinking an LED is often the first programming exercise learners encounter when working with microcontrollers. The example code below performs all steps necessary to configure and then keep cycling an LED on and off once per second. The code works with the inbuilt LED on Pin D13, but you can also specify any other Digital pin in the code to use with your own LED connected to it. # --- Imports import digitalio import time import board # --- Variables led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup # --- Main loop while True: led.value = True time.sleep(0.5) led.value = False time.sleep(0.5) . This tutorial only works for simple, single-color LEDs like the LED Pack or your microcontroller’s internal LED. If you want to use a Chainable LED, follow the tutorial on the linked page instead. ",
     "url": "/Connected-Interaction-Kit/test/components/led-pack/led-pack.html#blink",
     
     "relUrl": "/components/led-pack/led-pack.html#blink"
-  },"97": {
+  },"101": {
     "doc": "LED Pack",
     "title": "LED Pack",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/led-pack/led-pack.html",
     
     "relUrl": "/components/led-pack/led-pack.html"
-  },"98": {
+  },"102": {
     "doc": "Libraries",
     "title": "Understanding Code Libraries in CircuitPython",
     "content": "Introduction to Code Libraries Imagine you’re trying to build a complex structure, like a skyscraper. Instead of creating every single component from scratch – each bolt, each beam – you would likely use pre-manufactured parts that have been tested for strength and reliability. In programming, these pre-manufactured parts are called libraries. In CircuitPython, libraries are collections of pre-written code that provide specific functionality, which you can easily integrate into your projects. They are essential for efficient and effective programming, enabling you to leverage existing solutions to common problems. ",
     "url": "/Connected-Interaction-Kit/test/support/libraries.html#understanding-code-libraries-in-circuitpython",
     
     "relUrl": "/support/libraries.html#understanding-code-libraries-in-circuitpython"
-  },"99": {
+  },"103": {
     "doc": "Libraries",
     "title": "Why Use Code Libraries?",
     "content": "Efficiency: Libraries save time and effort by offering ready-made solutions for complex tasks. Think of it as using a cake mix instead of baking a cake from scratch. The mix provides most of the ingredients you need, allowing you to make a cake more quickly and easily. Reliability: Libraries are often written and maintained by experts and the community, ensuring they are robust and well-tested. It’s like using a recipe book written by a renowned chef; you can trust that the recipes will turn out well because they’ve been tested and perfected. Simplicity: Libraries abstract away the complex details of implementation, allowing you to focus on the higher-level logic of your program. This is similar to using pre-built furniture from a store like IKEA. You don’t need to know how to cut wood or drill precise holes; you just follow the instructions to assemble the final product. Reusability: Using libraries promotes code reuse. Once you become familiar with a library, you can use it across multiple projects, just like using the same set of tools to fix different things around your house. ",
     "url": "/Connected-Interaction-Kit/test/support/libraries.html#why-use-code-libraries",
     
     "relUrl": "/support/libraries.html#why-use-code-libraries"
-  },"100": {
+  },"104": {
     "doc": "Libraries",
     "title": "How to Use Libraries in CircuitPython",
     "content": "Using libraries in CircuitPython is straightforward. Here’s a step-by-step guide: . Identify the Library You Need: Determine the functionality you need for your project. CircuitPython has a vast ecosystem of libraries, from handling sensors and displays to managing communication protocols. It’s like figuring out which specific tool you need from your toolbox for a particular task. Install the Library: Libraries can be installed from the CircuitPython Bundle, which is a collection of libraries maintained by Adafruit. You can download the bundle from the Adafruit website and copy the necessary libraries to your CIRCUITPY drive. This step is akin to getting the right ingredients or tools before starting a recipe or a repair. Import the Library: Once the library is on your CIRCUITPY drive, you can import it into your code. For example, if you are using a library to handle a temperature sensor, your import statement might look like this: . import adafruit_dht This is similar to taking the tool you need out of your toolbox and placing it next to your work area. Utilize the Library: After importing, you can use the functions and classes provided by the library to achieve your desired functionality. For example: . import adafruit_dht import board dht_device = adafruit_dht.DHT22(board.D4) temperature = dht_device.temperature humidity = dht_device.humidity print(f\"Temperature: {temperature}°C\") print(f\"Humidity: {humidity}%\") . In this example, the adafruit_dht library simplifies the process of reading temperature and humidity from a DHT22 sensor. It’s like following a step-by-step guide to assemble a piece of furniture; you use the provided components (functions and classes) to achieve the final product (reading the sensor data). ",
     "url": "/Connected-Interaction-Kit/test/support/libraries.html#how-to-use-libraries-in-circuitpython",
     
     "relUrl": "/support/libraries.html#how-to-use-libraries-in-circuitpython"
-  },"101": {
+  },"105": {
     "doc": "Libraries",
     "title": "Conclusion",
     "content": "Incorporating libraries into your CircuitPython projects is a powerful way to enhance your programming capabilities. Libraries allow you to write more efficient, reliable, and maintainable code by providing pre-built solutions for common tasks. As you advance in your studies and projects, understanding and utilizing libraries will be an invaluable skill, opening up a world of possibilities and enabling you to tackle more complex and exciting projects with confidence. By thinking of libraries as pre-made building blocks, recipe ingredients, or essential tools, you can better appreciate their value and how they streamline the process of turning your ideas into reality. ",
     "url": "/Connected-Interaction-Kit/test/support/libraries.html#conclusion",
     
     "relUrl": "/support/libraries.html#conclusion"
-  },"102": {
+  },"106": {
     "doc": "Libraries",
     "title": "Libraries",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/support/libraries.html",
     
     "relUrl": "/support/libraries.html"
-  },"103": {
+  },"107": {
     "doc": "Motor Driver",
     "title": "Motor Driver",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/motor-driver/motor-driver.html#motor-driver",
     
     "relUrl": "/components/motor-driver/motor-driver.html#motor-driver"
-  },"104": {
+  },"108": {
     "doc": "Motor Driver",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/motor-driver/motor-driver.html#required-libraries",
     
     "relUrl": "/components/motor-driver/motor-driver.html#required-libraries"
-  },"105": {
+  },"109": {
     "doc": "Motor Driver",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/motor-driver/motor-driver.html#basic-usage",
     
     "relUrl": "/components/motor-driver/motor-driver.html#basic-usage"
-  },"106": {
+  },"110": {
     "doc": "Motor Driver",
     "title": "Motor Driver",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/motor-driver/motor-driver.html",
     
     "relUrl": "/components/motor-driver/motor-driver.html"
-  },"107": {
+  },"111": {
     "doc": "MP3 player",
     "title": "MP3 player",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/mp3-player/mp3-player.html#mp3-player",
     
     "relUrl": "/components/mp3-player/mp3-player.html#mp3-player"
-  },"108": {
+  },"112": {
     "doc": "MP3 player",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/mp3-player/mp3-player.html#required-libraries",
     
     "relUrl": "/components/mp3-player/mp3-player.html#required-libraries"
-  },"109": {
+  },"113": {
     "doc": "MP3 player",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/mp3-player/mp3-player.html#basic-usage",
     
     "relUrl": "/components/mp3-player/mp3-player.html#basic-usage"
-  },"110": {
+  },"114": {
     "doc": "MP3 player",
     "title": "MP3 player",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/mp3-player/mp3-player.html",
     
     "relUrl": "/components/mp3-player/mp3-player.html"
-  },"111": {
+  },"115": {
     "doc": "Neopixel helper",
     "title": "Neopixel helper",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/neopixel/neopixel.html#neopixel-helper",
     
     "relUrl": "/components/neopixel/neopixel.html#neopixel-helper"
-  },"112": {
+  },"116": {
     "doc": "Neopixel helper",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/neopixel/neopixel.html#required-libraries",
     
     "relUrl": "/components/neopixel/neopixel.html#required-libraries"
-  },"113": {
+  },"117": {
     "doc": "Neopixel helper",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/neopixel/neopixel.html#basic-usage",
     
     "relUrl": "/components/neopixel/neopixel.html#basic-usage"
-  },"114": {
+  },"118": {
     "doc": "Neopixel helper",
     "title": "Neopixel helper",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/neopixel/neopixel.html",
     
     "relUrl": "/components/neopixel/neopixel.html"
-  },"115": {
+  },"119": {
     "doc": "Part 1 - Add an Input Component",
     "title": "Part 1 - Add an Input Component",
     "content": "The code in this tutorial is similar to the program you saw before. This time, you will write it yourself to better understand what you are doing. | Begin by connecting your ItsyBitsy to the computer. We want to start this tutorial with an empty code.py file on your CIRCUITPY drive, so you need to delete or rename the existing one. For instance, you can use your computer’s file manager to give the old file from the last tutorial the name blink_code.py. Remember that your microcontroller will only execute code stored in a file named code.py. | Temporarily disconnect your ItsyBitsy from the computer. Use a Grove cable to connect the Touch Sensor to the pin connector labeled D2 on the Expander Board, as shown in the illustration above. | Reconnect your ItsyBitsy, then open Mu Editor. Click the New button in the toolbar at the top to create a new file. Then click Save to store your new file on the CIRCUITPY drive, naming it code.py. | Follow along with the code example at the bottom of this page by beginning your program with import statements. These inform your board about additional instruction sets your code needs to work. These instruction sets are called libraries or modules. You need to import three modules: board tells your program about the pins available on your microcontroller and their names. digitalio contains functions necessary for working with digital inputs and outputs. time allows your code to use timing-related functionality. | To make the Touch Sensor you connected in step 2 work, you first need to create a container to store the data coming from the sensor. Such a container is called a variable. Variables are created by assigning a name to something: From now on, sensor will store a digitalio object attached to pin D2. In the following line of code, you define the value stored in sensor to be read from an INPUT, not written to an output. | As before, you end your program with a while loop whose condition is set to True. Inside this endlessly repeating loop, you use a print statement to display the sensor.value in the Serial Monitor each time the code repeats. Using a sleep timer, you slow down the speed of the loop so as not to overwhelm Mu’s Serial Monitor with more messages than it can handle. | . import board import digitalio import time sensor = digitalio.DigitalInOut(board.D2) sensor.direction = digitalio.Direction.INPUT while True: print(sensor.value) time.sleep(0.1) . Libraries and modules contain code written by other people to fulfill specific tasks. Core modules, such as board, digitalio, and time provide functionality essential to working with your board. Therefore, they are already included in CircuitPython. In some cases, you may need to download additional libraries to add functionality, such as drivers for specific sensors, to your code. You can learn more about that subject by reading the chapter on CircuitPython Libraries in Adafruit’s guide. Next Step . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/adding-inputs-and-outputs/part-1.html",
     
     "relUrl": "/tutorials/adding-inputs-and-outputs/part-1.html"
-  },"116": {
+  },"120": {
     "doc": "Part 1 - Scan for Available Networks",
     "title": "Part 1 - Scan for Available Networks",
     "content": "The BitsyExpander board not only provides solderless connectors but also adds WiFi capabilities to your ItsyBitsy microcontroller. To use it, the WiFi radio must be set up in code - like any other component. It uses pins D9, D11, and D12, as well as the SPI pins (SCK, MISO, and MOSI). The code below shows you how to configure the WiFi module. It scans for available networks and prints your microcontroller’s MAC address to the Serial Monitor. | Connect your ItsyBitsy and Expander to your computer. | Copy the example code below and use Mu Editor to save it to your code.py file. Remember to back up your old code elsewhere. | Open the Serial Monitor to verify that your microcontroller can find a network to connect to in the next step. | Store or write down your WiFi module’s MAC address; it will become important later. import board import busio import time import digitalio from adafruit_esp32spi import adafruit_esp32spi # Define the pins used by the BitsyExpander's ESP32 WiFi module esp32_cs = digitalio.DigitalInOut(board.D9) esp32_ready = digitalio.DigitalInOut(board.D11) esp32_reset = digitalio.DigitalInOut(board.D12) spi = busio.SPI(board.SCK, board.MOSI, board.MISO) # Initialize the ESP32 WiFi module esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset) if esp.status == adafruit_esp32spi.WL_IDLE_STATUS: print(\"\\nESP32 WiFi Module found.\") print(\"Firmware version:\", str(esp.firmware_version, \"utf-8\")) print(\"*\" * 40) while True: print(\"\\nScanning for available networks...\") # Add SSID of each Access Point (ap) in range to network_list network_list = [str(ap[\"ssid\"], \"utf-8\") for ap in esp.scan_networks()] print(network_list) print(\"\\nMAC Address:\") # Format the MAC address (reverse byte order and format hex values) mac_addr = \":\".join(\"{:02X}\".format(byte) for byte in reversed(esp.MAC_address)) print(mac_addr) print(\"\\n\" + \"*\" * 40) time.sleep(8) . | . Starting with this tutorial, code examples will include so-called comments. Comments exist to document the code and are ignored by the program. They are meant to help you and others understand the code better. In CircuitPython, comments begin with the # character. Next Step . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/connecting-to-the-internet/part-1.html",
     
     "relUrl": "/tutorials/connecting-to-the-internet/part-1.html"
-  },"117": {
+  },"121": {
     "doc": "Part 1 - Load the program code using Mu Editor",
     "title": "Part 1 - Load the program code using Mu Editor",
     "content": "Once your microcontroller has power, the pre-loaded code should make the onboard LED blink. To see the code and start making modifications, follow these steps: . | Using the USB cable included in the kit, connect the ItsyBitsy to your computer. It will appear in your computer’s file manager as a storage device called CIRCUITPY. | Open Mu Editor. Click the Load button in the toolbar at the top of the program window and navigate to the CIRCUITPY drive. Find the file named code.py and open it. | Your microcontroller will execute any code stored in that file. Briefly examine the example code and see if you understand some parts. In the next step, we will take a closer look at how it works and how to tweak it. | . Once you store changes in code.py to the CIRCUITPY drive, your ItsyBitsy will begin running the new code immediately. Changes will persist even after disconnecting the ItsyBitsy from your computer. Next Step . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/let-there-be-light/part-1.html",
     
     "relUrl": "/tutorials/let-there-be-light/part-1.html"
-  },"118": {
+  },"122": {
     "doc": "Part 2 - Add an Output Component",
     "title": "Part 2 - Add an Output Component",
     "content": "Now that your prototype can register a user input, it is time to tie it together by adding your output component. | As with the Touch Sensor, begin by connecting your Vibration Motor using a Grove cable. Connect it to pin D13, as shown in the illustration. | As before, you need a variable to hold data to make your component work. Make sure to give it a sensible name, such as motor. This time, instead of reading a value from a sensor, you will use the variable to write data to an actuator. The statements needed for the vibration motor will look very similar to the ones you wrote for the touch sensor, with one critical difference: As shown in the following example, the digitalio.Direction is set to OUTPUT. | As you recall, the goal is to make the motor vibrate for as long as the sensor registers a touch. If the sensor is not touched, no vibration should be created. CircuitPython provides a handy way to translate this idea into code using if...else statements (conditional statements). An if statement executes a block of code only if a specified condition is True. An else clause can be added to run another set of instructions should the condition be false. | You can use this knowledge to turn the motor on and off, depending on the current state of the touch sensor. If sensor.value is True:, the motor can be turned on with motor.value = True. Else, the motor needs to be turned off again. Remember to save your code to see it in action. | Try experimenting with the code to change the behavior of your prototype. See how programmed behavior is affected by using the Piezo Buzzer as an actuator instead of the motor. | . import board import digitalio import time sensor = digitalio.DigitalInOut(board.D2) sensor.direction = digitalio.Direction.INPUT motor = digitalio.DigitalInOut(board.D13) motor.direction = digitalio.Direction.OUTPUT while True: print(sensor.value) if sensor.value is True: motor.value = True else: motor.value = False time.sleep(0.1) . It is advisable to regularly back up the code stored on the CIRCUITPY drive to your computer. That way, you have something to fall back on should a memory loss occur or your ItsyBitsy is misplaced. Next Tutorial . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/adding-inputs-and-outputs/part-2.html",
     
     "relUrl": "/tutorials/adding-inputs-and-outputs/part-2.html"
-  },"119": {
+  },"123": {
     "doc": "Part 2 - Register Your Device for Use on Campus",
     "title": "Part 2 - Register Your Device for Use on Campus",
     "content": "This step must be performed before you connect your microcontroller to the internet on campus for the first time. If you completed this step before or are using a personal network (e.g., your home network or your phone’s mobile hotspot), you can skip this step. As mentioned in the introduction, security measures on campus prevent your microcontroller from using the eduroam network. To access the internet, you will need to connect it to TUD-facility instead. To do so, you must first register your device’s MAC address with your NetID. | Using your smartphone’s camera app, scan your personal access token (the QR code in the lid of the box of your Connected Interaction Kit) and log in with your NetID. | You find yourself at a screen where you should announce yourself to this system by pressing the Claim license button. For each device you register in the next steps, TU Delft ICT can now find the responsible person. | Tap the Register devices button at the bottom of the page. | Enter the MAC address you identified for your Expander Board in part one of this tutorial, and choose a name for your device. | Tap the Register MAC Address button and confirm. A new section for the device you registered will appear under Registered Devices. | Find the iPSK and write it down or save it. It will serve as the password to connect to the TUD-facility WiFi network in the following step. | . You can register up to three devices using your personal access token (QR code). Please note that the MAC address is associated with the Expander Board, not the ItsyBitsy Microcontroller. If you change Expander boards or want to use other devices on TUD-facility, you must repeat these steps to link their MAC addresses to your token. Next Step . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/connecting-to-the-internet/part-2.html",
     
     "relUrl": "/tutorials/connecting-to-the-internet/part-2.html"
-  },"120": {
+  },"124": {
     "doc": "Part 2 - Change the way your ItsyBitsy behaves",
     "title": "Part 2 - Change the way your ItsyBitsy behaves",
     "content": "The pre-loaded code should look something like this: . import board import digitalio import time led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . For now, let’s ignore the first half of the code and go directly to the passage that begins with while True: . The while statement creates a loop. While its condition is met, the code contained within it will keep looping. The lines of code that follow are indented, indicating that they are inside the loop. Given that the condition to meet is set to True (which will never be False), the code will loop forever. Try altering the code’s behavior by exploring the following changes: . | The code in the loop makes an LED built into your ItsyBitsy blink. Can you make out how the blinking behavior is created? | Experiment with the blinking frequency of the LED. Change the values defined in time.sleep(1.0), then press the Save button in Mu Editor’s toolbar to store the changes to your code and see their effect. | Click the Serial button in Mu’s toolbar to open the Serial Monitor. This vital tool lets you see messages printed by your program. Can you figure out how to change the content of the messages appearing in the serial monitor? Remember to save your changes to see their effect. | . Next Tutorial . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/let-there-be-light/part-2.html",
     
     "relUrl": "/tutorials/let-there-be-light/part-2.html"
-  },"121": {
+  },"125": {
     "doc": "Part 3 - Connect to a WiFi Network",
     "title": "Part 3 - Connect to a WiFi Network",
     "content": "To connect your ItsyBitsy to a network, you must provide a network name (SSID) and password. However, directly using sensitive data like WiFi passwords in your code is risky. Therefore, creating a separate file to hold your personal keys and passwords outside your code.py file is a good idea. This way, you can share your code without revealing sensitive data to others. | Begin by clicking the + icon labeled New in the top toolbar of Mu Editor. | Copy and paste the following code to the new file, replacing network-name with the name of your WiFi network and network-passwd with your network’s password (or the iPSK generated during part two when connecting to TUD-facility). | . settings = { \"ssid\": \"network-name\", \"password\": \"network-passwd\" } . | Click the Save button in the toolbar and save the file on your CIRCUITPY drive using the name settings.py. | Enter your code.py file and replace the code you wrote in part one with the code below, then hit Save. | . import board import busio import time import digitalio from adafruit_esp32spi import adafruit_esp32spi # Get WiFi details from your settings.py file from settings import settings # Define the pins used by the BitsyExpander's ESP32 WiFi module esp32_cs = digitalio.DigitalInOut(board.D9) esp32_ready = digitalio.DigitalInOut(board.D11) esp32_reset = digitalio.DigitalInOut(board.D12) spi = busio.SPI(board.SCK, board.MOSI, board.MISO) # Initialize the ESP32 WiFi module esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset) if esp.status == adafruit_esp32spi.WL_IDLE_STATUS: print(\"\\nESP32 WiFi Module found.\") print(\"Firmware version:\", str(esp.firmware_version, \"utf-8\")) print(\"*\" * 40) print(\"\\nScanning for available networks...\\n\") network_list = [str(ap[\"ssid\"], \"utf-8\") for ap in esp.scan_networks()] if settings[\"ssid\"] not in network_list: print(settings[\"ssid\"], \"not found.\\nAvailable networks:\", network_list) raise SystemExit(0) print(settings[\"ssid\"], \"found. Connecting...\") while not esp.is_connected: try: esp.connect_AP(settings[\"ssid\"], settings[\"password\"]) except (RuntimeError, ConnectionError) as e: print(\"\\nUnable to establish connection. Are you using a valid password?\") print(\"Error message:\", e, \"\\nRetrying...\") continue print(\"Connected! IP address:\", esp.pretty_ip(esp.ip_address)) while True: print(\"\\nPinging google.com...\") response = esp.ping(\"google.com\") print(\"Ping successful. Response time:\", response, \"ms\") time.sleep(5) . | Open Mu’s Serial Monitor to verify that the microcontroller successfully connects to the chosen network and can get a response from google.com. | Note the differences from the code you encountered in part one of this tutorial: . | An import statement for your newly created settings.py file has been added. This gives the code access to the network name (SSID) and password. | The network scan has been moved out of the while True: loop and is performed once before entering the loop. | The code verifies the network you configured is available and waits for the successful establishment of a connection. | The content of the while True: loop has been replaced: It now pings google.com and reports the response time. This confirms internet connectivity for your microcontroller. | . | . Your ItsyBitsy is now ready for connecting to the internet or even other ItsyBitsy’s! Good luck with your connected projects ;-) . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/connecting-to-the-internet/part-3.html",
     
     "relUrl": "/tutorials/connecting-to-the-internet/part-3.html"
-  },"122": {
+  },"126": {
     "doc": "Photoresistor",
     "title": "Photoresistor (Light Sensor)",
     "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Photoresistor 03 10kΩ Resistor 04 Grove Connector . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/photoresistor.html#photoresistor-light-sensor",
     
     "relUrl": "/tutorials/assembling-custom-components/photoresistor.html#photoresistor-light-sensor"
-  },"123": {
+  },"127": {
     "doc": "Photoresistor",
     "title": "Assembly Video",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/photoresistor.html#assembly-video",
     
     "relUrl": "/tutorials/assembling-custom-components/photoresistor.html#assembly-video"
-  },"124": {
+  },"128": {
     "doc": "Photoresistor",
     "title": "Photoresistor",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/photoresistor.html",
     
     "relUrl": "/tutorials/assembling-custom-components/photoresistor.html"
-  },"125": {
+  },"129": {
     "doc": "Photoresistor",
     "title": "Photoresistor",
     "content": ". Changes its electrical resistance in response to light intensity. Can be used to detect changes in light intensity. Learn how to make your own photoresistor here. ",
     "url": "/Connected-Interaction-Kit/test/components/photoresistor/photoresistor.html#photoresistor",
     
     "relUrl": "/components/photoresistor/photoresistor.html#photoresistor"
-  },"126": {
+  },"130": {
     "doc": "Photoresistor",
     "title": "Basic photo resistor example",
     "content": "# --- Imports import time import board import analogio # --- Variables # Initialize analog input connected to photo resistor photo_resistor = analogio.AnalogIn(board.A2) # --- Functions # --- Setup # --- Main loop while True: val = photo_resistor.value # Read the photo resistor value print(val) # Output the value in the serial monitor time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/test/components/photoresistor/photoresistor.html#basic-photo-resistor-example",
     
     "relUrl": "/components/photoresistor/photoresistor.html#basic-photo-resistor-example"
-  },"127": {
+  },"131": {
     "doc": "Photoresistor",
     "title": "Photo resistor example with conversion to voltage",
     "content": "# --- Imports import time import board import analogio # --- Variables # Initialize analog input connected to photo resistor photo_resistor = analogio.AnalogIn(board.A2) # --- Functions # Make a function to convert from analog value to voltage. def analog_voltage(adc): return adc.value / 65535 * adc.reference_voltage # --- Setup # --- Main loop while True: val = photo_resistor.value # Read the photo resistor value volts = analog_voltage(photo_resistor) # Convert to voltage # Print the values print('Photo resistor value: {0} voltage: {1}V'.format(val, volts)) time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/test/components/photoresistor/photoresistor.html#photo-resistor-example-with-conversion-to-voltage",
     
     "relUrl": "/components/photoresistor/photoresistor.html#photo-resistor-example-with-conversion-to-voltage"
-  },"128": {
+  },"132": {
     "doc": "Photoresistor",
     "title": "Photoresistor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/photoresistor/photoresistor.html",
     
     "relUrl": "/components/photoresistor/photoresistor.html"
-  },"129": {
+  },"133": {
     "doc": "Piezo Buzzer",
     "title": "Piezo Buzzer",
     "content": ". Can generate beeping sounds and melodies. Technical information on this component is available here. ",
     "url": "/Connected-Interaction-Kit/test/components/piezo-buzzer/piezo-buzzer.html#piezo-buzzer",
     
     "relUrl": "/components/piezo-buzzer/piezo-buzzer.html#piezo-buzzer"
-  },"130": {
+  },"134": {
     "doc": "Piezo Buzzer",
     "title": "Background",
     "content": "A Piezo Buzzer is an electronic component commonly used to generate audible signals or alarms in electronic circuits. The buzzer included in the kit is an active buzzer. That means a simple digital signal can turn the buzzer on and off, like a digital component. When powered on that way, the buzzer uses an internal oscillator to produce a sound at a fixed frequency. Alternatively, the buzzer can be driven using a PWM signal to create different tones or melodies for more advanced use cases. ",
     "url": "/Connected-Interaction-Kit/test/components/piezo-buzzer/piezo-buzzer.html#background",
     
     "relUrl": "/components/piezo-buzzer/piezo-buzzer.html#background"
-  },"131": {
+  },"135": {
     "doc": "Piezo Buzzer",
     "title": "Basic Usage",
     "content": "The code example below treats the buzzer like a digital component connected to pin D4, turning it on and off. It acts as a simple acoustic alarm at the fixed frequency set by the buzzer’s internal oscillator. # --- Imports import board import time import digitalio # --- Variables piezo_buzzer = digitalio.DigitalInOut(board.D4) piezo_buzzer.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup # --- Main loop while True: piezo_buzzer.value = True time.sleep(0.5) piezo_buzzer.value = False time.sleep(0.5) . ",
     "url": "/Connected-Interaction-Kit/test/components/piezo-buzzer/piezo-buzzer.html#basic-usage",
     
     "relUrl": "/components/piezo-buzzer/piezo-buzzer.html#basic-usage"
-  },"132": {
+  },"136": {
     "doc": "Piezo Buzzer",
     "title": "Define a Tone using Pulse-Width Modulation (PWM)",
     "content": "The previous example turned the buzzer either fully on or off to produce rather annoying sounds. Here, we use a method called pulse-width modulation (PWM) to manage the frequency and duration of the signal driving the buzzer, letting us control the pitch of the sound. To produce PWM signals, we use the pwmio module. It provides the pwmio.PWMOut() method, allowing us to specify the pin to use and that we want to vary the frequency of our PWM signal. Pins that support PWM are denoted by a ~ beside their names on the BitsyExpander board. Next, we choose the frequency of our signal, indicating how many times it repeats itself in one second. A value of 262 Hz (or 262 repetitions per second) will cause the piezoelectric element of the buzzer to vibrate at that rate, producing the musical note C4 (middle C). In the main loop, we generate our tone by setting the PWM signal’s duty cycle using piezo_buzzer.duty_cycle. The expression 10 * 65535 // 100 creates a 10% duty cycle, providing good volume and minimal distortion. (Higher values slightly increase the volume but cause distortions due to the buzzer’s internal oscillator.) To silence the buzzer, we set the duty cycle to 0%. A PWM signal’s duty cycle represents the time the signal is “on” during each repetition. Therefore, a duty cycle of 10% means the signal is on 10% and off 90% of the time. # --- Imports import time import board import pwmio # --- Variables piezo_buzzer = pwmio.PWMOut(board.D4, variable_frequency=True) piezo_buzzer.frequency = 262 duty_cycle_val = 10 * 65535 // 100 # --- Functions # --- Setup # --- Main loop while True: piezo_buzzer.duty_cycle = duty_cycle_val time.sleep(0.5) piezo_buzzer.duty_cycle = 0 time.sleep(0.5) . ",
     "url": "/Connected-Interaction-Kit/test/components/piezo-buzzer/piezo-buzzer.html#define-a-tone-using-pulse-width-modulation-pwm",
     
     "relUrl": "/components/piezo-buzzer/piezo-buzzer.html#define-a-tone-using-pulse-width-modulation-pwm"
-  },"133": {
+  },"137": {
     "doc": "Piezo Buzzer",
     "title": "Playing a Melody",
     "content": "Building on the previous example, let’s explore how to create and play back a melody. Instead of defining one fixed tone value, we program a function to play individual tones with a specified frequency, duration, and ensuing pause. We define a melody using an array, where each entry represents a note and its characteristics. In the main loop, we iterate through the melody array, playing each note using the play_tone function we have written. # --- Imports import time import board import pwmio # --- Variables piezo_buzzer = pwmio.PWMOut(board.D4, variable_frequency=True) duty_cycle_val = 10 * 65535 // 100 # A 10% Duty Cycle produces cleaner sounding tones on an active buzzer # --- Functions def play_tone(freq, duration, pause): piezo_buzzer.frequency = freq piezo_buzzer.duty_cycle = duty_cycle_val time.sleep(duration) # Duration of note piezo_buzzer.duty_cycle = 0 # Off time.sleep(pause) # Pause after note # --- Setup melody_ducklings = [ [262, 0.25, 0], [294, 0.25, 0], [330, 0.25, 0], [349, 0.25, 0], [392, 0.45, 0.05], [392, 0.45, 0.05], [440, 0.25, 0], [440, 0.25, 0], [440, 0.25, 0], [440, 0.25, 0], [392, 0.75, 0.25], [440, 0.25, 0], [440, 0.25, 0], [440, 0.25, 0], [440, 0.25, 0], [392, 0.75, 0.25], [349, 0.25, 0], [349, 0.25, 0], [349, 0.25, 0], [349, 0.25, 0], [330, 0.45, 0.05], [330, 0.45, 0.05], [294, 0.25, 0], [294, 0.25, 0], [294, 0.25, 0], [294, 0.25, 0], [262, 0.75, 0.25] ] # --- Main loop while True: for note in melody_ducklings: play_tone(note[0], note[1], note[2]) time.sleep(0.75) . The example code above plays back a German nursery rhyme. You can replace the melody array with one of the following ones, representing a French nursery rhyme and a Dutch one, respectively: . melody_jaques = [ [262, 0.5, 0], [294, 0.5, 0], [330, 0.5, 0], [262, 0.25, 0.25], [262, 0.5, 0], [294, 0.5, 0], [330, 0.5, 0], [262, 0.25, 0.25], [330, 0.5, 0], [349, 0.5, 0], [392, 0.75, 0.25], [330, 0.5, 0], [349, 0.5, 0], [392, 0.75, 0.25], [392, 0.25, 0], [440, 0.25, 0], [392, 0.25, 0], [349, 0.25, 0], [330, 0.5, 0], [262, 0.25, 0.25], [392, 0.25, 0], [440, 0.25, 0], [392, 0.25, 0], [349, 0.25, 0], [330, 0.5, 0], [262, 0.25, 0.25], [262, 0.5, 0],[196, 0.5, 0],[262, 0.75, 0.25], [262, 0.5, 0],[196, 0.5, 0],[262, 0.75, 0.25] ] . melody_rijsttafel = [ [349, 0.75, 0], [392, 0.75, 0], [262, 0.5, 0], [392, 0.75, 0], [440, 0.75, 0], [523, 0.125, 0], [466, 0.125, 0], [440, 0.25, 0], [349, 0.75, 0], [392, 0.75, 0], [262, 0.5, 0], [262, 0.75, 0.5], [262, 0.125, 0], [262, 0.125, 0], [294, 0.125, 0], [349, 0.25, 0], [349, 0.5, 0] ] . For the musicians amongst you . Both these examples are written to resemble a musical meter called “common time.” In this case, the values for duration and pause in each measure (represented as one line in the array formatting) add up to two seconds (where each half second corresponds to a quarter note). You can consult a Music Note To Frequency Chart to help you use this blueprint to encode your own melody or sheet music into an array. ",
     "url": "/Connected-Interaction-Kit/test/components/piezo-buzzer/piezo-buzzer.html#playing-a-melody",
     
     "relUrl": "/components/piezo-buzzer/piezo-buzzer.html#playing-a-melody"
-  },"134": {
+  },"138": {
     "doc": "Piezo Buzzer",
     "title": "Piezo Buzzer",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/piezo-buzzer/piezo-buzzer.html",
     
     "relUrl": "/components/piezo-buzzer/piezo-buzzer.html"
-  },"135": {
+  },"139": {
     "doc": "Pinouts",
     "title": "Pinouts",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/support/pinout.html",
     
     "relUrl": "/support/pinout.html"
-  },"136": {
+  },"140": {
     "doc": "Pinouts",
     "title": "Pinout for the Itsy Bitsy M4",
     "content": ". Original . ",
     "url": "/Connected-Interaction-Kit/test/support/pinout.html#pinout-for-the-itsy-bitsy-m4",
     
     "relUrl": "/support/pinout.html#pinout-for-the-itsy-bitsy-m4"
-  },"137": {
+  },"141": {
     "doc": "Pinouts",
     "title": "Pinout for the Itsy Bitsy M4 in the Expander",
     "content": ". Original . ",
     "url": "/Connected-Interaction-Kit/test/support/pinout.html#pinout-for-the-itsy-bitsy-m4-in-the-expander",
     
     "relUrl": "/support/pinout.html#pinout-for-the-itsy-bitsy-m4-in-the-expander"
-  },"138": {
+  },"142": {
     "doc": "Pinouts",
     "title": "Pinout for the Itsy Bitsy RP2040",
     "content": ". Original . ",
     "url": "/Connected-Interaction-Kit/test/support/pinout.html#pinout-for-the-itsy-bitsy-rp2040",
     
     "relUrl": "/support/pinout.html#pinout-for-the-itsy-bitsy-rp2040"
-  },"139": {
+  },"143": {
     "doc": "Pinouts",
     "title": "Pinout for the Itsy Bitsy RP2040 in the Extender",
     "content": ". Original . ",
     "url": "/Connected-Interaction-Kit/test/support/pinout.html#pinout-for-the-itsy-bitsy-rp2040-in-the-extender",
     
     "relUrl": "/support/pinout.html#pinout-for-the-itsy-bitsy-rp2040-in-the-extender"
-  },"140": {
+  },"144": {
     "doc": "Rotary Potentiometer",
     "title": "Rotary Potentiometer",
     "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Rotary Potentiometer 03 Grove Connector . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/potentiometer.html",
     
     "relUrl": "/tutorials/assembling-custom-components/potentiometer.html"
-  },"141": {
+  },"145": {
     "doc": "Rotary Potentiometer",
     "title": "Assembly Video",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/potentiometer.html#assembly-video",
     
     "relUrl": "/tutorials/assembling-custom-components/potentiometer.html#assembly-video"
-  },"142": {
+  },"146": {
     "doc": "Power PWM",
     "title": "Power PWM",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/power-pwm/power-pwm.html#power-pwm",
     
     "relUrl": "/components/power-pwm/power-pwm.html#power-pwm"
-  },"143": {
+  },"147": {
     "doc": "Power PWM",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/power-pwm/power-pwm.html#required-libraries",
     
     "relUrl": "/components/power-pwm/power-pwm.html#required-libraries"
-  },"144": {
+  },"148": {
     "doc": "Power PWM",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/power-pwm/power-pwm.html#basic-usage",
     
     "relUrl": "/components/power-pwm/power-pwm.html#basic-usage"
-  },"145": {
+  },"149": {
     "doc": "Power PWM",
     "title": "Power PWM",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/power-pwm/power-pwm.html",
     
     "relUrl": "/components/power-pwm/power-pwm.html"
-  },"146": {
+  },"150": {
     "doc": "Power Servo",
     "title": "Power Servo",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/power-servo/power-servo.html#power-servo",
     
     "relUrl": "/components/power-servo/power-servo.html#power-servo"
-  },"147": {
+  },"151": {
     "doc": "Power Servo",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/power-servo/power-servo.html#required-libraries",
     
     "relUrl": "/components/power-servo/power-servo.html#required-libraries"
-  },"148": {
+  },"152": {
     "doc": "Power Servo",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/power-servo/power-servo.html#basic-usage",
     
     "relUrl": "/components/power-servo/power-servo.html#basic-usage"
-  },"149": {
+  },"153": {
     "doc": "Power Servo",
     "title": "Power Servo",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/power-servo/power-servo.html",
     
     "relUrl": "/components/power-servo/power-servo.html"
-  },"150": {
+  },"154": {
     "doc": "Rotary potentiometer",
     "title": "Rotary Potentiometer",
     "content": ". Changes its electrical resistance based on its rotation angle. Can detect rotation angles between 0° and 270°. Learn how to make your own rotary potentiometer here. ",
     "url": "/Connected-Interaction-Kit/test/components/rotary-potentiometer/rotary-potentiometer.html#rotary-potentiometer",
     
     "relUrl": "/components/rotary-potentiometer/rotary-potentiometer.html#rotary-potentiometer"
-  },"151": {
+  },"155": {
     "doc": "Rotary potentiometer",
     "title": "Background",
     "content": "What is a Potentiometer? . Potentiometers are a type of variable resistor consisting of a resistive track with electrical contacts at both ends. Like a fixed-value resistor, potentiometers have a fixed resistance value between both ends (for example, 10 kΩ.) A third, movable contact is located between both ends. This contact (called wiper) allows us to achieve a variable resistance by flowing electricity through a shorter portion of the resistive track. ",
     "url": "/Connected-Interaction-Kit/test/components/rotary-potentiometer/rotary-potentiometer.html#background",
     
     "relUrl": "/components/rotary-potentiometer/rotary-potentiometer.html#background"
-  },"152": {
+  },"156": {
     "doc": "Rotary potentiometer",
     "title": "Basic Usage",
     "content": "# --- Imports import time import board import analogio # --- Variables # Initialize analog input connected to rotation potentiometer potentiometer = analogio.AnalogIn(board.A2) # --- Functions # --- Setup # --- Main loop while True: val = potentiometer.value # Read the potentiometer value print(val) # Output the value in the serial monitor time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/test/components/rotary-potentiometer/rotary-potentiometer.html#basic-usage",
     
     "relUrl": "/components/rotary-potentiometer/rotary-potentiometer.html#basic-usage"
-  },"153": {
+  },"157": {
     "doc": "Rotary potentiometer",
     "title": "Rotation potentiometer example with conversion to voltage",
     "content": "# --- Imports import time import board import analogio # --- Variables # Initialize analog input connected to rotation potentiometer potentiometer = analogio.AnalogIn(board.A2) # --- Functions # Make a function to convert from analog value to voltage. def analog_voltage(adc): return adc.value / 65535 * adc.reference_voltage # --- Setup # --- Main loop while True: val = potentiometer.value # Read the photo resistor value volts = analog_voltage(potentiometer) # Convert to voltage # Print the values print('Photo resistor value: {0} voltage: {1}V'.format(val, volts)) time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/test/components/rotary-potentiometer/rotary-potentiometer.html#rotation-potentiometer-example-with-conversion-to-voltage",
     
     "relUrl": "/components/rotary-potentiometer/rotary-potentiometer.html#rotation-potentiometer-example-with-conversion-to-voltage"
-  },"154": {
+  },"158": {
     "doc": "Rotary potentiometer",
     "title": "Rotation potentiometer example with angle mapping",
     "content": "# --- Imports import time import board import analogio # --- Variables # Initialize analog input connected to rotation potentiometer potentiometer = analogio.AnalogIn(board.A2) # --- Functions # Make a function to convert from analog value to 270 degrees def get_angle(adc): return adc.value / 65535 * 270 # --- Setup # --- Main loop while True: val = potentiometer.value # Read the photo resistor value angle = get_angle(potentiometer) # Convert to voltage # Print the values print('Potentiometer value: {0} Angle: {1}º'.format(val, angle)) time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/test/components/rotary-potentiometer/rotary-potentiometer.html#rotation-potentiometer-example-with-angle-mapping",
     
     "relUrl": "/components/rotary-potentiometer/rotary-potentiometer.html#rotation-potentiometer-example-with-angle-mapping"
-  },"155": {
+  },"159": {
     "doc": "Rotary potentiometer",
     "title": "Rotary potentiometer",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/rotary-potentiometer/rotary-potentiometer.html",
     
     "relUrl": "/components/rotary-potentiometer/rotary-potentiometer.html"
-  },"156": {
+  },"160": {
     "doc": "Servo Motor",
     "title": "Servo Motor",
     "content": ". A small motor with position control. Its range of motion is limited to approximately 180°. Technical information on this component is available here. ",
     "url": "/Connected-Interaction-Kit/test/components/servo-motor/servo-motor.html#servo-motor",
     
     "relUrl": "/components/servo-motor/servo-motor.html#servo-motor"
-  },"157": {
+  },"161": {
     "doc": "Servo Motor",
     "title": "Background",
     "content": "The servo motor in the kit is a standard servo motor for hobby applications, meaning it has a range of motion of 180°, as opposed to a continuous servo motor that can move its shaft continuously. A pulse-width modulated (PWM) signal is used to control its angle. By adjusting the length of the pulse width, you can control the position of the servo motor’s shaft. To learn more about PWM signals, refer to the Piezo Buzzer example. ",
     "url": "/Connected-Interaction-Kit/test/components/servo-motor/servo-motor.html#background",
     
     "relUrl": "/components/servo-motor/servo-motor.html#background"
-  },"158": {
+  },"162": {
     "doc": "Servo Motor",
     "title": "Basic Usage",
     "content": "This example uses the adafruit_motor library to control a servo motor connected to pin D13. A PWM frequency of 50 Hz is standard for driving this type of motor. The min_pulse and max_pulse values inform the library of the pulse width it needs to create to move the motor to the minimum (0°) and maximum (180°) positions, respectively. If your motor does not produce a 180° motion range correctly, you may need to adjust the min_pulse and max_pulse values. Be very careful when doing so not to break your motor! . After setting up the servo motor, you can specify the angle you want the motor to move to. It will rotate to the target position at a consistent speed. The main loop in this example iterates through the servo motor’s motion range in increments of 45°. # --- Imports import time import board import pwmio from adafruit_motor import servo # --- Variables pwm = pwmio.PWMOut(board.D13, frequency=50) servo_motor = servo.Servo(pwm, min_pulse=700, max_pulse=2600) # --- Functions # --- Setup # --- Main loop while True: for angle in [0, 45, 90, 135, 180]: servo_motor.angle = angle time.sleep(1) . If you define a new position before reaching the previous one, the motor will abort its current operation and directly move to the new position. ",
     "url": "/Connected-Interaction-Kit/test/components/servo-motor/servo-motor.html#basic-usage",
     
     "relUrl": "/components/servo-motor/servo-motor.html#basic-usage"
-  },"159": {
+  },"163": {
     "doc": "Servo Motor",
     "title": "Servo Sweep with Speed Control",
     "content": "This tutorial will look at how to control the motion speed and move between two positions more smoothly. To that end, we write a function called sweep_servo that takes four parameters: . | The starting position of the sweep (start_pos). | The target position of the sweep (end_pos). | The duration of the sweep. | The step_size that divides the range of motion into smaller steps. | . Based on these parameters, the function calculates a delay_time between each step. It then moves the motor through the range of angles specified using intermediate steps of the defined step_size. Each motion step is followed by the calculated delay time that should accumulate to the desired duration over the sweep range. Before we enter the main loop, we initialize our motor to its 0° position and wait for a second. The main loop then uses our sweep_servo function to sweep back and forth between 0° and 180°. # --- Imports import time import board import pwmio from adafruit_motor import servo # --- Variables pwm = pwmio.PWMOut(board.D13, frequency=50) servo_motor = servo.Servo(pwm, min_pulse=600, max_pulse=2600) # --- Functions def sweep_servo(start_pos, end_pos, duration, step_size): delay_time = duration / ((end_pos - start_pos) / step_size) for angle in range(start_pos, end_pos, step_size): servo_motor.angle = angle time.sleep(delay_time) # --- Setup servo_motor.angle = 0 time.sleep(1) # --- Main loop while True: sweep_servo(0, 180, 1, 3) sweep_servo(180, 0, 1, -3) . ",
     "url": "/Connected-Interaction-Kit/test/components/servo-motor/servo-motor.html#servo-sweep-with-speed-control",
     
     "relUrl": "/components/servo-motor/servo-motor.html#servo-sweep-with-speed-control"
-  },"160": {
+  },"164": {
     "doc": "Servo Motor",
     "title": "Servo Motor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/servo-motor/servo-motor.html",
     
     "relUrl": "/components/servo-motor/servo-motor.html"
-  },"161": {
+  },"165": {
     "doc": "Before you Begin...",
     "title": "Soldering: Tools and Technique",
     "content": "For a more complete introduction into soldering, we recommend reading Sparkfun’s excellent guide HERE. ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/soldering.html#soldering-tools-and-technique",
     
     "relUrl": "/tutorials/assembling-custom-components/soldering.html#soldering-tools-and-technique"
-  },"162": {
+  },"166": {
     "doc": "Before you Begin...",
     "title": "Introduction",
     "content": "This guide intends to be a short read covering the basics of soldering using the tools available in the PMB. Using personal protective equipment (PPE) while working with hot solder is advisable. We strongly recommend using protective goggles and a fume exhaust. If you are already familiar with the tools we will work with, you may skip ahead to the following sections: . | How to Solder Through-Hole Components | How to Find and Fix Bad Connections | . First, let us take a look at the tools we will need: . Essential Tools . | Soldering Iron | Brass Sponge | Stand | . | | | | . | The most important tool you will be working with. | To keep the iron clean and in working order. | For safely storing the iron while hot. | . | Solder (with flux core) | Flush Cutters | Vise or Third Hand | . | | | | . | To join components together electrically and mechanically. | For trimming excess leads and cutting components to size. | To hold your workpiece while you work on it. | . Nice-to-Haves . | Flux Pen | Solder Wick | Sticky Putty | . | | | | . | Used to make solder flow better. Needed for repairs and solder whithout flux core. | Used to “soak up” excess solder. Important for repairing or reworking a solder joint. | Can help holding components, wires, or wick in place during the soldering process. | . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/soldering.html#introduction",
     
     "relUrl": "/tutorials/assembling-custom-components/soldering.html#introduction"
-  },"163": {
+  },"167": {
     "doc": "Before you Begin...",
     "title": "How to Solder Through-Hole Components",
     "content": "| Before you begin |   | . | Make sure the power to your work station is turned on. Ensure the circuit breaker (1) is in the “ON” position (up), then turn on the switch (2). If the power remains off, the Emergency Stop button may be tripped, ask for assistance. | | . | Step 1: Pre-heat the iron |   | . | Turn on the exhaust and the soldering iron. Set the iron to 370°C and let it heat up for a few seconds. (370°C works best for the lead-free solder, for leaded solder use 340°C) | | . | Step 2: Clean and tin the tip |   | . | Make sure the tip of your soldering iron is shiny. If it is blackened and matte, dirt and oxidation will prevent the heat from transfering into the joint. In this case, wipe the tip of the iron in the brass sponge to clean it. Then tin it by applying a bit of solder to the tip. The tip should look shiny before you proceed. | | . | Step 3: Seat a component |   | . | Insert one or more components and fix them. Components with flexible leads (e.g. resistors) can be easily fixed by bending the legs on the back of the PCB. Other components are easier to fix with a vise or some sticky putty. Avoid short-circuits by checking that components are not touching any other conductive parts of the board (as shown here). Secure the hot soldering iron in the stand while you do this. | | . | Step 4: Make a joint |   | . | Apply heat to the joint you want to solder for a few seconds. Make sure you heat the pad and the lead at the same time. Then feed some solder wire into the joint until it is fully covered in solder and forms a tent shape. (If the through-hole is much wider than the component lead, it is OK if the joint is flat.) Make sure to feed solder directly into the pre-heated joint! DON’T apply solder to the tip of your iron and try to “wipe” it into the joint! | | . | Step 5: Trim excess leads |   | . | Use the flush cuttes to cut excess leads as close as possible to the board. | | . | Step 6: Inspect |   | . | Check that all the joints look good and no solder bridges/short circuits exist. Check the following paragraph for guidance on finding and resolving issues. | | . | Step 7: Wrap-up |   | . | Tin the tip of the iron (see step 2) so the next person finds it in working order. Don’t forget to turn off your iron. If no one else is working at the station when you leave, turn off the main power. | | . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/soldering.html#how-to-solder-through-hole-components",
     
     "relUrl": "/tutorials/assembling-custom-components/soldering.html#how-to-solder-through-hole-components"
-  },"164": {
+  },"168": {
     "doc": "Before you Begin...",
     "title": "How to Find and Fix Bad Connections",
     "content": "Inspect your Component Leads . | Avoid Shorts |   | . | Make sure the leads of your mounted components don’t kink or touch pads on the circuit board they are not supposed to. This can otherwise lead to unexpected behavior or render the component completely non-functional. | | . Inspect your Solder Joints . Good Joints . | Concave Tent Shape | Convex Tent Shape | Separation between Joints | . | | | | . | Convex tent shape - the solder covers the entire pad. The ideal outcome. | This might look like too much solder, however it is a good joint. | There is a clear separation between joints, they do not touch one another. | . Note: If the mounting hole is much bigger than the component lead, there will not be a distinct tent shape. In that case, it is fine if the joint is flush or lentil-shaped as long as it evenly covers the entire pad. Bad Joints . | Cold Joint (Pad) | Cold Joint (Pin) | Insufficient Wetting | . | | | | . | Problem: Joint is unevenly heated, so the solder only flows onto the hot parts (In this case, the pad was too cold). Can also be caused by insufficient flux. | Problem: Components moved while solder was solidifying. Can introduce cracks between component and pad. Can also happen to good joints over time (if they are under repeated mechanical stress). | Problem: Not enough heat, so the solder does not fully liquefy. It does not flow nicely and refuses to “cling” to the components (it does not want to wet the components). | . | Solution: Add flux, retouch joint with hot iron (apply heat for at least for 2-3 seconds). | Solution: Add flux, retouch joint with hot iron (apply heat for at least for 2-3 seconds). | Solution: Add flux, reheat the joint, add solder. | . | Too Much Solder | Too Little Solder | Solder Jumper (Short-Circuit) | . | | | | . | Problem: Too much solder is applied. It forms a ball, or even flows over its pad. | Problem: Not enough solder is applied. It does not fill the through hole and isn’t able to flow onto the entire pad/component leg. | Problem: Too much solder on neighboring joints merges them to cause a short-circuit. Can also be due to insufficient heat and flux, preventing surface tension from “pulling” the solder onto the pads. | . | Solution: Add a bit of flux, then use wick to remove excess solder. See below on how to use solder wick. | Solution: Reheat the joint, add solder. | Solution: Add a bit of flux, apply heat, then drag the iron across shorted joints. If the problem persists, use wick to remove excess solder. See below on how to use solder wick. | . How To Use Solder Wick to Rework a Joint . | Step 1: Position Wick |   | . | Apply some flux to the joint you wish to rework. Then position the wick. | | . | Step 2: Apply Heat |   | . | Apply heat to the joint through the wick. Make sure to fix the wick without touching it, e.g. using sticky putty. Wick conducts heat very fast and can burn your fingers! Make sure not to touch it while heating it! | | . | Step 3: Soak Up Excess Solder |   | . | Keep applying heat while the wick soaks up the melting solder. Remove the wick while still hot. Don’t rip it off with force! If it sticks, re-apply some heat for the solder to melt. Removing the wick should not require applying force.Add solder back into the joint if needed. | | . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/soldering.html#how-to-find-and-fix-bad-connections",
     
     "relUrl": "/tutorials/assembling-custom-components/soldering.html#how-to-find-and-fix-bad-connections"
-  },"165": {
+  },"169": {
     "doc": "Before you Begin...",
     "title": "Before you Begin...",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/soldering.html",
     
     "relUrl": "/tutorials/assembling-custom-components/soldering.html"
-  },"166": {
+  },"170": {
     "doc": "Sound Sensor",
     "title": "Sound Sensor",
     "content": ". Senses the intensity of sounds in the environment and converts it into an analog signal. More detailed information is available on the Seeed Studio Wiki. ",
     "url": "/Connected-Interaction-Kit/test/components/sound-sensor/sound-sensor.html#sound-sensor",
     
     "relUrl": "/components/sound-sensor/sound-sensor.html#sound-sensor"
-  },"167": {
+  },"171": {
     "doc": "Sound Sensor",
     "title": "Basic Sound Sensor Usage Example",
     "content": "The code example below reads the analog input from a sound sensor connected to pin A2. It then prints the sensor value to the serial monitor and introduces a short delay to prevent the program from running too quickly and overwhelming the serial monitor with data. # --- Imports import time import board import analogio # --- Variables sound_sensor = analogio.AnalogIn(board.A2) # --- Functions # --- Setup # --- Main loop while True: val = sound_sensor.value print((val,)) time.sleep(0.05) . The line sound_sensor = analogio.AnalogIn(board.A2) creates a new AnalogIn object named sound_sensor. AnalogIn provides a method called value, which retrieves the current sensor value. At the beginning of the main loop, val = sound_sensor.value is used to retrieve and store the value in a variable called val. Finally, we print the value to the Serial Monitor using print(). The code examples on this page make use Mu Editor’s Serial Plotter to visually display the sensor readings over time. The plotter can be enabled from the menu bar at the top of Mu Editor. It expects data to be printed as a tuple, so the value is formatted as (val,) instead of val. ",
     "url": "/Connected-Interaction-Kit/test/components/sound-sensor/sound-sensor.html#basic-sound-sensor-usage-example",
     
     "relUrl": "/components/sound-sensor/sound-sensor.html#basic-sound-sensor-usage-example"
-  },"168": {
+  },"172": {
     "doc": "Sound Sensor",
     "title": "Smoothing Sound Sensor Values",
     "content": "The code in this example has been slightly altered. Instead of printing the sensor value directly, it collects 32 samples and calculates their average before printing them to achieve a smoother output. # --- Imports import time import board import analogio # --- Variables sound_sensor = analogio.AnalogIn(board.A2) # --- Functions # --- Setup # --- Main loop while True: # Sample 32 sensor readings and calculate their average value_sum = 0 for i in range(32): value_sum = value_sum + sound_sensor.value smoothed_val = value_sum / 32 print((smoothed_val,)) time.sleep(0.01) . A better way to write this code encapsulates the smoothing code in a function. Doing so improves the readability of the main loop and allows the code in the function to be reused elsewhere in the program: . # --- Imports import time import board import analogio # --- Variables sound_sensor = analogio.AnalogIn(board.A2) # --- Functions def smooth(sensor, samples): value_sum = 0 for i in range(samples): value_sum = value_sum + sensor.value return value_sum / samples # --- Setup # --- Main loop while True: smoothed_val = smooth(sound_sensor, 32) print((smoothed_val,)) time.sleep(0.01) . ",
     "url": "/Connected-Interaction-Kit/test/components/sound-sensor/sound-sensor.html#smoothing-sound-sensor-values",
     
     "relUrl": "/components/sound-sensor/sound-sensor.html#smoothing-sound-sensor-values"
-  },"169": {
+  },"173": {
     "doc": "Sound Sensor",
     "title": "Sound Sensor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/sound-sensor/sound-sensor.html",
     
     "relUrl": "/components/sound-sensor/sound-sensor.html"
-  },"170": {
+  },"174": {
     "doc": "Splitter",
     "title": "Grove Splitter",
     "content": ". &lt; one sentence explaination of item &gt; . ",
     "url": "/Connected-Interaction-Kit/test/components/splitter/splitter.html#grove-splitter",
     
     "relUrl": "/components/splitter/splitter.html#grove-splitter"
-  },"171": {
+  },"175": {
     "doc": "Splitter",
     "title": "Required Libraries",
     "content": "link to library . ",
     "url": "/Connected-Interaction-Kit/test/components/splitter/splitter.html#required-libraries",
     
     "relUrl": "/components/splitter/splitter.html#required-libraries"
-  },"172": {
+  },"176": {
     "doc": "Splitter",
     "title": "Basic Usage",
     "content": "explaination . explaination . ",
     "url": "/Connected-Interaction-Kit/test/components/splitter/splitter.html#basic-usage",
     
     "relUrl": "/components/splitter/splitter.html#basic-usage"
-  },"173": {
+  },"177": {
     "doc": "Splitter",
     "title": "Splitter",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/splitter/splitter.html",
     
     "relUrl": "/components/splitter/splitter.html"
-  },"174": {
+  },"178": {
     "doc": "Tactile Switch",
     "title": "Tactile Switch (Button)",
     "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Tactile Switch 03 10kΩ Resistor 04 Grove Connector05 Button Cap (Optional) . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/tactile-switch.html#tactile-switch-button",
     
     "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html#tactile-switch-button"
-  },"175": {
+  },"179": {
     "doc": "Tactile Switch",
     "title": "Assembly Video",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/tactile-switch.html#assembly-video",
     
     "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html#assembly-video"
-  },"176": {
+  },"180": {
     "doc": "Tactile Switch",
     "title": "Tactile Switch",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/tactile-switch.html",
     
     "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html"
-  },"177": {
+  },"181": {
     "doc": "Tactile switch",
     "title": "Tactile Switch",
     "content": ". A push button that remains active while pressed. Learn how to make your own tactile switch here. ",
     "url": "/Connected-Interaction-Kit/test/components/tactile-switch/tactile-switch.html#tactile-switch",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html#tactile-switch"
-  },"178": {
+  },"182": {
     "doc": "Tactile switch",
     "title": "Basic Usage",
     "content": "The code example below reads the state of a tactile switch connected to pin D7 on each run through the main loop. While the button remains pressed, it turns on the built-in LED of your microcontroller, which is internally connected to pin D13. When released, the LED is turned off again. # --- Imports import digitalio import time import board # --- Variables switch = digitalio.DigitalInOut(board.D7) switch.direction = digitalio.Direction.INPUT led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup led_state = False # --- Main loop while True: if switch.value == False: led.value = False else: led.value = True . ",
     "url": "/Connected-Interaction-Kit/test/components/tactile-switch/tactile-switch.html#basic-usage",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html#basic-usage"
-  },"179": {
+  },"183": {
     "doc": "Tactile switch",
     "title": "Toggling Between States",
     "content": "In the previous example, the LED’s state directly depends on the state of the switch. When the button is pressed, the LED turns on, and when it is released, the LED turns off. In this code example, we modify the behavior to emulate a toggle switch, allowing the LED to toggle between on and off states each time the button is pressed. To achieve this, we use a variable called last_state to track the previous state of the switch. In the main loop, we check if the current state of the switch is different from its previous state: . if switch.value != last_state: . When the state of the switch changes, we update the last_state variable. We then check if the state changed from not pressed to pressed, in which case we toggle the LED’s state. That way, we ensure the LED’s state changes only once per press-and-release cycle. The code also prints the toggled LED states to the serial monitor. Therefore, we also introduce a short delay to safeguard against overwhelming the serial monitor with too many messages. import digitalio import time import board # --- Variables switch = digitalio.DigitalInOut(board.D7) switch.direction = digitalio.Direction.INPUT led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup last_switch_state = switch.value led_state = False # --- Main loop while True: if switch.value != last_switch_state: last_switch_state = switch.value if switch.value: led_state = not led_state print(\"Enable LED\" if led_state else \"Disable LED\") led.value = led_state time.sleep(0.02) . ",
     "url": "/Connected-Interaction-Kit/test/components/tactile-switch/tactile-switch.html#toggling-between-states",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html#toggling-between-states"
-  },"180": {
+  },"184": {
     "doc": "Tactile switch",
     "title": "Tactile switch",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/tactile-switch/tactile-switch.html",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html"
-  },"181": {
+  },"185": {
     "doc": "Thermistor",
     "title": "Thermistor (Temperature Sensor)",
     "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Thermistor 03 10kΩ Resistor 04 Grove Connector . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/thermistor.html#thermistor-temperature-sensor",
     
     "relUrl": "/tutorials/assembling-custom-components/thermistor.html#thermistor-temperature-sensor"
-  },"182": {
+  },"186": {
     "doc": "Thermistor",
     "title": "Assembly Video",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/thermistor.html#assembly-video",
     
     "relUrl": "/tutorials/assembling-custom-components/thermistor.html#assembly-video"
-  },"183": {
+  },"187": {
     "doc": "Thermistor",
     "title": "Thermistor",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/thermistor.html",
     
     "relUrl": "/tutorials/assembling-custom-components/thermistor.html"
-  },"184": {
+  },"188": {
     "doc": "Thermistor",
     "title": "Thermistor",
     "content": ". Changes its electrical resistance with temperature. Can be used to estimate the current temperature and detect changes. Learn how to make your own thermistor here. ",
     "url": "/Connected-Interaction-Kit/test/components/thermistor/thermistor.html#thermistor",
     
     "relUrl": "/components/thermistor/thermistor.html#thermistor"
-  },"185": {
+  },"189": {
     "doc": "Thermistor",
     "title": "Basic rotation potentiometer example",
     "content": "Download the necessary adafruit_thermistor library with the 7.x bundle . # --- Imports # --- Imports import time import board # Download the library with the 8.x bundle at https://circuitpython.org/libraries import adafruit_thermistor # --- Variables # Initialize analog input connected to temperature sensor resistor = 10000 resistance = 10000 nominal_temp = 25 b_coefficient = 3950 # Connect the temperature sensor to pin A2 temp_sensor = board.A2 # --- Functions # Library function to read the temperature sensor accurately thermistor = adafruit_thermistor.Thermistor( temp_sensor, resistor, resistance, nominal_temp, b_coefficient ) # --- Setup # --- Main loop while True: celsius = thermistor.temperature fahrenheit = (celsius * 9 / 5) + 32 print(\"== Temperature ==\\n{} *C\\n{} *F\\n\".format(celsius, fahrenheit)) time.sleep(0.5) . ",
     "url": "/Connected-Interaction-Kit/test/components/thermistor/thermistor.html#basic-rotation-potentiometer-example",
     
     "relUrl": "/components/thermistor/thermistor.html#basic-rotation-potentiometer-example"
-  },"186": {
+  },"190": {
     "doc": "Thermistor",
     "title": "Thermistor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/thermistor/thermistor.html",
     
     "relUrl": "/components/thermistor/thermistor.html"
-  },"187": {
+  },"191": {
     "doc": "Tilt Switch",
     "title": "Tilt Switch",
     "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Tilt Switch 03 10kΩ Resistor 04 Grove Connector . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/tilt-switch.html",
     
     "relUrl": "/tutorials/assembling-custom-components/tilt-switch.html"
-  },"188": {
+  },"192": {
     "doc": "Tilt Switch",
     "title": "Assembly Video",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/tutorials/assembling-custom-components/tilt-switch.html#assembly-video",
     
     "relUrl": "/tutorials/assembling-custom-components/tilt-switch.html#assembly-video"
-  },"189": {
+  },"193": {
     "doc": "Tilt switch",
     "title": "Tilt Switch",
     "content": ". Detects if it has been tilted beyond a certain point. Learn how to make your own tilt switch here. ",
     "url": "/Connected-Interaction-Kit/test/components/tilt-switch/tilt-switch.html#tilt-switch",
     
     "relUrl": "/components/tilt-switch/tilt-switch.html#tilt-switch"
-  },"190": {
+  },"194": {
     "doc": "Tilt switch",
     "title": "Basic tilt switch example",
     "content": "# --- Imports import digitalio import time import board # --- Variables tilt_switch = digitalio.DigitalInOut(board.D13) tilt_switch.direction = digitalio.Direction.INPUT # --- Functions # --- Setup # --- Main loop while True: if tilt_switch.value is False: print(\"False\") else: print(\"True\") time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/test/components/tilt-switch/tilt-switch.html#basic-tilt-switch-example",
     
     "relUrl": "/components/tilt-switch/tilt-switch.html#basic-tilt-switch-example"
-  },"191": {
+  },"195": {
     "doc": "Tilt switch",
     "title": "Tilt switch",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/tilt-switch/tilt-switch.html",
     
     "relUrl": "/components/tilt-switch/tilt-switch.html"
-  },"192": {
+  },"196": {
     "doc": "Time of Flight Sensor",
     "title": "Time of Flight Distance Sensor",
     "content": ". Detects the distance of objects directly in front of the sensor. Works best with white surfaces, for a range from 30 to 1200 mm. Works most reliably between 50 and 950 mm. The sensor included in your kit may look like the one pictured above or like the one pictured here. Both versions are functionally identical. The information in this article is valid no matter which version you own. Additional information is available on this page, discussing a similar component based on the same sensor. Additional code examples are available here. ",
     "url": "/Connected-Interaction-Kit/test/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#time-of-flight-distance-sensor",
     
     "relUrl": "/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#time-of-flight-distance-sensor"
-  },"193": {
+  },"197": {
     "doc": "Time of Flight Sensor",
     "title": "Preparation",
     "content": "This Distance Sensor communicates with your microcontroller using a protocol called I²C. To work, it must be connected to a port labeled I²C on the BitsyExpander Board. You will need to include the adafruit_bus_device library in your code to read data via I²C and the adafruit_vl53l0x library to control the VL53L0X sensor itself. These libraries should already be installed on the ItsyBitsy Microcontroller included in your kit, so you don’t need to worry about installing them yourself. You can verify that these libraries are installed by ensuring a folder named adafruit_bus_device and a file called adafruit_vl53l0x.mpy are present in the lib folder of your CIRCUITPY drive. If not, download Adafruit’s Library Bundle for Version 8.x here. Extract the needed file and folder from the bundle and place them in the lib folder on your microcontroller. You can learn more about libraries and their use in the Glossary or the Tutorials. ",
     "url": "/Connected-Interaction-Kit/test/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#preparation",
     
     "relUrl": "/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#preparation"
-  },"194": {
+  },"198": {
     "doc": "Time of Flight Sensor",
     "title": "Basic Usage",
     "content": "Make sure to include busio and adafruit_vl53l0x in the imports section of your code to use the required libraries. The first step to using the sensor is setting up the connection by creating an I2C object named i2c_port. Then, dist_sensor = adafruit_vl53l0x.VL53L0X(i2c_port) is used to create an instance of the sensor named dist_sensor and connected to i2c_port. In the example code below, this is done in the Variables section. In the main loop, the print() function outputs distance readings retrieved from the sensor using dist_sensor.range, along with explanatory labels. # --- Imports import time import board import busio import adafruit_vl53l0x # --- Declarations i2c_port = busio.I2C(board.SCL, board.SDA) # --- Functions # --- Setup dist_sensor = adafruit_vl53l0x.VL53L0X(i2c_port) # --- Main loop while True: print(\"Range:\", dist_sensor.range, \"mm\") time.sleep(0.1) . ",
     "url": "/Connected-Interaction-Kit/test/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#basic-usage",
     
     "relUrl": "/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#basic-usage"
-  },"195": {
+  },"199": {
     "doc": "Time of Flight Sensor",
     "title": "Using Multiple Sensors",
     "content": "Some soldering is required to follow these instructions. If this is your first time soldering, begin by reading the Soldering Tutorial. If following this tutorial with a microcontroller other than the one included in the Connected Interaction Kit, make sure it uses 3.3V logic. The XSHUT pin of the sensor cannot handle 5V logic and would need level shifting to work with 5V microcontrollers. The I²C connectors on the BitsyExpander board all share the same two digital pins (SCL and SDA), as I²C is a communication protocol that enables multiple components to share the same so-called I²C bus. To organize communication, each device on the bus must have a unique address. Typically, unique addresses are assigned by default to different components. However, if you need to use multiple identical parts, they will all have the same default address, causing a conflict. For example, the VL530X Distance Sensor’s default address is 0x29. To use more than one of them, their addresses must first be reassigned. This can be done in code by following these steps: . | At the start of the program, all connected sensors must be turned off by driving their shutdown pins low (labeled XSHT or XSHUT). Before that can be done, a new cable must be soldered to connect the sensor’s shutdown pin to a digital pin on the microcontroller. Follow the wiring diagram above to connect two sensors. | In the code’s setup section, switch_to_output(value=False) configures the pins connected to XSHUT as outputs with a default value of False to turn off the sensors. | Next, the first sensor is turned on by driving its XSHUT pin high with xshut_sensor1.value = True, and initialized in the same manner as in the first example. | Finally, the set_address() function is used to change the sensor’s address. | These steps are then repeated for the remaining sensors. In this example, the addresses of both connected sensors are changed. In principle, the last sensor could retain its default address. | . Note that these steps only need to be performed once, which is why they are performed in the code’s setup section. Once configured, the sensors can be used normally. # --- Imports import time import board import busio import digitalio import adafruit_vl53l0x # --- Declarations i2c_port = busio.I2C(board.SCL, board.SDA) xshut_sensor1 = digitalio.DigitalInOut(board.D2) xshut_sensor2 = digitalio.DigitalInOut(board.D3) # --- Functions # --- Setup xshut_sensor1.switch_to_output(value=False) xshut_sensor2.switch_to_output(value=False) xshut_sensor1.value = True dist_sensor1 = adafruit_vl53l0x.VL53L0X(i2c_port) dist_sensor1.set_address(0x30) xshut_sensor2.value = True dist_sensor2 = adafruit_vl53l0x.VL53L0X(i2c_port) dist_sensor2.set_address(0x31) # --- Main loop while True: print((dist_sensor1.range, dist_sensor2.range)) time.sleep(0.1) . If you need more than three sensors or want to avoid soldering, consider using an I²C Multiplexer or configuring a second I²C bus instead. ",
     "url": "/Connected-Interaction-Kit/test/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#using-multiple-sensors",
     
     "relUrl": "/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#using-multiple-sensors"
-  },"196": {
+  },"200": {
     "doc": "Time of Flight Sensor",
     "title": "Additional Resources",
     "content": "Working with I²C Devices . Adafruit’s extensive learning resource on the I²C standard . Resolving I²C Address Conflicts . Adafruit’s guide exploring methods to resolve I²C address conflicts . ",
     "url": "/Connected-Interaction-Kit/test/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#additional-resources",
     
     "relUrl": "/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html#additional-resources"
-  },"197": {
+  },"201": {
     "doc": "Time of Flight Sensor",
     "title": "Time of Flight Sensor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html",
     
     "relUrl": "/components/time-of-flight-distance-sensor/time-of-flight-distance-sensor.html"
-  },"198": {
+  },"202": {
     "doc": "Tools and Equipment",
     "title": "Tools and Equipment",
     "content": "These are the tools and equipment you need to get started: . ItsyBitsy + Expander . The ItsyBitsy microcontroller and its Expander form the hardware platform you will be using. When connected to your computer using the included USB data cable, the ItsyBitsy will appear as a storage device called CIRCUITPY. Your Computer + Mu Editor . You could, in theory, use any text editor to write programs for your microcontroller. In practice, you should always use a code editor, as it will simplify things greatly. The Mu Editor is free, open-source, and great for beginners. It spots errors, highlights important code passages, and helps structure your program. It has excellent CircuitPython support and offers important features for working with microcontrollers. Install Mu Editor . ",
     "url": "/Connected-Interaction-Kit/test/tutorials/preparation/tools-and-equipment.html",
     
     "relUrl": "/tutorials/preparation/tools-and-equipment.html"
-  },"199": {
+  },"203": {
     "doc": "Touch Sensor",
     "title": "Touch Sensor",
     "content": ". A capacitive switch that remains active while touched. More information on this component is available here. ",
     "url": "/Connected-Interaction-Kit/test/components/touch-sensor/touch-sensor.html#touch-sensor",
     
     "relUrl": "/components/touch-sensor/touch-sensor.html#touch-sensor"
-  },"200": {
+  },"204": {
     "doc": "Touch Sensor",
     "title": "Basic Usage",
     "content": "The code example below reads the state of a touch sensor connected to pin D7 on each run through the main loop. While the sensor remains touched, it turns on the built-in LED of your microcontroller, which is internally connected to pin D13. When released, the LED is turned off again. # --- Imports import digitalio import time import board # --- Variables touch_sensor = digitalio.DigitalInOut(board.D7) touch_sensor.direction = digitalio.Direction.INPUT led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup led_state = False # --- Main loop while True: if touch_sensor.value == False: led.value = False else: led.value = True . ",
     "url": "/Connected-Interaction-Kit/test/components/touch-sensor/touch-sensor.html#basic-usage",
     
     "relUrl": "/components/touch-sensor/touch-sensor.html#basic-usage"
-  },"201": {
+  },"205": {
     "doc": "Touch Sensor",
     "title": "Toggling Between States",
     "content": "In the previous example, the LED’s state directly depends on the state of the touch sensor. While the sensor is touched, the LED is on. Once it is released, the LED turns off. In this code example, we modify the behavior to toggle between the on and off states of the LED each time the sensor is touched. To achieve this, we use a variable called last_state to track the previous state of the touch sensor. In the main loop, we check if the current state of the sensor is different from its previous state: . if touch_sensor.value != last_touch_state: . When the state of the sensor changes, we update the last_state variable. We then check if the state changed from not touched to touched, in which case we toggle the LED’s state. That way, we ensure the LED’s state changes only once per touch-and-release cycle. The code also prints the toggled LED states to the serial monitor. Therefore, we also introduce a short delay to safeguard against overwhelming the serial monitor with too many messages. import digitalio import time import board # --- Variables touch_sensor = digitalio.DigitalInOut(board.D7) touch_sensor.direction = digitalio.Direction.INPUT led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup last_touch_state = touch_sensor.value led_state = False # --- Main loop while True: if touch_sensor.value != last_touch_state: last_touch_state = touch_sensor.value if touch_sensor.value: led_state = not led_state print(\"Enable LED\" if led_state else \"Disable LED\") led.value = led_state time.sleep(0.02) . ",
     "url": "/Connected-Interaction-Kit/test/components/touch-sensor/touch-sensor.html#toggling-between-states",
     
     "relUrl": "/components/touch-sensor/touch-sensor.html#toggling-between-states"
-  },"202": {
+  },"206": {
     "doc": "Touch Sensor",
     "title": "Touch Sensor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/test/components/touch-sensor/touch-sensor.html",
     
     "relUrl": "/components/touch-sensor/touch-sensor.html"
-  },"203": {
+  },"207": {
     "doc": "Troubleshooting",
     "title": "Troubleshooting Steps for ItsyBitsy",
     "content": ". | Is the ItsyBitsy powered/is the USB plugged in? . | Are you using a micro USB data cable? some cables only supply power, not data. | . | Are you working in Mu editor? | Are the sensors and actuators plugged into the correct ports? . | If you’re using Chainable LEDs, are they connected to the IN side? (See the white arrow) | Chainable LEDs don’t need to return to the board. | . | Is the correct code saved on the ItsyBitsy? (Not locally on your laptop) . | Does the file have the name “code.py”? | Mu indicates where it saves it when you click save, at the very bottom left. | . | Have you clicked the reset button once? (button with “rst”) | If you open the Serial monitor and save again, is there an error in the console? . | If the error contains “Module”, check if all libraries are on the board. | You can find the libraries by googling “CircuitPython libraries” or download them from https://circuitpython.org/libraries. | We’re using version 9.X | . | If the error contains “INDENT”, then there’s too much or too little TAB/(SPACE) somewhere. Usually at the beginning of a code line. | If the error contains “SYNTAX”, there’s likely a missing “:” or a keyword (such as IF or Print) is mistyped/used incorrectly. | . | Are you in REPL mode (Do you see “»&gt;” in your console)? You can exit by typing “ctrl + d”, or a few times “ctrl + c” and then “ctrl + d”. | Make sure you read what the code does and follow all steps. | . ",
     "url": "/Connected-Interaction-Kit/test/support/troubleshooting.html#troubleshooting-steps-for-itsybitsy",
     
     "relUrl": "/support/troubleshooting.html#troubleshooting-steps-for-itsybitsy"
-  },"204": {
+  },"208": {
     "doc": "Troubleshooting",
     "title": "Troubleshooting",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/support/troubleshooting.html",
     
     "relUrl": "/support/troubleshooting.html"
-  },"205": {
+  },"209": {
     "doc": "Upgrade Circuit python for M4",
     "title": "How to upgrade to Circuit Python for M4",
     "content": "Guide based on Adafruit update page, check this page for more in-depth guidance. | Connect ItsyBitsy to your computer, you should see a USB drive appear as: CIRCUITPY | Find out which version of CircuitPython you are running currently, you can use step a OR step b . | Open the CIRCUITPY drive and open the boot_out.txt file. you should see something like Adafruit CircuitPython 7.1.1 this is the version of CircuitPython you are currently using. If this is already shows the version you want to upgrade to, you can stop this tutorial. | Open MU editor, press the serial button, and in the REPL you should also see your version of CircuitPython printed. | . | Double-click the RESET button, the drive disappears and reappears as: ITSYM4BOOT . | Download the latest stable version of CircuitPython at this page by pressing the Download .uf2 now button. | Drag the .uf2 file to the ITSYM4BOOT drive, the drive disappears and reappears as: CIRCUITPY . | To find out if the upgrade was successful you can use step a OR step b . | Open the CIRCUITPY drive and open the boot_out.txt file. you should see something like Adafruit CircuitPython 9.0.4 this is the version of CircuitPython you are now upgraded to. | Open MU editor, press the serial button, and in the REPL you should also see your version of CircuitPython printed. this is the version of CircuitPython you are now upgraded to. | . | . ",
     "url": "/Connected-Interaction-Kit/test/support/upgradeCP_M4.html#how-to-upgrade-to-circuit-python-for-m4",
     
     "relUrl": "/support/upgradeCP_M4.html#how-to-upgrade-to-circuit-python-for-m4"
-  },"206": {
+  },"210": {
     "doc": "Upgrade Circuit python for M4",
     "title": "Upgrade Circuit python for M4",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/support/upgradeCP_M4.html",
     
     "relUrl": "/support/upgradeCP_M4.html"
-  },"207": {
+  },"211": {
     "doc": "Upgrade Circuit python for RP2040",
     "title": "How to upgrade to Circuit Python for RP2040",
     "content": "Guide based on Adafruit update page, check this page for more in-depth guidance . | Connect ItsyBitsy to your computer, you should see a USB drive appear as: CIRCUITPY | Find out which version of CircuitPython you are running currently, you can use step a OR step b . | Open the CIRCUITPY drive and open the boot_out.txt file. you should see something like Adafruit CircuitPython 8.2.6 this is the version of CircuitPython you are currently using. If this is already shows the version you want to upgrade to, you can stop this tutorial. | Open MU editor, press the serial button, and in the REPL you should also see your version of CircuitPython printed. | . | Hold down the BOOT button, while holding this press and release the RESET button, the drive disappears and reappears as: RPI-RP2 . | Download the latest stable version of CircuitPython at this page by pressing the Download .uf2 now button. | Drag the .uf2 file to the RPI-RP2 drive, the drive disappears and reappears as: CIRCUITPY . | To find out if the upgrade was successful you can use step a OR step b . | Open the CIRCUITPY drive and open the boot_out.txt file. you should see something like Adafruit CircuitPython 9.0.4 this is the version of CircuitPython you are now upgraded to. | Open MU editor, press the serial button, and in the REPL you should also see your version of CircuitPython printed. this is the version of CircuitPython you are now upgraded to. | . | . ",
     "url": "/Connected-Interaction-Kit/test/support/upgradeCP_RP2040.html#how-to-upgrade-to-circuit-python-for-rp2040",
     
     "relUrl": "/support/upgradeCP_RP2040.html#how-to-upgrade-to-circuit-python-for-rp2040"
-  },"208": {
+  },"212": {
     "doc": "Upgrade Circuit python for RP2040",
     "title": "Upgrade Circuit python for RP2040",
     "content": " ",
     "url": "/Connected-Interaction-Kit/test/support/upgradeCP_RP2040.html",
     
     "relUrl": "/support/upgradeCP_RP2040.html"
-  },"209": {
+  },"213": {
     "doc": "Vibration Motor",
     "title": "Vibration Motor",
     "content": ". Creates vibration that can be used to generate patterns comparable to cell phone alarms. Technical information on this component is available here. ",
     "url": "/Connected-Interaction-Kit/test/components/vibration-motor/vibration-motor.html#vibration-motor",
     
     "relUrl": "/components/vibration-motor/vibration-motor.html#vibration-motor"
-  },"210": {
+  },"214": {
     "doc": "Vibration Motor",
     "title": "Basic Usage",
     "content": "The code example below treats the vibration motor like a digital component connected to pin D4, turning it on and off. That way, the motor can generate haptic feedback and alarms using the highest feedback intensity. # --- Imports import board import time import digitalio # --- Variables vibration_motor = digitalio.DigitalInOut(board.D4) vibration_motor.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup # --- Main loop while True: vibration_motor.value = True time.sleep(0.5) vibration_motor.value = False time.sleep(0.5) . ",
     "url": "/Connected-Interaction-Kit/test/components/vibration-motor/vibration-motor.html#basic-usage",
     
     "relUrl": "/components/vibration-motor/vibration-motor.html#basic-usage"
-  },"211": {
+  },"215": {
     "doc": "Vibration Motor",
     "title": "Modulating Intensity using Pulse-Width Modulation",
     "content": "Instead of turning the vibration motor either entirely on or off, it can also create vibration at intermediate states. The example code below uses Pulse-Width Modulation (PWM) to ramp up the intensity of the motor in 64 steps between 0 (0%) and 65535 (100%). # --- Imports import time import board import pwmio # --- Variables vibration_motor = pwmio.PWMOut(board.D4) # --- Functions # --- Setup # --- Main loop while True: # Count up from 0 to 65535, with 64 increment for i in range(0, 65535, 64): vibration_motor.duty_cycle = i time.sleep(0.002) . To learn more about PWM signals, refer to the Piezo Buzzer example. Unlike the Piezo Buzzer example, a variable frequency is unnecessary for using the Vibration Motor. ",
     "url": "/Connected-Interaction-Kit/test/components/vibration-motor/vibration-motor.html#modulating-intensity-using-pulse-width-modulation",
     
     "relUrl": "/components/vibration-motor/vibration-motor.html#modulating-intensity-using-pulse-width-modulation"
-  },"212": {
+  },"216": {
     "doc": "Vibration Motor",
     "title": "Creating Vibration Alarm Patterns",
     "content": "This last example uses a function called vibration_alarm to simplify playing back alarm patterns. It takes three parameters: intensity, duration, and pause. intensity is the vibration motor’s intensity in percentage, duration is the time the motor will vibrate, and pause is the time the motor will be idle before the next vibration. In the main loop, the program iterates over each element of the alarm, activating the vibration motor with the corresponding intensity, duration, and pause. This allows you to use arrays to define vibration patterns instead of writing out the individual steps for vibration and pauses every time. # --- Imports import time import board import pwmio # --- Variables vibration_motor = pwmio.PWMOut(board.D4) # --- Functions def vibration_alarm(intensity, duration, pause): vibration_motor.duty_cycle = intensity * 65535 // 100 time.sleep(duration) # Duration of vibration vibration_motor.duty_cycle = 0 # Disable vibration time.sleep(pause) # Pause after vibration # --- Setup alarm_1 = [ [100, 0.5, 0.5], [100, 0.5, 0.5], [100, 0.5, 0.5] ] # --- Main loop while True: for note in alarm_1: vibration_alarm(note[0], note[1], note[2]) time.sleep(2) . Here are two more alarm pattern examples: . alarm_2 = [ [100, 0.1, 0.1], [100, 0.1, 0.1], [100, 0.1, 0.1], [100, 0.5, 0.8], [100, 0.1, 0.1], [100, 0.1, 0.1], [100, 0.1, 0.1], [100, 0.5, 0.25] ] . alarm_3 = [ [100, 0.5, 0.2], [70, 0.1, 0.1], [70, 0.1, 0.3], [70, 0.1, 0.3], [100, 0.5, 0.3], [100, 0.5, 0.3], [100, 0.5, 0.3] ] . ",
     "url": "/Connected-Interaction-Kit/test/components/vibration-motor/vibration-motor.html#creating-vibration-alarm-patterns",
     
     "relUrl": "/components/vibration-motor/vibration-motor.html#creating-vibration-alarm-patterns"
-  },"213": {
+  },"217": {
     "doc": "Vibration Motor",
     "title": "Vibration Motor",
     "content": ". ",
