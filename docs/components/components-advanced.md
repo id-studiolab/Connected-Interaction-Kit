@@ -8,6 +8,7 @@ has_toc: false
 ---
 
 ## Advanced Components
+Components that are not in the normal kit.
 
 <table>
 <thead>
@@ -34,12 +35,12 @@ has_toc: false
     <td align="center"><img src="motor-driver/assets/motor-driver.png" alt="Motor Driver"/></td>
     <td align="center"><img src="chainable-led-big/assets/chainable-led-big.png" alt="Big Chainable LED"/></td>
     <td align="center"><img src="bluetooth/assets/bluetooth.png" alt="Bluetooth"/></td>
-    <td align="center"><img src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
+    <td align="center"><img style="-webkit-filter: grayscale(100%); filter: grayscale(100%);" src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
   </tr>
   <tr>
     <td align="center" colspan="2">
     <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> 
-    <a href="../glossary/glossary"><img src="../glossary/assets/2wire.png" alt="2wire" width="57"/></a></td>
+    <a href="../glossary/glossary"><img src="../glossary/assets/serial.png" alt="2wire" width="57"/></a></td>
     <td align="center" colspan="1">
     <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
     <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
@@ -47,8 +48,9 @@ has_toc: false
     <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
     <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="digital" width="57"/></a></td>
     <td align="center">
+    <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Output" width="57"/></a> 
     <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
-    <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a></td>
+    <a href="../glossary/glossary"><img src="../glossary/assets/serial.png" alt="PWM" width="57"/></a></td>
     <td align="center">
     <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
     <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a></td>
@@ -112,6 +114,62 @@ has_toc: false
 </tbody>
 </table>
 
+## Future Advanced Components
+Send us an email to let us know which component to develop first
+<table>
+<thead>
+  <tr>
+    <th align="center" colspan="1">Solar power</th>
+    <th align="center" colspan="1">BLDC Motor Driver<br></th>
+    <th align="center">CO2 sensor</th>
+    <th align="center">IMU</th>
+    <th align="center">AC Dimmer</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align="center" colspan="1">Power</td>
+    <td align="center" colspan="1">Motion</td>
+    <td align="center" colspan="1">Environmental</td>
+    <td align="center">Motion</td>
+    <td align="center">Power</td>
+  </tr>
+  <tr>
+    <td align="center"><img style="-webkit-filter: grayscale(100%); filter: grayscale(100%) contrast(20%) brightness(150%);" src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
+    <td align="center"><img style="-webkit-filter: grayscale(100%); filter: grayscale(100%) contrast(20%) brightness(150%);" src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
+    <td align="center"><img style="-webkit-filter: grayscale(100%); filter: grayscale(100%) contrast(20%) brightness(150%);" src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
+    <td align="center"><img style="-webkit-filter: grayscale(100%); filter: grayscale(100%) contrast(20%) brightness(150%);" src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
+    <td align="center"><img style="-webkit-filter: grayscale(100%); filter: grayscale(100%) contrast(20%) brightness(150%);" src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
+    
+  </tr>
+  <tr>
+    <td align="center" colspan="1">
+    <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> 
+    <a href="../glossary/glossary"><img src="../glossary/assets/serial.png" alt="2wire" width="57"/></a></td>
+    <td align="center" colspan="1">
+    <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
+    <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
+    <td align="center">
+    <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
+    <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="digital" width="57"/></a></td>
+    <td align="center">
+    <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Output" width="57"/></a> 
+    <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
+    <a href="../glossary/glossary"><img src="../glossary/assets/serial.png" alt="PWM" width="57"/></a></td>
+    <td align="center">
+    <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> 
+    <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="" class="btn btn-gray">To be developed</a></td>
+    <td align="center"><a href="" class="btn btn-gray">To be developed</a></td>
+    <td align="center"><a href="" class="btn btn-gray">To be developed</a></td>
+    <td align="center"><a href="" class="btn btn-gray">To be developed</a></td>
+    <td align="center"><a href="" class="btn btn-gray">To be developed</a></td>
+    
+  </tr>
+</tbody>
+</table>
 
 
 
