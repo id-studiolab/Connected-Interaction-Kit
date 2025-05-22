@@ -12,26 +12,4 @@ has_children: false
 <img src="assets/xtndr.jpg" alt="Extender" width="250"/>
 
 # Grove Externder
-<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/2wire.png" alt="Two Wire" width="72"/></a>
-
-< one sentence explaination of item >
-
-
----
-
-## Required Libraries
-link to library
-
-## Basic Usage
-
-explaination
- 
-```python
-```
-
-explaination
-
-```python
-
-```
-
+The most simple component ever, a connector to connect two grove cables together.

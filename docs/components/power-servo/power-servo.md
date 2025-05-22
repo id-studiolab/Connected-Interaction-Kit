@@ -12,26 +12,5 @@ has_children: false
 <img src="assets/power-servo.jpg" alt="Power servo" width="250"/>
 
 # Power Servo
-<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/2wire.png" alt="Two Wire" width="72"/></a>
-
-< one sentence explaination of item >
-
-
----
-
-## Required Libraries
-link to library
-
-## Basic Usage
-
-explaination
- 
-```python
-```
-
-explaination
-
-```python
-
-```
-
+A helper component to give extra power to your servo's.
+Connect a grove cable on the top, each grove connector can control two servo's, these can be connected at the bottom. On the left side power can be injected through the jack plug or micro usb connector.

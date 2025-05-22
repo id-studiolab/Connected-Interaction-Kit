@@ -12,26 +12,4 @@ has_children: false
 <img src="assets/neopixel-12v.jpg" alt="Neopixel helper" width="250"/>
 
 # Neopixel helper
-<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/2wire.png" alt="Two Wire" width="72"/></a>
-
-< one sentence explaination of item >
-
-
----
-
-## Required Libraries
-link to library
-
-## Basic Usage
-
-explaination
- 
-```python
-```
-
-explaination
-
-```python
-
-```
-
+This helper make it easy to control Neopixel ledstrips. Neopixel ledstrips often require 5 volts which can be added through the barreljack or the screw terminal. The grove connector can control two seperate Neopixel strips.

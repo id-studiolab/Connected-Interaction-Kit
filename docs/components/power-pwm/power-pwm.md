@@ -12,26 +12,5 @@ has_children: false
 <img src="assets/power-pwm.jpg" alt="Power PWM" width="250"/>
 
 # Power PWM
-<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/2wire.png" alt="Two Wire" width="72"/></a>
-
-< one sentence explaination of item >
-
-
----
-
-## Required Libraries
-link to library
-
-## Basic Usage
-
-explaination
- 
-```python
-```
-
-explaination
-
-```python
-
-```
-
+A helper component to give extra power to your grove components.
+Connect a grove cable on the top, each grove connector can control the outer pin of the bottom row grove connector. On the left side power can be injected through the jack plug or micro usb connector.

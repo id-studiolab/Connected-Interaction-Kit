@@ -12,26 +12,4 @@ has_children: false
 <img src="assets/gpio-divider.jpg" alt="Splitter" width="250"/>
 
 # Grove Splitter
-<a href="../../glossary/glossary"><img src="../../glossary/assets/input.png" alt="Input" width="72"/></a> <a href="../../glossary/glossary"><img src="../../glossary/assets/2wire.png" alt="Two Wire" width="72"/></a>
-
-< one sentence explaination of item >
-
-
----
-
-## Required Libraries
-link to library
-
-## Basic Usage
-
-explaination
- 
-```python
-```
-
-explaination
-
-```python
-
-```
-
+A simple component to split your grove connector into two grove connectors. The input grove connector has two signal lines, both output connectors have a single signal line on the outermost pin.
