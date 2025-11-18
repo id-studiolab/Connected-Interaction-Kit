@@ -9,6 +9,29 @@ grand_parent: "Tutorials"
 
 The pre-loaded code should look something like this:
 
+{% tabs data-struct %}
+
+{% tab data-struct PicoExpander %}
+```python
+import board
+import digitalio
+import time 
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    time.sleep(1.0)
+    led.value = True
+    print("LED is on")
+    
+    time.sleep(1.0)
+    led.value = False
+    print("LED is off")
+```
+{% endtab %}
+
+{% tab data-struct BitsyExpander %}
 ```python
 import board
 import digitalio
@@ -26,7 +49,9 @@ while True:
     led.value = False
     print("LED is off")
 ```
+{% endtab %}
 
+{% endtabs %}
 For now, let's ignore the first half of the code and go directly to the passage that begins with `while True`:
 
 The `while` statement creates a `loop`. While its condition is met, the code contained within it will keep looping. The lines of code that follow are indented, indicating that they are inside the loop. Given that the condition to meet is set to `True` (which will never be False), the code will loop forever.

@@ -7,7 +7,7 @@ color_scheme: connected-interaction-kit
 
 plugins:
   - jekyll-redirect-from
-
+  - jekyll-tabs
 callouts_level: quiet
 callouts:
   highlight:
