@@ -17,6 +17,9 @@ The code in this tutorial is similar to the program you saw before. This time, y
 4. Follow along with the code example at the bottom of this page by beginning your program with `import` statements. These inform your board about additional instruction sets your code needs to work. These instruction sets are called [libraries](../../glossary/glossary) or [modules](../..glossary/glossary). You need to import three modules: `board` tells your program about the pins available on your microcontroller and their names. `digitalio` contains functions necessary for working with digital inputs and outputs. `time` allows your code to use timing-related functionality.
 5. To make the Touch Sensor you connected in step 2 work, you first need to create a container to store the data coming from the sensor. Such a container is called a [variable](../../glossary/glossary). Variables are created by assigning a name to something: From now on, `sensor` will store a `digitalio` [object](../../glossary/glossary) attached to pin **`D2`**. In the following line of code, you define the value stored in `sensor` to be read from an `INPUT`, not written to an output.
 6. As before, you end your program with a `while` loop whose condition is set to `True`. Inside this endlessly repeating loop, you use a `print` statement to display the `sensor.value` in the `Serial Monitor` each time the code repeats. Using a sleep timer, you slow down the speed of the loop so as not to overwhelm Mu’s Serial Monitor with more messages than it can handle.
+{% tabs data-struct %}
+
+{% tab data-struct PicoExpander %}
 
 ```python
 import board
@@ -30,6 +33,25 @@ while True:
     print(sensor.value)
     time.sleep(0.1)
 ```
+{% endtab %}
+
+{% tab data-struct BitsyExpander %}
+
+```python
+import board
+import digitalio
+import time
+
+sensor = digitalio.DigitalInOut(board.GP2)
+sensor.direction = digitalio.Direction.INPUT
+
+while True:
+    print(sensor.value)
+    time.sleep(0.1)
+```
+{% endtab %}
+
+{% endtabs %}
 
 {:.note}
 [Libraries](../../glossary/glossary) and [modules](../..glossary/glossary) contain code written by other people to fulfill specific tasks. Core modules, such as `board`, `digitalio`, and `time` provide functionality essential to working with your board. Therefore, they are already included in CircuitPython. In some cases, you may need to download additional libraries to add functionality, such as drivers for specific sensors, to your code. You can learn more about that subject by reading the chapter on CircuitPython Libraries in [Adafruit's guide](learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries). 
