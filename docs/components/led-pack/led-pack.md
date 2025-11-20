@@ -2,9 +2,10 @@
 layout: default
 title: "LED Pack"
 grand_parent: "Components"
-parent: "Solderless Components"
-nav_order: 7
+parent: "Archived Components"
+nav_order: 2
 has_children: false
+nav_exclude: false
 ---
 
 <img src="assets/Grove-LED-pack.png" alt="LED Pack" width="250"/>

@@ -2,8 +2,9 @@
 layout: default
 title: "Chainable RGB LED"
 grand_parent: "Components"
-parent: "Solderless Components"
-nav_exclude: true
+parent: "Archived Components"
+nav_order: 1
+nav_exclude: false
 has_children: false
 ---
 
