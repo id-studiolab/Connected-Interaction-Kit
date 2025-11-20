@@ -4,15 +4,15 @@ title: Troubleshooting
 parent: "Getting help"
 nav_order: 1
 ---
-# Troubleshooting Steps for ItsyBitsy
+# Troubleshooting Steps for microcontroller
 
-1. Is the ItsyBitsy powered/is the USB plugged in?
+1. Is the microcontroller powered/is the USB plugged in?
    1. Are you using a micro USB data cable? some cables only supply power, not data.
 2. Are you working in Mu editor?
 3. Are the sensors and actuators plugged into the correct ports?
    1. If you're using Chainable LEDs, are they connected to the IN side? (See the white arrow)
    2. Chainable LEDs don't need to return to the board.
-4. Is the correct code saved on the ItsyBitsy? (Not locally on your laptop)
+4. Is the correct code saved on the microcontroller? (Not locally on your laptop)
     1. Does the file have the name "code.py"?
     2. Mu indicates where it saves it when you click save, at the very bottom left.
 5. Have you clicked the reset button once? (button with "rst")

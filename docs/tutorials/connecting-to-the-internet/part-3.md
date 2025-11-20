@@ -7,7 +7,7 @@ grand_parent: "Tutorials"
 
 # Part 3 - Connect to a WiFi Network
 
-To connect your ItsyBitsy to a network, you must provide a network name (SSID) and password. However, directly using sensitive data like WiFi passwords in your code is risky. Therefore, creating a separate file to hold your personal keys and passwords outside your `code.py` file is a good idea. This way, you can share your code without revealing sensitive data to others.
+To connect your microcontroller to a network, you must provide a network name (SSID) and password. However, directly using sensitive data like WiFi passwords in your code is risky. Therefore, creating a separate file to hold your personal keys and passwords outside your `code.py` file is a good idea. This way, you can share your code without revealing sensitive data to others.
 
 1. Begin by clicking the **`+`** icon labeled **New** in the top toolbar of Mu Editor.
 
@@ -23,7 +23,15 @@ settings = {
 3. Click the **Save** button in the toolbar and save the file on your `CIRCUITPY` drive using the name `settings.py`.
 
 4. Enter your `code.py` file and replace the code you wrote in [part one](part-1) with the code below, then hit **Save**.
+{% tabs data-struct %}
 
+{% tab data-struct PicoExpander %}
+```python
+print("hello world")
+```
+{% endtab %}
+
+{% tab data-struct BitsyExpander %}
 ```python
 import board
 import busio
@@ -71,6 +79,11 @@ while True:
     print("Ping successful. Response time:", response, "ms")
     time.sleep(5)
 ```
+{% endtab %}
+
+{% endtabs %}
+
+
 
 5. Open Mu's `Serial Monitor` to verify that the microcontroller successfully connects to the chosen network and can get a response from `google.com`.
 
@@ -84,4 +97,4 @@ while True:
 ---
 
 {: .highlight }
-> Your ItsyBitsy is now ready for connecting to the internet or even other ItsyBitsy's! Good luck with your connected projects ;-)
+> Your microcontroller is now ready for connecting to the internet or even other microcontroller's! Good luck with your connected projects ;-)

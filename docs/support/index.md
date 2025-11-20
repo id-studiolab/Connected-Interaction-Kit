@@ -24,7 +24,7 @@ In case any of your components not working as expected, please check the [docume
 
 Most issues can be fixed by double-checking the following:
 1. Is your component connected to the right port of the Expander board?
-2. Is your ItsyBitsy properly plugged into your computer?
+2. Is your microcontroller properly plugged into your computer?
 3. Does an error message appear in MU's `Serial monitor`, indicating a software issue (e.g. typos, coding mistake, missing library, etc.)
 
 If you checked the points above thoroughly and your component is still not working, you can find extra help at IO's [Model Making and Machine Lab (PMB)](https://www.tudelft.nl/io/over-io/faciliteiten/pmb).
@@ -70,7 +70,7 @@ Each course using the Connected Interaction Kit will have their own tech support
 1. Download the CircuitPython Library you want. You can find the complete Adafruit CircuitPython bundle or the community bundle from this [page](https://circuitpython.org/libraries).  
 <img src="assets/libraries.png" alt="" width="100%"/>  
  
-1. Unzip the file and copy the desired file(s) to the ```lib``` folder on your ItsyBitsy
+1. Unzip the file and copy the desired file(s) to the ```lib``` folder on your microcontroller
 
 Alternatively you can read more about libraries on the following page: [libraries](libraries)
 
@@ -80,7 +80,7 @@ This is only for the Itsy Bitsy M4. *Guide based on [Adafruit update page](https
 {:.note}
 This is a guide to update the bootloader, not a guide to update the Circuit Python version
 
-1. Connect ItsyBitsy to your computer, you should see a USB drive appear as: CIRCUITPY
+1. Connect microconroller to your computer, you should see a USB drive appear as: CIRCUITPY
 <img src="assets/circuitpy.png" alt="" width="100"/>
 2. Double-click the RESET button, the drive disappears and reappears as: ITSYM4BOOT
 <img src="../components/itsybitsy-microcontroller/assets/recognize_IB_M4.jpg" alt="" width="200"/>

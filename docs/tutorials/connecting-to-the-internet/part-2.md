@@ -29,6 +29,6 @@ As mentioned in the introduction, security measures on campus prevent your micro
    ![Screenshot of the submitted form with iPSK string](assets/registered_devices.jpg)  
 
 {:.note}
-You can register up to three devices using your personal access token (QR code). Please note that **the MAC address is associated with the Expander Board**, not the ItsyBitsy Microcontroller. If you change Expander boards or want to use other devices on `TUD-facility`, you must repeat these steps to link their MAC addresses to your token.
+You can register up to three devices using your personal access token (QR code). Please note that **the MAC address is associated with the Expander Board**, not the microcontroller Microcontroller. If you change Expander boards or want to use other devices on `TUD-facility`, you must repeat these steps to link their MAC addresses to your token.
 
 [Next Step](part-3){: .btn .btn-blue }
