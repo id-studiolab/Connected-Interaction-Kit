@@ -14,12 +14,16 @@ In addition, the kit contains the BitsyExpander, a board that allows you to easi
 
 ## Core Components
 
-|                       Microcontroller                        |                        Bitsy Expander                        |
+|                       Microcontroller                        |                        Expander                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                ItsyBitsy RP2040 or M4 Express                |           Solderless Connector Board for ItsyBitsy           |
-| <img src="itsybitsy-microcontroller/assets/ItsyBitsy-RP2040.png" alt="ItsyBitsy RP2040" width="400"/> | <img src="bitsy-expander/assets/Bitsy-Expander-RP2040.png" alt="BitsyExpander" width="400"/> |
-| [Learn More](itsybitsy-microcontroller/itsybitsy){: .btn .btn-blue } | [Learn More](bitsy-expander/bitsy-expander){: .btn .btn-blue } |
+|                Pico 2W                |           Solderless Connector Board for Pico           |
+| <img src="itsybitsy-microcontroller/assets/pico2w.png" alt="pico2w" width="400"/> | <img src="bitsy-expander/assets/Pico-Expander.png" alt="PicoExpander" width="400"/> |
+| [Learn More](pico-microcontroller/pico){: .btn .btn-blue } | [Learn More](pico-expander/pico-expander){: .btn .btn-blue } |
 
+{: .important }
+There are **multiple, functionally equivalent editions** of Connected Interaction Kit. The Core Components you own differ slightly between editions. Your exact components are determined by the year in which you purchased your Connected Interaction Kit. This page is designed to help you identify which version you own.
+
+If in doubt, jump to the bottom of the page for helpful pointers on how to [recognize your hardware](components-core).
 
 
 ## Sensors & Actuators
@@ -30,53 +34,44 @@ Beyond that, the kit offers a selection of sensors and actuators. There are sold
 
 ### Solderless Grove Components
 
-|                         Touch Sensor                         |                       Vibration Motor                        |                         Piezo Buzzer                         |                         Sound Sensor                         |                         Servo Motor                          |
+|                         Touch Sensor                         |                       Vibration Motor                        |                         Piezo Buzzer                         |                         Sound Sensor                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                       Capacitive Touch                       |                       Haptics & Touch                        |                            Sound                             |                            Sound                             |                            Motion                            |
-| ![Touch Sensor](touch-sensor/assets/Grove-Touch-Sensor.png)  | ![Vibration Motor](vibration-motor/assets/Grove-Vibration-Motor.png) | ![Piezo Buzzer](piezo-buzzer/assets/Grove-Piezo-Buzzer.png)  | ![Sound Sensor](sound-sensor/assets/Grove-Sound-Sensor.png)  |      ![Servo Motor](servo-motor/assets/Grove-Servo.png)      |
-| <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/analog.png" alt="Analog" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> |
-|  [Learn More](touch-sensor/touch-sensor){: .btn .btn-blue }  | [Learn More](vibration-motor/vibration-motor){: .btn .btn-blue } |  [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  |  [Learn More](sound-sensor/sound-sensor){: .btn .btn-blue }  |   [Learn More](servo-motor/servo-motor){: .btn .btn-blue }   |
-
-
-
-### Solderless Grove Components
+|                       Capacitive Touch                       |                       Haptics & Touch                        |                            Sound                             |                            Sound                             |
+| ![Touch Sensor](touch-sensor/assets/Grove-Touch-Sensor.png)  | ![Vibration Motor](vibration-motor/assets/Grove-Vibration-Motor.png) | ![Piezo Buzzer](piezo-buzzer/assets/Grove-Piezo-Buzzer.png)  | ![Sound Sensor](sound-sensor/assets/Grove-Sound-Sensor.png)  |
+| <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/analog.png" alt="Analog" width="57"/></a> |
+|  [Learn More](touch-sensor/touch-sensor){: .btn .btn-blue }  | [Learn More](vibration-motor/vibration-motor){: .btn .btn-blue } |  [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  |  [Learn More](sound-sensor/sound-sensor){: .btn .btn-blue }  |
 
 <table>
 <thead>
   <tr>
-    <th align="center" colspan="2">Time of Flight Sensor<br></th>
-    <th align="center" colspan="2">Chainable LED</th>
-    <th align="center">LED Pack</th>
+    <th align="center" colspan="1">Time of Flight Sensor<br></th>
+    <th align="center" colspan="1">Chainable LED</th>
+    <th align="center" colspan="1">Servo motor</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td align="center" colspan="2">Distance</td>
+    <td align="center" colspan="1">Distance</td>
     <td align="center">RGB/W Light</td>
-    <td align="center">RGB Light</td>
-    <td align="center">Monochrome LED</td>
+    <td align="center">Motion</td>
   </tr>
   <tr>
-    <td align="center"><img src="time-of-flight-distance-sensor/assets/ToF_v1_VL53L0X.png" alt="Time of Flight Sensor Version 1"/></td>
     <td align="center"><img src="time-of-flight-distance-sensor/assets/ToF_v2_VL53L0X.png" alt="Time of Flight Sensor Version 2"/></td>
     <td align="center"><img src="chainable-led/assets/ChaiNEO-RGBW.png" alt="ChaiNEO RGB/W LED"/></td>
-    <td align="center"><img src="chainable-led/assets/Grove-Chainable-LED-2.0.png" alt="Grove Chainable LED"/></td>
-    <td align="center"><img src="led-pack/assets/Grove-LED-pack.png" alt="LED Pack"/></td>
+    <td align="center"><img src="servo-motor/assets/Grove-Servo.png" alt="Servo motor"/></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
-    <td align="center" colspan="2"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a></td>
-    <td align="center"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a></td>
+    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
+    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a></td>
+    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><a href="time-of-flight-distance-sensor/time-of-flight-distance-sensor" class="btn btn-blue">Learn More</a></td>
+    <td align="center" colspan="1"><a href="time-of-flight-distance-sensor/time-of-flight-distance-sensor" class="btn btn-blue">Learn More</a></td>
     <td align="center"><a href="chainable-led/chainable-led-chaineo" class="btn btn-blue">Learn More</a></td>
-    <td align="center"><a href="chainable-led/chainable-led-p9813" class="btn btn-blue">Learn More</a></td>
-    <td align="center"><a href="led-pack/led-pack" class="btn btn-blue">Learn More</a></td>
+    <td align="center"><a href="servo-motor/servo-motor" class="btn btn-blue">Learn More</a></td>
   </tr>
 </tbody>
 </table>
-
 
 
 
