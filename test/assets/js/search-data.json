@@ -386,7 +386,7 @@
   },"55": {
     "doc": "Solderless Components",
     "title": "Solderless Grove Components",
-    "content": "| Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | Servo Motor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | Motion | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . | Time of Flight Sensor | Chainable LED | . | Distance | RGB/W Light | . | | . | | . | Learn More | Learn More | . ",
+    "content": "| Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . | Time of Flight Sensor | Chainable LED | Servo motor | . | Distance | RGB/W Light | Motion | . | | | . | | | . | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-solderless.html#solderless-grove-components",
     
     "relUrl": "/components/components-solderless.html#solderless-grove-components"
@@ -449,14 +449,14 @@
   },"64": {
     "doc": "Components",
     "title": "Core Components",
-    "content": "| Microcontroller | Bitsy Expander | . | ItsyBitsy RP2040 or M4 Express | Solderless Connector Board for ItsyBitsy | . | | . | Learn More | Learn More | . ",
+    "content": "| Microcontroller | Expander | . | Pico 2W | Solderless Connector Board for Pico | . | | . | Learn More | Learn More | . There are multiple, functionally equivalent editions of Connected Interaction Kit. The Core Components you own differ slightly between editions. Your exact components are determined by the year in which you purchased your Connected Interaction Kit. This page is designed to help you identify which version you own. If in doubt, jump to the bottom of the page for helpful pointers on how to recognize your hardware. ",
     "url": "/Connected-Interaction-Kit/test/components/#core-components",
     
     "relUrl": "/components/#core-components"
   },"65": {
     "doc": "Components",
     "title": "Sensors &amp; Actuators",
-    "content": "Beyond that, the kit offers a selection of sensors and actuators. There are solderless components you can use right away, as well as custom components that require you to assemble them first. Some components listed below may not be part of your kit edition but are available separately. Solderless Grove Components . | Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | Servo Motor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | Motion | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . Solderless Grove Components . | Time of Flight Sensor | Chainable LED | LED Pack | . | Distance | RGB/W Light | RGB Light | Monochrome LED | . | | | | | . | | | . | Learn More | Learn More | Learn More | Learn More | . Custom Components . | Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . ",
+    "content": "Beyond that, the kit offers a selection of sensors and actuators. There are solderless components you can use right away, as well as custom components that require you to assemble them first. Some components listed below may not be part of your kit edition but are available separately. Solderless Grove Components . | Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . | Time of Flight Sensor | Chainable LED | Servo motor | . | Distance | RGB/W Light | Motion | . | | | . | | | . | Learn More | Learn More | Learn More | . Custom Components . | Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/#sensors--actuators",
     
     "relUrl": "/components/#sensors--actuators"
