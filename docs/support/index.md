@@ -46,7 +46,7 @@ Each course using the Connected Interaction Kit will have their own tech support
 
 |                       For Pico 2W                       |                       For Itsy Bitsy M4                        |                        For RP2040 Expander                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="../components/itsybitsy-microcontroller/assets/recognize_IB_PICO.jpg" alt="" width="250"/> | <img src="../components/itsybitsy-microcontroller/assets/recognize_IB_M4.jpg" alt="" width="250"/> | <img src="../components/itsybitsy-microcontroller/assets/recognize_IB_RP2040.jpg" alt="BitsyExpander" width="250"/> |
+| <img src="../components/pico-microcontroller/assets/Pico2w.svg" alt="Pico" width="250"/> | <img src="../components/itsybitsy-microcontroller/assets/recognize_IB_M4.jpg" alt="Itsy Bitsy M4" width="250"/> | <img src="../components/itsybitsy-microcontroller/assets/recognize_IB_RP2040.jpg" alt="Itsy Bitsy RP2040" width="250"/> |
 | [Start upgrade](upgradeCP_PICO){: .btn .btn-blue } | [Start upgrade](upgradeCP_M4){: .btn .btn-blue } | [Start upgrade](upgradeCP_RP2040){: .btn .btn-blue } |
 
 ## How do I install the required Circuit Python libraries?

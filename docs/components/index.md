@@ -47,6 +47,7 @@ Beyond that, the kit offers a selection of sensors and actuators. There are sold
     <th align="center" colspan="1">Time of Flight Sensor<br></th>
     <th align="center" colspan="1">Chainable LED</th>
     <th align="center" colspan="1">Servo motor</th>
+    <th align="center" colspan="1">IMU sensor</th>>
   </tr>
 </thead>
 <tbody>
@@ -54,21 +55,25 @@ Beyond that, the kit offers a selection of sensors and actuators. There are sold
     <td align="center" colspan="1">Distance</td>
     <td align="center">RGB/W Light</td>
     <td align="center">Motion</td>
+    <td align="center">Motion</td>
   </tr>
   <tr>
     <td align="center"><img src="time-of-flight-distance-sensor/assets/ToF_v2_VL53L0X.png" alt="Time of Flight Sensor Version 2"/></td>
     <td align="center"><img src="chainable-led/assets/ChaiNEO-RGBW.png" alt="ChaiNEO RGB/W LED"/></td>
     <td align="center"><img src="servo-motor/assets/Grove-Servo.png" alt="Servo motor"/></td>
+    <td align="center"><img src="imu-sensor/assets/imu.svg" alt="IMU sensor"/></td>
   </tr>
   <tr>
     <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
     <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a></td>
     <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a></td>
+    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
   </tr>
   <tr>
     <td align="center" colspan="1"><a href="time-of-flight-distance-sensor/time-of-flight-distance-sensor" class="btn btn-blue">Learn More</a></td>
     <td align="center"><a href="chainable-led/chainable-led-chaineo" class="btn btn-blue">Learn More</a></td>
     <td align="center"><a href="servo-motor/servo-motor" class="btn btn-blue">Learn More</a></td>
+    <td align="center"><a href="imu-sensor/imu-sensor" class="btn btn-blue">Learn More</a></td>
   </tr>
 </tbody>
 </table>
