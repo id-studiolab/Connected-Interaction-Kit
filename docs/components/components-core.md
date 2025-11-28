@@ -16,12 +16,12 @@ If in doubt, jump to the bottom of the page for helpful pointers on how to [reco
 
 ## 2025 Edition
 
-|                       Microcontroller                        |                        Bitsy Expander                        |
+|                       Microcontroller                        |                        Pico Expander                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                       Pico 2W                       |             Expander Board for Pico              |
-| <img src="itsybitsy-microcontroller/assets/Pico-2W.png" alt="Pico 2W" width="400"/> | <img src="pico-expander/assets/pico-Expander-2025.png" alt="PicoExpander" width="400"/> |
+| <img src="pico-microcontroller/assets/Pico2w-horizontal.svg" alt="Pico 2W" width="400"/> | <img src="pico-expander/assets/picoexpander-horizontal.svg" alt="PicoExpander" width="400"/> |
 |                                                              |                                                              |
-| [Learn More](pico-microcontroller/pico-2w){: .btn .btn-blue } | [Learn More](pico-expander/pico-expander-2025){: .btn .btn-blue } |
+| [Learn More](pico-microcontroller/pico){: .btn .btn-blue } | [Learn More](pico-expander/pico-expander){: .btn .btn-blue } |
 
 ## 2024 Edition
 
