@@ -17,7 +17,7 @@ There are **multiple, functionally equivalent editions** of Connected Interactio
 |                       Microcontroller                        |                        Pico Expander                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                       Pico 2W                       |             Expander Board for Pico              |
-| <img src="pico-microcontroller/assets/Pico2w-horizontal.svg" alt="Pico 2W" width="400"/> | <img src="pico-expander/assets/picoexpander-horizontal.svg" alt="PicoExpander" width="400"/> |
+| <img src="pico-microcontroller/assets/pico2w-horizontal.svg" alt="Pico 2W" width="400"/> | <img src="pico-expander/assets/picoexpander-horizontal.svg" alt="PicoExpander" width="400"/> |
 |                                                              |                                                              |
 | [Learn More](pico-microcontroller/pico){: .btn .btn-blue } | [Learn More](pico-expander/pico-expander){: .btn .btn-blue } |
 
