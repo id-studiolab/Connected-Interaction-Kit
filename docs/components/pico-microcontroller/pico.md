@@ -8,7 +8,7 @@ has_children: false
 ---
 
 
-<img src="assets/Pico2w-horizontal.svg" alt="Pico 2W" width="400"/>
+<img src="assets/pico2w-horizontal.svg" alt="Pico 2W" width="400"/>
 # Pico 2W Development Board
 The central component at the heart of your projects. It runs code, reads and processes sensor data, and controls outputs (lights, motors, speakers, etc.) 
 
