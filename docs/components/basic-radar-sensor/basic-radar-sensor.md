@@ -19,7 +19,7 @@ This sensor serves as a replacement for a PIR sensor and works on the basis of m
 ---
 
 ## Required Libraries
-Make sure to add the `ld2410.py` file to the `lib` folder on your ItsyBitsy Microcontroller.  
+Make sure to add the `ld2410.py` file to the `lib` folder on your Microcontroller.  
 You can download the `ld2410.py` file here: [link](https://github.com/id-studiolab/EduGroveModules/blob/main/RadarSensor/Production%20Files/code/lib/ld2410.py)
 
 ## Basic Usage

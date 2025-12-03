@@ -55,7 +55,7 @@ The previous example turned the buzzer either fully on or off to produce rather 
 To produce `PWM` signals, we use the `pwmio` module. It provides the `pwmio.PWMOut()` method, allowing us to specify the pin to use and that we want to vary the frequency of our PWM signal. 
 
 {:.highlight}
-Pins that support **PWM** are denoted by a **`~`** beside their names on the BitsyExpander board.
+Pins that support **PWM** are denoted by a **`~`** beside their names on the Expander board.
 
 Next, we choose the frequency of our signal, indicating how many times it repeats itself in one second. A value of 262 Hz (or 262 repetitions per second) will cause the piezoelectric element of the buzzer to vibrate at that rate, producing the musical note C4 (middle C).
 

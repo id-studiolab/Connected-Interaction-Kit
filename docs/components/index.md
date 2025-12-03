@@ -8,9 +8,9 @@ has_toc: false
 
 # Components
 
- The core of the Connected Interaction Kit is an ItsyBitsy microcontroller board. With the help of a bit of code, this microcontroller allows you to interact with and perceive the outside world using various electronic sensors and actuators.
+ The core of the Connected Interaction Kit is an CircuitPython microcontroller board. With the help of a bit of code, this microcontroller allows you to interact with and perceive the outside world using various electronic sensors and actuators.
 
-In addition, the kit contains the BitsyExpander, a board that allows you to easily build prototypes without the need for soldering. Later on, it can also enable you to make use of Wifi or Bluetooth, as well as to power your project from a battery.
+In addition, the kit contains the Expander, a board that allows you to easily build prototypes without the need for soldering. Later on, it can also enable you to make use of Wifi or Bluetooth, as well as to power your project from a battery.
 
 ## Core Components
 

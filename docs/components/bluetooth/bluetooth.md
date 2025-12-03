@@ -16,7 +16,7 @@ has_children: false
 
 With this modification you can use the bluetooth functionality of your ItsyBitsy Expander, it makes it possible to send and receive serial communication to your smartphone.  
 
-## How to use bluetooth on your itsy bitsy expander:
+## How to use bluetooth on your BitsyExpander:
 ### Solder the connections
 At the back of the bitsy expander bridge the pins of the ESP_RX, ESP_TX, and GPIO_0 pads. As seen in the image below:  
 

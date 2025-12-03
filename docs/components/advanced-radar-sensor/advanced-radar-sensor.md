@@ -20,7 +20,7 @@ Target tracking involves real-time tracking of the position of a (moving) target
 ---
 
 ## Required Libraries
-Make sure to add the `ld2450.py` file to the `lib` folder on your ItsyBitsy Microcontroller.  
+Make sure to add the `ld2450.py` file to the `lib` folder on your Microcontroller.  
 You can download the `ld2450.py` file here: [link](https://github.com/id-studiolab/EduGroveModules/blob/main/RadarSensor/Production%20Files/code/lib/ld2450.py)
 
 ## Basic Usage

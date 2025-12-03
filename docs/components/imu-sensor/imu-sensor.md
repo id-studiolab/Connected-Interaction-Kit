@@ -69,7 +69,7 @@ if sys.platform == "RP2350":  # Raspberry Pi Pico / Pico 2W
     # Adjust these pins to your wiring
     i2c = busio.I2C(scl=board.GP5, sda=board.GP4)
 else:
-    # Default board.I2C() works for ItsyBitsy RP2040 and most Adafruit boards
+    # Default board.I2C() works for most boards
     i2c = board.I2C()
 
 # --- Initialize the filter using default I2C bus (board.I2C()) ---
@@ -139,7 +139,7 @@ if sys.platform == "RP2350":  # Raspberry Pi Pico / Pico 2W
     # Adjust these pins to your wiring
     i2c = busio.I2C(scl=board.GP5, sda=board.GP4)
 else:
-    # Default board.I2C() works for ItsyBitsy RP2040 and most Adafruit boards
+    # Default board.I2C() works for most boards
     i2c = board.I2C()
 
 # ---------------- Step 1: Initialize the filter ----------------

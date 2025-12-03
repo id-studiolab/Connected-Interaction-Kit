@@ -25,24 +25,24 @@ Before proceeding, make sure your LED module looks like the illustration above. 
 ## Wiring
 
 
-Each connector on the BitsyExpander Board provides connections to two pins. As most components only need one pin to work, the second pin is often shared with another connector. **To use this type of Chainable LED component, ensure it is attached to a connector with two available pins**. Ensure you avoid using another connector that shares pins with the one you use for the Chainable LED.
+Each connector on the Expander Board provides connections to two pins. As most components only need one pin to work, the second pin is often shared with another connector. **To use this type of Chainable LED component, ensure it is attached to a connector with two available pins**. Ensure you avoid using another connector that shares pins with the one you use for the Chainable LED.
 
 {: .highlight }
-Confirm that the Chainable LED module is oriented correctly, with the input port (marked "**IN**", at the base of the arrow) connected to the Grove connector on your BitsyExpander Board or the previous LED in your chain.
+Confirm that the Chainable LED module is oriented correctly, with the input port (marked "**IN**", at the base of the arrow) connected to the Grove connector on your Expander Board or the previous LED in your chain.
 
 ## Preparation
 
-Grove Chainable RGB LEDs are based on the `P9813` LED driver chip. To easily control them in code, the `P9813` [library](../../glossary/glossary) is needed. If this LED type came bundled with your kit, the library should be pre-loaded on your ItsyBitsy Microcontroller. 
+Grove Chainable RGB LEDs are based on the `P9813` LED driver chip. To easily control them in code, the `P9813` [library](../../glossary/glossary) is needed. If this LED type came bundled with your kit, the library should be pre-loaded on your Microcontroller. 
 
 Otherwise, follow the following steps:
 
 1. [Download the P9813 library from here.](assets/p9813.py) 
-2. Place the `p9813.py` file in the `lib` folder on the `CIRCUITPY` drive of your ItsyBitsy Microcontroller.
+2. Place the `p9813.py` file in the `lib` folder on the `CIRCUITPY` drive of your Microcontroller.
 
 {: .highlight }
 You can verify that the library is installed by ensuring a file called `p9813.py` is present in the `lib` folder of your `CIRCUITPY` drive. You can learn more about libraries and their use in the [Glossary](../../glossary/glossary) or the [Tutorials](../../Tutorials).
 
-The examples below assume your component is connected to pins **D13** and **D10**, contained in the connector labeled  **D13** on the BitsyExpander Board.
+The examples below assume your component is connected to pins **D13** and **D10**, contained in the connector labeled  **D13** on the Expander Board.
 
 ## Making a Chainable RGB LED blink
 
