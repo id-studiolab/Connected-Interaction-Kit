@@ -42,7 +42,7 @@ This relatively simple version shows the basic use of the library.
     <span class="c1"># Adjust these pins to your wiring
 </span>    <span class="n">i2c</span> <span class="o">=</span> <span class="n">busio</span><span class="p">.</span><span class="n">I2C</span><span class="p">(</span><span class="n">scl</span><span class="o">=</span><span class="n">board</span><span class="p">.</span><span class="n">GP5</span><span class="p">,</span> <span class="n">sda</span><span class="o">=</span><span class="n">board</span><span class="p">.</span><span class="n">GP4</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="c1"># Default board.I2C() works for ItsyBitsy RP2040 and most Adafruit boards
+    <span class="c1"># Default board.I2C() works for most boards
 </span>    <span class="n">i2c</span> <span class="o">=</span> <span class="n">board</span><span class="p">.</span><span class="n">I2C</span><span class="p">()</span>
 
 <span class="c1"># --- Initialize the filter using default I2C bus (board.I2C()) ---
@@ -107,7 +107,7 @@ This version shows more of the optional details e.g. changing default parameters
     <span class="c1"># Adjust these pins to your wiring
 </span>    <span class="n">i2c</span> <span class="o">=</span> <span class="n">busio</span><span class="p">.</span><span class="n">I2C</span><span class="p">(</span><span class="n">scl</span><span class="o">=</span><span class="n">board</span><span class="p">.</span><span class="n">GP5</span><span class="p">,</span> <span class="n">sda</span><span class="o">=</span><span class="n">board</span><span class="p">.</span><span class="n">GP4</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="c1"># Default board.I2C() works for ItsyBitsy RP2040 and most Adafruit boards
+    <span class="c1"># Default board.I2C() works for most boards
 </span>    <span class="n">i2c</span> <span class="o">=</span> <span class="n">board</span><span class="p">.</span><span class="n">I2C</span><span class="p">()</span>
 
 <span class="c1"># ---------------- Step 1: Initialize the filter ----------------
