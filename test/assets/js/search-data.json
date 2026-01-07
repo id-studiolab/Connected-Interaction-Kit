@@ -379,7 +379,7 @@
   },"54": {
     "doc": "Solderless Components",
     "title": "Solderless Grove Components",
-    "content": "| Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . | Time of Flight Sensor | Chainable LED | Servo motor | IMU sensor | &gt; . | Distance | RGB/W Light | Motion | Motion | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . ",
+    "content": "| Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . | Time of Flight Sensor | Chainable LED | Servo motor | IMU sensor | . | Distance | RGB/W Light | Motion | Motion | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-solderless.html#solderless-grove-components",
     
     "relUrl": "/components/components-solderless.html#solderless-grove-components"
