@@ -17,6 +17,6 @@ Once your microcontroller has power, the pre-loaded code should make the onboard
 {:.note}
 Once you store changes in `code.py` to the `CIRCUITPY` drive, your microcontroller will begin running the new code immediately. Changes will persist even after disconnecting the microcontroller from your computer.
 
-![Blink Illustration](assets/blink.png)
+![Blink Illustration](assets/blink.gif)
 
 [Next Step](part-2){: .btn .btn-blue }
