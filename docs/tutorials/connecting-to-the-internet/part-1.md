@@ -7,7 +7,7 @@ grand_parent: "Tutorials"
 
 # Part 1 - Scan for Available Networks
 
-The microcontroller board not only provides solderless connectors but also adds WiFi capabilities to your microcontroller microcontroller. To use it, the WiFi radio must be set up in code - like any other component. It uses pins **`D9`**, **`D11`**, and **`D12`**, as well as the **`SPI`** pins (**`SCK`**, **`MISO`**, and **`MOSI`**).
+The microcontroller board not only provides solderless connectors but also adds WiFi capabilities to your microcontroller microcontroller.
 
 The code below shows you how to configure the WiFi module. It scans for available networks and prints your microcontroller's MAC address to the Serial Monitor.
 
@@ -22,7 +22,40 @@ The code below shows you how to configure the WiFi module. It scans for availabl
 
 {% tab data-struct PicoExpander %}
 ```python
-print("hello world")
+import time
+import wifi
+
+print("Raspberry Pi Pico 2 W WiFi Scanner")
+print("*" * 40)
+
+# Print the MAC Address once at startup (or inside the loop if you prefer)
+# Note: Unlike the ESP32 SPI, we usually don't need to reverse the bytes
+mac_addr = ":".join("{:02X}".format(byte) for byte in wifi.radio.mac_address)
+print(f"MAC Address: {mac_addr}")
+print("*" * 40)
+
+while True:
+    print("\nScanning for available networks...")
+    
+    # In the native wifi module, we use start_scanning_networks()
+    # It returns an iterator of Network objects
+    networks = wifi.radio.start_scanning_networks()
+    
+    # Create a list of SSIDs. 
+    # We use a set() here to remove duplicate names if multiple access points exist
+    network_list = []
+    for network in networks:
+        # Some hidden networks return None or empty strings
+        if network.ssid: 
+            network_list.append(network.ssid)
+    
+    # Stop scanning to free up the radio
+    wifi.radio.stop_scanning_networks()
+
+    print(network_list)
+    
+    print("\n" + "*" * 40)
+    time.sleep(8)
 ```
 {% endtab %}
 
@@ -52,7 +85,7 @@ while True:
     print("\nScanning for available networks...")
     # Add SSID of each Access Point (ap) in range to network_list
     network_list = [str(ap["ssid"], "utf-8") for ap in esp.scan_networks()] 
-    print(network_list)
+    print(network_list)d
     
     print("\nMAC Address:")
     # Format the MAC address (reverse byte order and format hex values)    

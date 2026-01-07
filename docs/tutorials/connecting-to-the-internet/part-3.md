@@ -27,7 +27,77 @@ settings = {
 
 {% tab data-struct PicoExpander %}
 ```python
-print("hello world")
+import time
+import wifi
+import socketpool
+import ipaddress
+
+# Get WiFi details from your settings.py file
+# (Ensure your settings.py is on the CIRCUITPY drive)
+from settings import settings
+
+print("Raspberry Pi Pico 2 W Connection Test")
+print("*" * 40)
+
+print("\nScanning for available networks...")
+network_list = []
+
+# Scan for networks (native method)
+# start_scanning_networks returns an iterable, so we loop through it
+for network in wifi.radio.start_scanning_networks():
+    if network.ssid: # Filter out hidden/empty SSIDs
+        network_list.append(network.ssid)
+wifi.radio.stop_scanning_networks()
+
+# Check if your target SSID was found in the scan
+if settings["ssid"] not in network_list:
+    print(settings["ssid"], "not found.\nAvailable networks:", network_list)
+    # In CircuitPython, SystemExit doesn't always stop the code effectively in IDEs,
+    # but we will keep it to match your logic.
+    raise SystemExit(0)
+
+print(settings["ssid"], "found. Connecting...")
+
+# Connection Loop
+while not wifi.radio.ipv4_address:
+    try:
+        # Connect to the WiFi network
+        wifi.radio.connect(settings["ssid"], settings["password"])
+    except Exception as e:
+        print("\nUnable to establish connection. Are you using a valid password?")
+        print("Error message:", e, "\nRetrying...")
+        time.sleep(2) # Short pause before retry
+        continue
+
+print("Connected! IP address:", wifi.radio.ipv4_address)
+
+# Create a SocketPool to resolve domain names (DNS)
+pool = socketpool.SocketPool(wifi.radio)
+
+while True:
+    print("\nPinging google.com...")
+    try:
+        # 1. Resolve domain name to IP address
+        # getaddrinfo returns a list of info; we grab the first IP address found
+        info = pool.getaddrinfo("google.com", 80)
+        google_ip_str = info[0][4][0]
+        google_ip = ipaddress.ip_address(google_ip_str)
+        
+        # 2. Ping the IP address
+        # wifi.radio.ping returns time in seconds (float) or None if timeout
+        response_s = wifi.radio.ping(google_ip)
+        
+        if response_s is not None:
+            # Convert seconds to milliseconds to match your original format
+            ms = response_s * 1000
+            print(f"Ping successful. Response time: {ms:.1f} ms")
+        else:
+            print("Ping timed out.")
+            
+    except Exception as e:
+        print("Ping failed with error:", e)
+
+    time.sleep(5)
 ```
 {% endtab %}
 
