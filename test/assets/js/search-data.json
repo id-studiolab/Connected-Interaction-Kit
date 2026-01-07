@@ -330,7 +330,7 @@
   },"47": {
     "doc": "Archived Components",
     "title": "Archived Components",
-    "content": "| Chainable RGB LED (Grove) | LED Pack | . | RGB Light | Monochrome LED | . | | . | | . | Learn More | Learn More | . ",
+    "content": "| Chainable RGB LED (Grove) | LED Pack | Time of Flight Sensor | . |   |   |   | . | RGB Light | Monochrome LED | Distance | . | | | . | | | . | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/test/components/components-archived.html",
     
     "relUrl": "/components/components-archived.html"
