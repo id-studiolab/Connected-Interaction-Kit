@@ -2,7 +2,77 @@
     <span class="s">"ssid"</span><span class="p">:</span> <span class="s">"network-name"</span><span class="p">,</span>
     <span class="s">"password"</span><span class="p">:</span> <span class="s">"network-passwd"</span>
 <span class="p">}</span>
-</code></pre></div></div> <ol> <li> <p>Click the <strong>Save</strong> button in the toolbar and save the file on your <code class="language-plaintext highlighter-rouge">CIRCUITPY</code> drive using the name <code class="language-plaintext highlighter-rouge">settings.py</code>.</p> </li> <li> <p>Enter your <code class="language-plaintext highlighter-rouge">code.py</code> file and replace the code you wrote in <a href="part-1">part one</a> with the code below, then hit <strong>Save</strong>.</p> </li> </ol> <ul id="data-struct" class="tab" data-tab="900883cd-d4ed-4d86-a155-d8ebb48ec175" data-name="data-struct"> <li class="active" id="data-struct-picoexpander"> <a href="#">PicoExpander </a> </li> <li id="data-struct-bitsyexpander"> <a href="#">BitsyExpander </a> </li> </ul> <ul class="tab-content" id="900883cd-d4ed-4d86-a155-d8ebb48ec175" data-name="data-struct"> <li class="active"> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello world"</span><span class="p">)</span>
+</code></pre></div></div> <ol> <li> <p>Click the <strong>Save</strong> button in the toolbar and save the file on your <code class="language-plaintext highlighter-rouge">CIRCUITPY</code> drive using the name <code class="language-plaintext highlighter-rouge">settings.py</code>.</p> </li> <li> <p>Enter your <code class="language-plaintext highlighter-rouge">code.py</code> file and replace the code you wrote in <a href="part-1">part one</a> with the code below, then hit <strong>Save</strong>.</p> </li> </ol> <ul id="data-struct" class="tab" data-tab="4973178c-52bd-454a-979c-b49976443a8f" data-name="data-struct"> <li class="active" id="data-struct-picoexpander"> <a href="#">PicoExpander </a> </li> <li id="data-struct-bitsyexpander"> <a href="#">BitsyExpander </a> </li> </ul> <ul class="tab-content" id="4973178c-52bd-454a-979c-b49976443a8f" data-name="data-struct"> <li class="active"> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">wifi</span>
+<span class="kn">import</span> <span class="nn">socketpool</span>
+<span class="kn">import</span> <span class="nn">ipaddress</span>
+
+<span class="c1"># Get WiFi details from your settings.py file
+# (Ensure your settings.py is on the CIRCUITPY drive)
+</span><span class="kn">from</span> <span class="nn">settings</span> <span class="kn">import</span> <span class="n">settings</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Raspberry Pi Pico 2 W Connection Test"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"*"</span> <span class="o">*</span> <span class="mi">40</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Scanning for available networks..."</span><span class="p">)</span>
+<span class="n">network_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Scan for networks (native method)
+# start_scanning_networks returns an iterable, so we loop through it
+</span><span class="k">for</span> <span class="n">network</span> <span class="ow">in</span> <span class="n">wifi</span><span class="p">.</span><span class="n">radio</span><span class="p">.</span><span class="n">start_scanning_networks</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">network</span><span class="p">.</span><span class="n">ssid</span><span class="p">:</span> <span class="c1"># Filter out hidden/empty SSIDs
+</span>        <span class="n">network_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">network</span><span class="p">.</span><span class="n">ssid</span><span class="p">)</span>
+<span class="n">wifi</span><span class="p">.</span><span class="n">radio</span><span class="p">.</span><span class="n">stop_scanning_networks</span><span class="p">()</span>
+
+<span class="c1"># Check if your target SSID was found in the scan
+</span><span class="k">if</span> <span class="n">settings</span><span class="p">[</span><span class="s">"ssid"</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">network_list</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">settings</span><span class="p">[</span><span class="s">"ssid"</span><span class="p">],</span> <span class="s">"not found.</span><span class="se">\n</span><span class="s">Available networks:"</span><span class="p">,</span> <span class="n">network_list</span><span class="p">)</span>
+    <span class="c1"># In CircuitPython, SystemExit doesn't always stop the code effectively in IDEs,
+</span>    <span class="c1"># but we will keep it to match your logic.
+</span>    <span class="k">raise</span> <span class="nb">SystemExit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">settings</span><span class="p">[</span><span class="s">"ssid"</span><span class="p">],</span> <span class="s">"found. Connecting..."</span><span class="p">)</span>
+
+<span class="c1"># Connection Loop
+</span><span class="k">while</span> <span class="ow">not</span> <span class="n">wifi</span><span class="p">.</span><span class="n">radio</span><span class="p">.</span><span class="n">ipv4_address</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># Connect to the WiFi network
+</span>        <span class="n">wifi</span><span class="p">.</span><span class="n">radio</span><span class="p">.</span><span class="n">connect</span><span class="p">(</span><span class="n">settings</span><span class="p">[</span><span class="s">"ssid"</span><span class="p">],</span> <span class="n">settings</span><span class="p">[</span><span class="s">"password"</span><span class="p">])</span>
+    <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Unable to establish connection. Are you using a valid password?"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Error message:"</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="s">"</span><span class="se">\n</span><span class="s">Retrying..."</span><span class="p">)</span>
+        <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># Short pause before retry
+</span>        <span class="k">continue</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Connected! IP address:"</span><span class="p">,</span> <span class="n">wifi</span><span class="p">.</span><span class="n">radio</span><span class="p">.</span><span class="n">ipv4_address</span><span class="p">)</span>
+
+<span class="c1"># Create a SocketPool to resolve domain names (DNS)
+</span><span class="n">pool</span> <span class="o">=</span> <span class="n">socketpool</span><span class="p">.</span><span class="n">SocketPool</span><span class="p">(</span><span class="n">wifi</span><span class="p">.</span><span class="n">radio</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Pinging google.com..."</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># 1. Resolve domain name to IP address
+</span>        <span class="c1"># getaddrinfo returns a list of info; we grab the first IP address found
+</span>        <span class="n">info</span> <span class="o">=</span> <span class="n">pool</span><span class="p">.</span><span class="n">getaddrinfo</span><span class="p">(</span><span class="s">"google.com"</span><span class="p">,</span> <span class="mi">80</span><span class="p">)</span>
+        <span class="n">google_ip_str</span> <span class="o">=</span> <span class="n">info</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">4</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">google_ip</span> <span class="o">=</span> <span class="n">ipaddress</span><span class="p">.</span><span class="n">ip_address</span><span class="p">(</span><span class="n">google_ip_str</span><span class="p">)</span>
+        
+        <span class="c1"># 2. Ping the IP address
+</span>        <span class="c1"># wifi.radio.ping returns time in seconds (float) or None if timeout
+</span>        <span class="n">response_s</span> <span class="o">=</span> <span class="n">wifi</span><span class="p">.</span><span class="n">radio</span><span class="p">.</span><span class="n">ping</span><span class="p">(</span><span class="n">google_ip</span><span class="p">)</span>
+        
+        <span class="k">if</span> <span class="n">response_s</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="c1"># Convert seconds to milliseconds to match your original format
+</span>            <span class="n">ms</span> <span class="o">=</span> <span class="n">response_s</span> <span class="o">*</span> <span class="mi">1000</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Ping successful. Response time: </span><span class="si">{</span><span class="n">ms</span><span class="si">:</span><span class="p">.</span><span class="mi">1</span><span class="n">f</span><span class="si">}</span><span class="s"> ms"</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"Ping timed out."</span><span class="p">)</span>
+            
+    <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Ping failed with error:"</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+
+    <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </code></pre></div></div> </li> <li> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">board</span>
 <span class="kn">import</span> <span class="nn">busio</span>
 <span class="kn">import</span> <span class="nn">time</span>
