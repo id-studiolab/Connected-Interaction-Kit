@@ -16,44 +16,9 @@ has_toc: false
 | <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/analog.png" alt="Analog" width="57"/></a> |
 |  [Learn More](touch-sensor/touch-sensor){: .btn .btn-blue }  | [Learn More](vibration-motor/vibration-motor){: .btn .btn-blue } |  [Learn More](piezo-buzzer/piezo-buzzer){: .btn .btn-blue }  |  [Learn More](sound-sensor/sound-sensor){: .btn .btn-blue }  |
 
-<table>
-<thead>
-  <tr>
-    <th align="center" colspan="1">Time of Flight Sensor<br></th>
-    <th align="center" colspan="1">Chainable LED</th>
-    <th align="center" colspan="1">Servo motor</th>
-    <th align="center" colspan="1">IMU sensor</th>>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td align="center" colspan="1">Distance</td>
-    <td align="center">RGB/W Light</td>
-    <td align="center">Motion</td>
-    <td align="center">Motion</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="time-of-flight-distance-sensor/assets/ToF_v2_VL53L0X.png" alt="Time of Flight Sensor Version 2"/></td>
-    <td align="center"><img src="chainable-led/assets/ChaiNEO-RGBW.png" alt="ChaiNEO RGB/W LED"/></td>
-    <td align="center"><img src="servo-motor/assets/Grove-Servo.png" alt="Servo motor"/></td>
-    <td align="center"><img src="imu-sensor/assets/imu.svg" alt="IMU sensor"/></td>
-  </tr>
-  <tr>
-    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
-    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a></td>
-    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a></td>
-    <td align="center" colspan="1"><a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a></td>
-  </tr>
-  <tr>
-    <td align="center" colspan="1"><a href="time-of-flight-distance-sensor/time-of-flight-distance-sensor" class="btn btn-blue">Learn More</a></td>
-    <td align="center"><a href="chainable-led/chainable-led-chaineo" class="btn btn-blue">Learn More</a></td>
-    <td align="center"><a href="servo-motor/servo-motor" class="btn btn-blue">Learn More</a></td>
-    <td align="center"><a href="imu-sensor/imu-sensor" class="btn btn-blue">Learn More</a></td>
-  </tr>
-</tbody>
-</table>
-
-
-
-
-
+| Time of Flight Sensor | Chainable LED | Servo motor | IMU sensor |
+| :---: | :---: | :---: | :---: |
+| Distance | RGB/W Light | Motion | Motion |
+| ![Time of Flight Sensor Version 2](time-of-flight-distance-sensor/assets/ToF_v2_VL53L0X.png) | ![ChaiNEO RGB/W LED](chainable-led/assets/ChaiNEO-RGBW.png) | ![Servo motor](servo-motor/assets/Grove-Servo.png) | ![IMU sensor](imu-sensor/assets/imu.svg) |
+| <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/digital.png" alt="Digital" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/output.png" alt="Output" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/pwm.png" alt="PWM" width="57"/></a> | <a href="../glossary/glossary"><img src="../glossary/assets/input.png" alt="Input" width="57"/></a> <a href="../glossary/glossary"><img src="../glossary/assets/iic.png" alt="I2C" width="57"/></a> |
+| [Learn More](time-of-flight-distance-sensor/time-of-flight-distance-sensor){: .btn .btn-blue } | [Learn More](chainable-led/chainable-led-chaineo){: .btn .btn-blue } | [Learn More](servo-motor/servo-motor){: .btn .btn-blue } | [Learn More](imu-sensor/imu-sensor){: .btn .btn-blue } |
