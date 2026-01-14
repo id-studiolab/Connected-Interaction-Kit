@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Part 3 - Connect to a WiFi Network (settings.TOML)"
+title: "Part 3 - Connect to a WiFi Network (settings.toml)"
 parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
 ---
@@ -9,18 +9,16 @@ grand_parent: "Tutorials"
 
 To connect your microcontroller to a network, you must provide a network name (SSID) and password. However, directly using sensitive data like WiFi passwords in your code is risky. Therefore, creating a separate file to hold your personal keys and passwords outside your `code.py` file is a good idea. This way, you can share your code without revealing sensitive data to others.
 
-1. Begin by clicking the **`+`** icon labeled **New** in the top toolbar of Mu Editor.
+1. On your picoexpander there is a settings.toml file. Open this file in a **text-editor**. Unfortunately you can not use Mu Editor to do this.
 
 2. Copy and paste the following code to the new file, replacing `network-name` with the name of your WiFi network and `network-passwd` with your network's password (or the iPSK generated during [part two](part-2) when connecting to TUD-facility).
 
 ```python
-settings = {
-    "ssid": "network-name",
-    "password": "network-passwd"
+CIRCUITPY_WIFI_SSID = "network-name"
+CIRCUITPY_WIFI_PASSWORD = "network-password"
 }
 ```
-
-3. Click the **Save** button in the toolbar and save the file on your `CIRCUITPY` drive using the name `settings.py`.
+3. Save your 'settings.toml' file.
 
 4. Enter your `code.py` file and replace the code you wrote in [part one](part-1) with the code below, then hit **Save**.
 {% tabs data-struct %}
@@ -31,10 +29,7 @@ import time
 import wifi
 import socketpool
 import ipaddress
-
-# Get WiFi details from your settings.py file
-# (Ensure your settings.py is on the CIRCUITPY drive)
-from settings import settings
+import os
 
 print("Raspberry Pi Pico 2 W Connection Test")
 print("*" * 40)
@@ -50,19 +45,19 @@ for network in wifi.radio.start_scanning_networks():
 wifi.radio.stop_scanning_networks()
 
 # Check if your target SSID was found in the scan
-if settings["ssid"] not in network_list:
+if os.getenv("CIRCUITPY_WIFI_SSID") not in network_list:
     print(settings["ssid"], "not found.\nAvailable networks:", network_list)
     # In CircuitPython, SystemExit doesn't always stop the code effectively in IDEs,
     # but we will keep it to match your logic.
     raise SystemExit(0)
 
-print(settings["ssid"], "found. Connecting...")
+print(os.getenv("CIRCUITPY_WIFI_SSID"), "found. Connecting...")
 
 # Connection Loop
 while not wifi.radio.ipv4_address:
     try:
         # Connect to the WiFi network
-        wifi.radio.connect(settings["ssid"], settings["password"])
+        wifi.radio.connect(os.getenv("CIRCUITPY_WIFI_SSID"), os.getenv("CIRCUITPY_WIFI_PASSWORD"))
     except Exception as e:
         print("\nUnable to establish connection. Are you using a valid password?")
         print("Error message:", e, "\nRetrying...")
