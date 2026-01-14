@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Part 3 - Connect to a WiFi Network"
+title: "Part 3 - Connect to a WiFi Network (settings.TOML)"
 parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
 ---
