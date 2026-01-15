@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: "Tutorials"
-title: "Legacy - Connecting Your ItsyBitsy To The Internet"
+title: "Legacy - Connecting Your microcontroller To The Internet"
 redirect_to: /tutorials/connecting-to-the-internet/
 nav_exclude: true
 ---

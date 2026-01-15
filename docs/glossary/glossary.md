@@ -20,7 +20,7 @@ has_toc: false
 |  ![Analog](assets/analog.png)  | An **analog** signal is created by anything that can assume any state on a continuous spectrum, such as temperature or pressure. |
 |     ![PWM](assets/pwm.png)     | A **pulse-width modulated** signal is an analog-like signal created by switching a digital signal on and off very fast. |
 |     ![I²C](assets/iic.png)     | The **I²C** protocol is used to interface advanced components using two digital signals. |
-| ![Two Wire](assets/2wire.png)  | Components labeled with the **2-Wire** tag need two pins to function. Typically, that includes one pin used for transmitting data, while the other pin carries a clock signal that acts as a metronome to synchronize with the data stream's speed. The **I²C** protocol is a widely used standard that follows this principle. |
+| ![Two Wire](assets/serial.png)  | Components labeled with the **SERIAL** tag need two pins to function. This includes one pin used for transmitting data, while the other pin receives data.|
 
 
 ## Programming Terms

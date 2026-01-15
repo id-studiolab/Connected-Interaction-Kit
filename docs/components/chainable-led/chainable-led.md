@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: default
 title: "Chainable LED"
 grand_parent: "Components"
 parent: "Solderless Components"
 nav_order: 5
 has_children: false
----
+--- -->
 
 # Chainable LED
 
