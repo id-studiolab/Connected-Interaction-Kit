@@ -12,7 +12,7 @@ has_toc: false
 {: .important }
 There are **multiple, functionally equivalent editions** of Connected Interaction Kit. The Core Components you own differ slightly between editions. Your exact components are determined by the year in which you purchased your Connected Interaction Kit. This page is designed to help you identify which version you own.
 
-## 2025 Edition
+## 2026 Edition
 
 |                       Microcontroller                        |                        Pico Expander                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -21,7 +21,7 @@ There are **multiple, functionally equivalent editions** of Connected Interactio
 |                                                              |                                                              |
 | [Learn More](pico-microcontroller/pico){: .btn .btn-blue } | [Learn More](pico-expander/pico-expander){: .btn .btn-blue } |
 
-## 2024 Edition
+## 2024/2025 Edition
 
 |                       Microcontroller                        |                        Bitsy Expander                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
