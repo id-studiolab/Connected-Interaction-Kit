@@ -19,7 +19,8 @@ A grove compatible MP3 player module controllable over serial
 ---
 
 ## Required Libraries
-link to library <a href="https://raw.githubusercontent.com/id-studiolab/DFPlayer/main/lib/DFPlayer.py" download>DFPlayer.py</a>
+link to library  
+<a href="https://raw.githubusercontent.com/id-studiolab/DFPlayer/main/lib/DFPlayer.py" download>DFPlayer.py</a>
 
 ## Basic Usage
  
