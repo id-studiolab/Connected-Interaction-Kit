@@ -813,7 +813,7 @@
   },"116": {
     "doc": "MP3 player",
     "title": "Required Libraries",
-    "content": "link to library DFPlayer.py . ",
+    "content": "link to library Download DFPlayer.py . ",
     "url": "/Connected-Interaction-Kit/test/components/mp3-player/mp3-player.html#required-libraries",
     
     "relUrl": "/components/mp3-player/mp3-player.html#required-libraries"
