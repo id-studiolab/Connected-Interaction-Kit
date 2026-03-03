@@ -540,7 +540,7 @@
   },"77": {
     "doc": "Getting help",
     "title": "How do I install the required Circuit Python libraries?",
-    "content": ". | Open the latest version of our project bundle | . Download Project Bundle . | Download the cik-project-bundle-9.x-mpy.zip file | Unzip the file on your computer | Copy the complete lib folder | Paste the complete lib folder in the CIRCUITPY drive | Press replace if prompted. | . ",
+    "content": ". | Open the latest version of our project bundle | . Download Project Bundle . | Download the file for your version of CircuitPython, for example cik-project-bundle-10.x-mpy-2025.12.zip | Unzip the file on your computer | Copy the complete lib folder | Paste the complete lib folder in the CIRCUITPY drive | Press replace if prompted. | . ",
     "url": "/Connected-Interaction-Kit/support/#how-do-i-install-the-required-circuit-python-libraries",
     
     "relUrl": "/support/#how-do-i-install-the-required-circuit-python-libraries"
@@ -552,96 +552,96 @@
     
     "relUrl": "/support/#how-do-i-install-other-circuit-python-libraries"
   },"79": {
-    "doc": "Preparation",
-    "title": "Tutorial 1 - Preparation",
-    "content": "To define how your prototypes should respond to a given user interaction, you start by describing the expected behaviors as a set of rules and commands. By writing these directions down using a programming language your microcontroller can understand, you instruct it to enact the desired behaviors. The microcontroller included in your kit works best with a beginner-friendly programming language called CircuitPython. Let’s begin by going over the tools and equipment you need to get started: . Tools and Equipment . ",
-    "url": "/Connected-Interaction-Kit/tutorials/preparation/#tutorial-1---preparation",
-    
-    "relUrl": "/tutorials/preparation/#tutorial-1---preparation"
-  },"80": {
-    "doc": "Preparation",
-    "title": "Preparation",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/preparation/",
-    
-    "relUrl": "/tutorials/preparation/"
-  },"81": {
-    "doc": "Let There Be Light!",
-    "title": "Tutorial 2 - Let There Be Light!",
-    "content": "This tutorial will teach you how to use your microcontroller to make a simple LED blink. To help you get started, we pre-loaded your microcontroller with a bit of code. Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/#tutorial-2---let-there-be-light",
-    
-    "relUrl": "/tutorials/let-there-be-light/#tutorial-2---let-there-be-light"
-  },"82": {
-    "doc": "Let There Be Light!",
-    "title": "Let There Be Light!",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/",
-    
-    "relUrl": "/tutorials/let-there-be-light/"
-  },"83": {
-    "doc": "Connecting To The Internet",
-    "title": "Tutorial 4 - Connecting To The Internet",
-    "content": ". You can use your microcontroller to connect your microcontroller microcontroller to most WiFi networks, such as your home network or your smartphone’s mobile hotspot. This tutorial will guide you through connecting your microcontroller to a local WiFi network, and pings google.com (pinging is simply checking if the server is available) and displays the result on the Serial Monitor. Connecting your microcontroller to eduroam is cumbersome due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the TUD-facility network instead. This wifi is created for all kinds of small computers (eg. microcontrollers and raspberry pi’s). Security is enforced by allowing students to connect a small computer that is linked to their netid. Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet",
-    
-    "relUrl": "/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet"
-  },"84": {
-    "doc": "Connecting To The Internet",
-    "title": "Connecting To The Internet",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/",
-    
-    "relUrl": "/tutorials/connecting-to-the-internet/"
-  },"85": {
-    "doc": "Legacy - Connecting Your microcontroller To The Internet",
-    "title": "Legacy - Connecting Your microcontroller To The Internet",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/03-connect-to-the-internet/",
-    
-    "relUrl": "/tutorials/03-connect-to-the-internet/"
-  },"86": {
-    "doc": "Adding Inputs and Outputs",
-    "title": "Tutorial 3 - Adding Inputs and Outputs",
-    "content": "In the previous tutorial, you changed the behavior of a blinking LED. Here, you will learn how to build and program your first complete interactive prototype. You will use a sensor from your kit (an INPUT component) to detect an action performed by a user. Once detected, this will trigger a change in your prototype’s behavior. You will use an actuator (an OUTPUT component) to create this behavior. Designing this interaction provides a simple template for using the different component types in your kit. You will later be able to use this template to devise more intricate interaction choreographies. This tutorial begins by walking you through using a Touch Sensor to register a user’s touch. Later, you will learn how to add a Vibration Motor to create vibrations for as long as the sensor is triggered. Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs",
-    
-    "relUrl": "/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs"
-  },"87": {
-    "doc": "Adding Inputs and Outputs",
-    "title": "Adding Inputs and Outputs",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/",
-    
-    "relUrl": "/tutorials/adding-inputs-and-outputs/"
-  },"88": {
     "doc": "Assembling Custom Components",
     "title": "Tutorial 5 - Assembling Custom Components",
     "content": ". In addition to ready-made Grove components, the Connected Interaction Kit provides several custom components for you to assemble yourself. Here you can find resources on how to solder and detailed assembly instructions for each component. ",
     "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components",
     
     "relUrl": "/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components"
-  },"89": {
+  },"80": {
     "doc": "Assembling Custom Components",
     "title": "Prepare",
     "content": "If you have no prior soldering experience, we strongly advise you begin with the soldering tutorial. Get started . ",
     "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#prepare",
     
     "relUrl": "/tutorials/assembling-custom-components/#prepare"
-  },"90": {
+  },"81": {
     "doc": "Assembling Custom Components",
     "title": "Components",
     "content": "| Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | Make One! | Make One! | Make One! | Make One! | Make One! | . ",
     "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#components",
     
     "relUrl": "/tutorials/assembling-custom-components/#components"
-  },"91": {
+  },"82": {
     "doc": "Assembling Custom Components",
     "title": "Assembling Custom Components",
     "content": " ",
     "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/",
     
     "relUrl": "/tutorials/assembling-custom-components/"
+  },"83": {
+    "doc": "Adding Inputs and Outputs",
+    "title": "Tutorial 3 - Adding Inputs and Outputs",
+    "content": "In the previous tutorial, you changed the behavior of a blinking LED. Here, you will learn how to build and program your first complete interactive prototype. You will use a sensor from your kit (an INPUT component) to detect an action performed by a user. Once detected, this will trigger a change in your prototype’s behavior. You will use an actuator (an OUTPUT component) to create this behavior. Designing this interaction provides a simple template for using the different component types in your kit. You will later be able to use this template to devise more intricate interaction choreographies. This tutorial begins by walking you through using a Touch Sensor to register a user’s touch. Later, you will learn how to add a Vibration Motor to create vibrations for as long as the sensor is triggered. Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs",
+    
+    "relUrl": "/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs"
+  },"84": {
+    "doc": "Adding Inputs and Outputs",
+    "title": "Adding Inputs and Outputs",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/",
+    
+    "relUrl": "/tutorials/adding-inputs-and-outputs/"
+  },"85": {
+    "doc": "Let There Be Light!",
+    "title": "Tutorial 2 - Let There Be Light!",
+    "content": "This tutorial will teach you how to use your microcontroller to make a simple LED blink. To help you get started, we pre-loaded your microcontroller with a bit of code. Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/#tutorial-2---let-there-be-light",
+    
+    "relUrl": "/tutorials/let-there-be-light/#tutorial-2---let-there-be-light"
+  },"86": {
+    "doc": "Let There Be Light!",
+    "title": "Let There Be Light!",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/",
+    
+    "relUrl": "/tutorials/let-there-be-light/"
+  },"87": {
+    "doc": "Legacy - Connecting Your microcontroller To The Internet",
+    "title": "Legacy - Connecting Your microcontroller To The Internet",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/03-connect-to-the-internet/",
+    
+    "relUrl": "/tutorials/03-connect-to-the-internet/"
+  },"88": {
+    "doc": "Connecting To The Internet",
+    "title": "Tutorial 4 - Connecting To The Internet",
+    "content": ". You can use your microcontroller to connect your microcontroller microcontroller to most WiFi networks, such as your home network or your smartphone’s mobile hotspot. This tutorial will guide you through connecting your microcontroller to a local WiFi network, and pings google.com (pinging is simply checking if the server is available) and displays the result on the Serial Monitor. Connecting your microcontroller to eduroam is cumbersome due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the TUD-facility network instead. This wifi is created for all kinds of small computers (eg. microcontrollers and raspberry pi’s). Security is enforced by allowing students to connect a small computer that is linked to their netid. Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet",
+    
+    "relUrl": "/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet"
+  },"89": {
+    "doc": "Connecting To The Internet",
+    "title": "Connecting To The Internet",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/",
+    
+    "relUrl": "/tutorials/connecting-to-the-internet/"
+  },"90": {
+    "doc": "Preparation",
+    "title": "Tutorial 1 - Preparation",
+    "content": "To define how your prototypes should respond to a given user interaction, you start by describing the expected behaviors as a set of rules and commands. By writing these directions down using a programming language your microcontroller can understand, you instruct it to enact the desired behaviors. The microcontroller included in your kit works best with a beginner-friendly programming language called CircuitPython. Let’s begin by going over the tools and equipment you need to get started: . Tools and Equipment . ",
+    "url": "/Connected-Interaction-Kit/tutorials/preparation/#tutorial-1---preparation",
+    
+    "relUrl": "/tutorials/preparation/#tutorial-1---preparation"
+  },"91": {
+    "doc": "Preparation",
+    "title": "Preparation",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/preparation/",
+    
+    "relUrl": "/tutorials/preparation/"
   },"92": {
     "doc": "Tutorials",
     "title": "Tutorials",
@@ -813,14 +813,14 @@
   },"116": {
     "doc": "MP3 player",
     "title": "Required Libraries",
-    "content": "link to library DFPlayer.py . ",
+    "content": "link to library Download DFPlayer.py . ",
     "url": "/Connected-Interaction-Kit/components/mp3-player/mp3-player.html#required-libraries",
     
     "relUrl": "/components/mp3-player/mp3-player.html#required-libraries"
   },"117": {
     "doc": "MP3 player",
     "title": "Basic Usage",
-    "content": "import time import board from DFPlayer import DFPlayer from digitalio import DigitalInOut, Direction, Pull led = DigitalInOut(board.LED) led.direction = Direction.OUTPUT # --- constants ---------------------------------------------------------- switch = DigitalInOut(board.D2) switch.direction = Direction.INPUT switch.pull = Pull.UP PLAYER_VOL = 80 # PLAYER_RX = board.RX # board.D3 # PLAYER_TX = board.TX # board.D4 # --- objects ----------------------------------------------------------- dfplayer = DFPlayer(volume=PLAYER_VOL) # creates uart internally active = True dfplayer.play() time.sleep(0.200) # --- main loop -------------------------------------------------------- while True: if active: if dfplayer.get_status() != DFPlayer.STATUS_BUSY: print(\"switching to next song\") dfplayer.next() # We could also do \"led.value = not switch.value\"! if switch.value: dfplayer.stop() else: led.value = True time.sleep(0.1)# Write your code here :-) # Write your code here :-) . ",
+    "content": "import board import busio import digitalio import time from DFPlayer import DFPlayer # Configuration # Adjust pins for your specific board UART_TX = board.GP0 UART_RX = board.GP1 BUTTON_PIN = board.GP15 # Setup UART uart = busio.UART(UART_TX, UART_RX, baudrate=9600, timeout=0.1) # Setup Button button = digitalio.DigitalInOut(BUTTON_PIN) button.direction = digitalio.Direction.INPUT button.pull = digitalio.Pull.UP # Initialize DFPlayer df = DFPlayer(uart, debug=False, volume=10, command_delay=0.1) print(\"Simple DFPlayer Example\") print(\"Press button to go to next song\") df.play_track(1) # Start with first track last_button_state = True while True: current_button_state = button.value if not current_button_state and last_button_state: print(\"Button pressed! Next song...\") df.next() last_button_state = current_button_state time.sleep(0.05) . ",
     "url": "/Connected-Interaction-Kit/components/mp3-player/mp3-player.html#basic-usage",
     
     "relUrl": "/components/mp3-player/mp3-player.html#basic-usage"
@@ -853,47 +853,47 @@
     
     "relUrl": "/components/neopixel/neopixel.html"
   },"122": {
-    "doc": "Part 1 - Load the program code using Mu Editor",
-    "title": "Part 1 - Load the program code using Mu Editor",
-    "content": "Once your microcontroller has power, the pre-loaded code should make the onboard LED blink. To see the code and start making modifications, follow these steps: . | Using the USB cable included in the kit, connect the microcontroller to your computer. It will appear in your computer’s file manager as a storage device called CIRCUITPY. | Open Mu Editor. Click the Load button in the toolbar at the top of the program window and navigate to the CIRCUITPY drive. Find the file named code.py and open it. | Your microcontroller will execute any code stored in that file. Briefly examine the example code and see if you understand some parts. In the next step, we will take a closer look at how it works and how to tweak it. | . Once you store changes in code.py to the CIRCUITPY drive, your microcontroller will begin running the new code immediately. Changes will persist even after disconnecting the microcontroller from your computer. Next Step . ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-1.html",
-    
-    "relUrl": "/tutorials/let-there-be-light/part-1.html"
-  },"123": {
-    "doc": "Part 1 - Scan for Available Networks",
-    "title": "Part 1 - Scan for Available Networks",
-    "content": "The microcontroller board not only provides solderless connectors but also adds WiFi capabilities to your microcontroller microcontroller. The code below shows you how to configure the WiFi module. It scans for available networks and prints your microcontroller’s MAC address to the Serial Monitor. | Connect your microcontroller and Expander to your computer. | Copy the example code below and use Mu Editor to save it to your code.py file. Remember to back up your old code elsewhere. | Open the Serial Monitor to verify that your microcontroller can find a network to connect to in the next step. | Store or write down your WiFi module’s MAC address; it will become important later. | . | PicoExpander | BitsyExpander | . | import time import wifi print(\"Raspberry Pi Pico 2 W WiFi Scanner\") print(\"*\" * 40) # Print the MAC Address once at startup (or inside the loop if you prefer) # Note: Unlike the ESP32 SPI, we usually don't need to reverse the bytes mac_addr = \":\".join(\"{:02X}\".format(byte) for byte in wifi.radio.mac_address) print(f\"MAC Address: {mac_addr}\") print(\"*\" * 40) while True: print(\"\\nScanning for available networks...\") # In the native wifi module, we use start_scanning_networks() # It returns an iterator of Network objects networks = wifi.radio.start_scanning_networks() # Create a list of SSIDs. # We use a set() here to remove duplicate names if multiple access points exist network_list = [] for network in networks: # Some hidden networks return None or empty strings if network.ssid: network_list.append(network.ssid) # Stop scanning to free up the radio wifi.radio.stop_scanning_networks() print(network_list) print(\"\\n\" + \"*\" * 40) time.sleep(8) . | import board import busio import time import digitalio from adafruit_esp32spi import adafruit_esp32spi # Define the pins used by the BitsyExpander's ESP32 WiFi module esp32_cs = digitalio.DigitalInOut(board.D9) esp32_ready = digitalio.DigitalInOut(board.D11) esp32_reset = digitalio.DigitalInOut(board.D12) spi = busio.SPI(board.SCK, board.MOSI, board.MISO) # Initialize the ESP32 WiFi module esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset) if esp.status == adafruit_esp32spi.WL_IDLE_STATUS: print(\"\\nESP32 WiFi Module found.\") print(\"Firmware version:\", str(esp.firmware_version, \"utf-8\")) print(\"*\" * 40) while True: print(\"\\nScanning for available networks...\") # Add SSID of each Access Point (ap) in range to network_list network_list = [str(ap[\"ssid\"], \"utf-8\") for ap in esp.scan_networks()] print(network_list)d print(\"\\nMAC Address:\") # Format the MAC address (reverse byte order and format hex values) mac_addr = \":\".join(\"{:02X}\".format(byte) for byte in reversed(esp.MAC_address)) print(mac_addr) print(\"\\n\" + \"*\" * 40) time.sleep(8) . | . Starting with this tutorial, code examples will include so-called comments. Comments exist to document the code and are ignored by the program. They are meant to help you and others understand the code better. In CircuitPython, comments begin with the # character. Next Step . ",
-    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/part-1.html",
-    
-    "relUrl": "/tutorials/connecting-to-the-internet/part-1.html"
-  },"124": {
     "doc": "Part 1 - Add an Input Component",
     "title": "Part 1 - Add an Input Component",
     "content": "The code in this tutorial is similar to the program you saw before. This time, you will write it yourself to better understand what you are doing. | Begin by connecting your microcontroller to the computer. We want to start this tutorial with an empty code.py file on your CIRCUITPY drive, so you need to delete or rename the existing one. For instance, you can use your computer’s file manager to give the old file from the last tutorial the name blink_code.py. Remember that your microcontroller will only execute code stored in a file named code.py. | Temporarily disconnect your microcontroller from the computer. Use a Grove cable to connect the Touch Sensor to the pin connector labeled D14 on the Expander Board, as shown in the illustration above. | Reconnect your microcontroller, then open Mu Editor. Click the New button in the toolbar at the top to create a new file. Then click Save to store your new file on the CIRCUITPY drive, naming it code.py. | Follow along with the code example at the bottom of this page by beginning your program with import statements. These inform your board about additional instruction sets your code needs to work. These instruction sets are called libraries or modules. You need to import three modules: board tells your program about the pins available on your microcontroller and their names. digitalio contains functions necessary for working with digital inputs and outputs. time allows your code to use timing-related functionality. | To make the Touch Sensor you connected in step 2 work, you first need to create a container to store the data coming from the sensor. Such a container is called a variable. Variables are created by assigning a name to something: From now on, sensor will store a digitalio object attached to pin D14. In the following line of code, you define the value stored in sensor to be read from an INPUT, not written to an output. | As before, you end your program with a while loop whose condition is set to True. Inside this endlessly repeating loop, you use a print statement to display the sensor.value in the Serial Monitor each time the code repeats. Using a sleep timer, you slow down the speed of the loop so as not to overwhelm Mu’s Serial Monitor with more messages than it can handle. | . | PicoExpander | BitsyExpander | . | import board import digitalio import time sensor = digitalio.DigitalInOut(board.D14) sensor.direction = digitalio.Direction.INPUT while True: print(sensor.value) time.sleep(0.1) . | import board import digitalio import time sensor = digitalio.DigitalInOut(board.D2) sensor.direction = digitalio.Direction.INPUT while True: print(sensor.value) time.sleep(0.1) . | . Libraries and modules contain code written by other people to fulfill specific tasks. Core modules, such as board, digitalio, and time provide functionality essential to working with your board. Therefore, they are already included in CircuitPython. In some cases, you may need to download additional libraries to add functionality, such as drivers for specific sensors, to your code. You can learn more about that subject by reading the chapter on CircuitPython Libraries in Adafruit’s guide. Next Step . ",
     "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/part-1.html",
     
     "relUrl": "/tutorials/adding-inputs-and-outputs/part-1.html"
+  },"123": {
+    "doc": "Part 1 - Load the program code using Mu Editor",
+    "title": "Part 1 - Load the program code using Mu Editor",
+    "content": "Once your microcontroller has power, the pre-loaded code should make the onboard LED blink. To see the code and start making modifications, follow these steps: . | Using the USB cable included in the kit, connect the microcontroller to your computer. It will appear in your computer’s file manager as a storage device called CIRCUITPY. | Open Mu Editor. Click the Load button in the toolbar at the top of the program window and navigate to the CIRCUITPY drive. Find the file named code.py and open it. | Your microcontroller will execute any code stored in that file. Briefly examine the example code and see if you understand some parts. In the next step, we will take a closer look at how it works and how to tweak it. | . Once you store changes in code.py to the CIRCUITPY drive, your microcontroller will begin running the new code immediately. Changes will persist even after disconnecting the microcontroller from your computer. Next Step . ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-1.html",
+    
+    "relUrl": "/tutorials/let-there-be-light/part-1.html"
+  },"124": {
+    "doc": "Part 1 - Scan for Available Networks",
+    "title": "Part 1 - Scan for Available Networks",
+    "content": "The microcontroller board not only provides solderless connectors but also adds WiFi capabilities to your microcontroller microcontroller. The code below shows you how to configure the WiFi module. It scans for available networks and prints your microcontroller’s MAC address to the Serial Monitor. | Connect your microcontroller and Expander to your computer. | Copy the example code below and use Mu Editor to save it to your code.py file. Remember to back up your old code elsewhere. | Open the Serial Monitor to verify that your microcontroller can find a network to connect to in the next step. | Store or write down your WiFi module’s MAC address; it will become important later. | . | PicoExpander | BitsyExpander | . | import time import wifi print(\"Raspberry Pi Pico 2 W WiFi Scanner\") print(\"*\" * 40) # Print the MAC Address once at startup (or inside the loop if you prefer) # Note: Unlike the ESP32 SPI, we usually don't need to reverse the bytes mac_addr = \":\".join(\"{:02X}\".format(byte) for byte in wifi.radio.mac_address) print(f\"MAC Address: {mac_addr}\") print(\"*\" * 40) while True: print(\"\\nScanning for available networks...\") # In the native wifi module, we use start_scanning_networks() # It returns an iterator of Network objects networks = wifi.radio.start_scanning_networks() # Create a list of SSIDs. # We use a set() here to remove duplicate names if multiple access points exist network_list = [] for network in networks: # Some hidden networks return None or empty strings if network.ssid: network_list.append(network.ssid) # Stop scanning to free up the radio wifi.radio.stop_scanning_networks() print(network_list) print(\"\\n\" + \"*\" * 40) time.sleep(8) . | import board import busio import time import digitalio from adafruit_esp32spi import adafruit_esp32spi # Define the pins used by the BitsyExpander's ESP32 WiFi module esp32_cs = digitalio.DigitalInOut(board.D9) esp32_ready = digitalio.DigitalInOut(board.D11) esp32_reset = digitalio.DigitalInOut(board.D12) spi = busio.SPI(board.SCK, board.MOSI, board.MISO) # Initialize the ESP32 WiFi module esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset) if esp.status == adafruit_esp32spi.WL_IDLE_STATUS: print(\"\\nESP32 WiFi Module found.\") print(\"Firmware version:\", str(esp.firmware_version, \"utf-8\")) print(\"*\" * 40) while True: print(\"\\nScanning for available networks...\") # Add SSID of each Access Point (ap) in range to network_list network_list = [str(ap[\"ssid\"], \"utf-8\") for ap in esp.scan_networks()] print(network_list)d print(\"\\nMAC Address:\") # Format the MAC address (reverse byte order and format hex values) mac_addr = \":\".join(\"{:02X}\".format(byte) for byte in reversed(esp.MAC_address)) print(mac_addr) print(\"\\n\" + \"*\" * 40) time.sleep(8) . | . Starting with this tutorial, code examples will include so-called comments. Comments exist to document the code and are ignored by the program. They are meant to help you and others understand the code better. In CircuitPython, comments begin with the # character. Next Step . ",
+    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/part-1.html",
+    
+    "relUrl": "/tutorials/connecting-to-the-internet/part-1.html"
   },"125": {
-    "doc": "Part 2 - Change the way your microcontroller behaves",
-    "title": "Part 2 - Change the way your microcontroller behaves",
-    "content": "The pre-loaded code should look something like this: . | PicoExpander | BitsyExpander | . | import board import digitalio import time led = digitalio.DigitalInOut(board.LED) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | import board import digitalio import time led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | . For now, let’s ignore the first half of the code and go directly to the passage that begins with while True: . The while statement creates a loop. While its condition is met, the code contained within it will keep looping. The lines of code that follow are indented, indicating that they are inside the loop. Given that the condition to meet is set to True (which will never be False), the code will loop forever. Try altering the code’s behavior by exploring the following changes: . | The code in the loop makes an LED built into your microcontroller blink. Can you make out how the blinking behavior is created? | Experiment with the blinking frequency of the LED. Change the values defined in time.sleep(1.0), then press the Save button in Mu Editor’s toolbar to store the changes to your code and see their effect. | Click the Serial button in Mu’s toolbar to open the Serial Monitor. This vital tool lets you see messages printed by your program. Can you figure out how to change the content of the messages appearing in the serial monitor? Remember to save your changes to see their effect. | . Next Tutorial . ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-2.html",
-    
-    "relUrl": "/tutorials/let-there-be-light/part-2.html"
-  },"126": {
-    "doc": "Part 2 - Register Your Device for Use on Campus",
-    "title": "Part 2 - Register Your Device for Use on Campus",
-    "content": "This step must be performed before you connect your microcontroller to the internet on campus for the first time. If you completed this step before or are using a personal network (e.g., your home network or your phone’s mobile hotspot), you can skip this step. As mentioned in the introduction, security measures on campus prevent your microcontroller from using the eduroam network. To access the internet, you will need to connect it to TUD-facility instead. To do so, you must first register your device’s MAC address with your NetID. | Using your smartphone’s camera app, scan your personal access token (the QR code in the lid of the box of your Connected Interaction Kit) and log in with your NetID. | You find yourself at a screen where you should announce yourself to this system by pressing the Claim license button. For each device you register in the next steps, TU Delft ICT can now find the responsible person. | Tap the Register devices button at the bottom of the page. | Enter the MAC address you identified for your Expander Board in part one of this tutorial, and choose a name for your device. | Tap the Register MAC Address button and confirm. A new section for the device you registered will appear under Registered Devices. | Find the iPSK and write it down or save it. It will serve as the password to connect to the TUD-facility WiFi network in the following step. | . You can register up to three devices using your personal access token (QR code). Please note that the MAC address is associated with the Expander Board, not the microcontroller Microcontroller. If you change Expander boards or want to use other devices on TUD-facility, you must repeat these steps to link their MAC addresses to your token. Next Step . ",
-    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/part-2.html",
-    
-    "relUrl": "/tutorials/connecting-to-the-internet/part-2.html"
-  },"127": {
     "doc": "Part 2 - Add an Output Component",
     "title": "Part 2 - Add an Output Component",
     "content": "Now that your prototype can register a user input, it is time to tie it together by adding your output component. | As with the Touch Sensor, begin by connecting your Vibration Motor using a Grove cable. Connect it to pin D6, as shown in the illustration. | As before, you need a variable to hold data to make your component work. Make sure to give it a sensible name, such as motor. This time, instead of reading a value from a sensor, you will use the variable to write data to an actuator. The statements needed for the vibration motor will look very similar to the ones you wrote for the touch sensor, with one critical difference: As shown in the following example, the digitalio.Direction is set to OUTPUT. | As you recall, the goal is to make the motor vibrate for as long as the sensor registers a touch. If the sensor is not touched, no vibration should be created. CircuitPython provides a handy way to translate this idea into code using if...else statements (conditional statements). An if statement executes a block of code only if a specified condition is True. An else clause can be added to run another set of instructions should the condition be false. | You can use this knowledge to turn the motor on and off, depending on the current state of the touch sensor. If sensor.value is True:, the motor can be turned on with motor.value = True. Else, the motor needs to be turned off again. Remember to save your code to see it in action. | Try experimenting with the code to change the behavior of your prototype. See how programmed behavior is affected by using the Piezo Buzzer as an actuator instead of the motor. | . | PicoExpander | BitsyExpander | . | import board import digitalio import time sensor = digitalio.DigitalInOut(board.D14) sensor.direction = digitalio.Direction.INPUT motor = digitalio.DigitalInOut(board.D6) motor.direction = digitalio.Direction.OUTPUT while True: print(sensor.value) if sensor.value is True: motor.value = True else: motor.value = False time.sleep(0.1) . | import board import digitalio import time sensor = digitalio.DigitalInOut(board.D2) sensor.direction = digitalio.Direction.INPUT motor = digitalio.DigitalInOut(board.D13) motor.direction = digitalio.Direction.OUTPUT while True: print(sensor.value) if sensor.value is True: motor.value = True else: motor.value = False time.sleep(0.1) . | . It is advisable to regularly back up the code stored on the CIRCUITPY drive to your computer. That way, you have something to fall back on should a memory loss occur or your microcontroller is misplaced. Next Tutorial . ",
     "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/part-2.html",
     
     "relUrl": "/tutorials/adding-inputs-and-outputs/part-2.html"
+  },"126": {
+    "doc": "Part 2 - Change the way your microcontroller behaves",
+    "title": "Part 2 - Change the way your microcontroller behaves",
+    "content": "The pre-loaded code should look something like this: . | PicoExpander | BitsyExpander | . | import board import digitalio import time led = digitalio.DigitalInOut(board.LED) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | import board import digitalio import time led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | . For now, let’s ignore the first half of the code and go directly to the passage that begins with while True: . The while statement creates a loop. While its condition is met, the code contained within it will keep looping. The lines of code that follow are indented, indicating that they are inside the loop. Given that the condition to meet is set to True (which will never be False), the code will loop forever. Try altering the code’s behavior by exploring the following changes: . | The code in the loop makes an LED built into your microcontroller blink. Can you make out how the blinking behavior is created? | Experiment with the blinking frequency of the LED. Change the values defined in time.sleep(1.0), then press the Save button in Mu Editor’s toolbar to store the changes to your code and see their effect. | Click the Serial button in Mu’s toolbar to open the Serial Monitor. This vital tool lets you see messages printed by your program. Can you figure out how to change the content of the messages appearing in the serial monitor? Remember to save your changes to see their effect. | . Next Tutorial . ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-2.html",
+    
+    "relUrl": "/tutorials/let-there-be-light/part-2.html"
+  },"127": {
+    "doc": "Part 2 - Register Your Device for Use on Campus",
+    "title": "Part 2 - Register Your Device for Use on Campus",
+    "content": "This step must be performed before you connect your microcontroller to the internet on campus for the first time. If you completed this step before or are using a personal network (e.g., your home network or your phone’s mobile hotspot), you can skip this step. As mentioned in the introduction, security measures on campus prevent your microcontroller from using the eduroam network. To access the internet, you will need to connect it to TUD-facility instead. To do so, you must first register your device’s MAC address with your NetID. | Using your smartphone’s camera app, scan your personal access token (the QR code in the lid of the box of your Connected Interaction Kit) and log in with your NetID. | You find yourself at a screen where you should announce yourself to this system by pressing the Claim license button. For each device you register in the next steps, TU Delft ICT can now find the responsible person. | Tap the Register devices button at the bottom of the page. | Enter the MAC address you identified for your Expander Board in part one of this tutorial, and choose a name for your device. | Tap the Register MAC Address button and confirm. A new section for the device you registered will appear under Registered Devices. | Find the iPSK and write it down or save it. It will serve as the password to connect to the TUD-facility WiFi network in the following step. | . You can register up to three devices using your personal access token (QR code). Please note that the MAC address is associated with the Expander Board, not the microcontroller Microcontroller. If you change Expander boards or want to use other devices on TUD-facility, you must repeat these steps to link their MAC addresses to your token. Next Step . ",
+    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/part-2.html",
+    
+    "relUrl": "/tutorials/connecting-to-the-internet/part-2.html"
   },"128": {
     "doc": "Part 3 - Connect to a WiFi Network (settings.toml)",
     "title": "Part 3 - Connect to a WiFi Network",
