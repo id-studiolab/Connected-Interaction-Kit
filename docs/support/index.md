@@ -54,7 +54,7 @@ Each course using the Connected Interaction Kit will have their own tech support
 
 [Download Project Bundle](https://github.com/id-studiolab/CIK-Project-Bundle/releases/latest){: .btn .btn-blue }
 
-2. Download the cik-project-bundle-9.x-mpy.zip file
+2. Download the file for your version of CircuitPython, for example `cik-project-bundle-10.x-mpy-2025.12.zip`
 3. Unzip the file on your computer
 4. Copy the complete lib folder
 5. Paste the complete lib folder in the CIRCUITPY drive

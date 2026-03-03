@@ -19,56 +19,49 @@ A grove compatible MP3 player module controllable over serial
 ---
 
 ## Required Libraries
-link to library [DFPlayer.py](assets/DFPlayer.py)
+link to library <a href="https://raw.githubusercontent.com/id-studiolab/DFPlayer/main/lib/DFPlayer.py" download>DFPlayer.py</a>
 
 ## Basic Usage
  
 ```python
-
-import time
 import board
+import busio
+import digitalio
+import time
 from DFPlayer import DFPlayer
-from digitalio import DigitalInOut, Direction, Pull
 
-led = DigitalInOut(board.LED)
-led.direction = Direction.OUTPUT
-# --- constants   ----------------------------------------------------------
+# Configuration
+# Adjust pins for your specific board
+UART_TX = board.GP0
+UART_RX = board.GP1
+BUTTON_PIN = board.GP15
 
-switch = DigitalInOut(board.D2)
-switch.direction = Direction.INPUT
-switch.pull = Pull.UP
+# Setup UART
+uart = busio.UART(UART_TX, UART_RX, baudrate=9600, timeout=0.1)
 
-PLAYER_VOL   = 80
-# PLAYER_RX  = board.RX   # board.D3
-# PLAYER_TX  = board.TX   # board.D4
+# Setup Button
+button = digitalio.DigitalInOut(BUTTON_PIN)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
 
-# --- objects   -----------------------------------------------------------
+# Initialize DFPlayer
+df = DFPlayer(uart, debug=False, volume=10, command_delay=0.1)
 
-dfplayer = DFPlayer(volume=PLAYER_VOL)              # creates uart internally
+print("Simple DFPlayer Example")
+print("Press button to go to next song")
 
-active = True
+df.play_track(1) # Start with first track
 
-dfplayer.play()
-time.sleep(0.200)
-
-# --- main loop   --------------------------------------------------------
-
+last_button_state = True
 while True:
-  if active:
-   
-    if dfplayer.get_status() != DFPlayer.STATUS_BUSY:
-      print("switching to next song")
-      dfplayer.next()
-  # We could also do "led.value = not switch.value"!
-  if switch.value:
-      dfplayer.stop()
-  else:
-      led.value = True
-
-  
-
-  time.sleep(0.1)# Write your code here :-)
-# Write your code here :-)
+    current_button_state = button.value
+    
+    if not current_button_state and last_button_state:
+        print("Button pressed! Next song...")
+        df.next()
+        
+    last_button_state = current_button_state
+    time.sleep(0.05)
 ```
 ## Further readings
 [DFPlayer_Mini_SKU_DFR0299-DFRobot](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299)  
