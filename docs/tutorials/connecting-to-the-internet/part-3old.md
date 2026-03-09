@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Part 3 - Connect to a WiFi Network (settings.toml)"
+title: "Part 3 - Connect to a WiFi Network (settings.py)"
 parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
 ---
@@ -9,15 +9,18 @@ grand_parent: "Tutorials"
 
 To connect your microcontroller to a network, you must provide a network name (SSID) and password. However, directly using sensitive data like WiFi passwords in your code is risky. Therefore, creating a separate file to hold your personal keys and passwords outside your `code.py` file is a good idea. This way, you can share your code without revealing sensitive data to others.
 
-1. On your picoexpander there is a settings.toml file. Open this file in a **text-editor**. Unfortunately you can not use Mu Editor to do this.
+1. Begin by clicking the **`+`** icon labeled **New** in the top toolbar of Mu Editor.
 
 2. Copy and paste the following code to the new file, replacing `network-name` with the name of your WiFi network and `network-passwd` with your network's password (or the iPSK generated during [part two](part-2) when connecting to TUD-facility).
 
 ```python
-CIRCUITPY_WIFI_SSID = "network-name"
-CIRCUITPY_WIFI_PASSWORD = "network-password"
+settings = {
+    "ssid": "network-name",
+    "password": "network-passwd"
+}
 ```
-3. Save your `settings.toml` file.
+
+3. Click the **Save** button in the toolbar and save the file on your `CIRCUITPY` drive using the name `settings.py`.
 
 4. Enter your `code.py` file and replace the code you wrote in [part one](part-1) with the code below, then hit **Save**.
 {% tabs data-struct %}
@@ -28,7 +31,10 @@ import time
 import wifi
 import socketpool
 import ipaddress
-import os
+
+# Get WiFi details from your settings.py file
+# (Ensure your settings.py is on the CIRCUITPY drive)
+from settings import settings
 
 print("Raspberry Pi Pico 2 W Connection Test")
 print("*" * 40)
@@ -44,19 +50,19 @@ for network in wifi.radio.start_scanning_networks():
 wifi.radio.stop_scanning_networks()
 
 # Check if your target SSID was found in the scan
-if os.getenv("CIRCUITPY_WIFI_SSID") not in network_list:
-    print(os.getenv("CIRCUITPY_WIFI_SSID"), "not found.\nAvailable networks:", network_list)
+if settings["ssid"] not in network_list:
+    print(settings["ssid"], "not found.\nAvailable networks:", network_list)
     # In CircuitPython, SystemExit doesn't always stop the code effectively in IDEs,
     # but we will keep it to match your logic.
     raise SystemExit(0)
 
-print(os.getenv("CIRCUITPY_WIFI_SSID"), "found. Connecting...")
+print(settings["ssid"], "found. Connecting...")
 
 # Connection Loop
 while not wifi.radio.ipv4_address:
     try:
         # Connect to the WiFi network
-        wifi.radio.connect(os.getenv("CIRCUITPY_WIFI_SSID"), os.getenv("CIRCUITPY_WIFI_PASSWORD"))
+        wifi.radio.connect(settings["ssid"], settings["password"])
     except Exception as e:
         print("\nUnable to establish connection. Are you using a valid password?")
         print("Error message:", e, "\nRetrying...")
@@ -102,7 +108,9 @@ import busio
 import time
 import digitalio
 from adafruit_esp32spi import adafruit_esp32spi
-import os
+
+# Get WiFi details from your settings.py file
+from settings import settings
 
 # Define the pins used by the BitsyExpander's ESP32 WiFi module
 esp32_cs = digitalio.DigitalInOut(board.D9)
@@ -120,14 +128,14 @@ if esp.status == adafruit_esp32spi.WL_IDLE_STATUS:
 
 print("\nScanning for available networks...\n")
 network_list = [str(ap["ssid"], "utf-8") for ap in esp.scan_networks()]    
-if os.getenv("CIRCUITPY_WIFI_SSID") not in network_list:
-    print(os.getenv("CIRCUITPY_WIFI_SSID"), "not found.\nAvailable networks:", network_list) 
+if settings["ssid"] not in network_list:
+    print(settings["ssid"], "not found.\nAvailable networks:", network_list) 
     raise SystemExit(0)
          
 print(settings["ssid"], "found. Connecting...")
 while not esp.is_connected:
     try:
-        esp.connect_AP(os.getenv("CIRCUITPY_WIFI_SSID"), os.getenv("CIRCUITPY_WIFI_PASSWORD"))
+        esp.connect_AP(settings["ssid"], settings["password"])
     except (RuntimeError, ConnectionError) as e:
         print("\nUnable to establish connection. Are you using a valid password?")
         print("Error message:", e, "\nRetrying...")
@@ -151,6 +159,7 @@ while True:
 
 6. Note the differences from the code you encountered in [part one](part-1) of this tutorial:
 
+      - An `import` statement for your newly created `settings.py` file has been added. This gives the code access to the network name (SSID) and password.
       - The network scan has been moved out of the `while True:` loop and is performed once before entering the loop.
       - The code verifies the network you configured is available and waits for the successful establishment of a connection.
       - The content of the `while True:` loop has been replaced: It now pings google.com and reports the response time. This confirms internet connectivity for your microcontroller.
