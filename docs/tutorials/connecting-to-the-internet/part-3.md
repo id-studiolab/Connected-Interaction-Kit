@@ -128,7 +128,6 @@ if os.getenv("CIRCUITPY_WIFI_SSID") not in network_list:
     print(os.getenv("CIRCUITPY_WIFI_SSID"), "not found.\nAvailable networks:", network_list) 
     raise SystemExit(0)
          
-print(settings["ssid"], "found. Connecting...")
 while not esp.is_connected:
     try:
         esp.connect_AP(os.getenv("CIRCUITPY_WIFI_SSID"), os.getenv("CIRCUITPY_WIFI_PASSWORD"))

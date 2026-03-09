@@ -85,7 +85,7 @@ while True:
     print("\nScanning for available networks...")
     # Add SSID of each Access Point (ap) in range to network_list
     network_list = [str(ap["ssid"], "utf-8") for ap in esp.scan_networks()] 
-    print(network_list)d
+    print(network_list)
     
     print("\nMAC Address:")
     # Format the MAC address (reverse byte order and format hex values)    
