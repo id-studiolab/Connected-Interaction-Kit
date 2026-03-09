@@ -7,10 +7,11 @@ grand_parent: "Tutorials"
 
 # Part 3 - Connect to a WiFi Network
 
-{:.note}
-If you prefer to use a `settings.py` file please follow [this page](part-3old)
-
 To connect your microcontroller to a network, you must provide a network name (SSID) and password. However, directly using sensitive data like WiFi passwords in your code is risky. Therefore, creating a separate file to hold your personal keys and passwords outside your `code.py` file is a good idea. This way, you can share your code without revealing sensitive data to others.
+
+{:.note}
+If you prefer to use a `settings.py` file, please follow [this page](part-3old)
+
 
 1. On your picoexpander there is a settings.toml file. Open this file in a **text-editor**. Unfortunately you can not use Mu Editor to do this.
 
