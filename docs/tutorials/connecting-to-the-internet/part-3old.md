@@ -3,6 +3,8 @@ layout: default
 title: "Part 3 - Connect to a WiFi Network (settings.py)"
 parent: "Connecting To The Internet"
 grand_parent: "Tutorials"
+nav_exclude: true
+
 ---
 
 # Part 3 - Connect to a WiFi Network
