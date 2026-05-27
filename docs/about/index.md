@@ -28,6 +28,7 @@ The kit is fully open source and open hardware, spread across several repositori
 | [Connected-Interaction-Kit](https://github.com/id-studiolab/Connected-Interaction-Kit) | This documentation site, production files for the physical kit (box, booklet), and 3D-printable accessories |
 | [PicoExpander](https://github.com/id-studiolab/PicoExpander) | PCB design files and firmware for the Solderless Connector Board (the Expander) |
 | [EduGroveModules](https://github.com/id-studiolab/EduGroveModules) | Custom sensors and actuators designed specifically for the kit |
+| [CircuitPython for PicoExpander](https://circuitpython.org/board/studiolab_picoexpander/) | Custom CircuitPython firmware for the PicoExpander, making it easy for students to get started without complex setup |
 
 ---
 
@@ -43,6 +44,7 @@ The kit is mostly complete for open hardware purposes. The table below gives an 
 | 3D-printable accessories (STL) | ✅ Available | [`/accessories/`](https://github.com/id-studiolab/Connected-Interaction-Kit/tree/main/accessories) in main repo |
 | Expander PCB design files | ✅ Available | [PicoExpander repo](https://github.com/id-studiolab/PicoExpander) |
 | Custom component designs | ✅ Available | [EduGroveModules repo](https://github.com/id-studiolab/EduGroveModules) |
+| CircuitPython firmware | ✅ Available | [circuitpython.org/board/studiolab_picoexpander](https://circuitpython.org/board/studiolab_picoexpander/) |
 | CircuitPython project bundle | ✅ Available | [CIK-Project-Bundle releases](https://github.com/id-studiolab/CIK-Project-Bundle/releases/latest) |
 | Bill of Materials | ✅ Available | [`BOM.md`](https://github.com/id-studiolab/Connected-Interaction-Kit/blob/main/BOM.md) in main repo |
 
