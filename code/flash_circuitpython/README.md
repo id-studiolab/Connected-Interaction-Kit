@@ -1,40 +1,43 @@
 # Flash CircuitPython
 
-A macOS script for flashing CircuitPython firmware and the library bundle onto **Adafruit ItsyBitsy M4 Express** boards. Designed for batch production of the Connected Interaction Kit — plug in a board, wait for the beep, repeat.
+A macOS script for flashing CircuitPython firmware and the library bundle onto **StudioLab PicoExpander** boards. Designed for batch production of the Connected Interaction Kit — plug in a board, wait for the beep, repeat.
+
+On each run the script checks for the latest stable firmware and libraries and downloads them automatically before flashing.
 
 ---
 
 ## What it does
 
-1. Waits for a board to appear in bootloader mode (`ITSYM4BOOT`)
-2. Copies the CircuitPython UF2 firmware to flash it
-3. Waits for the board to reboot as `CIRCUITPY`
-4. Wipes all existing files from the board
-5. Copies the full library bundle to the board
-6. Unmounts the drive and plays a confirmation sound
-7. Loops back and waits for the next board
+1. Fetches the latest stable CircuitPython UF2 from the [Adafruit S3 bucket](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/studiolab_picoexpander/en_GB/) (cached locally, only re-downloaded when a newer version is available)
+2. Fetches the matching library bundle from the [CIK-Project-Bundle releases](https://github.com/id-studiolab/CIK-Project-Bundle/releases/latest) (cached locally by release tag)
+3. Waits for a board to appear in bootloader mode (`RPI-RP2`)
+4. Copies the CircuitPython UF2 to flash it
+5. Waits for the board to reboot as `CIRCUITPY`
+6. Wipes all existing files from the board
+7. Copies the library bundle to `/lib` on the board
+8. Unmounts the drive and plays a confirmation sound
+9. Loops back and waits for the next board
 
 ---
 
 ## Requirements
 
 - macOS (uses `diskutil` and `afplay`)
-- Python 3
-- No additional Python packages needed (uses standard library only)
+- Python 3 (standard library only — no extra packages needed)
 
 ---
 
 ## Usage
 
-Put the board into bootloader mode by double-pressing the reset button. The board will mount as `ITSYM4BOOT`.
+Put the board into bootloader mode by double-pressing the reset button. The board will mount as `RPI-RP2`.
 
-Then run the script from the `flash_circuitpython` directory:
+Run the script from the `flash_circuitpython` directory:
 
 ```bash
 python flash_cp.py
 ```
 
-The script runs in a continuous loop. Once a board is done (confirmed by the Glass sound), unplug it and plug in the next one.
+The script checks for firmware and library updates once on startup, then runs in a continuous loop. Once a board is done (confirmed by the Glass sound), unplug it and plug in the next one.
 
 ---
 
@@ -42,33 +45,25 @@ The script runs in a continuous loop. Once a board is done (confirmed by the Gla
 
 ```
 flash_circuitpython/
-├── flash_cp.py                  # Main flashing script
-├── cp/
-│   └── adafruit-circuitpython-itsybitsy_m4_express-en_US-9.2.1.uf2
-├── lib/
-│   └── lib/                     # Copied to /lib on the board
-│       ├── adafruit_bus_device/
-│       ├── adafruit_debouncer.py
-│       ├── adafruit_dotstar.py
-│       ├── adafruit_esp32spi/
-│       ├── adafruit_hid/
-│       ├── adafruit_minimqtt/
-│       ├── adafruit_motor/
-│       ├── adafruit_motorkit.py
-│       ├── adafruit_pca9685.py
-│       ├── adafruit_pixelbuf.py
-│       ├── adafruit_register/
-│       ├── adafruit_requests.py
-│       ├── adafruit_servokit.py
-│       ├── adafruit_vl53l0x.py
+├── flash_cp.py       # Main flashing script
+├── cp/               # Cached firmware (auto-populated on first run)
+│   └── adafruit-circuitpython-studiolab_picoexpander-en_GB-X.Y.Z.uf2
+├── lib/              # Cached library bundle (auto-populated on first run)
+│   ├── .version      # Tracks the installed bundle release tag
+│   └── lib/          # Copied to /lib on the board
+│       ├── adafruit_*/
 │       ├── neopixel.py
 │       └── ...
-└── old/                         # Previous versions of the script
+└── old/              # Previous versions of the script
 ```
+
+Both `cp/` and `lib/` are populated automatically on first run. Stale firmware files are replaced whenever a newer stable release is found.
 
 ---
 
-## Updating the firmware or libraries
+## Sources
 
-- **Firmware:** Replace the `.uf2` file in `cp/` and update the `CIRCUITPYTHON_FILE` path in `flash_cp.py`.
-- **Libraries:** Add, remove, or update files in `lib/lib/`. The entire folder is synced to the board on each flash.
+| Asset | Source |
+|---|---|
+| CircuitPython firmware | `adafruit-circuit-python.s3.amazonaws.com` → `bin/studiolab_picoexpander/en_GB/` |
+| Library bundle | `github.com/id-studiolab/CIK-Project-Bundle` → latest release, `X.x-mpy` variant |
