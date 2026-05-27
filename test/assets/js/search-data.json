@@ -484,14 +484,14 @@
   },"69": {
     "doc": "About",
     "title": "The Ecosystem",
-    "content": "The kit is fully open source and open hardware, spread across several repositories: . | Repository | Description | . | Connected-Interaction-Kit | This documentation site, production files for the physical kit (box, booklet), and 3D-printable accessories | . | PicoExpander | PCB design files and firmware for the Solderless Connector Board (the Expander) | . | EduGroveModules | Custom sensors and actuators designed specifically for the kit | . ",
+    "content": "The kit is fully open source and open hardware, spread across several repositories: . | Repository | Description | . | Connected-Interaction-Kit | This documentation site, production files for the physical kit (box, booklet), and 3D-printable accessories | . | PicoExpander | PCB design files and firmware for the Solderless Connector Board (the Expander) | . | EduGroveModules | Custom sensors and actuators designed specifically for the kit | . | CircuitPython for PicoExpander | Custom CircuitPython firmware for the PicoExpander, making it easy for students to get started without complex setup | . ",
     "url": "/Connected-Interaction-Kit/test/about/#the-ecosystem",
     
     "relUrl": "/about/#the-ecosystem"
   },"70": {
     "doc": "About",
     "title": "Open Hardware Status",
-    "content": "The kit is mostly complete for open hardware purposes. The table below gives an overview of what is currently available: . | Asset | Status | Where to find it | . | Documentation website | ✅ Available | This site | . | Box assembly &amp; packaging files | ✅ Available (2022–2026 editions) | /production_files/ in main repo | . | Printed booklet source files | ✅ Available (2022–2026 editions) | /production_files/ in main repo | . | 3D-printable accessories (STL) | ✅ Available | /accessories/ in main repo | . | Expander PCB design files | ✅ Available | PicoExpander repo | . | Custom component designs | ✅ Available | EduGroveModules repo | . | CircuitPython project bundle | ✅ Available | CIK-Project-Bundle releases | . | Bill of Materials | ✅ Available | BOM.md in main repo | . ",
+    "content": "The kit is mostly complete for open hardware purposes. The table below gives an overview of what is currently available: . | Asset | Status | Where to find it | . | Documentation website | ✅ Available | This site | . | Box assembly &amp; packaging files | ✅ Available (2022–2026 editions) | /production_files/ in main repo | . | Printed booklet source files | ✅ Available (2022–2026 editions) | /production_files/ in main repo | . | 3D-printable accessories (STL) | ✅ Available | /accessories/ in main repo | . | Expander PCB design files | ✅ Available | PicoExpander repo | . | Custom component designs | ✅ Available | EduGroveModules repo | . | CircuitPython firmware | ✅ Available | circuitpython.org/board/studiolab_picoexpander | . | CircuitPython project bundle | ✅ Available | CIK-Project-Bundle releases | . | Bill of Materials | ✅ Available | BOM.md in main repo | . ",
     "url": "/Connected-Interaction-Kit/test/about/#open-hardware-status",
     
     "relUrl": "/about/#open-hardware-status"
