@@ -39,8 +39,8 @@ The kit is mostly complete for open hardware purposes. The table below gives an 
 | Asset | Status | Where to find it |
 | :--- | :---: | :--- |
 | Documentation website | ✅ Available | This site |
-| Box assembly & packaging files | ✅ Available (2022–2026 editions) | [`/production_files/`](https://github.com/id-studiolab/Connected-Interaction-Kit/tree/main/production_files) in main repo |
-| Printed booklet source files | ✅ Available (2022–2026 editions) | [`/production_files/`](https://github.com/id-studiolab/Connected-Interaction-Kit/tree/main/production_files) in main repo |
+| Box assembly & packaging files | ✅ Available | [`/production_files/`](https://github.com/id-studiolab/Connected-Interaction-Kit/tree/main/production_files) in main repo |
+| Printed booklet source files | ✅ Available | [`/production_files/`](https://github.com/id-studiolab/Connected-Interaction-Kit/tree/main/production_files) in main repo |
 | 3D-printable accessories (STL) | ✅ Available | [`/accessories/`](https://github.com/id-studiolab/Connected-Interaction-Kit/tree/main/accessories) in main repo |
 | Expander PCB design files | ✅ Available | [PicoExpander repo](https://github.com/id-studiolab/PicoExpander) |
 | Custom component designs | ✅ Available | [EduGroveModules repo](https://github.com/id-studiolab/EduGroveModules) |
