@@ -44,6 +44,7 @@ The kit is mostly complete for open hardware purposes. The table below gives an 
 | Expander PCB design files | ✅ Available | [PicoExpander repo](https://github.com/id-studiolab/PicoExpander) |
 | Custom component designs | ✅ Available | [EduGroveModules repo](https://github.com/id-studiolab/EduGroveModules) |
 | CircuitPython project bundle | ✅ Available | [CIK-Project-Bundle releases](https://github.com/id-studiolab/CIK-Project-Bundle/releases/latest) |
+| Bill of Materials | ✅ Available | [`BOM.md`](https://github.com/id-studiolab/Connected-Interaction-Kit/blob/main/BOM.md) in main repo |
 
 ---
 

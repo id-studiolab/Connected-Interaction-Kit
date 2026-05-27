@@ -1,4 +1,4 @@
-# Connected Interaction Kit (2023 Edition)
+# Connected Interaction Kit (2026 Edition)
 
 The Connected Interaction Kit is an educational toolkit that provides an easy and fun gateway to creating technology-mediated experiences in the context of design education. It contains a diverse and adaptable range of tools and components designed to encourage skill development and strengthen the confidence of its users.
 
@@ -49,6 +49,3 @@ Everything concerning the production of the kit is documented in the [/productio
       - [Cardboard Inlays](/production_files/2023_edition/box_assembly/README.md#cardboard-inlays)
    4. [WiFi Token QR Code Stickers](/production_files/2023_edition/box_assembly/README.md#wifi-token-qr-code-stickers)
    5. [Final Assembly](/production_files/2023_edition/box_assembly/README.md#final-assembly)
-
-# Code
-
