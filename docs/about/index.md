@@ -76,3 +76,8 @@ The Connected Interaction Kit was designed and developed at the [ID StudioLab](h
 - [Adriaan Bernstein](https://www.linkedin.com/in/adriaan-bernstein?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACH6qLkB6BPhbXD2YsJ04gpgO5T5qFIDnGQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bm4VLWSAdT%2FWg8LyjZ7UchA%3D%3D)
 - [Freddy Überschär](https://www.ueberschaer.design/about)
 - [Jerry de Vos](https://www.linkedin.com/in/jerrydevos/)
+
+## Contact
+Want to help out? Start using the kit? Or have a question? Reach out to us: jerryvos [@] tudelft.nl
+
+---
