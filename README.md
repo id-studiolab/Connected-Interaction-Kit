@@ -12,6 +12,24 @@ A GitHub Page containing tutorials and documentation of the kit's content is ava
 
 The [/docs](/docs/) folder in this repository contains the kit's online documentation resources. The folder's contents are automatically compiled and deployed to the URL mentioned above whenever a change occurs.
 
+## Serving the website locally
+
+Prerequisites: [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Bundler](https://bundler.io/).
+
+```bash
+cd docs
+bundle install      # first time only
+bundle exec jekyll serve
+```
+
+The site will be available at `http://localhost:4000/Connected-Interaction-Kit/test/`.
+
+Pass `--livereload` to automatically refresh the browser on file changes:
+
+```bash
+bundle exec jekyll serve --livereload
+```
+
 ---
 
 # Kit Production
