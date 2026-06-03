@@ -11,7 +11,7 @@ has_children: true
 
 ![Cover image showing an microcontroller Expander and online services](assets/microcontroller_and_services.png)
 
-You can use your microcontroller to connect your microcontroller microcontroller to most WiFi networks, such as your home network or your smartphone's mobile hotspot. 
+You can use your microcontroller to connect to most WiFi networks, such as your home network or your smartphone's mobile hotspot. 
 
 This tutorial will guide you through connecting your microcontroller to a local WiFi network, and pings `google.com` (pinging is simply checking if the server is available) and displays the result on the `Serial Monitor`.
 

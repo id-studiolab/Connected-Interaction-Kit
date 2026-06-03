@@ -1,4 +1,4 @@
-# Connected Interaction Kit (2023 Edition)
+# Connected Interaction Kit (2026 Edition)
 
 The Connected Interaction Kit is an educational toolkit that provides an easy and fun gateway to creating technology-mediated experiences in the context of design education. It contains a diverse and adaptable range of tools and components designed to encourage skill development and strengthen the confidence of its users.
 

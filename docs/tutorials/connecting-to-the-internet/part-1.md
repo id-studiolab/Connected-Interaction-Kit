@@ -7,7 +7,7 @@ grand_parent: "Tutorials"
 
 # Part 1 - Scan for Available Networks
 
-The microcontroller board not only provides solderless connectors but also adds WiFi capabilities to your microcontroller microcontroller.
+The microcontroller board not only provides solderless connectors but also adds WiFi capabilities to your microcontroller.
 
 The code below shows you how to configure the WiFi module. It scans for available networks and prints your microcontroller's MAC address to the Serial Monitor.
 
