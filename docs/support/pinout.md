@@ -5,14 +5,15 @@ parent: "Getting help"
 nav_order: 2
 ---
 # Pinouts
-## Pinout for the Pico 2W
-<img src="assets/pico2w.png" alt="" width="100%"/>  
 
-[Original](assets/pico2w.pdf)    
+## Pinout for the Pico 2W
+<img src="assets/Pico2w.svg" alt="" width="100%"/>  
+
+[Original](assets/Pico2w.pdf)    
    
   
 ## Pinout for the Pico 2W in the Expander
-<img src="assets/PicoExpander.png" alt="" width="100%"/>  
+<img src="assets/PicoExpander.svg" alt="" width="100%"/>  
 
 [Original](assets/PicoExpander.pdf)  
 
