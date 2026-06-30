@@ -468,250 +468,250 @@
     
     "relUrl": "/components/imu-sensor/imu-sensor.html"
   },"67": {
-    "doc": "About",
-    "title": "About the Connected Interaction Kit",
-    "content": ". ",
-    "url": "/Connected-Interaction-Kit/about/#about-the-connected-interaction-kit",
-    
-    "relUrl": "/about/#about-the-connected-interaction-kit"
-  },"68": {
-    "doc": "About",
-    "title": "Purpose",
-    "content": "Design students are expected to learn a diverse set of skills. One of those skills is understanding and tinkering with interactive technology to build prototypes fit for communicating ideas, understanding limitations of the design, and testing usability with users. The Connected Interaction Kit functions as a stepping stone for students to develop their skills in creating interactive prototypes using micro electronics. It provides a versatile collection of tools and components to build on as you grow your abilities — from a wearable companion device, to an interactive desk lamp, to a connected ecosystem that bridges the physical and digital world. It is used as part of the design curriculum at the Faculty of Industrial Design Engineering at Delft University of Technology. ",
-    "url": "/Connected-Interaction-Kit/about/#purpose",
-    
-    "relUrl": "/about/#purpose"
-  },"69": {
-    "doc": "About",
-    "title": "The Ecosystem",
-    "content": "The kit is fully open source and open hardware, spread across several repositories: . | Repository | Description | . | Connected-Interaction-Kit | This documentation site, production files for the physical kit (box, booklet), and 3D-printable accessories | . | PicoExpander | PCB design files and firmware for the Solderless Connector Board (the Expander) | . | EduGroveModules | Custom sensors and actuators designed specifically for the kit | . | CircuitPython for PicoExpander | Custom CircuitPython firmware for the PicoExpander, making it easy for students to get started without complex setup | . ",
-    "url": "/Connected-Interaction-Kit/about/#the-ecosystem",
-    
-    "relUrl": "/about/#the-ecosystem"
-  },"70": {
-    "doc": "About",
-    "title": "Open Hardware Status",
-    "content": "The kit is mostly complete for open hardware purposes. The table below gives an overview of what is currently available: . | Asset | Status | Where to find it | . | Documentation website | ✅ Available | This site | . | Box assembly &amp; packaging files | ✅ Available | /production_files/ in main repo | . | Printed booklet source files | ✅ Available | /production_files/ in main repo | . | 3D-printable accessories (STL) | ✅ Available | /accessories/ in main repo | . | Expander PCB design files | ✅ Available | PicoExpander repo | . | Custom component designs | ✅ Available | EduGroveModules repo | . | CircuitPython firmware | ✅ Available | circuitpython.org/board/studiolab_picoexpander | . | CircuitPython project bundle | ✅ Available | CIK-Project-Bundle releases | . | Bill of Materials | ✅ Available | BOM.md in main repo | . ",
-    "url": "/Connected-Interaction-Kit/about/#open-hardware-status",
-    
-    "relUrl": "/about/#open-hardware-status"
-  },"71": {
-    "doc": "About",
-    "title": "Adopt this Platform",
-    "content": "Are you an educator or institution looking to build a similar prototyping kit for your own students? All design files, source code, and documentation are freely available under open licenses. What you get: . | A complete set of box and packaging design files to reproduce the physical kit | PCB design files for the Expander board to have it manufactured | Circuit Python libraries and example code for all components | This documentation website (Jekyll-based, easy to fork and adapt) | . Getting started: . | Browse the repositories listed above and fork what you need | The /production_files/ folder contains everything needed to reproduce the physical packaging | Open an issue on the main repository if you have questions or want to share your adaptation | . We’d love to hear how the kit is being used elsewhere — reach out via the GitHub repositories. ",
-    "url": "/Connected-Interaction-Kit/about/#adopt-this-platform",
-    
-    "relUrl": "/about/#adopt-this-platform"
-  },"72": {
-    "doc": "About",
-    "title": "Made by",
-    "content": "The Connected Interaction Kit was designed and developed at the ID StudioLab, Faculty of Industrial Design Engineering, TU Delft. | Aadjan van der Helm | Martin Havranek | Adriaan Bernstein | Freddy Überschär | Jerry de Vos | . ",
-    "url": "/Connected-Interaction-Kit/about/#made-by",
-    
-    "relUrl": "/about/#made-by"
-  },"73": {
-    "doc": "About",
-    "title": "Contact",
-    "content": "Want to help out? Start using the kit? Or have a question? Reach out to us: jerryvos [@] tudelft.nl . ",
-    "url": "/Connected-Interaction-Kit/about/#contact",
-    
-    "relUrl": "/about/#contact"
-  },"74": {
-    "doc": "About",
-    "title": "About",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/about/",
-    
-    "relUrl": "/about/"
-  },"75": {
-    "doc": "Legacy - Connecting Your microcontroller To The Internet",
-    "title": "Legacy - Connecting Your microcontroller To The Internet",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/03-connect-to-the-internet/",
-    
-    "relUrl": "/tutorials/03-connect-to-the-internet/"
-  },"76": {
-    "doc": "Preparation",
-    "title": "Tutorial 1 - Preparation",
-    "content": "To define how your prototypes should respond to a given user interaction, you start by describing the expected behaviors as a set of rules and commands. By writing these directions down using a programming language your microcontroller can understand, you instruct it to enact the desired behaviors. The microcontroller included in your kit works best with a beginner-friendly programming language called CircuitPython. Let’s begin by going over the tools and equipment you need to get started: . Tools and Equipment . ",
-    "url": "/Connected-Interaction-Kit/tutorials/preparation/#tutorial-1---preparation",
-    
-    "relUrl": "/tutorials/preparation/#tutorial-1---preparation"
-  },"77": {
-    "doc": "Preparation",
-    "title": "Preparation",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/preparation/",
-    
-    "relUrl": "/tutorials/preparation/"
-  },"78": {
-    "doc": "Let There Be Light!",
-    "title": "Tutorial 2 - Let There Be Light!",
-    "content": "This tutorial will teach you how to use your microcontroller to make a simple LED blink. To help you get started, we pre-loaded your microcontroller with a bit of code. Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/#tutorial-2---let-there-be-light",
-    
-    "relUrl": "/tutorials/let-there-be-light/#tutorial-2---let-there-be-light"
-  },"79": {
-    "doc": "Let There Be Light!",
-    "title": "Let There Be Light!",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/",
-    
-    "relUrl": "/tutorials/let-there-be-light/"
-  },"80": {
-    "doc": "Connecting To The Internet",
-    "title": "Tutorial 4 - Connecting To The Internet",
-    "content": ". You can use your microcontroller to connect to most WiFi networks, such as your home network or your smartphone’s mobile hotspot. This tutorial will guide you through connecting your microcontroller to a local WiFi network, and pings google.com (pinging is simply checking if the server is available) and displays the result on the Serial Monitor. Connecting your microcontroller to eduroam is cumbersome due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the TUD-facility network instead. This wifi is created for all kinds of small computers (eg. microcontrollers and raspberry pi’s). Security is enforced by allowing students to connect a small computer that is linked to their netid. Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet",
-    
-    "relUrl": "/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet"
-  },"81": {
-    "doc": "Connecting To The Internet",
-    "title": "Connecting To The Internet",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/",
-    
-    "relUrl": "/tutorials/connecting-to-the-internet/"
-  },"82": {
-    "doc": "Assembling Custom Components",
-    "title": "Tutorial 5 - Assembling Custom Components",
-    "content": ". In addition to ready-made Grove components, the Connected Interaction Kit provides several custom components for you to assemble yourself. Here you can find resources on how to solder and detailed assembly instructions for each component. ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components",
-    
-    "relUrl": "/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components"
-  },"83": {
-    "doc": "Assembling Custom Components",
-    "title": "Prepare",
-    "content": "If you have no prior soldering experience, we strongly advise you begin with the soldering tutorial. Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#prepare",
-    
-    "relUrl": "/tutorials/assembling-custom-components/#prepare"
-  },"84": {
-    "doc": "Assembling Custom Components",
-    "title": "Components",
-    "content": "| Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | Make One! | Make One! | Make One! | Make One! | Make One! | . ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#components",
-    
-    "relUrl": "/tutorials/assembling-custom-components/#components"
-  },"85": {
-    "doc": "Assembling Custom Components",
-    "title": "Assembling Custom Components",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/",
-    
-    "relUrl": "/tutorials/assembling-custom-components/"
-  },"86": {
-    "doc": "Adding Inputs and Outputs",
-    "title": "Tutorial 3 - Adding Inputs and Outputs",
-    "content": "In the previous tutorial, you changed the behavior of a blinking LED. Here, you will learn how to build and program your first complete interactive prototype. You will use a sensor from your kit (an INPUT component) to detect an action performed by a user. Once detected, this will trigger a change in your prototype’s behavior. You will use an actuator (an OUTPUT component) to create this behavior. Designing this interaction provides a simple template for using the different component types in your kit. You will later be able to use this template to devise more intricate interaction choreographies. This tutorial begins by walking you through using a Touch Sensor to register a user’s touch. Later, you will learn how to add a Vibration Motor to create vibrations for as long as the sensor is triggered. Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs",
-    
-    "relUrl": "/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs"
-  },"87": {
-    "doc": "Adding Inputs and Outputs",
-    "title": "Adding Inputs and Outputs",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/",
-    
-    "relUrl": "/tutorials/adding-inputs-and-outputs/"
-  },"88": {
-    "doc": "Tutorials",
-    "title": "Tutorials",
-    "content": "Welcome to the tutorials section of the Connected Interaction Kit! . Here, you will find a comprehensive set of tutorials aimed at helping you take your first steps in working with microcontrollers, sensors, and actuators. We included easy-to-follow instructions covering everything from setting up the tools needed to use your microcontroller to creating your first interaction and writing your first program. The tutorials below are partly also written up in the physical booklet included in the kit. The PDF version of that booklet is available in our GitHub repository. To start your journey in the exciting world of electronics from this page in your browser, click the button below: . Get started . ",
-    "url": "/Connected-Interaction-Kit/tutorials/",
-    
-    "relUrl": "/tutorials/"
-  },"89": {
-    "doc": "Tutorials",
-    "title": "Overview",
-    "content": "If you are looking for quick references, you can jump directly to these tutorials: . Tutorial 1 - Preparation Tutorial 2 - Let There Be Light! Tutorial 3 - Adding Inputs and Outputs Tutorial 4 - Connecting To The Internet Tutorial 5 - Assembling Custom Components . For references on using specific components, jump to the Components section: . Component Overview . ",
-    "url": "/Connected-Interaction-Kit/tutorials/#overview",
-    
-    "relUrl": "/tutorials/#overview"
-  },"90": {
     "doc": "Getting help",
     "title": "Getting help",
     "content": " ",
     "url": "/Connected-Interaction-Kit/support/",
     
     "relUrl": "/support/"
-  },"91": {
+  },"68": {
     "doc": "Getting help",
     "title": "Why is my code not working?",
     "content": "Should you run into issues during coding please first carefully read the troubleshooting page. Troubleshooting page . ",
     "url": "/Connected-Interaction-Kit/support/#why-is-my-code-not-working",
     
     "relUrl": "/support/#why-is-my-code-not-working"
-  },"92": {
+  },"69": {
     "doc": "Getting help",
     "title": "What can I connect where?",
     "content": "To give you a clear overview we made the following pinout page: Pinout page . ",
     "url": "/Connected-Interaction-Kit/support/#what-can-i-connect-where",
     
     "relUrl": "/support/#what-can-i-connect-where"
-  },"93": {
+  },"70": {
     "doc": "Getting help",
     "title": "What do I do when hardware components are not working?",
     "content": "In case any of your components not working as expected, please check the documentation page of the component first and try getting it running with the example code first. Most issues can be fixed by double-checking the following: . | Is your component connected to the right port of the Expander board? | Is your microcontroller properly plugged into your computer? | Does an error message appear in MU’s Serial monitor, indicating a software issue (e.g. typos, coding mistake, missing library, etc.) | . If you checked the points above thoroughly and your component is still not working, you can find extra help at IO’s Model Making and Machine Lab (PMB). ",
     "url": "/Connected-Interaction-Kit/support/#what-do-i-do-when-hardware-components-are-not-working",
     
     "relUrl": "/support/#what-do-i-do-when-hardware-components-are-not-working"
-  },"94": {
+  },"71": {
     "doc": "Getting help",
     "title": "Where can I get more hardware components?",
     "content": "The Connected Interaction Kit can be extended with additional Grove components. Every Grove component should work. You can get additional components at following places: . | Left-over and used Grove components can be gathered from the PMB for free | New Grove components can be bought at the PMB for 1€ per piece | Depending on the course, components can be borrowed temporarily from IO’s StudioLab and Applied Lab | Bought online, for instance at Kiwi Electronics | . ",
     "url": "/Connected-Interaction-Kit/support/#where-can-i-get-more-hardware-components",
     
     "relUrl": "/support/#where-can-i-get-more-hardware-components"
-  },"95": {
+  },"72": {
     "doc": "Getting help",
     "title": "Where can I get support for prototyping for courses?",
     "content": "Each course using the Connected Interaction Kit will have their own tech support that can guide and support you in learning prototyping. ",
     "url": "/Connected-Interaction-Kit/support/#where-can-i-get-support-for-prototyping-for-courses",
     
     "relUrl": "/support/#where-can-i-get-support-for-prototyping-for-courses"
-  },"96": {
+  },"73": {
     "doc": "Getting help",
     "title": "How do I upgrade my Circuit Python version?",
     "content": "| For Pico 2W | For Itsy Bitsy M4 | For RP2040 Expander | . | | | | . | Start upgrade | Start upgrade | Start upgrade | . ",
     "url": "/Connected-Interaction-Kit/support/#how-do-i-upgrade-my-circuit-python-version",
     
     "relUrl": "/support/#how-do-i-upgrade-my-circuit-python-version"
-  },"97": {
+  },"74": {
     "doc": "Getting help",
     "title": "How do I install the required Circuit Python libraries?",
     "content": ". | Open the latest version of our project bundle | . Download Project Bundle . | Download the file for your version of CircuitPython, for example cik-project-bundle-10.x-mpy-2025.12.zip | Unzip the file on your computer | Copy the complete lib folder | Paste the complete lib folder in the CIRCUITPY drive | Press replace if prompted. | . ",
     "url": "/Connected-Interaction-Kit/support/#how-do-i-install-the-required-circuit-python-libraries",
     
     "relUrl": "/support/#how-do-i-install-the-required-circuit-python-libraries"
-  },"98": {
+  },"75": {
     "doc": "Getting help",
     "title": "How do I install other Circuit Python libraries?",
     "content": "Guide based on Adafruit update page, check this page for more in-depth guidance . | Download the CircuitPython Library you want. You can find the complete Adafruit CircuitPython bundle or the community bundle from this page. | Unzip the file and copy the desired file(s) to the lib folder on your microcontroller . | . Alternatively you can read more about libraries on the following page: libraries . ",
     "url": "/Connected-Interaction-Kit/support/#how-do-i-install-other-circuit-python-libraries",
     
     "relUrl": "/support/#how-do-i-install-other-circuit-python-libraries"
-  },"99": {
+  },"76": {
     "doc": "Components",
     "title": "Components",
     "content": "The core of the Connected Interaction Kit is a CircuitPython microcontroller board. With the help of a bit of code, this microcontroller allows you to interact with and perceive the outside world using various electronic sensors and actuators. In addition, the kit contains the Expander, a board that allows you to easily build prototypes without the need for soldering. Later on, it can also enable you to make use of Wifi or Bluetooth, as well as to power your project from a battery. ",
     "url": "/Connected-Interaction-Kit/components/",
     
     "relUrl": "/components/"
-  },"100": {
+  },"77": {
     "doc": "Components",
     "title": "Core Components",
     "content": "| Microcontroller | Expander | . | Pico 2W | Solderless Connector Board for Pico | . | | . | Learn More | Learn More | . There are multiple, functionally equivalent editions of Connected Interaction Kit. The Core Components you own differ slightly between editions. Your exact components are determined by the year in which you purchased your Connected Interaction Kit. This page is designed to help you identify which version you own. If in doubt, jump to the bottom of the page for helpful pointers on how to recognize your hardware. ",
     "url": "/Connected-Interaction-Kit/components/#core-components",
     
     "relUrl": "/components/#core-components"
-  },"101": {
+  },"78": {
     "doc": "Components",
     "title": "Sensors &amp; Actuators",
     "content": "Beyond that, the kit offers a selection of sensors and actuators. There are solderless components you can use right away, as well as custom components that require you to assemble them first. Some components listed below may not be part of your kit edition but are available separately. Solderless Grove Components . | Touch Sensor | Vibration Motor | Piezo Buzzer | Sound Sensor | . | Capacitive Touch | Haptics &amp; Touch | Sound | Sound | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . | Time of Flight Sensor | Chainable LED | Servo motor | IMU sensor | . | Distance | RGB/W Light | Motion | Motion | . | | | | . | | | | . | Learn More | Learn More | Learn More | Learn More | . Custom Components . | Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | | | | | . | Learn More | Learn More | Learn More | Learn More | Learn More | . ",
     "url": "/Connected-Interaction-Kit/components/#sensors--actuators",
     
     "relUrl": "/components/#sensors--actuators"
+  },"79": {
+    "doc": "About",
+    "title": "About the Connected Interaction Kit",
+    "content": ". ",
+    "url": "/Connected-Interaction-Kit/about/#about-the-connected-interaction-kit",
+    
+    "relUrl": "/about/#about-the-connected-interaction-kit"
+  },"80": {
+    "doc": "About",
+    "title": "Purpose",
+    "content": "Design students are expected to learn a diverse set of skills. One of those skills is understanding and tinkering with interactive technology to build prototypes fit for communicating ideas, understanding limitations of the design, and testing usability with users. The Connected Interaction Kit functions as a stepping stone for students to develop their skills in creating interactive prototypes using micro electronics. It provides a versatile collection of tools and components to build on as you grow your abilities — from a wearable companion device, to an interactive desk lamp, to a connected ecosystem that bridges the physical and digital world. It is used as part of the design curriculum at the Faculty of Industrial Design Engineering at Delft University of Technology. ",
+    "url": "/Connected-Interaction-Kit/about/#purpose",
+    
+    "relUrl": "/about/#purpose"
+  },"81": {
+    "doc": "About",
+    "title": "The Ecosystem",
+    "content": "The kit is fully open source and open hardware, spread across several repositories: . | Repository | Description | . | Connected-Interaction-Kit | This documentation site, production files for the physical kit (box, booklet), and 3D-printable accessories | . | PicoExpander | PCB design files and firmware for the Solderless Connector Board (the Expander) | . | EduGroveModules | Custom sensors and actuators designed specifically for the kit | . | CircuitPython for PicoExpander | Custom CircuitPython firmware for the PicoExpander, making it easy for students to get started without complex setup | . ",
+    "url": "/Connected-Interaction-Kit/about/#the-ecosystem",
+    
+    "relUrl": "/about/#the-ecosystem"
+  },"82": {
+    "doc": "About",
+    "title": "Open Hardware Status",
+    "content": "The kit is mostly complete for open hardware purposes. The table below gives an overview of what is currently available: . | Asset | Status | Where to find it | . | Documentation website | ✅ Available | This site | . | Box assembly &amp; packaging files | ✅ Available | /production_files/ in main repo | . | Printed booklet source files | ✅ Available | /production_files/ in main repo | . | 3D-printable accessories (STL) | ✅ Available | /accessories/ in main repo | . | Expander PCB design files | ✅ Available | PicoExpander repo | . | Custom component designs | ✅ Available | EduGroveModules repo | . | CircuitPython firmware | ✅ Available | circuitpython.org/board/studiolab_picoexpander | . | CircuitPython project bundle | ✅ Available | CIK-Project-Bundle releases | . | Bill of Materials | ✅ Available | BOM.md in main repo | . ",
+    "url": "/Connected-Interaction-Kit/about/#open-hardware-status",
+    
+    "relUrl": "/about/#open-hardware-status"
+  },"83": {
+    "doc": "About",
+    "title": "Adopt this Platform",
+    "content": "Are you an educator or institution looking to build a similar prototyping kit for your own students? All design files, source code, and documentation are freely available under open licenses. What you get: . | A complete set of box and packaging design files to reproduce the physical kit | PCB design files for the Expander board to have it manufactured | Circuit Python libraries and example code for all components | This documentation website (Jekyll-based, easy to fork and adapt) | . Getting started: . | Browse the repositories listed above and fork what you need | The /production_files/ folder contains everything needed to reproduce the physical packaging | Open an issue on the main repository if you have questions or want to share your adaptation | . We’d love to hear how the kit is being used elsewhere — reach out via the GitHub repositories. ",
+    "url": "/Connected-Interaction-Kit/about/#adopt-this-platform",
+    
+    "relUrl": "/about/#adopt-this-platform"
+  },"84": {
+    "doc": "About",
+    "title": "Made by",
+    "content": "The Connected Interaction Kit was designed and developed at the ID StudioLab, Faculty of Industrial Design Engineering, TU Delft. | Aadjan van der Helm | Martin Havranek | Adriaan Bernstein | Freddy Überschär | Jerry de Vos | . ",
+    "url": "/Connected-Interaction-Kit/about/#made-by",
+    
+    "relUrl": "/about/#made-by"
+  },"85": {
+    "doc": "About",
+    "title": "Contact",
+    "content": "Want to help out? Start using the kit? Or have a question? Reach out to us: jerryvos [@] tudelft.nl . ",
+    "url": "/Connected-Interaction-Kit/about/#contact",
+    
+    "relUrl": "/about/#contact"
+  },"86": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/about/",
+    
+    "relUrl": "/about/"
+  },"87": {
+    "doc": "Preparation",
+    "title": "Tutorial 1 - Preparation",
+    "content": "To define how your prototypes should respond to a given user interaction, you start by describing the expected behaviors as a set of rules and commands. By writing these directions down using a programming language your microcontroller can understand, you instruct it to enact the desired behaviors. The microcontroller included in your kit works best with a beginner-friendly programming language called CircuitPython. Let’s begin by going over the tools and equipment you need to get started: . Tools and Equipment . ",
+    "url": "/Connected-Interaction-Kit/tutorials/preparation/#tutorial-1---preparation",
+    
+    "relUrl": "/tutorials/preparation/#tutorial-1---preparation"
+  },"88": {
+    "doc": "Preparation",
+    "title": "Preparation",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/preparation/",
+    
+    "relUrl": "/tutorials/preparation/"
+  },"89": {
+    "doc": "Connecting To The Internet",
+    "title": "Tutorial 4 - Connecting To The Internet",
+    "content": ". You can use your microcontroller to connect to most WiFi networks, such as your home network or your smartphone’s mobile hotspot. This tutorial will guide you through connecting your microcontroller to a local WiFi network, and pings google.com (pinging is simply checking if the server is available) and displays the result on the Serial Monitor. Connecting your microcontroller to eduroam is cumbersome due to strict security measures. If you are on campus, follow the steps provided later in this tutorial to connect your device to the internet using the TUD-facility network instead. This wifi is created for all kinds of small computers (eg. microcontrollers and raspberry pi’s). Security is enforced by allowing students to connect a small computer that is linked to their netid. Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet",
+    
+    "relUrl": "/tutorials/connecting-to-the-internet/#tutorial-4---connecting-to-the-internet"
+  },"90": {
+    "doc": "Connecting To The Internet",
+    "title": "Connecting To The Internet",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/",
+    
+    "relUrl": "/tutorials/connecting-to-the-internet/"
+  },"91": {
+    "doc": "Let There Be Light!",
+    "title": "Tutorial 2 - Let There Be Light!",
+    "content": "This tutorial will teach you how to use your microcontroller to make a simple LED blink. To help you get started, we pre-loaded your microcontroller with a bit of code. Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/#tutorial-2---let-there-be-light",
+    
+    "relUrl": "/tutorials/let-there-be-light/#tutorial-2---let-there-be-light"
+  },"92": {
+    "doc": "Let There Be Light!",
+    "title": "Let There Be Light!",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/",
+    
+    "relUrl": "/tutorials/let-there-be-light/"
+  },"93": {
+    "doc": "Adding Inputs and Outputs",
+    "title": "Tutorial 3 - Adding Inputs and Outputs",
+    "content": "In the previous tutorial, you changed the behavior of a blinking LED. Here, you will learn how to build and program your first complete interactive prototype. You will use a sensor from your kit (an INPUT component) to detect an action performed by a user. Once detected, this will trigger a change in your prototype’s behavior. You will use an actuator (an OUTPUT component) to create this behavior. Designing this interaction provides a simple template for using the different component types in your kit. You will later be able to use this template to devise more intricate interaction choreographies. This tutorial begins by walking you through using a Touch Sensor to register a user’s touch. Later, you will learn how to add a Vibration Motor to create vibrations for as long as the sensor is triggered. Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs",
+    
+    "relUrl": "/tutorials/adding-inputs-and-outputs/#tutorial-3---adding-inputs-and-outputs"
+  },"94": {
+    "doc": "Adding Inputs and Outputs",
+    "title": "Adding Inputs and Outputs",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/adding-inputs-and-outputs/",
+    
+    "relUrl": "/tutorials/adding-inputs-and-outputs/"
+  },"95": {
+    "doc": "Assembling Custom Components",
+    "title": "Tutorial 5 - Assembling Custom Components",
+    "content": ". In addition to ready-made Grove components, the Connected Interaction Kit provides several custom components for you to assemble yourself. Here you can find resources on how to solder and detailed assembly instructions for each component. ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components",
+    
+    "relUrl": "/tutorials/assembling-custom-components/#tutorial-5---assembling-custom-components"
+  },"96": {
+    "doc": "Assembling Custom Components",
+    "title": "Prepare",
+    "content": "If you have no prior soldering experience, we strongly advise you begin with the soldering tutorial. Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#prepare",
+    
+    "relUrl": "/tutorials/assembling-custom-components/#prepare"
+  },"97": {
+    "doc": "Assembling Custom Components",
+    "title": "Components",
+    "content": "| Potentiometer | Tactile Switch | Tilt Switch | Thermistor | Photoresistor | . | Position/Angle | Push | Tilt | Temperature | Brightness | . | | | | | . | Make One! | Make One! | Make One! | Make One! | Make One! | . ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/#components",
+    
+    "relUrl": "/tutorials/assembling-custom-components/#components"
+  },"98": {
+    "doc": "Assembling Custom Components",
+    "title": "Assembling Custom Components",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/",
+    
+    "relUrl": "/tutorials/assembling-custom-components/"
+  },"99": {
+    "doc": "Legacy - Connecting Your microcontroller To The Internet",
+    "title": "Legacy - Connecting Your microcontroller To The Internet",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/03-connect-to-the-internet/",
+    
+    "relUrl": "/tutorials/03-connect-to-the-internet/"
+  },"100": {
+    "doc": "Tutorials",
+    "title": "Tutorials",
+    "content": "Welcome to the tutorials section of the Connected Interaction Kit! . Here, you will find a comprehensive set of tutorials aimed at helping you take your first steps in working with microcontrollers, sensors, and actuators. We included easy-to-follow instructions covering everything from setting up the tools needed to use your microcontroller to creating your first interaction and writing your first program. The tutorials below are partly also written up in the physical booklet included in the kit. The PDF version of that booklet is available in our GitHub repository. To start your journey in the exciting world of electronics from this page in your browser, click the button below: . Get started . ",
+    "url": "/Connected-Interaction-Kit/tutorials/",
+    
+    "relUrl": "/tutorials/"
+  },"101": {
+    "doc": "Tutorials",
+    "title": "Overview",
+    "content": "If you are looking for quick references, you can jump directly to these tutorials: . Tutorial 1 - Preparation Tutorial 2 - Let There Be Light! Tutorial 3 - Adding Inputs and Outputs Tutorial 4 - Connecting To The Internet Tutorial 5 - Assembling Custom Components . For references on using specific components, jump to the Components section: . Component Overview . ",
+    "url": "/Connected-Interaction-Kit/tutorials/#overview",
+    
+    "relUrl": "/tutorials/#overview"
   },"102": {
     "doc": "Home",
     "title": "Connected Interaction Kit",
@@ -909,19 +909,19 @@
     
     "relUrl": "/components/neopixel/neopixel.html"
   },"130": {
-    "doc": "Part 1 - Load the program code using Mu Editor",
-    "title": "Part 1 - Load the program code using Mu Editor",
-    "content": "Once your microcontroller has power, the pre-loaded code should make the onboard LED blink. To see the code and start making modifications, follow these steps: . | Using the USB cable included in the kit, connect the microcontroller to your computer. It will appear in your computer’s file manager as a storage device called CIRCUITPY. | Open Mu Editor. Click the Load button in the toolbar at the top of the program window and navigate to the CIRCUITPY drive. Find the file named code.py and open it. | Your microcontroller will execute any code stored in that file. Briefly examine the example code and see if you understand some parts. In the next step, we will take a closer look at how it works and how to tweak it. | . Once you store changes in code.py to the CIRCUITPY drive, your microcontroller will begin running the new code immediately. Changes will persist even after disconnecting the microcontroller from your computer. Next Step . ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-1.html",
-    
-    "relUrl": "/tutorials/let-there-be-light/part-1.html"
-  },"131": {
     "doc": "Part 1 - Scan for Available Networks",
     "title": "Part 1 - Scan for Available Networks",
     "content": "The microcontroller board not only provides solderless connectors but also adds WiFi capabilities to your microcontroller. The code below shows you how to configure the WiFi module. It scans for available networks and prints your microcontroller’s MAC address to the Serial Monitor. | Connect your microcontroller and Expander to your computer. | Copy the example code below and use Mu Editor to save it to your code.py file. Remember to back up your old code elsewhere. | Open the Serial Monitor to verify that your microcontroller can find a network to connect to in the next step. | Store or write down your WiFi module’s MAC address; it will become important later. | . | PicoExpander | BitsyExpander | . | import time import wifi print(\"Raspberry Pi Pico 2 W WiFi Scanner\") print(\"*\" * 40) # Print the MAC Address once at startup (or inside the loop if you prefer) # Note: Unlike the ESP32 SPI, we usually don't need to reverse the bytes mac_addr = \":\".join(\"{:02X}\".format(byte) for byte in wifi.radio.mac_address) print(f\"MAC Address: {mac_addr}\") print(\"*\" * 40) while True: print(\"\\nScanning for available networks...\") # In the native wifi module, we use start_scanning_networks() # It returns an iterator of Network objects networks = wifi.radio.start_scanning_networks() # Create a list of SSIDs. # We use a set() here to remove duplicate names if multiple access points exist network_list = [] for network in networks: # Some hidden networks return None or empty strings if network.ssid: network_list.append(network.ssid) # Stop scanning to free up the radio wifi.radio.stop_scanning_networks() print(network_list) print(\"\\n\" + \"*\" * 40) time.sleep(8) . | import board import busio import time import digitalio from adafruit_esp32spi import adafruit_esp32spi # Define the pins used by the BitsyExpander's ESP32 WiFi module esp32_cs = digitalio.DigitalInOut(board.D9) esp32_ready = digitalio.DigitalInOut(board.D11) esp32_reset = digitalio.DigitalInOut(board.D12) spi = busio.SPI(board.SCK, board.MOSI, board.MISO) # Initialize the ESP32 WiFi module esp = adafruit_esp32spi.ESP_SPIcontrol(spi, esp32_cs, esp32_ready, esp32_reset) if esp.status == adafruit_esp32spi.WL_IDLE_STATUS: print(\"\\nESP32 WiFi Module found.\") print(\"Firmware version:\", str(esp.firmware_version, \"utf-8\")) print(\"*\" * 40) while True: print(\"\\nScanning for available networks...\") # Add SSID of each Access Point (ap) in range to network_list network_list = [str(ap[\"ssid\"], \"utf-8\") for ap in esp.scan_networks()] print(network_list) print(\"\\nMAC Address:\") # Format the MAC address (reverse byte order and format hex values) mac_addr = \":\".join(\"{:02X}\".format(byte) for byte in reversed(esp.MAC_address)) print(mac_addr) print(\"\\n\" + \"*\" * 40) time.sleep(8) . | . Starting with this tutorial, code examples will include so-called comments. Comments exist to document the code and are ignored by the program. They are meant to help you and others understand the code better. In CircuitPython, comments begin with the # character. Next Step . ",
     "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/part-1.html",
     
     "relUrl": "/tutorials/connecting-to-the-internet/part-1.html"
+  },"131": {
+    "doc": "Part 1 - Load the program code using Mu Editor",
+    "title": "Part 1 - Load the program code using Mu Editor",
+    "content": "Once your microcontroller has power, the pre-loaded code should make the onboard LED blink. To see the code and start making modifications, follow these steps: . | Using the USB cable included in the kit, connect the microcontroller to your computer. It will appear in your computer’s file manager as a storage device called CIRCUITPY. | Open Mu Editor. Click the Load button in the toolbar at the top of the program window and navigate to the CIRCUITPY drive. Find the file named code.py and open it. | Your microcontroller will execute any code stored in that file. Briefly examine the example code and see if you understand some parts. In the next step, we will take a closer look at how it works and how to tweak it. | . Once you store changes in code.py to the CIRCUITPY drive, your microcontroller will begin running the new code immediately. Changes will persist even after disconnecting the microcontroller from your computer. Next Step . ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-1.html",
+    
+    "relUrl": "/tutorials/let-there-be-light/part-1.html"
   },"132": {
     "doc": "Part 1 - Add an Input Component",
     "title": "Part 1 - Add an Input Component",
@@ -930,19 +930,19 @@
     
     "relUrl": "/tutorials/adding-inputs-and-outputs/part-1.html"
   },"133": {
-    "doc": "Part 2 - Change the way your microcontroller behaves",
-    "title": "Part 2 - Change the way your microcontroller behaves",
-    "content": "The pre-loaded code should look something like this: . | PicoExpander | BitsyExpander | . | import board import digitalio import time led = digitalio.DigitalInOut(board.LED) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | import board import digitalio import time led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | . For now, let’s ignore the first half of the code and go directly to the passage that begins with while True: . The while statement creates a loop. While its condition is met, the code contained within it will keep looping. The lines of code that follow are indented, indicating that they are inside the loop. Given that the condition to meet is set to True (which will never be False), the code will loop forever. Try altering the code’s behavior by exploring the following changes: . | The code in the loop makes an LED built into your microcontroller blink. Can you make out how the blinking behavior is created? | Experiment with the blinking frequency of the LED. Change the values defined in time.sleep(1.0), then press the Save button in Mu Editor’s toolbar to store the changes to your code and see their effect. | Click the Serial button in Mu’s toolbar to open the Serial Monitor. This vital tool lets you see messages printed by your program. Can you figure out how to change the content of the messages appearing in the serial monitor? Remember to save your changes to see their effect. | . Next Tutorial . ",
-    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-2.html",
-    
-    "relUrl": "/tutorials/let-there-be-light/part-2.html"
-  },"134": {
     "doc": "Part 2 - Register Your Device for Use on Campus",
     "title": "Part 2 - Register Your Device for Use on Campus",
     "content": "This step must be performed before you connect your microcontroller to the internet on campus for the first time. If you completed this step before or are using a personal network (e.g., your home network or your phone’s mobile hotspot), you can skip this step. As mentioned in the introduction, security measures on campus prevent your microcontroller from using the eduroam network. To access the internet, you will need to connect it to TUD-facility instead. To do so, you must first register your device’s MAC address with your NetID. | Using your smartphone’s camera app, scan your personal access token (the QR code in the lid of the box of your Connected Interaction Kit) and log in with your NetID. | You find yourself at a screen where you should announce yourself to this system by pressing the Claim license button. For each device you register in the next steps, TU Delft ICT can now find the responsible person. | Tap the Register devices button at the bottom of the page. | Enter the MAC address you identified for your Expander Board in part one of this tutorial, and choose a name for your device. | Tap the Register MAC Address button and confirm. A new section for the device you registered will appear under Registered Devices. | Find the iPSK and write it down or save it. It will serve as the password to connect to the TUD-facility WiFi network in the following step. | . You can register up to three devices using your personal access token (QR code). Please note that the MAC address is associated with the Expander Board, not the microcontroller Microcontroller. If you change Expander boards or want to use other devices on TUD-facility, you must repeat these steps to link their MAC addresses to your token. Next Step . ",
     "url": "/Connected-Interaction-Kit/tutorials/connecting-to-the-internet/part-2.html",
     
     "relUrl": "/tutorials/connecting-to-the-internet/part-2.html"
+  },"134": {
+    "doc": "Part 2 - Change the way your microcontroller behaves",
+    "title": "Part 2 - Change the way your microcontroller behaves",
+    "content": "The pre-loaded code should look something like this: . | PicoExpander | BitsyExpander | . | import board import digitalio import time led = digitalio.DigitalInOut(board.LED) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | import board import digitalio import time led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT while True: time.sleep(1.0) led.value = True print(\"LED is on\") time.sleep(1.0) led.value = False print(\"LED is off\") . | . For now, let’s ignore the first half of the code and go directly to the passage that begins with while True: . The while statement creates a loop. While its condition is met, the code contained within it will keep looping. The lines of code that follow are indented, indicating that they are inside the loop. Given that the condition to meet is set to True (which will never be False), the code will loop forever. Try altering the code’s behavior by exploring the following changes: . | The code in the loop makes an LED built into your microcontroller blink. Can you make out how the blinking behavior is created? | Experiment with the blinking frequency of the LED. Change the values defined in time.sleep(1.0), then press the Save button in Mu Editor’s toolbar to store the changes to your code and see their effect. | Click the Serial button in Mu’s toolbar to open the Serial Monitor. This vital tool lets you see messages printed by your program. Can you figure out how to change the content of the messages appearing in the serial monitor? Remember to save your changes to see their effect. | . Next Tutorial . ",
+    "url": "/Connected-Interaction-Kit/tutorials/let-there-be-light/part-2.html",
+    
+    "relUrl": "/tutorials/let-there-be-light/part-2.html"
   },"135": {
     "doc": "Part 2 - Add an Output Component",
     "title": "Part 2 - Add an Output Component",
@@ -973,53 +973,53 @@
     "relUrl": "/tutorials/connecting-to-the-internet/part-3old.html"
   },"139": {
     "doc": "Photoresistor",
-    "title": "Photoresistor (Light Sensor)",
-    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Photoresistor 03 10kΩ Resistor 04 Grove Connector . ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/photoresistor.html#photoresistor-light-sensor",
-    
-    "relUrl": "/tutorials/assembling-custom-components/photoresistor.html#photoresistor-light-sensor"
-  },"140": {
-    "doc": "Photoresistor",
-    "title": "Assembly Video",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/photoresistor.html#assembly-video",
-    
-    "relUrl": "/tutorials/assembling-custom-components/photoresistor.html#assembly-video"
-  },"141": {
-    "doc": "Photoresistor",
-    "title": "Photoresistor",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/photoresistor.html",
-    
-    "relUrl": "/tutorials/assembling-custom-components/photoresistor.html"
-  },"142": {
-    "doc": "Photoresistor",
     "title": "Photoresistor",
     "content": ". Changes its electrical resistance in response to light intensity. Can be used to detect changes in light intensity. Learn how to make your own photoresistor here. ",
     "url": "/Connected-Interaction-Kit/components/photoresistor/photoresistor.html#photoresistor",
     
     "relUrl": "/components/photoresistor/photoresistor.html#photoresistor"
-  },"143": {
+  },"140": {
     "doc": "Photoresistor",
     "title": "Basic photo resistor example",
     "content": "# --- Imports import time import board import analogio # --- Variables # Initialize analog input connected to photo resistor photo_resistor = analogio.AnalogIn(board.A2) # --- Functions # --- Setup # --- Main loop while True: val = photo_resistor.value # Read the photo resistor value print(val) # Output the value in the serial monitor time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/components/photoresistor/photoresistor.html#basic-photo-resistor-example",
     
     "relUrl": "/components/photoresistor/photoresistor.html#basic-photo-resistor-example"
-  },"144": {
+  },"141": {
     "doc": "Photoresistor",
     "title": "Photo resistor example with conversion to voltage",
     "content": "# --- Imports import time import board import analogio # --- Variables # Initialize analog input connected to photo resistor photo_resistor = analogio.AnalogIn(board.A2) # --- Functions # Make a function to convert from analog value to voltage. def analog_voltage(adc): return adc.value / 65535 * adc.reference_voltage # --- Setup # --- Main loop while True: val = photo_resistor.value # Read the photo resistor value volts = analog_voltage(photo_resistor) # Convert to voltage # Print the values print('Photo resistor value: {0} voltage: {1}V'.format(val, volts)) time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/components/photoresistor/photoresistor.html#photo-resistor-example-with-conversion-to-voltage",
     
     "relUrl": "/components/photoresistor/photoresistor.html#photo-resistor-example-with-conversion-to-voltage"
-  },"145": {
+  },"142": {
     "doc": "Photoresistor",
     "title": "Photoresistor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/components/photoresistor/photoresistor.html",
     
     "relUrl": "/components/photoresistor/photoresistor.html"
+  },"143": {
+    "doc": "Photoresistor",
+    "title": "Photoresistor (Light Sensor)",
+    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Photoresistor 03 10kΩ Resistor 04 Grove Connector . ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/photoresistor.html#photoresistor-light-sensor",
+    
+    "relUrl": "/tutorials/assembling-custom-components/photoresistor.html#photoresistor-light-sensor"
+  },"144": {
+    "doc": "Photoresistor",
+    "title": "Assembly Video",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/photoresistor.html#assembly-video",
+    
+    "relUrl": "/tutorials/assembling-custom-components/photoresistor.html#assembly-video"
+  },"145": {
+    "doc": "Photoresistor",
+    "title": "Photoresistor",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/photoresistor.html",
+    
+    "relUrl": "/tutorials/assembling-custom-components/photoresistor.html"
   },"146": {
     "doc": "Pico Expander",
     "title": "Pico Expander",
@@ -1343,131 +1343,131 @@
     
     "relUrl": "/components/splitter/splitter.html"
   },"192": {
-    "doc": "Tactile Switch",
-    "title": "Tactile Switch (Button)",
-    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Tactile Switch 03 10kΩ Resistor 04 Grove Connector05 Button Cap (Optional) . ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tactile-switch.html#tactile-switch-button",
-    
-    "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html#tactile-switch-button"
-  },"193": {
-    "doc": "Tactile Switch",
-    "title": "Assembly Video",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tactile-switch.html#assembly-video",
-    
-    "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html#assembly-video"
-  },"194": {
-    "doc": "Tactile Switch",
-    "title": "Tactile Switch",
-    "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tactile-switch.html",
-    
-    "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html"
-  },"195": {
     "doc": "Tactile switch",
     "title": "Tactile Switch",
     "content": ". A push button that remains active while pressed. Learn how to make your own tactile switch here. ",
     "url": "/Connected-Interaction-Kit/components/tactile-switch/tactile-switch.html#tactile-switch",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html#tactile-switch"
-  },"196": {
+  },"193": {
     "doc": "Tactile switch",
     "title": "Basic Usage",
     "content": "The code example below reads the state of a tactile switch connected to pin D7 on each run through the main loop. While the button remains pressed, it turns on the built-in LED of your microcontroller, which is internally connected to pin D13. When released, the LED is turned off again. # --- Imports import digitalio import time import board # --- Variables switch = digitalio.DigitalInOut(board.D7) switch.direction = digitalio.Direction.INPUT led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup led_state = False # --- Main loop while True: if switch.value == False: led.value = False else: led.value = True . ",
     "url": "/Connected-Interaction-Kit/components/tactile-switch/tactile-switch.html#basic-usage",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html#basic-usage"
-  },"197": {
+  },"194": {
     "doc": "Tactile switch",
     "title": "Toggling Between States",
     "content": "In the previous example, the LED’s state directly depends on the state of the switch. When the button is pressed, the LED turns on, and when it is released, the LED turns off. In this code example, we modify the behavior to emulate a toggle switch, allowing the LED to toggle between on and off states each time the button is pressed. To achieve this, we use a variable called last_state to track the previous state of the switch. In the main loop, we check if the current state of the switch is different from its previous state: . if switch.value != last_state: . When the state of the switch changes, we update the last_state variable. We then check if the state changed from not pressed to pressed, in which case we toggle the LED’s state. That way, we ensure the LED’s state changes only once per press-and-release cycle. The code also prints the toggled LED states to the serial monitor. Therefore, we also introduce a short delay to safeguard against overwhelming the serial monitor with too many messages. import digitalio import time import board # --- Variables switch = digitalio.DigitalInOut(board.D7) switch.direction = digitalio.Direction.INPUT led = digitalio.DigitalInOut(board.D13) led.direction = digitalio.Direction.OUTPUT # --- Functions # --- Setup last_switch_state = switch.value led_state = False # --- Main loop while True: if switch.value != last_switch_state: last_switch_state = switch.value if switch.value: led_state = not led_state print(\"Enable LED\" if led_state else \"Disable LED\") led.value = led_state time.sleep(0.02) . ",
     "url": "/Connected-Interaction-Kit/components/tactile-switch/tactile-switch.html#toggling-between-states",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html#toggling-between-states"
-  },"198": {
+  },"195": {
     "doc": "Tactile switch",
     "title": "Tactile switch",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/components/tactile-switch/tactile-switch.html",
     
     "relUrl": "/components/tactile-switch/tactile-switch.html"
-  },"199": {
-    "doc": "Thermistor",
-    "title": "Thermistor (Temperature Sensor)",
-    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Thermistor 03 10kΩ Resistor 04 Grove Connector . ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/thermistor.html#thermistor-temperature-sensor",
+  },"196": {
+    "doc": "Tactile Switch",
+    "title": "Tactile Switch (Button)",
+    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Tactile Switch 03 10kΩ Resistor 04 Grove Connector05 Button Cap (Optional) . ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tactile-switch.html#tactile-switch-button",
     
-    "relUrl": "/tutorials/assembling-custom-components/thermistor.html#thermistor-temperature-sensor"
-  },"200": {
-    "doc": "Thermistor",
+    "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html#tactile-switch-button"
+  },"197": {
+    "doc": "Tactile Switch",
     "title": "Assembly Video",
     "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/thermistor.html#assembly-video",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tactile-switch.html#assembly-video",
     
-    "relUrl": "/tutorials/assembling-custom-components/thermistor.html#assembly-video"
-  },"201": {
-    "doc": "Thermistor",
-    "title": "Thermistor",
+    "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html#assembly-video"
+  },"198": {
+    "doc": "Tactile Switch",
+    "title": "Tactile Switch",
     "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/thermistor.html",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tactile-switch.html",
     
-    "relUrl": "/tutorials/assembling-custom-components/thermistor.html"
-  },"202": {
+    "relUrl": "/tutorials/assembling-custom-components/tactile-switch.html"
+  },"199": {
     "doc": "Thermistor",
     "title": "Thermistor",
     "content": ". Changes its electrical resistance with temperature. Can be used to estimate the current temperature and detect changes. Learn how to make your own thermistor here. ",
     "url": "/Connected-Interaction-Kit/components/thermistor/thermistor.html#thermistor",
     
     "relUrl": "/components/thermistor/thermistor.html#thermistor"
-  },"203": {
+  },"200": {
     "doc": "Thermistor",
     "title": "Basic rotation potentiometer example",
     "content": "Download the necessary adafruit_thermistor library with the 7.x bundle . # --- Imports # --- Imports import time import board # Download the library with the 8.x bundle at https://circuitpython.org/libraries import adafruit_thermistor # --- Variables # Initialize analog input connected to temperature sensor resistor = 10000 resistance = 10000 nominal_temp = 25 b_coefficient = 3950 # Connect the temperature sensor to pin A2 temp_sensor = board.A2 # --- Functions # Library function to read the temperature sensor accurately thermistor = adafruit_thermistor.Thermistor( temp_sensor, resistor, resistance, nominal_temp, b_coefficient ) # --- Setup # --- Main loop while True: celsius = thermistor.temperature fahrenheit = (celsius * 9 / 5) + 32 print(\"== Temperature ==\\n{} *C\\n{} *F\\n\".format(celsius, fahrenheit)) time.sleep(0.5) . ",
     "url": "/Connected-Interaction-Kit/components/thermistor/thermistor.html#basic-rotation-potentiometer-example",
     
     "relUrl": "/components/thermistor/thermistor.html#basic-rotation-potentiometer-example"
-  },"204": {
+  },"201": {
     "doc": "Thermistor",
     "title": "Thermistor",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/components/thermistor/thermistor.html",
     
     "relUrl": "/components/thermistor/thermistor.html"
-  },"205": {
-    "doc": "Tilt Switch",
-    "title": "Tilt Switch",
-    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Tilt Switch 03 10kΩ Resistor 04 Grove Connector . ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tilt-switch.html",
+  },"202": {
+    "doc": "Thermistor",
+    "title": "Thermistor (Temperature Sensor)",
+    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Thermistor 03 10kΩ Resistor 04 Grove Connector . ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/thermistor.html#thermistor-temperature-sensor",
     
-    "relUrl": "/tutorials/assembling-custom-components/tilt-switch.html"
-  },"206": {
-    "doc": "Tilt Switch",
+    "relUrl": "/tutorials/assembling-custom-components/thermistor.html#thermistor-temperature-sensor"
+  },"203": {
+    "doc": "Thermistor",
     "title": "Assembly Video",
     "content": " ",
-    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tilt-switch.html#assembly-video",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/thermistor.html#assembly-video",
     
-    "relUrl": "/tutorials/assembling-custom-components/tilt-switch.html#assembly-video"
-  },"207": {
+    "relUrl": "/tutorials/assembling-custom-components/thermistor.html#assembly-video"
+  },"204": {
+    "doc": "Thermistor",
+    "title": "Thermistor",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/thermistor.html",
+    
+    "relUrl": "/tutorials/assembling-custom-components/thermistor.html"
+  },"205": {
     "doc": "Tilt switch",
     "title": "Tilt Switch",
     "content": ". Detects if it has been tilted beyond a certain point. Learn how to make your own tilt switch here. ",
     "url": "/Connected-Interaction-Kit/components/tilt-switch/tilt-switch.html#tilt-switch",
     
     "relUrl": "/components/tilt-switch/tilt-switch.html#tilt-switch"
-  },"208": {
+  },"206": {
     "doc": "Tilt switch",
     "title": "Basic tilt switch example",
     "content": "# --- Imports import digitalio import time import board # --- Variables tilt_switch = digitalio.DigitalInOut(board.D13) tilt_switch.direction = digitalio.Direction.INPUT # --- Functions # --- Setup # --- Main loop while True: if tilt_switch.value is False: print(\"False\") else: print(\"True\") time.sleep(0.05) # Make the loop run a little bit slower . ",
     "url": "/Connected-Interaction-Kit/components/tilt-switch/tilt-switch.html#basic-tilt-switch-example",
     
     "relUrl": "/components/tilt-switch/tilt-switch.html#basic-tilt-switch-example"
-  },"209": {
+  },"207": {
     "doc": "Tilt switch",
     "title": "Tilt switch",
     "content": ". ",
     "url": "/Connected-Interaction-Kit/components/tilt-switch/tilt-switch.html",
     
     "relUrl": "/components/tilt-switch/tilt-switch.html"
+  },"208": {
+    "doc": "Tilt Switch",
+    "title": "Tilt Switch",
+    "content": ". If you have never soldered before, please carefully read the soldering tutorial before you proceed to the assembly instruction video. How to Solder . You will need the following parts: . 01 Custom Component Board 02 Tilt Switch 03 10kΩ Resistor 04 Grove Connector . ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tilt-switch.html",
+    
+    "relUrl": "/tutorials/assembling-custom-components/tilt-switch.html"
+  },"209": {
+    "doc": "Tilt Switch",
+    "title": "Assembly Video",
+    "content": " ",
+    "url": "/Connected-Interaction-Kit/tutorials/assembling-custom-components/tilt-switch.html#assembly-video",
+    
+    "relUrl": "/tutorials/assembling-custom-components/tilt-switch.html#assembly-video"
   },"210": {
     "doc": "Time of Flight Sensor",
     "title": "Time of Flight Distance Sensor",
